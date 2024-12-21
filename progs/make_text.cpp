@@ -212,6 +212,11 @@ main(int argc, char *argv[]){
       objt.set_ref_type(o.get("ref_type"));
       objt.name = o.get("text");
 
+      // shorten name
+      auto n = objt.name.find(" eli ");
+      if (n != std::string::npos)
+        objt.name = objt.name.substr(0,n);
+
       // modify text parameters for some place types
       int pt = o.get<int>("placetype");
 
