@@ -1,3 +1,5 @@
 *.o
 make_text
 make_base
+map_brd
+update_text
