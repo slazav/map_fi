@@ -11,9 +11,7 @@ for i in "$@"; do
   #--cmap_load "$CMAP"
   # --map $base.map
 
-  defs="{\"nom_name\":\"$base\"}"
-
-  ms2render "data/$base.vmap2" --out "$base.png"\
+  ms2render "vmap/$base.vmap2" "vmap_base/${base}_b.vmap2" --out "$base.png"\
       --config render.cfg -t "" --define "{\"nom_name\":\"$base\"}"\
       --mkref nom_fi --name "$base" --dpi "$dpi" --margins 10 --top_margin 30\
       --title "$base" --title_size 20\
