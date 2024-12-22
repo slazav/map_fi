@@ -13,7 +13,7 @@ in a half-manual way, for some regions which are interesting for me).
 I'm using my mapsoft2 ( https://github.com/slazav/mapsoft2 ) system, as
 in my mountain map project ( https://github.com/slazav/map_hr )
 
-![example 1](https://github.com/slazav/map_fi/blob/main/example1.png)
+![example 2](https://github.com/slazav/map_fi/blob/main/example2.png)
 
 ###
 
