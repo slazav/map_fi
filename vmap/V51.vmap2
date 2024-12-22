@@ -41,7 +41,7 @@ crds 27.126934 68.107676
 point:0x900
 name Hiekkaharju
 tags ORG
-crds 27.204629 68.075967
+crds 27.204584 68.075978
 
 point:0x900
 name Lehtola
@@ -376,7 +376,7 @@ crds 28.295662 67.959171
 point:0x1100
 name 270 Pultsaharju
 tags ORG
-crds 27.067768 68.149024
+crds 27.067718 68.149030
 
 point:0x1100
 name 271 Lavakaarto
@@ -951,7 +951,7 @@ crds 27.422472 68.226016
 point:0x1100
 name 353 Viutavaara
 tags ORG
-crds 27.612710 68.177393
+crds 27.612658 68.177394
 
 point:0x1100
 name 354 Iso Vuomaselkä
@@ -1586,7 +1586,7 @@ crds 28.362146 68.278071
 point:0x1100
 name 637 Siulapää
 tags ORG
-crds 28.427243 68.173126
+crds 28.427192 68.173143
 
 point:0x1100
 name 641 Sollanpää
@@ -2121,7 +2121,7 @@ crds 28.030097 67.917577
 point:0x2800
 name Luotterma-aapa
 tags ORG
-crds 27.773637 68.027316
+crds 27.773586 68.027326
 
 point:0x2800
 name Lupposelkä
@@ -2516,7 +2516,7 @@ crds 28.330314 68.051806
 point:0x2800
 name Sankavosa
 tags ORG
-crds 28.313187 68.040187
+crds 28.313140 68.040203
 
 point:0x2800
 name Sarvikotamaa
@@ -3479,7 +3479,7 @@ crds 29.109892 67.894713
 point:0x650c
 name Kärekeojanhaara
 tags ORG
-crds 29.051116 67.875447
+crds 29.051065 67.875464
 
 point:0x650c
 name Kärppäjärvet
@@ -3739,7 +3739,7 @@ crds 27.233520 67.898917
 point:0x650c
 name Ruotkunoja
 tags ORG
-crds 28.038114 68.164264
+crds 28.038064 68.164273
 
 point:0x650c
 name Saarisuvanto
@@ -5937,7 +5937,7 @@ scle 0.75
 name Vongoiva vuokrakammi
 reft point:0x2b04
 refp 28.457937 68.186359
-crds 28.461851 68.187376
+crds 28.461732 68.186340
 
 text:0x3
 scle 0.75
@@ -6207,13 +6207,6 @@ crds 27.377997 67.994998
 
 text:0x3
 scle 0.825
-name Metsopalo
-reft point:0x2800
-refp 29.208120 67.903537
-crds 29.204629 67.904659
-
-text:0x3
-scle 0.825
 name Muusanmaa
 reft point:0x2800
 refp 27.308495 67.971166
@@ -6379,6 +6372,14 @@ name Väliselkä
 reft point:0x2800
 refp 29.099874 67.946369
 crds 29.093398 67.947849
+
+text:0x3
+scle 0.825
+algn SE
+name Metsopalo
+reft point:0x2800
+refp 29.208120 67.903537
+crds 29.214162 67.904856
 
 text:0x3
 scle 0.9
@@ -7166,7 +7167,7 @@ text:0x3
 name Kussuolinkiaapa
 reft point:0x2800
 refp 27.522443 68.061845
-crds 27.519383 68.060115
+crds 27.511969 68.061138
 
 text:0x3
 name Kärekeaapa
@@ -7546,7 +7547,7 @@ algn S
 name Tiuhtelmakuru
 reft point:0x2800
 refp 28.281440 68.254313
-crds 28.287916 68.255607
+crds 28.287946 68.256146
 
 text:0x3
 angl -341.098
@@ -7726,6 +7727,13 @@ crds 28.771353 67.958628
 
 text:0x4
 scle 0.75
+name Kopsuslampi
+reft point:0x650c
+refp 27.568860 68.241790
+crds 27.561161 68.244935
+
+text:0x4
+scle 0.75
 name Kotaköngäs
 reft point:0x6508
 refp 27.750557 68.275022
@@ -7736,7 +7744,7 @@ scle 0.75
 name Nuorttiköngäs
 reft point:0x6508
 refp 29.241180 67.901156
-crds 29.240995 67.902936
+crds 29.241313 67.903490
 
 text:0x4
 scle 0.75
@@ -7761,6 +7769,14 @@ name Kurtsinkoski
 reft point:0x6508
 refp 29.180036 67.891600
 crds 29.176565 67.891417
+
+text:0x4
+scle 0.75
+algn SE
+name Saarisuvanto
+reft point:0x650c
+refp 28.942538 67.958731
+crds 28.941970 67.959135
 
 text:0x4
 scle 0.825
@@ -7820,13 +7836,6 @@ crds 27.801329 68.290216
 
 text:0x4
 scle 0.825
-name Kopsuslampi
-reft point:0x650c
-refp 27.568860 68.241790
-crds 27.568733 68.244770
-
-text:0x4
-scle 0.825
 name Korvasjärvi
 reft point:0x650c
 refp 28.063408 67.939943
@@ -7873,13 +7882,6 @@ name Ruosseljänsuvanto
 reft point:0x650c
 refp 27.233520 67.898917
 crds 27.236645 67.899436
-
-text:0x4
-scle 0.825
-name Saarisuvanto
-reft point:0x650c
-refp 28.942538 67.958731
-crds 28.919550 67.958301
 
 text:0x4
 scle 0.825
@@ -8920,726 +8922,82 @@ refp 27.729136 68.309780
 crds 27.729349 68.307276
 
 text:0x5
-scle 0.825
-name 251 Pelastamasokka
-reft point:0x1100
-refp 28.018953 67.970524
-crds 28.002940 67.971913
-
-text:0x5
-scle 0.825
-name 254 Pastarova
-reft point:0x1100
-refp 27.424655 68.007595
-crds 27.424065 68.008660
-
-text:0x5
-scle 0.825
-name 256 Pikku Vuollosvaara
-reft point:0x1100
-refp 27.760345 67.896757
-crds 27.744400 67.893952
-
-text:0x5
-scle 0.825
-name 258 Alimmaisenlamminharju
-reft point:0x1100
-refp 28.236640 67.972009
-crds 28.220568 67.971169
-
-text:0x5
-scle 0.825
-name 258 Karinokanselkä
-reft point:0x1100
-refp 28.942780 67.899381
-crds 28.934105 67.896588
-
-text:0x5
-scle 0.825
-name 266 Lusmanharju
-reft point:0x1100
-refp 28.092884 67.964158
-crds 28.086794 67.962580
-
-text:0x5
-scle 0.825
-name 267 Tikkasen Vieriharju
-reft point:0x1100
-refp 29.013343 67.924954
-crds 29.015854 67.924044
-
-text:0x5
-scle 0.825
-name 271 Lavakaarto
-reft point:0x1100
-refp 27.643452 68.096323
-crds 27.645969 68.095017
-
-text:0x5
-scle 0.825
-name 281 Lomperovaara
-reft point:0x1100
-refp 29.057167 67.899925
-crds 29.055127 67.900917
-
-text:0x5
-scle 0.825
-name 284 Kaaskattikaarto
-reft point:0x1100
-refp 27.931415 68.054198
-crds 27.921963 68.051942
-
-text:0x5
-scle 0.825
-name 288 Pirra-likan selkä
-reft point:0x1100
-refp 27.191527 67.965749
-crds 27.173383 67.965993
-
-text:0x5
-scle 0.825
-name 294 Sakia Ripittämävosa
-reft point:0x1100
-refp 27.931168 67.884462
-crds 27.935010 67.884385
-
-text:0x5
-scle 0.825
-name 301 Sakiatieva
-reft point:0x1100
-refp 27.168096 67.952146
-crds 27.153234 67.949770
-
-text:0x5
-scle 0.825
-name 312 Ahkiovaara
-reft point:0x1100
-refp 27.206733 67.973468
-crds 27.200181 67.975314
-
-text:0x5
-scle 0.825
-name 317 Ellinvaara
-reft point:0x1100
-refp 27.469995 68.128377
-crds 27.472379 68.129672
-
-text:0x5
-scle 0.825
-name 341 Jäkälävaara
-reft point:0x1100
-refp 27.190932 67.980516
-crds 27.178370 67.981122
-
-text:0x5
-scle 0.825
-name 351 Ahmalaki
-reft point:0x1100
-refp 27.140401 67.968463
-crds 27.136781 67.970116
-
-text:0x5
-scle 0.9
 name 222 Pieni Pittivaara
 reft point:0x1100
 refp 28.641865 68.117392
 crds 28.638041 68.118572
 
 text:0x5
-scle 0.9
+name 242 Auhtiseljänlaita
+reft point:0x1100
+refp 28.636107 68.108288
+crds 28.634346 68.105668
+
+text:0x5
 name 245 Heiniselkä
 reft point:0x1100
 refp 28.832318 67.915123
 crds 28.819906 67.912970
 
 text:0x5
-scle 0.9
 name 249 Viuvalonvosa
 reft point:0x1100
 refp 27.336309 67.903015
 crds 27.324795 67.904229
 
 text:0x5
-scle 0.9
+name 251 Pelastamasokka
+reft point:0x1100
+refp 28.018953 67.970524
+crds 28.002940 67.971913
+
+text:0x5
+name 254 Pastarova
+reft point:0x1100
+refp 27.424655 68.007595
+crds 27.424065 68.008660
+
+text:0x5
 name 255 Ylimmäisenlamminharju
 reft point:0x1100
 refp 28.327674 67.972053
 crds 28.312050 67.973100
 
 text:0x5
-scle 0.9
+name 256 Pikku Vuollosvaara
+reft point:0x1100
+refp 27.760345 67.896757
+crds 27.744400 67.893952
+
+text:0x5
 name 256 Rohkarsikonmaa
 reft point:0x1100
 refp 27.971158 68.075336
 crds 27.959453 68.077028
 
 text:0x5
-scle 0.9
 name 257 Saunaharju
 reft point:0x1100
 refp 28.560300 68.268515
 crds 28.558306 68.269584
 
 text:0x5
-scle 0.9
-name 262 Niemiselkä
+name 258 Alimmaisenlamminharju
 reft point:0x1100
-refp 28.111048 67.991457
-crds 28.116991 67.991087
+refp 28.236640 67.972009
+crds 28.220568 67.971169
 
 text:0x5
-scle 0.9
-name 265 Könkäänvaara
+name 258 Karinokanselkä
 reft point:0x1100
-refp 28.911475 67.971575
-crds 28.896082 67.969322
+refp 28.942780 67.899381
+crds 28.934105 67.896588
 
 text:0x5
-scle 0.9
-name 267 Sakiavaara
+name 260 Risteysvaara
 reft point:0x1100
-refp 28.892724 67.884991
-crds 28.883279 67.882900
-
-text:0x5
-scle 0.9
-name 267 Äimivuotsonmaa
-reft point:0x1100
-refp 28.282666 68.057035
-crds 28.272956 68.058182
-
-text:0x5
-scle 0.9
-name 268 Raappunenä
-reft point:0x1100
-refp 28.295662 67.959171
-crds 28.279708 67.956786
-
-text:0x5
-scle 0.9
-name 270 Pultsaharju
-reft point:0x1100
-refp 27.067718 68.149030
-crds 27.057180 68.150309
-
-text:0x5
-scle 0.9
-name 273 Keskiharju
-reft point:0x1100
-refp 28.931285 67.993674
-crds 28.916690 67.994431
-
-text:0x5
-scle 0.9
-name 273 Kuruselkä
-reft point:0x1100
-refp 27.351872 67.981084
-crds 27.344375 67.978195
-
-text:0x5
-scle 0.9
-name 273 Mantoharju
-reft point:0x1100
-refp 28.971766 68.010260
-crds 28.977234 68.010347
-
-text:0x5
-scle 0.9
-name 273 Sompionkaarto
-reft point:0x1100
-refp 27.650761 68.007306
-crds 27.637621 68.009634
-
-text:0x5
-scle 0.9
-name 279 Kenttäharju
-reft point:0x1100
-refp 27.450753 68.114534
-crds 27.439190 68.116307
-
-text:0x5
-scle 0.9
-name 280 Viitanuppi
-reft point:0x1100
-refp 27.501841 68.025104
-crds 27.485688 68.023023
-
-text:0x5
-scle 0.9
-name 281 Ukonselkä
-reft point:0x1100
-refp 28.864574 67.973339
-crds 28.854510 67.970853
-
-text:0x5
-scle 0.9
-name 285 Erkin Ripittämävosa
-reft point:0x1100
-refp 27.865527 67.886606
-crds 27.856525 67.887943
-
-text:0x5
-scle 0.9
-name 286 Hangasselkä
-reft point:0x1100
-refp 29.069305 67.929862
-crds 29.073773 67.930881
-
-text:0x5
-scle 0.9
-name 288 Palo-Kiimaselkä
-reft point:0x1100
-refp 27.216957 68.116377
-crds 27.219425 68.116625
-
-text:0x5
-scle 0.9
-name 291 Kakslauttasvaara
-reft point:0x1100
-refp 28.209320 68.133754
-crds 28.205917 68.131058
-
-text:0x5
-scle 0.9
-name 292 Pauttisselkä
-reft point:0x1100
-refp 27.011624 67.921713
-crds 27.006970 67.918943
-
-text:0x5
-scle 0.9
-name 296 Kallioselkä
-reft point:0x1100
-refp 28.199166 67.998874
-crds 28.188638 68.000415
-
-text:0x5
-scle 0.9
-name 296 Mukkavaara
-reft point:0x1100
-refp 27.217045 68.135904
-crds 27.220027 68.134904
-
-text:0x5
-scle 0.9
-name 298 Parakka-Kotsamo
-reft point:0x1100
-refp 28.191335 67.922369
-crds 28.182555 67.919752
-
-text:0x5
-scle 0.9
-name 299 Heiniseljänlaki
-reft point:0x1100
-refp 28.760959 67.906073
-crds 28.760122 67.907121
-
-text:0x5
-scle 0.9
-name 299 Isovosa
-reft point:0x1100
-refp 27.915510 67.895328
-crds 27.917660 67.896544
-
-text:0x5
-scle 0.9
-name 300 Sakia Ritaselkä
-reft point:0x1100
-refp 29.021051 67.953622
-crds 29.003380 67.955228
-
-text:0x5
-scle 0.9
-name 302 Pauttiselkä
-reft point:0x1100
-refp 27.267535 68.113578
-crds 27.268242 68.114819
-
-text:0x5
-scle 0.9
-name 302 Pieni Sorvusselkä
-reft point:0x1100
-refp 28.361674 68.011268
-crds 28.335105 68.012851
-
-text:0x5
-scle 0.9
-name 303 Myllyvaara
-reft point:0x1100
-refp 27.261933 68.014058
-crds 27.250302 68.015968
-
-text:0x5
-scle 0.9
-name 304 Kivivosa
-reft point:0x1100
-refp 27.432895 68.191050
-crds 27.430775 68.192060
-
-text:0x5
-scle 0.9
-name 306 Arvonvaara
-reft point:0x1100
-refp 27.188991 68.050102
-crds 27.179689 68.049574
-
-text:0x5
-scle 0.9
-name 306 Eemelin Suopattivaara
-reft point:0x1100
-refp 28.623870 67.960240
-crds 28.622875 67.961695
-
-text:0x5
-scle 0.9
-name 306 Murtovaara
-reft point:0x1100
-refp 27.849540 68.053644
-crds 27.839143 68.054577
-
-text:0x5
-scle 0.9
-name 306 Viuvalokuusikko
-reft point:0x1100
-refp 27.059720 67.924042
-crds 27.051115 67.925314
-
-text:0x5
-scle 0.9
-name 307 Sankavaara
-reft point:0x1100
-refp 28.371806 68.032446
-crds 28.358467 68.034090
-
-text:0x5
-scle 0.9
-name 310 Kantapäävaara
-reft point:0x1100
-refp 27.249786 67.983719
-crds 27.231758 67.984911
-
-text:0x5
-scle 0.9
-name 310 Urakkaselkä
-reft point:0x1100
-refp 27.080287 67.979021
-crds 27.082940 67.979199
-
-text:0x5
-scle 0.9
-name 311 Liikavaara
-reft point:0x1100
-refp 27.045361 68.208347
-crds 27.038101 68.210062
-
-text:0x5
-scle 0.9
-name 311 Taltukkaselkä
-reft point:0x1100
-refp 28.485055 67.943876
-crds 28.479789 67.941569
-
-text:0x5
-scle 0.9
-name 313 Oikia Ritaselkä
-reft point:0x1100
-refp 29.039772 67.946451
-crds 29.045802 67.946269
-
-text:0x5
-scle 0.9
-name 315 Palonuppi
-reft point:0x1100
-refp 27.526058 68.014260
-crds 27.521019 68.015679
-
-text:0x5
-scle 0.9
-name 319 Sarvikotamaa
-reft point:0x1100
-refp 27.256042 68.229422
-crds 27.255274 68.227068
-
-text:0x5
-scle 0.9
-name 325 Ylisenvaara
-reft point:0x1100
-refp 27.229175 68.230627
-crds 27.212688 68.231812
-
-text:0x5
-scle 0.9
-name 326 Joulu-Viinavaara
-reft point:0x1100
-refp 28.290442 68.125394
-crds 28.276223 68.126942
-
-text:0x5
-scle 0.9
-name 327 Liikavaara
-reft point:0x1100
-refp 27.904846 68.046563
-crds 27.899051 68.047902
-
-text:0x5
-scle 0.9
-name 330 Niemi-Vuomaselkä
-reft point:0x1100
-refp 27.352682 68.280456
-crds 27.334154 68.278038
-
-text:0x5
-scle 0.9
-name 330 Pikku Tukavaara
-reft point:0x1100
-refp 28.107184 67.914565
-crds 28.105855 67.915840
-
-text:0x5
-scle 0.9
-name 330 Pikku Vuomaselkä
-reft point:0x1100
-refp 27.308799 68.298358
-crds 27.306716 68.299739
-
-text:0x5
-scle 0.9
-name 331 Mukkavaara
-reft point:0x1100
-refp 27.995925 68.185540
-crds 27.996905 68.186953
-
-text:0x5
-scle 0.9
-name 333 Liikavaara
-reft point:0x1100
-refp 27.112848 67.954247
-crds 27.104454 67.955714
-
-text:0x5
-scle 0.9
-name 334 Pikku Muotkavaara
-reft point:0x1100
-refp 28.194902 67.893926
-crds 28.191784 67.895102
-
-text:0x5
-scle 0.9
-name 334 Suojelusvaara
-reft point:0x1100
-refp 27.365123 68.098759
-crds 27.369547 68.098417
-
-text:0x5
-scle 0.9
-name 335 Karhuvaara
-reft point:0x1100
-refp 28.410344 68.136127
-crds 28.394495 68.133166
-
-text:0x5
-scle 0.9
-name 337 Ulkupuanniemi
-reft point:0x1100
-refp 27.341554 68.190286
-crds 27.332023 68.188081
-
-text:0x5
-scle 0.9
-name 340 Kivikkonyppylä
-reft point:0x1100
-refp 27.179413 68.013998
-crds 27.167001 68.011402
-
-text:0x5
-scle 0.9
-name 342 Linjavaara
-reft point:0x1100
-refp 27.195318 68.021861
-crds 27.189707 68.023517
-
-text:0x5
-scle 0.9
-name 345 Viinavaara
-reft point:0x1100
-refp 28.317826 68.131626
-crds 28.309896 68.133338
-
-text:0x5
-scle 0.9
-name 346 Hakkaamatonlaki
-reft point:0x1100
-refp 28.273742 67.925150
-crds 28.260980 67.926625
-
-text:0x5
-scle 0.9
-name 348 Laakiavaara
-reft point:0x1100
-refp 29.207001 68.079640
-crds 29.201234 68.081123
-
-text:0x5
-scle 0.9
-name 349 Mukkavaara
-reft point:0x1100
-refp 28.473504 68.255260
-crds 28.469080 68.256420
-
-text:0x5
-scle 0.9
-name 353 Varpupää
-reft point:0x1100
-refp 27.422472 68.226016
-crds 27.420786 68.223243
-
-text:0x5
-scle 0.9
-name 356 Iskemävaara
-reft point:0x1100
-refp 28.097507 68.132498
-crds 28.091135 68.133867
-
-text:0x5
-scle 0.9
-name 358 Pahtavaara
-reft point:0x1100
-refp 27.934030 68.031731
-crds 27.930690 68.028459
-
-text:0x5
-scle 0.9
-name 363 Haltiopalonlaki
-reft point:0x1100
-refp 27.128933 68.014628
-crds 27.109103 68.015638
-
-text:0x5
-scle 0.9
-name 369 Peurapää
-reft point:0x1100
-refp 27.484456 68.247571
-crds 27.483099 68.245579
-
-text:0x5
-scle 0.9
-name 373 Urakkaselkä
-reft point:0x1100
-refp 28.461028 67.918443
-crds 28.454179 67.916296
-
-text:0x5
-scle 0.9
-name 382 Kynttelivaara
-reft point:0x1100
-refp 28.044517 68.177432
-crds 28.044350 68.178866
-
-text:0x5
-scle 0.9
-name 398 Tankapää
-reft point:0x1100
-refp 27.490233 68.274657
-crds 27.477051 68.272507
-
-text:0x5
-scle 0.9
-name 400 Kuopslauttasvaara
-reft point:0x1100
-refp 28.277821 68.138441
-crds 28.248782 68.136562
-
-text:0x5
-scle 0.9
-name 401 Siulavaara
-reft point:0x1100
-refp 28.419646 68.142630
-crds 28.413444 68.143891
-
-text:0x5
-scle 0.9
-name 406 Seisomakivenselkä
-reft point:0x1100
-refp 28.054882 68.297025
-crds 28.054938 68.294967
-
-text:0x5
-scle 0.9
-name 410 Serrikainen
-reft point:0x1100
-refp 27.413627 68.128008
-crds 27.411851 68.129275
-
-text:0x5
-scle 0.9
-name 422 Risuvaara
-reft point:0x1100
-refp 28.062913 68.200529
-crds 28.063429 68.198582
-
-text:0x5
-scle 0.9
-name 430 Rautupää
-reft point:0x1100
-refp 27.719250 68.296804
-crds 27.722504 68.297000
-
-text:0x5
-scle 0.9
-name 438 Käyräselkä
-reft point:0x1100
-refp 27.694093 68.292392
-crds 27.692245 68.290191
-
-text:0x5
-scle 0.9
-name 443 Povivaara
-reft point:0x1100
-refp 28.542838 68.147632
-crds 28.531681 68.145233
-
-text:0x5
-scle 0.9
-name 446 Kirakkavaara
-reft point:0x1100
-refp 28.307565 68.146171
-crds 28.284851 68.148388
-
-text:0x5
-scle 0.9
-name 463 Aaslakkapää
-reft point:0x1100
-refp 27.669503 68.301181
-crds 27.659546 68.298896
-
-text:0x5
-scle 0.9
-name 607 Lokan Alen Muurivaara
-reft point:0x1100
-refp 28.502458 68.215104
-crds 28.500909 68.216517
-
-text:0x5
-scle 0.9
-algn SE
-name 371 Halkovaara
-reft point:0x1100
-refp 28.516704 68.287412
-crds 28.522490 68.288419
-
-text:0x5
-scle 0.9
-algn SE
-name 479 Helttamorosto
-reft point:0x1100
-refp 28.576397 68.288633
-crds 28.584243 68.285151
-
-text:0x5
-name 242 Auhtiseljänlaita
-reft point:0x1100
-refp 28.636107 68.108288
-crds 28.633719 68.105116
+refp 28.653270 68.138164
+crds 28.650640 68.135426
 
 text:0x5
 name 261 Kelavaara
@@ -9648,10 +9006,28 @@ refp 27.703768 67.961683
 crds 27.690326 67.962430
 
 text:0x5
+name 262 Niemiselkä
+reft point:0x1100
+refp 28.111048 67.991457
+crds 28.116991 67.991087
+
+text:0x5
 name 264 Kurtsinniskavaara
 reft point:0x1100
 refp 29.131573 67.904433
 crds 29.123633 67.901405
+
+text:0x5
+name 265 Könkäänvaara
+reft point:0x1100
+refp 28.911475 67.971575
+crds 28.899807 67.969399
+
+text:0x5
+name 266 Lusmanharju
+reft point:0x1100
+refp 28.092884 67.964158
+crds 28.086794 67.962580
 
 text:0x5
 name 266 Muotkarova
@@ -9663,7 +9039,67 @@ text:0x5
 name 267 Kuusi-Mantoselkä
 reft point:0x1100
 refp 29.000704 68.007183
-crds 28.984604 68.005073
+crds 28.997538 68.004538
+
+text:0x5
+name 267 Sakiavaara
+reft point:0x1100
+refp 28.892724 67.884991
+crds 28.883279 67.882900
+
+text:0x5
+name 267 Tikkasen Vieriharju
+reft point:0x1100
+refp 29.013343 67.924954
+crds 29.015854 67.924044
+
+text:0x5
+name 267 Äimivuotsonmaa
+reft point:0x1100
+refp 28.282666 68.057035
+crds 28.272956 68.058182
+
+text:0x5
+name 268 Raappunenä
+reft point:0x1100
+refp 28.295662 67.959171
+crds 28.279708 67.956786
+
+text:0x5
+name 270 Pultsaharju
+reft point:0x1100
+refp 27.067718 68.149030
+crds 27.057180 68.150309
+
+text:0x5
+name 271 Lavakaarto
+reft point:0x1100
+refp 27.643452 68.096323
+crds 27.645969 68.095017
+
+text:0x5
+name 273 Keskiharju
+reft point:0x1100
+refp 28.931285 67.993674
+crds 28.916690 67.994431
+
+text:0x5
+name 273 Kuruselkä
+reft point:0x1100
+refp 27.351872 67.981084
+crds 27.344375 67.978195
+
+text:0x5
+name 273 Mantoharju
+reft point:0x1100
+refp 28.971766 68.010260
+crds 28.973824 68.011545
+
+text:0x5
+name 273 Sompionkaarto
+reft point:0x1100
+refp 27.650761 68.007306
+crds 27.637621 68.009634
 
 text:0x5
 name 275 Korvasen Kotirova
@@ -9684,10 +9120,28 @@ refp 28.151994 68.040405
 crds 28.154666 68.037839
 
 text:0x5
+name 279 Kenttäharju
+reft point:0x1100
+refp 27.450753 68.114534
+crds 27.439190 68.116307
+
+text:0x5
 name 280 Irtonais-Auhti
 reft point:0x1100
 refp 28.387377 68.080795
 crds 28.375987 68.078953
+
+text:0x5
+name 280 Viitanuppi
+reft point:0x1100
+refp 27.501841 68.025104
+crds 27.485688 68.023023
+
+text:0x5
+name 281 Lomperovaara
+reft point:0x1100
+refp 29.057167 67.899925
+crds 29.055127 67.900917
 
 text:0x5
 name 281 Maaseljänhäntä
@@ -9696,10 +9150,52 @@ refp 27.167815 67.889503
 crds 27.162891 67.889786
 
 text:0x5
+name 281 Ukonselkä
+reft point:0x1100
+refp 28.864574 67.973339
+crds 28.862028 67.971207
+
+text:0x5
+name 284 Kaaskattikaarto
+reft point:0x1100
+refp 27.931415 68.054198
+crds 27.921963 68.051942
+
+text:0x5
 name 284 Valkia Silmävaara
 reft point:0x1100
 refp 27.743392 67.994289
 crds 27.723900 67.995560
+
+text:0x5
+name 285 Erkin Ripittämävosa
+reft point:0x1100
+refp 27.865527 67.886606
+crds 27.856525 67.887943
+
+text:0x5
+name 286 Hangasselkä
+reft point:0x1100
+refp 29.069305 67.929862
+crds 29.073773 67.930881
+
+text:0x5
+name 288 Palo-Kiimaselkä
+reft point:0x1100
+refp 27.216957 68.116377
+crds 27.219425 68.116625
+
+text:0x5
+name 288 Pirra-likan selkä
+reft point:0x1100
+refp 27.191527 67.965749
+crds 27.173383 67.965993
+
+text:0x5
+name 291 Kakslauttasvaara
+reft point:0x1100
+refp 28.209320 68.133754
+crds 28.205917 68.131058
 
 text:0x5
 name 292 Aukkiselkä
@@ -9708,10 +9204,22 @@ refp 28.229488 68.011025
 crds 28.223096 68.011853
 
 text:0x5
+name 292 Pauttisselkä
+reft point:0x1100
+refp 27.011624 67.921713
+crds 27.006970 67.918943
+
+text:0x5
 name 294 Palo-Vieriharju
 reft point:0x1100
 refp 29.106984 68.040673
 crds 29.104660 68.038266
+
+text:0x5
+name 294 Sakia Ripittämävosa
+reft point:0x1100
+refp 27.931168 67.884462
+crds 27.935010 67.884385
 
 text:0x5
 name 295 Juurisatkonselkä
@@ -9720,10 +9228,76 @@ refp 28.147586 68.005662
 crds 28.126824 68.007488
 
 text:0x5
+name 296 Kallioselkä
+reft point:0x1100
+refp 28.199166 67.998874
+crds 28.188638 68.000415
+
+text:0x5
+name 296 Mukkavaara
+reft point:0x1100
+refp 27.217045 68.135904
+crds 27.220027 68.134904
+
+text:0x5
+name 298 Parakka-Kotsamo
+reft point:0x1100
+refp 28.191335 67.922369
+crds 28.182555 67.919752
+
+text:0x5
+name 299 Heiniseljänlaki
+reft point:0x1100
+refp 28.760959 67.906073
+crds 28.760122 67.907121
+
+text:0x5
+name 299 Isovosa
+reft point:0x1100
+refp 27.915510 67.895328
+crds 27.917660 67.896544
+
+text:0x5
+name 300 Kettuvaara
+reft point:0x1100
+refp 28.931790 67.874749
+crds 28.923037 67.876058
+
+text:0x5
+name 300 Sakia Ritaselkä
+reft point:0x1100
+refp 29.021051 67.953622
+crds 29.003380 67.955228
+
+text:0x5
 name 301 Hangasselkä
 reft point:0x1100
 refp 27.293773 68.021168
 crds 27.281870 68.022435
+
+text:0x5
+name 301 Sakiatieva
+reft point:0x1100
+refp 27.168096 67.952146
+crds 27.153234 67.949770
+
+text:0x5
+name 301 Vuollosselkä
+reft point:0x1100
+refp 27.859110 67.920380
+crds 27.840519 67.922415
+
+text:0x5
+name 302 Pauttiselkä
+reft point:0x1100
+refp 27.267535 68.113578
+crds 27.268242 68.114819
+
+text:0x5
+name 302 Pieni Sorvusselkä
+reft point:0x1100
+refp 28.361674 68.011268
+crds 28.335105 68.012851
 
 text:0x5
 name 303 Kuusiniemenselkä
@@ -9732,16 +9306,76 @@ refp 27.147966 68.273744
 crds 27.124492 68.273279
 
 text:0x5
+name 303 Myllyvaara
+reft point:0x1100
+refp 27.261933 68.014058
+crds 27.250302 68.015968
+
+text:0x5
+name 304 Kivivosa
+reft point:0x1100
+refp 27.432895 68.191050
+crds 27.430775 68.192060
+
+text:0x5
+name 304 Maaselkä
+reft point:0x1100
+refp 27.102497 67.901571
+crds 27.089541 67.900834
+
+text:0x5
+name 304 Suoritsinvosa
+reft point:0x1100
+refp 27.746210 68.104032
+crds 27.748097 68.104933
+
+text:0x5
 name 305 Kuusikkoselkä
 reft point:0x1100
 refp 27.133213 68.237716
 crds 27.123615 68.235131
 
 text:0x5
+name 306 Arvonvaara
+reft point:0x1100
+refp 27.188991 68.050102
+crds 27.179689 68.049574
+
+text:0x5
+name 306 Eemelin Suopattivaara
+reft point:0x1100
+refp 28.623870 67.960240
+crds 28.622875 67.961695
+
+text:0x5
+name 306 Murtovaara
+reft point:0x1100
+refp 27.849540 68.053644
+crds 27.839143 68.054577
+
+text:0x5
+name 306 Viuvalokuusikko
+reft point:0x1100
+refp 27.059720 67.924042
+crds 27.051115 67.925314
+
+text:0x5
+name 307 Auhtijoenselkä
+reft point:0x1100
+refp 28.422436 68.107579
+crds 28.426404 68.108689
+
+text:0x5
+name 307 Sankavaara
+reft point:0x1100
+refp 28.371806 68.032446
+crds 28.358467 68.034090
+
+text:0x5
 name 308 Mantoselkä
 reft point:0x1100
 refp 29.000072 68.041199
-crds 29.005044 68.040843
+crds 29.003949 68.041734
 
 text:0x5
 name 309 Iso Sorvusselkä
@@ -9750,22 +9384,70 @@ refp 28.405077 68.015971
 crds 28.386445 68.017272
 
 text:0x5
+name 310 Kantapäävaara
+reft point:0x1100
+refp 27.249786 67.983719
+crds 27.231758 67.984911
+
+text:0x5
+name 310 Urakkaselkä
+reft point:0x1100
+refp 27.080287 67.979021
+crds 27.082940 67.979199
+
+text:0x5
+name 311 Liikavaara
+reft point:0x1100
+refp 27.045361 68.208347
+crds 27.038101 68.210062
+
+text:0x5
+name 311 Taltukkaselkä
+reft point:0x1100
+refp 28.485055 67.943876
+crds 28.479789 67.941569
+
+text:0x5
+name 312 Ahkiovaara
+reft point:0x1100
+refp 27.206733 67.973468
+crds 27.200181 67.975314
+
+text:0x5
 name 312 Palo-Tinkimaa
 reft point:0x1100
 refp 27.816743 68.042566
 crds 27.813251 68.039675
 
 text:0x5
+name 313 Oikia Ritaselkä
+reft point:0x1100
+refp 29.039772 67.946451
+crds 29.045802 67.946269
+
+text:0x5
 name 313 Venevaara
 reft point:0x1100
 refp 27.572285 68.087825
-crds 27.576626 68.088774
+crds 27.577430 68.088911
+
+text:0x5
+name 315 Palonuppi
+reft point:0x1100
+refp 27.526058 68.014260
+crds 27.521019 68.015679
 
 text:0x5
 name 316 Sakiaselkä
 reft point:0x1100
 refp 27.027309 68.026216
 crds 27.021514 68.023858
+
+text:0x5
+name 317 Ellinvaara
+reft point:0x1100
+refp 27.469995 68.128377
+crds 27.472379 68.129672
 
 text:0x5
 name 317 Mukkarova
@@ -9780,6 +9462,12 @@ refp 27.008183 68.283412
 crds 27.002937 68.284693
 
 text:0x5
+name 319 Sarvikotamaa
+reft point:0x1100
+refp 27.256042 68.229422
+crds 27.255274 68.227068
+
+text:0x5
 name 320 Iikan Junnun Saihomaa
 reft point:0x1100
 refp 29.018831 67.871679
@@ -9790,6 +9478,12 @@ name 320 Kiprettämänvosa
 reft point:0x1100
 refp 27.399081 68.179345
 crds 27.391450 68.180875
+
+text:0x5
+name 322 Aulekkenevaara
+reft point:0x1100
+refp 28.249026 67.945202
+crds 28.252669 67.943556
 
 text:0x5
 name 324 Pittivaara
@@ -9807,13 +9501,61 @@ text:0x5
 name 325 Rusinasoppavaara
 reft point:0x1100
 refp 29.189336 68.095496
-crds 29.170757 68.091359
+crds 29.176674 68.092378
+
+text:0x5
+name 325 Vallavosa
+reft point:0x1100
+refp 27.624309 68.158190
+crds 27.626812 68.156171
+
+text:0x5
+name 325 Ylisenvaara
+reft point:0x1100
+refp 27.229175 68.230627
+crds 27.212688 68.231812
+
+text:0x5
+name 326 Joulu-Viinavaara
+reft point:0x1100
+refp 28.290442 68.125394
+crds 28.276223 68.126942
+
+text:0x5
+name 327 Liikavaara
+reft point:0x1100
+refp 27.904846 68.046563
+crds 27.899051 68.047902
 
 text:0x5
 name 327 Naltiovaara
 reft point:0x1100
 refp 29.071909 67.956606
 crds 29.058588 67.954027
+
+text:0x5
+name 330 Keskiselkä
+reft point:0x1100
+refp 28.957010 68.070164
+crds 28.951850 68.071514
+
+text:0x5
+name 330 Niemi-Vuomaselkä
+reft point:0x1100
+refp 27.352682 68.280456
+crds 27.334154 68.278038
+
+text:0x5
+name 330 Pikku Tukavaara
+reft point:0x1100
+refp 28.107184 67.914565
+crds 28.105855 67.915840
+
+text:0x5
+name 330 Pikku Vuomaselkä
+reft point:0x1100
+refp 27.308799 68.298358
+crds 27.306716 68.299739
 
 text:0x5
 name 331 Harriselkä
@@ -9826,6 +9568,36 @@ name 331 Iso Suopattivaara
 reft point:0x1100
 refp 28.610680 67.983571
 crds 28.588212 67.984393
+
+text:0x5
+name 331 Mukkavaara
+reft point:0x1100
+refp 27.995925 68.185540
+crds 27.994614 68.187286
+
+text:0x5
+name 333 Liikavaara
+reft point:0x1100
+refp 27.112848 67.954247
+crds 27.104454 67.955714
+
+text:0x5
+name 334 Pikku Muotkavaara
+reft point:0x1100
+refp 28.194902 67.893926
+crds 28.191784 67.895102
+
+text:0x5
+name 334 Suojelusvaara
+reft point:0x1100
+refp 27.365123 68.098759
+crds 27.369547 68.098417
+
+text:0x5
+name 335 Karhuvaara
+reft point:0x1100
+refp 28.410344 68.136127
+crds 28.394495 68.133166
 
 text:0x5
 name 335 Kuruvaara
@@ -9843,13 +9615,43 @@ text:0x5
 name 337 Härkävaara
 reft point:0x1100
 refp 28.751881 68.046010
-crds 28.740543 68.043287
+crds 28.749013 68.043975
+
+text:0x5
+name 337 Ulkupuanniemi
+reft point:0x1100
+refp 27.341554 68.190286
+crds 27.332023 68.188081
 
 text:0x5
 name 339 Ruosselkä
 reft point:0x1100
 refp 27.083567 67.947782
 crds 27.079813 67.949104
+
+text:0x5
+name 340 Kivikkonyppylä
+reft point:0x1100
+refp 27.179413 68.013998
+crds 27.167001 68.011402
+
+text:0x5
+name 341 Jäkälävaara
+reft point:0x1100
+refp 27.190932 67.980516
+crds 27.178370 67.981122
+
+text:0x5
+name 341 Kuusi-Mantoselkä
+reft point:0x1100
+refp 29.000305 68.074601
+crds 29.003319 68.073191
+
+text:0x5
+name 342 Linjavaara
+reft point:0x1100
+refp 27.195318 68.021861
+crds 27.189707 68.023517
 
 text:0x5
 name 344 Kussuolinkivaara
@@ -9873,13 +9675,49 @@ text:0x5
 name 345 Tuiskuvaara
 reft point:0x1100
 refp 27.740579 68.249424
-crds 27.725663 68.250678
+crds 27.716202 68.250639
+
+text:0x5
+name 345 Viinavaara
+reft point:0x1100
+refp 28.317826 68.131626
+crds 28.309896 68.133338
+
+text:0x5
+name 346 Hakkaamatonlaki
+reft point:0x1100
+refp 28.273742 67.925150
+crds 28.260980 67.926625
+
+text:0x5
+name 348 Laakiavaara
+reft point:0x1100
+refp 29.207001 68.079640
+crds 29.201234 68.081123
+
+text:0x5
+name 349 Kaptukaisselkä
+reft point:0x1100
+refp 27.527461 68.197501
+crds 27.524108 68.194343
+
+text:0x5
+name 349 Mukkavaara
+reft point:0x1100
+refp 28.473504 68.255260
+crds 28.469080 68.256420
 
 text:0x5
 name 350 Marivaara
 reft point:0x1100
 refp 28.271722 68.027205
 crds 28.264885 68.028577
+
+text:0x5
+name 351 Ahmalaki
+reft point:0x1100
+refp 27.140401 67.968463
+crds 27.136781 67.970116
 
 text:0x5
 name 353 Ainin Kotavaara
@@ -9892,6 +9730,12 @@ name 353 Korvasvaara
 reft point:0x1100
 refp 27.967523 67.926781
 crds 27.958716 67.928208
+
+text:0x5
+name 353 Varpupää
+reft point:0x1100
+refp 27.422472 68.226016
+crds 27.420786 68.223243
 
 text:0x5
 name 353 Viutavaara
@@ -9912,16 +9756,34 @@ refp 28.150448 67.884120
 crds 28.154735 67.884501
 
 text:0x5
+name 355 Auhtiselkä
+reft point:0x1100
+refp 28.614991 68.091406
+crds 28.611689 68.093368
+
+text:0x5
+name 356 Iskemävaara
+reft point:0x1100
+refp 28.097507 68.132498
+crds 28.091135 68.133867
+
+text:0x5
 name 356 Nummerusvaara
 reft point:0x1100
 refp 28.754679 68.061248
-crds 28.748594 68.062385
+crds 28.752945 68.062797
 
 text:0x5
 name 356 Sukoiva
 reft point:0x1100
 refp 29.147458 67.932384
 crds 29.151694 67.931655
+
+text:0x5
+name 358 Pahtavaara
+reft point:0x1100
+refp 27.934030 68.031731
+crds 27.930690 68.028459
 
 text:0x5
 name 361 Kokkovaara
@@ -9948,16 +9810,40 @@ refp 27.625900 68.236940
 crds 27.613739 68.234816
 
 text:0x5
+name 363 Haltiopalonlaki
+reft point:0x1100
+refp 27.128933 68.014628
+crds 27.109103 68.015638
+
+text:0x5
 name 363 Kolsan Kivikkomurusta
 reft point:0x1100
 refp 29.226561 67.965619
 crds 29.218102 67.967291
 
 text:0x5
+name 363 Korvatunturinmurusta
+reft point:0x1100
+refp 29.243895 68.044082
+crds 29.225809 68.042061
+
+text:0x5
+name 363 Männikkö-Rovaselkä
+reft point:0x1100
+refp 27.580398 68.118325
+crds 27.572052 68.115204
+
+text:0x5
 name 364 Akkavaara
 reft point:0x1100
 refp 27.327616 68.222169
 crds 27.331058 68.221452
+
+text:0x5
+name 365 Sorvortanselkä
+reft point:0x1100
+refp 28.530307 67.920187
+crds 28.508363 67.917622
 
 text:0x5
 name 366 Iso Tukavaara
@@ -9984,6 +9870,12 @@ refp 27.712883 68.280630
 crds 27.707763 68.281893
 
 text:0x5
+name 369 Peurapää
+reft point:0x1100
+refp 27.484456 68.247571
+crds 27.483099 68.245579
+
+text:0x5
 name 370 Purnuvaara
 reft point:0x1100
 refp 27.072267 68.194190
@@ -10002,10 +9894,46 @@ refp 27.300104 68.197144
 crds 27.304463 68.195390
 
 text:0x5
+name 373 Urakkaselkä
+reft point:0x1100
+refp 28.461028 67.918443
+crds 28.454179 67.916296
+
+text:0x5
+name 375 Härkämurusta
+reft point:0x1100
+refp 28.715713 68.106100
+crds 28.693175 68.103621
+
+text:0x5
+name 375 Marjavaara
+reft point:0x1100
+refp 27.892528 68.032858
+crds 27.879890 68.029249
+
+text:0x5
+name 379 Karhanavaara
+reft point:0x1100
+refp 28.688327 67.903697
+crds 28.688471 67.900754
+
+text:0x5
+name 382 Kynttelivaara
+reft point:0x1100
+refp 28.044517 68.177432
+crds 28.044350 68.178866
+
+text:0x5
 name 382 Saariselkä
 reft point:0x1100
 refp 28.297252 68.298174
 crds 28.298860 68.295876
+
+text:0x5
+name 384 Mukkavaara
+reft point:0x1100
+refp 27.645992 68.255441
+crds 27.635703 68.257006
 
 text:0x5
 name 385 Pitkäselkä
@@ -10026,6 +9954,12 @@ refp 28.051448 68.153545
 crds 28.047744 68.154602
 
 text:0x5
+name 388 Riestovaara
+reft point:0x1100
+refp 27.146107 68.044022
+crds 27.134952 68.041422
+
+text:0x5
 name 390 Halkovaara
 reft point:0x1100
 refp 28.728634 68.174117
@@ -10038,10 +9972,22 @@ refp 27.179537 67.989925
 crds 27.157463 67.991355
 
 text:0x5
+name 395 Pieni Kokkopää
+reft point:0x1100
+refp 28.845148 68.125526
+crds 28.823582 68.122614
+
+text:0x5
 name 396 Iso Kolsanmurusta
 reft point:0x1100
 refp 29.267892 68.003493
-crds 29.240324 68.005983
+crds 29.253384 68.005685
+
+text:0x5
+name 396 Tampakkopää
+reft point:0x1100
+refp 27.842341 68.282679
+crds 27.838789 68.283936
 
 text:0x5
 name 398 Pikku Kolsanmurusta
@@ -10050,10 +9996,52 @@ refp 29.302964 67.964158
 crds 29.299001 67.966220
 
 text:0x5
+name 398 Tankapää
+reft point:0x1100
+refp 27.490233 68.274657
+crds 27.477051 68.272507
+
+text:0x5
+name 399 Naalipäänhäntä
+reft point:0x1100
+refp 28.710764 68.156762
+crds 28.694222 68.158545
+
+text:0x5
 name 399 Viepperhautavaara
 reft point:0x1100
 refp 28.368760 68.136315
 crds 28.333435 68.138075
+
+text:0x5
+name 400 Kuopslauttasvaara
+reft point:0x1100
+refp 28.277821 68.138441
+crds 28.248782 68.136562
+
+text:0x5
+name 401 Muotkavaara
+reft point:0x1100
+refp 28.246674 67.899137
+crds 28.232139 67.900753
+
+text:0x5
+name 401 Siulavaara
+reft point:0x1100
+refp 28.419646 68.142630
+crds 28.413444 68.143891
+
+text:0x5
+name 405 Pittikuolpuna
+reft point:0x1100
+refp 28.603280 68.141642
+crds 28.600131 68.143010
+
+text:0x5
+name 406 Seisomakivenselkä
+reft point:0x1100
+refp 28.054882 68.297025
+crds 28.054938 68.294967
 
 text:0x5
 name 407 Suippooselkä
@@ -10074,6 +10062,18 @@ refp 27.923603 68.192702
 crds 27.918337 68.193966
 
 text:0x5
+name 410 Serrikainen
+reft point:0x1100
+refp 27.413627 68.128008
+crds 27.411851 68.129275
+
+text:0x5
+name 411 Kopsuskuusikko
+reft point:0x1100
+refp 27.876382 68.139510
+crds 27.871234 68.140992
+
+text:0x5
 name 413 Akanvaara
 reft point:0x1100
 refp 28.673582 67.934678
@@ -10086,10 +10086,52 @@ refp 28.588358 67.934085
 crds 28.577997 67.935691
 
 text:0x5
+name 415 Kuusikko-Peskiselkä
+reft point:0x1100
+refp 28.571666 68.077989
+crds 28.550254 68.076210
+
+text:0x5
+name 417 Ätimysvaara
+reft point:0x1100
+refp 28.757680 67.954122
+crds 28.762079 67.952546
+
+text:0x5
+name 418 Purnunnokka
+reft point:0x1100
+refp 27.174230 68.160969
+crds 27.171749 68.157745
+
+text:0x5
+name 420 Vintilävaara
+reft point:0x1100
+refp 27.694130 68.204365
+crds 27.678215 68.202098
+
+text:0x5
+name 421 Iso Tankavaara
+reft point:0x1100
+refp 27.159246 68.184187
+crds 27.159964 68.179625
+
+text:0x5
 name 421 Pikku Reutupää
 reft point:0x1100
 refp 28.453408 68.235098
 crds 28.442464 68.236295
+
+text:0x5
+name 422 Riskaskama
+reft point:0x1100
+refp 27.156699 68.030366
+crds 27.142652 68.027752
+
+text:0x5
+name 422 Risuvaara
+reft point:0x1100
+refp 28.062913 68.200529
+crds 28.063429 68.198582
 
 text:0x5
 name 423 Pikku Tankavaara
@@ -10104,10 +10146,34 @@ refp 27.212005 67.991070
 crds 27.198138 67.993472
 
 text:0x5
+name 424 Uittipiekka
+reft point:0x1100
+refp 28.558844 67.877753
+crds 28.538845 67.880172
+
+text:0x5
+name 427 Naltiotunturi
+reft point:0x1100
+refp 29.121712 67.965720
+crds 29.118816 67.967164
+
+text:0x5
+name 430 Rautupää
+reft point:0x1100
+refp 27.719250 68.296804
+crds 27.722504 68.297000
+
+text:0x5
 name 432 Lupukainen
 reft point:0x1100
 refp 27.468794 68.146151
 crds 27.472369 68.144822
+
+text:0x5
+name 438 Käyräselkä
+reft point:0x1100
+refp 27.694093 68.292392
+crds 27.692245 68.290191
 
 text:0x5
 name 440 Palkispää
@@ -10116,10 +10182,28 @@ refp 27.465508 68.289199
 crds 27.458517 68.287191
 
 text:0x5
+name 443 Povivaara
+reft point:0x1100
+refp 28.542838 68.147632
+crds 28.531681 68.145233
+
+text:0x5
+name 446 Kirakkavaara
+reft point:0x1100
+refp 28.307565 68.146171
+crds 28.284851 68.148388
+
+text:0x5
 name 447 Karhunokka
 reft point:0x1100
 refp 28.129033 68.181370
-crds 28.118210 68.179282
+crds 28.115957 68.179237
+
+text:0x5
+name 450 Iso Kokkopää
+reft point:0x1100
+refp 28.936783 68.126534
+crds 28.925774 68.124089
 
 text:0x5
 name 456 Seinätunturi
@@ -10128,16 +10212,58 @@ refp 27.378825 68.143467
 crds 27.376976 68.144588
 
 text:0x5
+name 457 Korvatunturi
+reft point:0x1100
+refp 29.315088 68.074330
+crds 29.313184 68.070060
+
+text:0x5
 name 460 Iskemäpää
 reft point:0x1100
 refp 28.136283 68.133545
 crds 28.133306 68.135538
 
 text:0x5
+name 463 Aaslakkapää
+reft point:0x1100
+refp 27.669503 68.301181
+crds 27.659546 68.298896
+
+text:0x5
 name 464 Suppu-Kotavaara
 reft point:0x1100
 refp 28.217017 68.244207
-crds 28.202490 68.241454
+crds 28.212546 68.241620
+
+text:0x5
+name 471 Jooseppitunturi
+reft point:0x1100
+refp 28.402161 67.890358
+crds 28.384622 67.892032
+
+text:0x5
+name 472 Vintilätunturi
+reft point:0x1100
+refp 27.708989 68.216791
+crds 27.692163 68.217517
+
+text:0x5
+name 473 Kopsusselkä
+reft point:0x1100
+refp 27.563991 68.270721
+crds 27.562370 68.267915
+
+text:0x5
+name 481 Kannattamanoska
+reft point:0x1100
+refp 28.307384 68.303331
+crds 28.311447 68.302157
+
+text:0x5
+name 485 Kaihtimipää
+reft point:0x1100
+refp 28.085479 68.167117
+crds 28.081231 68.164395
 
 text:0x5
 name 485 Keinopää
@@ -10152,6 +10278,12 @@ refp 28.085204 68.245397
 crds 28.071587 68.243486
 
 text:0x5
+name 502 Pyhätunturi
+reft point:0x1100
+refp 27.370476 68.122569
+crds 27.368164 68.118793
+
+text:0x5
 name 506 Vaadinkuristama
 reft point:0x1100
 refp 28.528614 68.238250
@@ -10162,6 +10294,24 @@ name 511 Pälkkimäpää
 reft point:0x1100
 refp 28.063331 68.270394
 crds 28.059940 68.268141
+
+text:0x5
+name 513 Terävänkivenpää
+reft point:0x1100
+refp 27.521152 68.293463
+crds 27.494386 68.291025
+
+text:0x5
+name 518 Pirravatselma
+reft point:0x1100
+refp 28.590251 68.157126
+crds 28.587726 68.154774
+
+text:0x5
+name 525 Suku-Nattanen
+reft point:0x1100
+refp 27.489040 68.169152
+crds 27.486406 68.171075
 
 text:0x5
 name 530 Hattupää
@@ -10182,10 +10332,16 @@ refp 28.322953 68.178950
 crds 28.318808 68.180580
 
 text:0x5
+name 545 Ruotmuttipää
+reft point:0x1100
+refp 28.098626 68.186640
+crds 28.078717 68.188395
+
+text:0x5
 name 551 Tiuhtelmapää
 reft point:0x1100
 refp 28.314084 68.268190
-crds 28.295025 68.265748
+crds 28.298242 68.266074
 
 text:0x5
 name 557 Vongoivanräystäs
@@ -10198,6 +10354,12 @@ name 558 Kielitunturi
 reft point:0x1100
 refp 28.431673 68.211317
 crds 28.430997 68.212707
+
+text:0x5
+name 562 Välipää
+reft point:0x1100
+refp 28.573426 68.211335
+crds 28.581412 68.210825
 
 text:0x5
 name 565 Rovapää
@@ -10215,7 +10377,7 @@ text:0x5
 name 568 Vaulopää
 reft point:0x1100
 refp 28.107077 68.291817
-crds 28.104725 68.293209
+crds 28.105706 68.289016
 
 text:0x5
 name 570 Joukhaispää
@@ -10233,7 +10395,7 @@ text:0x5
 name 596 Sihverinlakopää
 reft point:0x1100
 refp 28.434516 68.187716
-crds 28.401563 68.189491
+crds 28.429983 68.189568
 
 text:0x5
 name 603 Korvapuoli
@@ -10242,16 +10404,34 @@ refp 28.485198 68.302361
 crds 28.481287 68.304043
 
 text:0x5
+name 607 Lokan Alen Muurivaara
+reft point:0x1100
+refp 28.502458 68.215104
+crds 28.500909 68.216517
+
+text:0x5
 name 610 Siliäselkä
 reft point:0x1100
 refp 28.509040 68.209307
 crds 28.508148 68.210689
 
 text:0x5
+name 615 Anteripää
+reft point:0x1100
+refp 28.326053 68.224255
+crds 28.328041 68.226223
+
+text:0x5
 name 615 Vesipää
 reft point:0x1100
 refp 28.236821 68.207260
 crds 28.232855 68.208654
+
+text:0x5
+name 620 Lupukkapää
+reft point:0x1100
+refp 27.981480 68.267714
+crds 27.985584 68.266565
 
 text:0x5
 name 622 Vesilintupoikainpää
@@ -10266,10 +10446,28 @@ refp 28.108722 68.273326
 crds 28.107912 68.274548
 
 text:0x5
+name 630 Vongoiva
+reft point:0x1100
+refp 28.535233 68.168397
+crds 28.537956 68.167048
+
+text:0x5
 name 635 Sara-Pieran Muurivaara
 reft point:0x1100
 refp 28.362146 68.278071
 crds 28.360357 68.275766
+
+text:0x5
+name 637 Siulapää
+reft point:0x1100
+refp 28.427192 68.173143
+crds 28.427010 68.170213
+
+text:0x5
+name 641 Sollanpää
+reft point:0x1100
+refp 28.211848 68.289913
+crds 28.209000 68.291448
 
 text:0x5
 name 644 Hietapää
@@ -10278,10 +10476,41 @@ refp 28.154115 68.203713
 crds 28.150820 68.201248
 
 text:0x5
+name 669 Reututunturi
+reft point:0x1100
+refp 28.482337 68.197528
+crds 28.480163 68.194491
+
+text:0x5
+name 675 Kuikkapää
+reft point:0x1100
+refp 28.398758 68.291694
+crds 28.401910 68.289916
+
+text:0x5
 name 677 Lumipää
 reft point:0x1100
 refp 28.157493 68.260584
 crds 28.150738 68.258407
+
+text:0x5
+name 687 Vuomapää
+reft point:0x1100
+refp 28.354082 68.170198
+crds 28.355247 68.167805
+
+text:0x5
+name 701 Ukselmapää
+reft point:0x1100
+refp 28.176994 68.271503
+crds 28.162291 68.268853
+
+text:0x5
+algn SE
+name 316 Aita-Vuomaselkä
+reft point:0x1100
+refp 27.215718 68.291610
+crds 27.213208 68.293447
 
 text:0x5
 algn SE
@@ -10299,6 +10528,13 @@ crds 29.012246 68.127826
 
 text:0x5
 algn SE
+name 371 Halkovaara
+reft point:0x1100
+refp 28.516704 68.287412
+crds 28.522490 68.288419
+
+text:0x5
+algn SE
 name 423 Länsimmäinen Helttamorosto
 reft point:0x1100
 refp 28.522445 68.292270
@@ -10306,379 +10542,26 @@ crds 28.532100 68.293614
 
 text:0x5
 algn SE
-name 503 Kielisvaara
-reft point:0x1100
-refp 28.393734 68.193534
-crds 28.408713 68.195930
-
-text:0x5
-scle 1.2
-name 260 Risteysvaara
-reft point:0x1100
-refp 28.653270 68.138164
-crds 28.650640 68.135426
-
-text:0x5
-scle 1.2
-name 300 Kettuvaara
-reft point:0x1100
-refp 28.931790 67.874749
-crds 28.923037 67.876058
-
-text:0x5
-scle 1.2
-name 301 Vuollosselkä
-reft point:0x1100
-refp 27.859110 67.920380
-crds 27.840519 67.922415
-
-text:0x5
-scle 1.2
-name 304 Maaselkä
-reft point:0x1100
-refp 27.102497 67.901571
-crds 27.089541 67.900834
-
-text:0x5
-scle 1.2
-name 304 Suoritsinvosa
-reft point:0x1100
-refp 27.746210 68.104032
-crds 27.748097 68.104933
-
-text:0x5
-scle 1.2
-name 307 Auhtijoenselkä
-reft point:0x1100
-refp 28.422436 68.107579
-crds 28.425962 68.106718
-
-text:0x5
-scle 1.2
-name 322 Aulekkenevaara
-reft point:0x1100
-refp 28.249026 67.945202
-crds 28.252669 67.943556
-
-text:0x5
-scle 1.2
-name 325 Vallavosa
-reft point:0x1100
-refp 27.624309 68.158190
-crds 27.626812 68.156171
-
-text:0x5
-scle 1.2
-name 330 Keskiselkä
-reft point:0x1100
-refp 28.957010 68.070164
-crds 28.944354 68.072460
-
-text:0x5
-scle 1.2
-name 341 Kuusi-Mantoselkä
-reft point:0x1100
-refp 29.000305 68.074601
-crds 29.000249 68.071015
-
-text:0x5
-scle 1.2
-name 363 Korvatunturinmurusta
-reft point:0x1100
-refp 29.243895 68.044082
-crds 29.213494 68.041449
-
-text:0x5
-scle 1.2
-name 363 Männikkö-Rovaselkä
-reft point:0x1100
-refp 27.580398 68.118325
-crds 27.572052 68.115204
-
-text:0x5
-scle 1.2
-name 365 Sorvortanselkä
-reft point:0x1100
-refp 28.530307 67.920187
-crds 28.508363 67.917622
-
-text:0x5
-scle 1.2
-name 375 Härkämurusta
-reft point:0x1100
-refp 28.715713 68.106100
-crds 28.700918 68.105599
-
-text:0x5
-scle 1.2
-name 375 Marjavaara
-reft point:0x1100
-refp 27.892528 68.032858
-crds 27.879890 68.029249
-
-text:0x5
-scle 1.2
-name 379 Karhanavaara
-reft point:0x1100
-refp 28.688327 67.903697
-crds 28.688471 67.900754
-
-text:0x5
-scle 1.2
-name 384 Mukkavaara
-reft point:0x1100
-refp 27.645992 68.255441
-crds 27.635703 68.257006
-
-text:0x5
-scle 1.2
-name 388 Riestovaara
-reft point:0x1100
-refp 27.146107 68.044022
-crds 27.134952 68.041422
-
-text:0x5
-scle 1.2
-name 395 Pieni Kokkopää
-reft point:0x1100
-refp 28.845148 68.125526
-crds 28.823582 68.122614
-
-text:0x5
-scle 1.2
-name 396 Tampakkopää
-reft point:0x1100
-refp 27.842341 68.282679
-crds 27.838789 68.283936
-
-text:0x5
-scle 1.2
-name 399 Naalipäänhäntä
-reft point:0x1100
-refp 28.710764 68.156762
-crds 28.694222 68.158545
-
-text:0x5
-scle 1.2
-name 401 Muotkavaara
-reft point:0x1100
-refp 28.246674 67.899137
-crds 28.232139 67.900753
-
-text:0x5
-scle 1.2
-name 405 Pittikuolpuna
-reft point:0x1100
-refp 28.603280 68.141642
-crds 28.578526 68.143198
-
-text:0x5
-scle 1.2
-name 411 Kopsuskuusikko
-reft point:0x1100
-refp 27.876382 68.139510
-crds 27.871234 68.140992
-
-text:0x5
-scle 1.2
-name 415 Kuusikko-Peskiselkä
-reft point:0x1100
-refp 28.571666 68.077989
-crds 28.550254 68.076210
-
-text:0x5
-scle 1.2
-name 417 Ätimysvaara
-reft point:0x1100
-refp 28.757680 67.954122
-crds 28.762079 67.952546
-
-text:0x5
-scle 1.2
-name 418 Purnunnokka
-reft point:0x1100
-refp 27.174230 68.160969
-crds 27.171749 68.157745
-
-text:0x5
-scle 1.2
-name 420 Vintilävaara
-reft point:0x1100
-refp 27.694130 68.204365
-crds 27.678215 68.202098
-
-text:0x5
-scle 1.2
-name 421 Iso Tankavaara
-reft point:0x1100
-refp 27.159246 68.184187
-crds 27.159964 68.179625
-
-text:0x5
-scle 1.2
-name 422 Riskaskama
-reft point:0x1100
-refp 27.156699 68.030366
-crds 27.142652 68.027752
-
-text:0x5
-scle 1.2
-name 427 Naltiotunturi
-reft point:0x1100
-refp 29.121712 67.965720
-crds 29.108938 67.966943
-
-text:0x5
-scle 1.2
-name 450 Iso Kokkopää
-reft point:0x1100
-refp 28.936783 68.126534
-crds 28.922192 68.122814
-
-text:0x5
-scle 1.2
-name 472 Vintilätunturi
-reft point:0x1100
-refp 27.708989 68.216791
-crds 27.692163 68.217517
-
-text:0x5
-scle 1.2
-name 473 Kopsusselkä
-reft point:0x1100
-refp 27.563991 68.270721
-crds 27.560924 68.268139
-
-text:0x5
-scle 1.2
-name 481 Kannattamanoska
-reft point:0x1100
-refp 28.307384 68.303331
-crds 28.311447 68.302157
-
-text:0x5
-scle 1.2
-name 485 Kaihtimipää
-reft point:0x1100
-refp 28.085479 68.167117
-crds 28.081778 68.169177
-
-text:0x5
-scle 1.2
-name 502 Pyhätunturi
-reft point:0x1100
-refp 27.370476 68.122569
-crds 27.368164 68.118793
-
-text:0x5
-scle 1.2
-name 513 Terävänkivenpää
-reft point:0x1100
-refp 27.521152 68.293463
-crds 27.494386 68.291025
-
-text:0x5
-scle 1.2
-name 518 Pirravatselma
-reft point:0x1100
-refp 28.590251 68.157126
-crds 28.570736 68.159184
-
-text:0x5
-scle 1.2
-name 525 Suku-Nattanen
-reft point:0x1100
-refp 27.489040 68.169152
-crds 27.486406 68.171075
-
-text:0x5
-scle 1.2
-name 545 Ruotmuttipää
-reft point:0x1100
-refp 28.098626 68.186640
-crds 28.066708 68.188373
-
-text:0x5
-scle 1.2
-name 562 Välipää
-reft point:0x1100
-refp 28.573426 68.211335
-crds 28.581412 68.210825
-
-text:0x5
-scle 1.2
-name 615 Anteripää
-reft point:0x1100
-refp 28.326053 68.224255
-crds 28.319206 68.225735
-
-text:0x5
-scle 1.2
-name 620 Lupukkapää
-reft point:0x1100
-refp 27.981480 68.267714
-crds 27.985584 68.266565
-
-text:0x5
-scle 1.2
-name 637 Siulapää
-reft point:0x1100
-refp 28.427192 68.173143
-crds 28.427010 68.170213
-
-text:0x5
-scle 1.2
-name 641 Sollanpää
-reft point:0x1100
-refp 28.211848 68.289913
-crds 28.209000 68.291448
-
-text:0x5
-scle 1.2
-name 669 Reututunturi
-reft point:0x1100
-refp 28.482337 68.197528
-crds 28.480163 68.194491
-
-text:0x5
-scle 1.2
-name 675 Kuikkapää
-reft point:0x1100
-refp 28.398758 68.291694
-crds 28.401910 68.289916
-
-text:0x5
-scle 1.2
-name 687 Vuomapää
-reft point:0x1100
-refp 28.354082 68.170198
-crds 28.350903 68.167721
-
-text:0x5
-scle 1.2
-name 701 Ukselmapää
-reft point:0x1100
-refp 28.176994 68.271503
-crds 28.162291 68.268853
-
-text:0x5
-scle 1.2
-algn SE
-name 316 Aita-Vuomaselkä
-reft point:0x1100
-refp 27.215718 68.291610
-crds 27.213208 68.293447
-
-text:0x5
-scle 1.2
-algn SE
 name 471 Purnupää
 reft point:0x1100
 refp 28.546823 68.249862
 crds 28.550544 68.251133
 
 text:0x5
-scle 1.2
+algn SE
+name 479 Helttamorosto
+reft point:0x1100
+refp 28.576397 68.288633
+crds 28.584243 68.285151
+
+text:0x5
+algn SE
+name 503 Kielisvaara
+reft point:0x1100
+refp 28.393734 68.193534
+crds 28.409493 68.195525
+
+text:0x5
 algn SE
 name 551 Puolipää
 reft point:0x1100
@@ -10686,130 +10569,54 @@ refp 28.603365 68.245647
 crds 28.611438 68.247065
 
 text:0x5
-scle 1.4
-name 349 Kaptukaisselkä
-reft point:0x1100
-refp 27.527461 68.197501
-crds 27.524108 68.194343
-
-text:0x5
-scle 1.4
-name 355 Auhtiselkä
-reft point:0x1100
-refp 28.614991 68.091406
-crds 28.574865 68.093623
-
-text:0x5
-scle 1.4
-name 424 Uittipiekka
-reft point:0x1100
-refp 28.558844 67.877753
-crds 28.538845 67.880172
-
-text:0x5
-scle 1.4
-name 457 Korvatunturi
-reft point:0x1100
-refp 29.315088 68.074330
-crds 29.313184 68.070060
-
-text:0x5
-scle 1.4
-name 471 Jooseppitunturi
-reft point:0x1100
-refp 28.402161 67.890358
-crds 28.384622 67.892032
-
-text:0x5
-scle 1.4
-name 630 Vongoiva
-reft point:0x1100
-refp 28.535233 68.168397
-crds 28.538179 68.166368
-
-text:0x5
-scle 1.4
-name 713 Sokosti
-reft point:0x1100
-refp 28.138828 68.218470
-crds 28.143412 68.216192
-
-text:0x5
-scle 1.4
 algn SE
 name 634 Talkkunapää
 reft point:0x1100
 refp 28.645045 68.196932
 crds 28.640626 68.196093
 
-text:0x6
-scle 0.825
-name Murrikkoharjut
-reft point:0xd00
-refp 28.757909 67.966803
-crds 28.749592 67.967834
+text:0x5
+scle 1.5
+name 713 Sokosti
+reft point:0x1100
+refp 28.138828 68.218470
+crds 28.143412 68.216192
 
 text:0x6
-scle 0.825
-name Orposenkummut
+name Hirvaspäät
 reft point:0xd00
-refp 27.816648 68.125989
-crds 27.805865 68.124303
+refp 28.429071 68.302708
+crds 28.427946 68.304110
 
 text:0x6
-scle 0.825
-name Ätimysvaaranharjut
+name Juromapäät
 reft point:0xd00
-refp 28.707298 67.966934
-crds 28.705542 67.964628
+refp 27.897369 68.295034
+crds 27.895003 68.292614
 
 text:0x6
-scle 0.9
 name Kangas-Rakitsat
 reft point:0xd00
 refp 29.161405 68.015045
-crds 29.144554 68.010655
+crds 29.154352 68.012933
 
 text:0x6
-scle 0.9
-name Kopsusnokat
+name Kappervaarat
 reft point:0xd00
-refp 27.594513 68.246066
-crds 27.581845 68.246909
-
-text:0x6
-scle 0.9
-name Kulusharjut
-reft point:0xd00
-refp 28.419317 67.927346
-crds 28.410469 67.928086
-
-text:0x6
-scle 0.9
-name Lismanharjut
-reft point:0xd00
-refp 27.151711 68.065498
-crds 27.151400 68.065705
-
-text:0x6
-scle 0.9
-name Seitainseljät
-reft point:0xd00
-refp 29.009048 67.934567
-crds 29.007321 67.935735
-
-text:0x6
-scle 0.9
-name Äimääkummut
-reft point:0xd00
-refp 27.265037 67.944523
-crds 27.267131 67.945179
+refp 28.359879 67.878401
+crds 28.349822 67.876472
 
 text:0x6
 name Keskirovat
 reft point:0xd00
 refp 28.863335 68.048366
-crds 28.868316 68.047932
+crds 28.868325 68.048051
+
+text:0x6
+name Kopsusnokat
+reft point:0xd00
+refp 27.594513 68.246066
+crds 27.576106 68.247336
 
 text:0x6
 name Kopsuspäät
@@ -10827,7 +10634,13 @@ text:0x6
 name Korvatunturinrakitsat
 reft point:0xd00
 refp 29.226153 68.069518
-crds 29.228927 68.068306
+crds 29.230151 68.068828
+
+text:0x6
+name Kulusharjut
+reft point:0xd00
+refp 28.419317 67.927346
+crds 28.410469 67.928086
 
 text:0x6
 name Kärppäpäät
@@ -10836,16 +10649,52 @@ refp 28.183884 68.198509
 crds 28.187501 68.198000
 
 text:0x6
+name Lismanharjut
+reft point:0xd00
+refp 27.151711 68.065498
+crds 27.151400 68.065705
+
+text:0x6
+name Mukkajoenrovat
+reft point:0xd00
+refp 28.384255 67.950719
+crds 28.383688 67.947209
+
+text:0x6
+name Murrikkoharjut
+reft point:0xd00
+refp 28.757909 67.966803
+crds 28.749592 67.967834
+
+text:0x6
+name Nattaset
+reft point:0xd00
+refp 27.413023 68.137181
+crds 27.413296 68.138342
+
+text:0x6
 name Nupinseljät
 reft point:0xd00
 refp 27.528839 68.006092
 crds 27.525824 68.003968
 
 text:0x6
+name Orposenkummut
+reft point:0xd00
+refp 27.816648 68.125989
+crds 27.805865 68.124303
+
+text:0x6
+name Peskiseljät
+reft point:0xd00
+refp 28.567116 68.056966
+crds 28.555730 68.058512
+
+text:0x6
 name Pikkutunturit
 reft point:0xd00
 refp 27.773512 68.226097
-crds 27.765350 68.228260
+crds 27.767893 68.227742
 
 text:0x6
 name Raavaskoskenrovat
@@ -10854,16 +10703,64 @@ refp 28.161495 67.984895
 crds 28.149751 67.982906
 
 text:0x6
+name Rajavaarat
+reft point:0xd00
+refp 28.798047 68.138354
+crds 28.794477 68.136073
+
+text:0x6
+name Rakitsat
+reft point:0xd00
+refp 28.934507 68.102991
+crds 28.931715 68.104396
+
+text:0x6
+name Rakitsat
+reft point:0xd00
+refp 29.185511 68.067126
+crds 29.173616 68.065035
+
+text:0x6
+name Raututunturit
+reft point:0xd00
+refp 27.621770 68.305436
+crds 27.615061 68.303093
+
+text:0x6
 name Riitelmäpäät
 reft point:0xd00
 refp 28.142319 68.236676
 crds 28.132179 68.238305
 
 text:0x6
+name Seitainseljät
+reft point:0xd00
+refp 29.009048 67.934567
+crds 29.007321 67.935735
+
+text:0x6
 name Sihtikurunpäät
 reft point:0xd00
 refp 27.655880 68.272276
-crds 27.643863 68.268279
+crds 27.648158 68.269657
+
+text:0x6
+name Suovainpäät
+reft point:0xd00
+refp 28.161808 68.151741
+crds 28.153554 68.153222
+
+text:0x6
+name Tuiskupäät
+reft point:0xd00
+refp 27.839235 68.233740
+crds 27.837746 68.234940
+
+text:0x6
+name Tuiskutunturit
+reft point:0xd00
+refp 27.825202 68.252558
+crds 27.810584 68.250604
 
 text:0x6
 name Uurto-oivinpakat
@@ -10878,101 +10775,21 @@ refp 27.932270 68.232688
 crds 27.931127 68.234304
 
 text:0x6
-scle 1.2
-name Juromapäät
+name Äimääkummut
 reft point:0xd00
-refp 27.897369 68.295034
-crds 27.894614 68.292317
+refp 27.265037 67.944523
+crds 27.267131 67.945179
 
 text:0x6
-scle 1.2
-name Kappervaarat
+name Ätimysvaaranharjut
 reft point:0xd00
-refp 28.359879 67.878401
-crds 28.349822 67.876472
+refp 28.707298 67.966934
+crds 28.705542 67.964628
 
 text:0x6
-scle 1.2
-name Mukkajoenrovat
-reft point:0xd00
-refp 28.384255 67.950719
-crds 28.383688 67.947209
-
-text:0x6
-scle 1.2
-name Rajavaarat
-reft point:0xd00
-refp 28.798047 68.138354
-crds 28.794477 68.136073
-
-text:0x6
-scle 1.2
-name Rakitsat
-reft point:0xd00
-refp 28.934507 68.102991
-crds 28.930384 68.105728
-
-text:0x6
-scle 1.2
-name Rakitsat
-reft point:0xd00
-refp 29.185511 68.067126
-crds 29.179449 68.064944
-
-text:0x6
-scle 1.2
-name Raututunturit
-reft point:0xd00
-refp 27.621770 68.305436
-crds 27.615061 68.303093
-
-text:0x6
-scle 1.2
-name Suovainpäät
-reft point:0xd00
-refp 28.161808 68.151741
-crds 28.159525 68.158016
-
-text:0x6
-scle 1.2
-name Tuiskupäät
-reft point:0xd00
-refp 27.839235 68.233740
-crds 27.837746 68.234940
-
-text:0x6
-scle 1.2
-name Tuiskutunturit
-reft point:0xd00
-refp 27.825202 68.252558
-crds 27.810584 68.250604
-
-text:0x6
-scle 1.2
 algn SE
 name Ampupäät
 reft point:0xd00
 refp 27.909950 68.215686
 crds 27.912858 68.216623
-
-text:0x6
-scle 1.4
-name Hirvaspäät
-reft point:0xd00
-refp 28.429071 68.302708
-crds 28.427946 68.304110
-
-text:0x6
-scle 1.4
-name Peskiseljät
-reft point:0xd00
-refp 28.567116 68.056966
-crds 28.555730 68.058512
-
-text:0x6
-scle 1.8
-name Nattaset
-reft point:0xd00
-refp 27.413023 68.137181
-crds 27.407532 68.139034
 

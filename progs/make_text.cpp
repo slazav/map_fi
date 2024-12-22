@@ -227,6 +227,10 @@ main(int argc, char *argv[]){
       // preserve text scaling
       objt.scale = o.get<int>("textsize")/200.0;
 
+      // fixed scale for summits and summit groups
+      if (pt == 1010210 || pt == 1010210)
+        objt.scale = 1.0;
+
       // fixed small scale for some objects (rapids, canyons, houses)
       if (pt == 2020115 || pt == 1010305 || pt > 8000000)
         objt.scale = 0.75;
