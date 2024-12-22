@@ -7,6 +7,8 @@
 #include "tmpdir/tmpdir.h"
 #include "geom/poly_tools.h"
 
+#include "geo_nom/geo_nom_fi.h"
+
 #include "vmap2/vmap2.h"
 #include "vmap2/vmap2io.h"
 
@@ -190,6 +192,9 @@ main(int argc, char *argv[]){
     std::string name = file_get_basename(in_file);
 
 
+    // map rectangle in ETRS-TM35FIN
+    dRect brd = nom_to_range_fi(name);
+
     // go through all files
     for (const auto & map_group: map_groups){
 
@@ -212,7 +217,6 @@ main(int argc, char *argv[]){
 
       if (SH.get_num() != nr)
         throw Err() << "different number of objects in SHP and DBF: " << base;
-
 
       // go through all objects
       for (size_t i = 0; i<nr; ++i){
@@ -244,10 +248,10 @@ main(int argc, char *argv[]){
 
         // create object and set coordinates
         VMap2obj obj(type);
-        obj.dMultiLine::operator=(SH.get(i));
+        auto crds = SH.get(i);
 
         // contour names
-        if (o.exists("Korkeus")){ 
+        if (o.exists("Korkeus") && type == "line:0x21"){
           double k = o.get<double>("Korkeus");
           if (k>-1000 && k<10000)
             obj.name = o.get("Korkeus");
@@ -255,16 +259,27 @@ main(int argc, char *argv[]){
             obj.set_type("line:0x22");
         }
 
-        // filter points
-
-        double acc = 10.0; //m
-        if (acc>0) {
-          if (obj.npts()>2 && obj.length()>2*acc)
-            line_filter_rdp(obj, acc);
-          if (obj.npts()==0) continue;
+        // extend objects bejond map bounaries
+        for (auto & l:crds){
+          for (auto i1=l.begin(); i1!=l.end(); ++i1){
+            auto i2 = (i1+1 == l.end())? l.begin() : i1+1;
+            if (brd.contains_n(*i1) && !brd.contains_n(*i2))
+              *i2 = *i2 + norm(*i2-*i1)*100;
+            if (brd.contains_n(*i2) && !brd.contains_n(*i1))
+              *i1 = *i1 + norm(*i1-*i2)*100;
+            // should we proccess points with both neighbours on the border?
+          }
         }
 
-        cnv.frw(obj);
+        // filter points
+        double acc = 10.0; //m
+        if (acc>0) {
+          if (crds.npts()>2 && crds.length()>2*acc)
+            line_filter_rdp(crds, acc);
+          if (crds.npts()==0) continue;
+        }
+
+        obj.dMultiLine::operator=(cnv.frw_acc(crds));
         vmap.add(obj);
       }
     }
