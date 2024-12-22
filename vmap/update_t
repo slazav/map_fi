@@ -1,0 +1,10 @@
+#!/bin/sh -eu
+
+# Update text and point objects from ../vmap_base/*_t.vmap2
+
+files=${@:-*.vmap2}
+
+for f in $files; do
+  base=${f%.vmap2}
+  ../progs/update_text "../vmap_base/${base}_t.vmap2" "$f"
+done
