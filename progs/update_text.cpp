@@ -65,6 +65,7 @@ main(int argc, char *argv[]){
       for (const auto & i2: vmap2.find(o1.type, rng)){
         auto o2 = vmap2.get(i2);
         if (o2.tags.count("ORG")==0) continue;
+
         found = true;
         // update name and coordinates
         if (o2.name != o1.name)
@@ -111,8 +112,10 @@ main(int argc, char *argv[]){
         continue;
       }
 
-      // find point with same type and close coordinates in vmap1
-      dRect rng = o2.bbox(); rng.expand(1e-4);
+      // Find point with same type and close coordinates in vmap1.
+      // Use much smaller search tolerance, because coordinates should be
+      // already updated, and we do not want to keep object which is close to existing one.
+      dRect rng = o2.bbox(); rng.expand(1e-5);
       if (vmap1.find(o2.type, rng).size()){
         while (j!=refs2.end() && j->first == id) ++j;
         continue;
