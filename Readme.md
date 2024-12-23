@@ -23,12 +23,13 @@ There are a few types of data in the project:
 It is automatically filtered and simplified, types are substituded to
 something reasonable for mp/img format (see `make_base.cpp` program).
 
-* Text objects and their references from the same 1:100'000 dataset.
+* Detailed Topographic Database data from https://maanmittauslaitos.fi
+I take a few types of objects from there (see `make_base2.cpp` program).
+
+* Text objects and their references from same datasets.
 They are also filtered and simplified (see `make_text.cpp` program).
 Label positions (but not reference points and names) can be manually
 adjusted.
 
-* Additional data. Currently I draw it manually (it's not a big work for
-a reasonable regions). If I would know how to get more detailed map
-data, I could use some of it here. This data can contain any
-types from the base map, other types, labels.
+* Additional data. I can add data manually (it's not a big work for
+a reasonable regions).
