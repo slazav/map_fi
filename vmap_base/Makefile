@@ -8,6 +8,7 @@ all: ${VMAPSB} ${VMAPST} ${PNGS}
 
 %_b.vmap2: %.zip
 	../progs/make_base "$<" "$@"
+	[ ! -d "$*" ] || ../progs/make_base2 "$*" "$@"
 
 %_b.png %_b.map: %_b.vmap2
 	time ms2render "$<" --out "$@"\
