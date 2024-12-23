@@ -1,0 +1,476 @@
+# This is list from Maastotietokohteet_2023_05.pdf.
+# Note that in 1:100'000 map type system is simplified and sligtly different
+# (I have a separate incomplete table in make_base.cpp)
+#
+# Sorry for inaccurate ru/fi comments in this file,
+# exact meaning of each sign can be found in the pdf file.
+
+area:32100  64 Maa-aineksenottoalue / зона добычи грунта
+area:32111  64 Maa-aineksenottoalue, karkea / зона добычи грунта - песок
+area:32112  64 Maa-aineksenottoalue, hieno kivenn.isaines / зона добычи грунта - глина
+area:32113  64 Maa-aineksenottoalue, eloper.inen aines / зона добычи грунта - торф, ил
+area:32200  64 Hautausmaa / кладбище
+area:32300  64 Kaatopaikka / свалка
+area:32400  64 Lentokentt.alue / зоны аэропорта
+area:32410  64 Lentokent.n kiitotie / ВВП аэропорта
+area:32411  64 Lentokent.n kiitotie / ВВП твердая
+area:32412  64 Lentokent.n kiitotie / ВВП грунтовая
+area:32413  64 Muu lentokentt.alue / другая зона аэропорта
+area:32414  64 Muu lentoliikennealue
+area:32415  64 Muu lentokentt.alue, p..llystetty
+area:32416  64 Muu lentokentt.alue, p..llystm.t.n
+area:32417  64 Muu lentoliikennealue, p..llystetty
+area:32418  64 Muu lentoliikennealue, p..llyst.m.t.n
+area:32421  64 Autoliikennealue / площадь автомобильного движения, парковка и т.п.
+area:32500  64 Louhos / карьер
+area:32600  64 Maatalousmaa
+area:32611  64 Pelto
+area:32612  64 Puutarha
+area:32800  64 Niitty / луг
+area:32900  64 Puisto
+area:33000  64 T.ytemaa / отвал грунта
+area:33100  64 Urheilu- ja virkistysalue / спортплощадка, зона отдыха
+area:34100  64 Kallio - alue / площадь скал
+area:34300  64 Hietikko / песок
+area:34700  64 Kivikko / каменная россыпь, курумник
+area:35300  64 Soistuma
+area:35400  64 Suo / болото
+area:35411  64 Suo, helppokulkuinen puuton / болото, легко проходимое, открытое
+area:35412  64 Suo, helppokulkuinen mets.. / болото, легко проходимое, лесное
+area:35421  64 Suo, vaikeakulkuinen puuton / болото, трудно проходимое, открытое
+area:35422  64 Suo, vaikeakulkuinen mets.. / болото, трудно проходимое, лесное
+area:36200  64 Vakavesi
+area:36211  64 Merivesi / море
+area:36212  64 J.rvivesi / озеро
+area:36313  64 Virtavesialue / площадкая река
+area:38300  70 Maatuva vesialue
+area:38400  70 Tulva-alue  / приливная зона
+area:38600  70 Vesikivikko
+area:38700  70 Matalikko / мель
+area:38900  70 Varastoalue
+area:39100  70 Avoimet alueet / Открытые площадки
+area:39110  70 Avoin mets.maa / вырубка
+area:39120  70 Varvikko / кустарник, тундра
+area:39130  70 Avoin vesij.tt.alue / камыши у берега
+area:39200  70 Taajama (poistunut kohde)
+area:39211  70 Kerrostaloalue (poistunut kohde)
+area:39212  70 Pientaloalue (poistunut kohde) / низкоэтажная застройка
+area:39213  70 Teollisuusalue (poistunut kohde)  / промзона
+area:40200  82 Taajaan rakennettu alue / населенка
+area:42210  75 Asuinrakennus, ? krs
+area:42211  75 Asuinrakennus, 1-2 krs
+area:42212  75 Asuinrakennus, 3-n krs
+area:42220  75 Liike- tai julkinen rakennus, ?-krs
+area:42221  75 Liike- tai julkinen rakennus, 1-2 krs
+area:42222  75 Liike- tai julkinen rakennus, 3-n krs
+area:42230  75 Lomarakennus, ? krs
+area:42231  75 Lomarakennus, 1-2 krs
+area:42232  75 Lomarakennus, 3-n krs
+area:42240  75 Teollinen rakennus, ? krs
+area:42241  75 Teollinen rakennus, 1-2 krs
+area:42242  75 Teollinen rakennus, 3-n krs
+area:42250  75 Kirkollinen rakennus, ? krs
+area:42251  75 Kirkollinen rakennus, 1-2 krs
+area:42252  75 Kirkollinen rakennus, 3-n krs
+area:42260  75 Muu rakennus, ? krs
+area:42261  75 Muu rakennus, 1-2 krs
+area:42262  75 Muu rakennus, 3-n krs
+area:42270  75 Kirkko
+area:44300  75 Allas-alue / площадь бассейна
+area:62200  77 Suoja-alue / охраняемая территория
+area:72200  74 (Muu) Luonnonsuojelualue / другая природная территория
+area:72201  74 Luonnonpuisto / природный парк
+area:72202  74 Kansallispuisto / нац.парк
+area:72500  74 Suojamets. / охраняемый лес
+area:72800  74 Retkeilyalue
+area:84200  71 Kunta                               Kunnan hallintoraja
+
+line:12100  25 Tieviiva
+line:12111  25 Autotie Ia
+line:12112  25 Autotie Ib
+line:12121  25 Autotie IIa
+line:12122  25 Autotie IIb
+line:12131  25 Autotie IIIa
+line:12132  25 Autotie IIIb
+line:12141  25 Ajotie
+line:12151  25 Lautta
+line:12152  25 Lossi
+line:12153  25 Huoltoaukko ilman puomia
+line:12154  25 Huoltoaukko puomilla
+line:12312  25 Talvitie
+line:12313  25 Polku
+line:12314  25 K.vely- ja py.r.tie
+line:12316  25 Ajopolku
+line:14100  25 Rautatie
+line:14110  25 Rautatie
+line:14111  25 Rautatie, s.hk.istetty
+line:14112  25 Rautatie, s.hk.ist.m.t.n
+line:14121  25 Kapearaiteinen rautatie
+line:14131  25 Metro
+line:16500  25 Vesikulkuv.yl.
+line:16511  25 Laivav.yl.
+line:16512  25 Venereitti
+line:16521  25 Laivav.yl.linja
+line:16522  25 Venereittilinja
+line:22200  28 Muuntoasema / подстанция
+line:22300  28 S.hk.linja
+line:22311  28 S.hk.linja, suurj.nnite / большая ЛЭП
+line:22312  28 S.hk.linja, jakeluj.nnite / маленькая ЛЭП
+line:26100  28 Putkijohto / трубоповоды
+line:26111  28 Putkijohto, kaasu
+line:26112  28 Putkijohto, kiinte. aine
+line:26113  28 Putkijohto, l.mp.
+line:26114  28 Putkijohto, vesi
+line:26115  28 Putkijohto, vesih.yry
+line:26116  28 Putkijohto, viem.ri
+line:26117  28 Putkijohto, .ljy
+line:30100  19 Keinotekoinen rantaviiva
+line:30200  19 Maastokuvion reuna
+line:30200  22 Maasto/2-kuvion reuna             Maasto/2         Maasto/2 alueet
+line:30211  19 Yksik.sitteinen reunaviiva
+line:30211  22 Maasto/2 yksik.sitteinen reunaviiva / четкая граница
+line:30212  19 Ep.m..r.inen reunaviiva
+line:30212  22 Maasto/2 ep.m..r.inen reunaviiva / нечеткая граница
+line:30300  19 Pato
+line:30400  19 Sulkuportti
+line:30900  19 Vesialueiden v.linen reuna
+line:30999  19 Maasto/1 tekninen reunaviiva
+line:30999  22 Maasto/2 tekninen reunaviiva
+line:30999  26 Suojelukohteet tekninen reunaviiva
+line:34400  19 Jyrka:nne / скальный обрыв, ориентированная линия верхнего края
+line:34500  19 Kalliohalkeama / скальная трещина
+line:34800  19 Luiska / верхний край крутого склона
+line:35200  19 Puurivi
+line:35500  19 Suoj.nne
+line:36300  19 Virtavesi / река
+line:36311  19 Virtavesi, alle 2m / река до 2м
+line:36312  19 Virtavesi, 2-5m / река 2-5м
+line:38200  22 Koski / порог (линия)
+line:39000  22 Uittor.nni
+line:39500  22 Mets.n raja
+line:40100  34 Taajaan rakennetun alueen reunaviiva
+line:40999  34 Taajaan rakennettu alue tekninen reunaviiva
+line:42110  27 Asuinrakennus, ? krs / жилое здание
+line:42111  27 Asuinrakennus, 1-2 krs
+line:42112  27 Asuinrakennus, 3-n krs
+line:42120  27 Liike- tai julkinen rakennus, ?-krs / деловое/обественное здание
+line:42121  27 Liike- tai julkinen rakennus, 1-2 krs
+line:42122  27 Liike- tai julkinen rakennus, 3-n krs
+line:42130  27 Lomarakennus, ? krs / дачи
+line:42131  27 Lomarakennus, 1-2 krs
+line:42132  27 Lomarakennus, 3-n krs
+line:42140  27 Teollinen rakennus, ? krs / пром.здание
+line:42141  27 Teollinen rakennus, 1-2 krs
+line:42142  27 Teollinen rakennus, 3-n krs
+line:42150  27 Kirkollinen rakennus, ? krs / церковное здание
+line:42151  27 Kirkollinen rakennus, 1-2 krs
+line:42152  27 Kirkollinen rakennus, 3-n krs
+line:42160  27 Muu rakennus, ? krs  / другое здание - лесные хижины!
+line:42161  27 Muu rakennus, 1-2 krs
+line:42162  27 Muu rakennus, 3-n krs
+line:42170  27 Kirkko
+line:42200  27 Rakennusalueen reunaviiva
+line:44100  27 Aallonmurtaja / волнорез
+line:44200  27 Aita / забор
+line:44211  27 Aita,tekoaines / забор
+line:44213  27 Aita, istutettu / живая изгородь
+line:44300  27 Allas-viiva / граница бассейна
+line:44500  27 Ilmarata / канатная дорога
+line:45100  27 Pistolaituri - viiva / пристань
+line:45111  27 Pistolaituri, alle 5 m
+line:45112  27 Pistolaituri, v.hint..n 5 m
+line:45700  27 RakennelmaSelite
+line:52100  20 Korkeusk.yr. / горизонталь
+line:54100  20 Syvyysk.yr.
+line:62100  29 Ampuma-alue / стрельбище
+line:62200  29 Suoja-alueen reunaviiva
+line:72000  26 Suojelualueen reunaviiva
+line:72410  26 Rauhoitettu kivi
+line:72420  26 Rauhoitettu puu
+line:72440  26 Muu rauhoitettu kohde
+line:72700  26 Era:maa-alue / дикая территория
+line:74330  26 Muinaisj..nn.s / археологический памятник
+line:82100  23 Aluemeren ulkoraja / внешняя граница территориального моря
+line:82200  23 Rajavy.hykkeen takaraja
+line:82300  23 Sis.isten aluevesien ulkorajaotus
+line:82400  23 Ulko- ja sis.saariston raja
+line:84100  23 Kunnan hallintoraja                 Kunta, Selite
+line:84111  23 Valtakunnan raja
+line:84112  23 L..nin raja
+line:84113  23 Kunnan raja
+line:84114  23 K.ym.t.n raja
+line:84115  23 Maakunnan raja
+
+point:12192 45 Lauttasymboli
+point:12193 45 Lossisymboli
+point:12200 45 Esterakennelma
+point:14191 45 Rautatie, s.hk.istyssymboli
+point:14192 45 Rautatie, k.yt.st. poistetun
+point:14200 45 Rautatieliikennepaikka
+point:16100 45 Turvalaite / водные знаки
+point:16120 45 Linjamerkki
+point:16121 45 Kummeli
+point:16122 45 Tunnusmajakka
+point:16124 45 Loisto
+point:16125 45 Linjaloisto
+point:16126 45 Merimajakka
+point:16127 45 Tutkamerkki
+point:16128 45 Valaistu tutkamerkki
+point:16141 45 Merimerkki, vasen
+point:16142 45 Merimerkki, oikea
+point:16143 45 Merimerkki, pohjois
+point:16144 45 Merimerkki, etel.
+point:16145 45 Merimerkki, it.
+point:16146 45 Merimerkki, l.nsi
+point:16147 45 Merimerkki, kari
+point:16148 45 Merimerkki, turva
+point:16149 45 Merimerkki, erikois
+point:16151 45 Viittapoiju, vasen
+point:16152 45 Viittapoiju, oikea
+point:16153 45 Viittapoiju, pohjois
+point:16154 45 Viittapoiju, etel.
+point:16155 45 Viittapoiju, it.
+point:16156 45 Viittapoiju, l.nsi
+point:16157 45 Viittapoiju, kari
+point:16158 45 Viittapoiju, turva
+point:16159 45 Viittapoiju, erikois
+point:16161 45 Poiju, vasen
+point:16162 45 Poiju, oikea
+point:16163 45 Poiju, pohjois
+point:16164 45 Poiju, etel.
+point:16165 45 Poiju, it.
+point:16166 45 Poiju, l.nsi
+point:16167 45 Poiju, kari
+point:16168 45 Poiju, turva
+point:16169 45 Poiju, erikois
+point:16171 45 Valopoiju, vasen
+point:16172 45 Valopoiju, oikea
+point:16173 45 Valopoiju, pohjois
+point:16174 45 Valopoiju, etel.
+point:16175 45 Valopoiju, it.
+point:16176 45 Valopoiju, l.nsi
+point:16177 45 Valopoiju, kari
+point:16178 45 Valopoiju, turva
+point:16179 45 Valopoiju, erikois
+point:16181 45 J..poiju, vasen
+point:16182 45 J..poiju, oikea
+point:16183 45 J..poiju, pohjois
+point:16184 45 J..poiju, etel.
+point:16185 45 J..poiju, it.
+point:16186 45 J..poiju, l.nsi
+point:16187 45 J..poiju, kari
+point:16188 45 J..poiju, turva
+point:16189 45 J..poiju, erikois
+point:16191 45 Valoj..poiju, vasen
+point:16192 45 Valoj..poiju, oikea
+point:16193 45 Valoj..poiju, pohjois
+point:16194 45 Valoj..poiju, etel.
+point:16195 45 Valoj..poiju, it.
+point:16196 45 Valoj..poiju, l.nsi
+point:16197 45 Valoj..poiju, kari
+point:16198 45 Valoj..poiju, turva
+point:16199 45 Valoj..poiju, erikois
+point:16201 45 Reunamerkki, vasen
+point:16202 45 Reunamerkki, oikea
+point:16203 45 Reunamerkki, pohjois
+point:16204 45 Reunamerkki, etel.
+point:16205 45 Reunamerkki, it.
+point:16206 45 Reunamerkki, l.nsi
+point:16211 45 Valaistu reunamerkki, vasen
+point:16212 45 Valaistu reunamerkki, oikea
+point:16213 45 Valaistu reunamerkki, pohjois
+point:16214 45 Valaistu reunamerkki, etel.
+point:16215 45 Valaistu reunamerkki, it.
+point:16216 45 Valaistu reunamerkki, l.nsi
+point:16505 45 Nimelliskulkusuunta
+point:16506 45 Suositeltu kulkusuunta
+point:16507 45 Pakollinen kulkusuunta
+point:16600 45 Ankkuripaikka / место якорной стоянки
+point:16700 45 Hylky / затонувшее судно
+point:16712 45 Hylky, pinnalla / затонувшее судно, на поверхности
+point:16721 45 Hylky, syvyys tuntematon / затонувшее судно, глубина неизвестна
+point:16722 45 Hylky, syvyys tunnettu / затонувшее судно, глубина известна
+point:16800 45 Tunnelin aukko / вход в туннель
+point:16800 45 Tunnelin aukko / вход в туннель
+point:22100 48 Muuntaja / трансформатор
+point:22392 48 Suurj.nnitelinjan pylv.s
+point:22394 48 Suurj.nnitelinjan symboli / символ большой  ЛЭП
+point:22395 48 Jakeluj.nnitelinjan symboli / символ маленькой ЛЭП
+point:26191 48 Putkijohdon symboli, kaasu
+point:26192 48 Putkijohdon symboli, kiinte. aine
+point:26193 48 Putkijohdon symboli, l.mp.
+point:26194 48 Putkijohdon symboli, vesi
+point:26195 48 Putkijohdon symboli, vesih.yry
+point:26196 48 Putkijohdon symboli, viem.ri
+point:26197 48 Putkijohdon symboli, .ljy
+point:26200 48 Vedenottamo
+point:32191 13 Eloper.inen ainessymboli
+point:32192 13 Hieno kivenn.isainessymboli
+point:32291 13 Hautausmaan symboli
+point:32591 13 Louhoksen symboli
+point:32700 13 Mets.maan kasvillisuus
+point:32710 13 Havumets.
+point:32713 13 Lehtimets.
+point:32714 13 Sekamets.
+point:32715 13 Varvikko
+point:32719 13 Pensaikko
+point:32721 13 Mets.maan ojitus
+point:32891 13 Niityn symboli
+point:33091 13 T.ytemaan symboli
+point:34100 13 Kallio - symboli / скала
+point:34200 13 Harva louhikko / каменная россыпь ?
+point:34600 13 Kivi / большой камень
+point:34900 13 Merkitt.v. luontokohde
+point:35100 13 Puu
+point:36100 13 L.hde / родник
+point:36392 13 Kapean virtaveden juoksusuunta
+point:36393 13 Leve.n virtaveden juoksusuunta
+point:36400 13 Vesikuoppa
+point:38100 42 Kaislikko / тростник
+point:38500 42 Vesikivi
+point:38511 42 Vesikivi, vedenalainen
+point:38512 42 Vesikivi, pinnassa
+point:38513 42 Vesikivi, vedenp..llinen
+point:38800 42 Uittolaite
+point:38991 42 Varastoalueen symboli
+point:44591 47 Ilmaradan kannatinpylv.s / опора канатной дороги
+point:44600 47 Kellotapuli / башня с часами
+point:44700 47 L.hestymisvalo / огни наведения аэропорта
+point:44800 47 Masto
+point:44900 47 Muistomerkki / памятник
+point:45000 47 N.k.torni / смотровая башня
+point:45200 47 Portti
+point:45300 47 SavupiippuSavupiipun korkeus
+point:45400 47 TervahautaSelite
+point:45500 47 Tuulivoimala / ветряк
+point:45710 47 Tulentekopaikka  / место костра!
+point:45800 47 Vesitorni
+point:52192 14 Korkeusk.yr.n viettoviiva
+point:52193 14 Apuk.yr.n viettoviiva
+point:54192 14 Syvyysk.yr.n viettoviiva
+point:72310 46 Rauhoitettu kivi
+point:72320 46 Rauhoitettu puu
+point:72330 46 Muinaisj..nn.s / археологический памятник
+point:72340 46 Muu rauhoitettu kohde
+point:82500 43 Valtakunnan rajapyykki
+point:95100 50 Tasokiintopiste / реперная точка уровня
+point:95111 50 Tasokiintopiste, I luokka / реперная точка уровня, 1кл
+point:95112 50 Tasokiintopiste, II luokka
+point:95113 50 Tasokiintopiste, III luokka
+point:95200 50 Korkeuskiintopiste / реперная точка
+point:95211 50 Korkeuskiintopiste, I luokka / реперная точка, 1 класс
+point:95212 50 Korkeuskiintopiste, II luokka / реперная точка, 2 класс
+point:95213 50 Korkeuskiintopiste, III luokka / реперная точка, 3 класс
+point:95214 50 Korkeuskiintopiste, IV luokka / реперная точка, 4 класс
+point:95300 50 Vesiasteikko
+
+text:12106  55 Autotien lauttanumero
+text:12181  55 Paikallistien numero
+text:12182  55 Maantien numero
+text:12183  55 E- valta- tai kantatien numero
+text:12301  55 Kulkuv.yl.n nimi
+text:12302  55 Kulkuv.yl.n selite
+text:14201  55 Rautatieliikennepaikan nimi
+text:16101  55 Turvalaitteen nimi
+text:16102  55 Turvalaitteen selite
+text:16503  55 Kulkusyvyys (2.2mm teksti)
+text:16504  55 Kulkusyvyys (1.8mm teksti)
+text:16508  55 Alikulkukorkeus
+text:16703  55 Hylyn syvyys / затонувшее судно, глубина
+text:26202  58 Vedenottamon selite
+text:32101  16 Maa-aineksenottoalueen nimi
+text:32102  16 Maa-aineksenottoalueen selite
+text:32201  16 Hautausmaan nimi
+text:32202  16 Hautausmaan selite
+text:32301  16 Kaatopaikan nimi
+text:32302  16 Kaatopaikan selite
+text:32401  16 Liikennealueen nimi
+text:32402  16 Liikennealueen selite
+text:32501  16 Louhoksen nimi
+text:32502  16 Louhoksen selite
+text:32602  16 Maatalousmaan selite
+text:32901  16 Puiston nimi
+text:32902  16 Puiston selite
+text:33001  16 T.ytemaan nimi
+text:33002  16 T.ytemaan selite
+text:33101  16 Urheilu- ja virkistysalueen nimi
+text:33102  16 Urheilu- ja virkistysalueen selite
+text:34601  16 Kiven nimi
+text:34901  16 Merkitt.v.n luontokohteen nimi
+text:34902  16 Merkitt.v.n luontokohteen selite
+text:35010  16 Pellon tai niityn nimi
+text:35020  16 Mets.alueen nimi
+text:35030  16 Suon nimi
+text:35040  16 Kohouman nimi
+text:35050  16 Painanteen nimi
+text:35060  16 Niemen nimi
+text:35070  16 Saaren nimi
+text:35080  16 Matalikon nimi
+text:35090  16 Muu maastonimi
+text:35101  16 Puun nimi
+text:35102  16 Puun selite
+text:36101  16 L.hteen nimi
+text:36201  16 Vakaveden nimi
+text:36291  16 Vedenpinnan korkeusluku
+text:36301  16 Virtaveden nimi
+text:36410  52 Vakaveden osan nimi
+text:36420  52 Virtaveden osan nimi
+text:36490  52 Muu vesist.kohteen nimi
+text:36500  16 Muun maastokohteen selite
+text:38201  52 Kosken nimi
+text:38501  52 Vesikiven nimi
+text:38901  52 Varastoalueen nimi
+text:38902  52 Varastoalueen selite
+text:39502  52 Mets.n rajan selite
+text:42101  57 Rakennuksen nimi
+text:42102  57 Rakennuksen selite
+text:42201  57 Rakennusryhm.n nimi
+text:42202  57 Rakennusryhm.n selite
+text:44202  57 Aidan selite
+text:44301  57 Altaan nimi
+text:44302  57 Altaan selite
+text:44402  57 Ilmaradan selite
+text:44803  57 Maston korkeus
+text:44901  57 Muistomerkin nimi
+text:44902  57 Muistomerkin selite
+text:45002  57 N.k.tornin selite
+text:45303  57 Savupiipun korkeusSavupiippu
+text:45402  57 Tervahaudan selite
+text:45502  57 Tuulivoimalan selite
+text:45702  57 Rakennelman selite
+text:45802  57 Vesitornin selite
+text:48111  57 Kaupungin nimi
+text:48112  57 Muun kunnan nimi
+text:48120  57 Kyl.n, kaupunginosan tai kulma-
+text:48130  57 Talon nimi
+text:48190  57 Muu asutusnimi
+text:52191  17 Korkeusk.yr.n korkeusarvo / подпись горизонтали
+text:54191  17 Syvyysk.yr.n syvyysarvo
+text:54210  17 Syvyyspiste
+text:62102  59 Ampuma-alueen selite
+text:62202  59 Suoja-alueen selite
+text:72201  56 Luonnonsuojelualueen nimi
+text:72202  56 Luonnonsuojelualueen selite
+text:72303  56 Luonnonmuistomerkin nimi
+text:72304  56 Luonnonmuistomerkin selite
+text:72403  56 Muinaisj..nn.ksen nimi
+text:72404  56 Muinaisj..nn.ksen selite
+text:72501  56 Suojamets.n selite
+text:72502  56 Luonnonpuiston nimi
+text:72601  56 Kansallispuiston nimi
+text:72701  56 Er.maa-alueen nimi
+text:72702  56 Er.maa-alueen selite
+text:72801  56 Retkeilyalueen nimi
+text:72802  56 Retkeilyalueen selite
+text:82102  53 Aluemeren ulkorajan selite
+text:82202  53 Rajavy.hykkeen takarajan selite
+text:82302  53 Sis.isten aluevesien ulkorajan selite
+text:82402  53 Ulko- ja sis.saariston rajan selite
+text:82501  53 Valtakunnan rajapyykin nimi
+text:84300  53 Kunnan hallintokeskus / муниципальный центр (ратуша и т.п.)
+text:84301  53 L..nin p..kaupunki / столица округа
+text:84302  53 Muu kaupunki / другой город
+text:84303  53 Muu kunta / другая область
+text:85100  53 Kunnan hallintorajan selite
+text:92401  18 Rajapyykin nimi
+text:95302  60 Vesiasteikon selite
