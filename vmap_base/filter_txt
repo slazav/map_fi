@@ -1,0 +1,11 @@
+sed -r -i '
+  /^name/{
+    s/Ylimmäi(nen|set) /Yl./
+    s/Ylimmäi(nen|set) /Yl./
+    s/Ylimmäisetlompolat/Yl.lompolat /
+    s/Keskimäi(nen|set) /Kesk./
+    s/Alimmai(nen|set) /Al./
+    s/Alempi /Al./
+    s/Ylempi /Yl./
+  }
+' V51_t.vmap2 V52_t.vmap2
