@@ -11,6 +11,7 @@
 
 #include "vmap2/vmap2.h"
 #include "vmap2/vmap2io.h"
+#include "vmap2/vmap2tools.h"
 
 using namespace std;
 
@@ -43,9 +44,9 @@ std::map<std::string, std::string> map_groups = {
   {"RakennusAlue",         "area"},
   {"RakennusPiste",       "point"},
   {"RakennusViiva",        "line"}, // Some constructions (lines): fence, ski lift, etc.
-  {"RautatiePiste",       "point"}, // Railroads (lines)
-  {"RautatieViiva",        "line"},
-  {"SahkoLinja",           "line"},
+  {"RautatiePiste",       "point"},
+  {"RautatieViiva",        "line"}, // Railroads (lines)
+  {"SahkoLinja",           "line"}, // Power lines
   {"SahkoPiste",          "point"},
   {"SuojaAlue",            "area"},
   {"SuojametsaRaja",       "line"},
@@ -67,20 +68,21 @@ std::map<std::string, std::string> map_groups = {
 // for importing initial data.
 // If destination is empty, type is silently skipped.
 // If destination is '+' type is not substituded.
+
 std::map<std::string, std::string> type_subst = {
- {"area:72200", "line:0x37"}, // нац.парк
- {"area:72201", "line:0x37"}, // природный парк
- {"area:72202", "line:0x37"}, // заповедник
+ {"area:72200", "line:0x37"}, // national park
+ {"area:72201", "line:0x37"}, // nature reserve
+ {"area:72202", "line:0x37"}, // protected area
  {"area:72700", "+"}, // дикая территория
  {"area:84200", "+"}, // муниципалитет
 
- {"line:84111", "line:0x1D"}, // гос.граница
+ {"line:84111", "line:0x1D"}, // country border
  {"line:82200", "line:0x36"}, // граница погранзоны
  {"line:84113", "+"}, // муниципальная граница
  {"line:72500", "+"}, // охраняемый лес - граница
  {"line:39500", "+"}, // граница зоны леса (глобальная)
 
- {"area:39120", "area:0x14"}, // кустарник
+ {"area:39120", "area:0x14"}, // кустарник/тундра
  {"area:32611", "area:0x52"}, // поле
  {"area:32800", "area:0x52"}, // луг
 
@@ -288,6 +290,8 @@ main(int argc, char *argv[]){
     // read file with type information if it's available
     VMap2types types(O);
     vmap2_export(vmap, types, out_file, Opt());
+    do_join_lines(vmap, 20, 90);
+
   }
   catch(Err & e){
     if (e.str()!="") cerr << "Error: " << e.str() << "\n";
