@@ -41,7 +41,7 @@ crds 27.460695 68.347049
 point:0x800
 name Koppelo
 tags D1
-crds 27.640283 68.732834
+crds 27.640229 68.732853
 
 point:0x800
 name Laanila
@@ -1979,7 +1979,7 @@ crds 27.253582 68.460661
 point:0x2800
 name Hentanjänkä
 tags D1
-crds 27.178678 68.546393
+crds 27.178627 68.546401
 
 point:0x2800
 name Hentankangas
@@ -2199,7 +2199,7 @@ crds 27.424973 68.358063
 point:0x2800
 name Leviävuopajasaari
 tags D1
-crds 27.667581 68.733186
+crds 27.667528 68.733206
 
 point:0x2800
 name Littosjänkä
@@ -2915,106 +2915,6 @@ point:0x2c04
 name neuvostosotilaiden hauta
 tags D2
 crds 28.056112 68.651241
-
-point:0x6415
-name kivik. asuinpaikka
-tags D2
-crds 27.555066 68.355185
-
-point:0x6415
-name kivik. asuinpaikka
-tags D2
-crds 27.827132 68.709540
-
-point:0x6415
-name kivik. asuinpaikka
-tags D2
-crds 27.833809 68.705854
-
-point:0x6415
-name pyyntikuoppa
-tags D2
-crds 27.247192 68.725927
-
-point:0x6415
-name pyyntikuoppa
-tags D2
-crds 27.280956 68.733588
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.259788 68.711196
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.291786 68.572469
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.308512 68.705128
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.327939 68.593875
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.336464 68.574595
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.608885 68.364000
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.807043 68.449830
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.832745 68.707095
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.874301 68.697280
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 28.097258 68.394391
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 28.115233 68.392496
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 28.116005 68.394230
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 28.160928 68.394050
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 28.217039 68.480718
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 28.302652 68.424719
 
 point:0x6508
 name Alakoski
@@ -3809,7 +3709,7 @@ crds 28.147205 68.556525
 point:0x650c
 name Kolmosjärvi
 tags D1
-crds 28.198505 68.576539
+crds 28.198457 68.576555
 
 point:0x650c
 name Kolmoslompolo
@@ -4229,7 +4129,7 @@ crds 28.334961 68.529646
 point:0x650c
 name Nuottamajärvi
 tags D1
-crds 28.141211 68.670295
+crds 28.141158 68.670312
 
 point:0x650c
 name Nälkäoja
@@ -4904,7 +4804,7 @@ crds 27.376645 68.736002
 point:0x650c
 name Yl.Mustajärvi
 tags D1
-crds 27.545710 68.732206
+crds 27.545664 68.732207
 
 point:0x650c
 name Yl.Nilijärvi
@@ -5155,128 +5055,6 @@ crds 28.252888 68.446685 28.252201 68.444698 28.254519 68.444666 28.260956 68.44
 area:0x4f
 crds 28.275890 68.434636 28.281040 68.435961 28.285160 68.436087 28.284903 68.434952 28.283014 68.433311 28.283615 68.431229 28.278551 68.431576 28.276320 68.433942 28.275890 68.434636
 
-text:0x1
-name kivik. asuinpaikka
-reft point:0x6415
-refp 27.555066 68.355185
-crds 27.557597 68.356659
-
-text:0x1
-name kivik. asuinpaikka
-reft point:0x6415
-refp 27.827132 68.709540
-crds 27.830339 68.708266
-
-text:0x1
-name kivik. asuinpaikka
-reft point:0x6415
-refp 27.833809 68.705854
-crds 27.825560 68.705770
-
-text:0x1
-name pyyntikuoppa
-reft point:0x6415
-refp 27.247192 68.725927
-crds 27.250101 68.726045
-
-text:0x1
-name pyyntikuoppa
-reft point:0x6415
-refp 27.280956 68.733588
-crds 27.284441 68.733126
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.259788 68.711196
-crds 27.263977 68.711234
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.308512 68.705128
-crds 27.303851 68.702915
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.336464 68.574595
-crds 27.336504 68.575013
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.608885 68.364000
-crds 27.604885 68.362215
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.807043 68.449830
-crds 27.808589 68.447969
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.832745 68.707095
-crds 27.836442 68.707179
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.874301 68.697280
-crds 27.879036 68.696877
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 28.097258 68.394391
-crds 28.088626 68.392617
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 28.115233 68.392496
-crds 28.111262 68.390953
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 28.116005 68.394230
-crds 28.113804 68.395381
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 28.160928 68.394050
-crds 28.162016 68.392442
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 28.217039 68.480718
-crds 28.215338 68.479165
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 28.302652 68.424719
-crds 28.305416 68.424578
-
-text:0x1
-algn SE
-name pyyntikuoppia
-reft point:0x6415
-refp 27.291786 68.572469
-crds 27.287363 68.571865
-
-text:0x1
-algn SE
-name pyyntikuoppia
-reft point:0x6415
-refp 27.327939 68.593875
-crds 27.324144 68.593585
-
 text:0x2
 name Einola
 reft point:0x900
@@ -5367,7 +5145,7 @@ text:0x2
 scle 1.1
 name Koppelo
 reft point:0x800
-refp 27.640283 68.732834
+refp 27.640229 68.732853
 crds 27.618618 68.736151
 
 text:0x2
@@ -6065,7 +5843,7 @@ scle 0.75
 name metsästysmaja
 reft point:0x2b04
 refp 27.857850 68.645253
-crds 27.856657 68.646478
+crds 27.849677 68.647032
 
 text:0x3
 scle 0.75
@@ -6272,7 +6050,7 @@ text:0x3
 scle 0.825
 name Hentanjänkä
 reft point:0x2800
-refp 27.178678 68.546393
+refp 27.178627 68.546401
 crds 27.168021 68.547140
 
 text:0x3
@@ -6328,7 +6106,7 @@ text:0x3
 scle 0.825
 name Leviävuopajasaari
 reft point:0x2800
-refp 27.667581 68.733186
+refp 27.667528 68.733206
 crds 27.662544 68.732363
 
 text:0x3
@@ -7161,13 +6939,6 @@ crds 27.785470 68.699929
 
 text:0x4
 scle 0.75
-name Iso Kuivajärvi
-reft point:0x650c
-refp 27.828886 68.630525
-crds 27.827870 68.630297
-
-text:0x4
-scle 0.75
 name Itäinen Torkojärvi
 reft point:0x650c
 refp 28.408006 68.497199
@@ -7214,13 +6985,6 @@ name Karhuntappojärvi
 reft point:0x650c
 refp 28.126373 68.594665
 crds 28.132692 68.594952
-
-text:0x4
-scle 0.75
-name Kesk.Kuivajärvi
-reft point:0x650c
-refp 27.851468 68.625060
-crds 27.857022 68.625984
 
 text:0x4
 scle 0.75
@@ -7507,7 +7271,7 @@ scle 0.75
 name Ristilompola
 reft point:0x650c
 refp 27.868985 68.634420
-crds 27.854743 68.632952
+crds 27.882376 68.632870
 
 text:0x4
 scle 0.75
@@ -7744,6 +7508,14 @@ crds 27.858570 68.586446
 text:0x4
 scle 0.75
 algn SE
+name Iso Kuivajärvi
+reft point:0x650c
+refp 27.828886 68.630525
+crds 27.826837 68.626932
+
+text:0x4
+scle 0.75
+algn SE
 name Kampa-Ahvenjärvi
 reft point:0x650c
 refp 28.493068 68.703061
@@ -7764,6 +7536,14 @@ name Kesk.Kettujärvi
 reft point:0x650c
 refp 28.108913 68.643737
 crds 28.106888 68.640597
+
+text:0x4
+scle 0.75
+algn SE
+name Kesk.Kuivajärvi
+reft point:0x650c
+refp 27.851468 68.625060
+crds 27.846490 68.622030
 
 text:0x4
 scle 0.75
@@ -8287,7 +8067,7 @@ text:0x4
 scle 0.825
 name Nuottamajärvi
 reft point:0x650c
-refp 28.141211 68.670295
+refp 28.141158 68.670312
 crds 28.142037 68.669115
 
 text:0x4
@@ -9091,7 +8871,7 @@ text:0x4
 scle 0.9
 name Yl.Mustajärvi
 reft point:0x650c
-refp 27.545710 68.732206
+refp 27.545664 68.732207
 crds 27.542425 68.731177
 
 text:0x4
@@ -9315,7 +9095,7 @@ crds 27.060088 68.709356
 text:0x4
 name Kolmosjärvi
 reft point:0x650c
-refp 28.198505 68.576539
+refp 28.198457 68.576555
 crds 28.199635 68.577957
 
 text:0x4
@@ -10202,7 +9982,7 @@ text:0x5
 name 217 Kivijärvenvaara
 reft point:0x1100
 refp 27.772850 68.638770
-crds 27.765812 68.638614
+crds 27.767392 68.636901
 
 text:0x5
 name 217 Korppivaara
@@ -10790,7 +10570,7 @@ text:0x5
 name 282 Katosselkä
 reft point:0x1100
 refp 27.901298 68.630234
-crds 27.896012 68.627994
+crds 27.894699 68.627961
 
 text:0x5
 name 283 Luusuavaara
@@ -10952,7 +10732,7 @@ text:0x5
 name 295 Isovaara
 reft point:0x1100
 refp 27.805740 68.630144
-crds 27.795288 68.630023
+crds 27.795561 68.631089
 
 text:0x5
 name 295 Ruohovaara
@@ -11534,7 +11314,7 @@ text:0x5
 name 374 Houvinkotapää
 reft point:0x1100
 refp 27.891906 68.565891
-crds 27.879800 68.565363
+crds 27.883754 68.563750
 
 text:0x5
 name 375 Pietarinvaara
@@ -11798,7 +11578,7 @@ text:0x5
 name 454 Kurupää
 reft point:0x1100
 refp 27.840853 68.594961
-crds 27.832221 68.596745
+crds 27.836182 68.596107
 
 text:0x5
 name 456 Pirttinokka
@@ -12010,7 +11790,7 @@ text:0x6
 name Kuivajärvenmorostot
 reft point:0xd00
 refp 27.831249 68.613998
-crds 27.814306 68.614189
+crds 27.818100 68.615113
 
 text:0x6
 name Kutturapäät

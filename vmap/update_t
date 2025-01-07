@@ -5,8 +5,8 @@
 files=${@:-*.vmap2}
 
 for f in $files; do
-  [ -f "$f" ] || cp ../vmap_base/${f%.vmap2}_t.vmap2 $f
-
   base=${f%.vmap2}
-  ../progs/update_text --types ../types.cfg "../vmap_base/${base}_t.vmap2" "$f"
+  [ -f "$f" ] || cp ../vmap_base/${base}_t.vmap2 ${base}.vmap2
+
+  ../progs/update_text --types ../types.cfg "../vmap_base/${base}_t.vmap2" "${base}.vmap2"
 done

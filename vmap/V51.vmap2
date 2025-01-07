@@ -41,7 +41,7 @@ crds 27.126934 68.107676
 point:0x900
 name Hiekkaharju
 tags D1
-crds 27.204629 68.075967
+crds 27.204584 68.075978
 
 point:0x900
 name Lehtola
@@ -376,7 +376,7 @@ crds 28.295662 67.959171
 point:0x1100
 name 270 Pultsaharju
 tags D1
-crds 27.067768 68.149024
+crds 27.067718 68.149030
 
 point:0x1100
 name 271 Lavakaarto
@@ -951,7 +951,7 @@ crds 27.422472 68.226016
 point:0x1100
 name 353 Viutavaara
 tags D1
-crds 27.612710 68.177393
+crds 27.612658 68.177394
 
 point:0x1100
 name 354 Iso Vuomaselkä
@@ -1586,7 +1586,7 @@ crds 28.362146 68.278071
 point:0x1100
 name 637 Siulapää
 tags D1
-crds 28.427243 68.173126
+crds 28.427192 68.173143
 
 point:0x1100
 name 641 Sollanpää
@@ -2121,7 +2121,7 @@ crds 28.030097 67.917577
 point:0x2800
 name Luotterma-aapa
 tags D1
-crds 27.773637 68.027316
+crds 27.773586 68.027326
 
 point:0x2800
 name Lupposelkä
@@ -2521,7 +2521,7 @@ crds 28.330314 68.051806
 point:0x2800
 name Sankavosa
 tags D1
-crds 28.313187 68.040187
+crds 28.313140 68.040203
 
 point:0x2800
 name Sarvikotamaa
@@ -3176,7 +3176,7 @@ crds 28.850174 68.083816
 point:0x2b04
 name laavu
 tags D2
-crds 29.179902 67.893141
+crds 29.179851 67.893149
 
 point:0x2b04
 name laavu
@@ -3224,99 +3224,9 @@ tags D2
 crds 27.489268 68.107467
 
 point:0x6415
-name kivik. asuinpaikka
-tags D2
-crds 27.485150 68.108442
-
-point:0x6415
-name muinainen asuinpaikka
-tags D2
-crds 27.305028 68.049815
-
-point:0x6415
-name muinainen asuinpaikka
-tags D2
-crds 27.412752 68.070124
-
-point:0x6415
-name muinaisasuinpaikka
-tags D2
-crds 28.099003 68.012665
-
-point:0x6415
 name purnut.
 tags D2
 crds 27.071480 67.950050
-
-point:0x6415
-name pyyntikuoppa
-tags D2
-crds 27.054668 68.121059
-
-point:0x6415
-name pyyntikuoppa
-tags D2
-crds 27.058028 67.956671
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.028358 68.133903
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.408316 68.058095
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.410147 68.050313
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.482253 68.182064
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.568348 68.240510
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.574538 68.243610
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.739529 68.258856
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.741136 68.265537
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 27.810473 68.301656
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 28.012992 68.207722
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 28.202315 68.111497
-
-point:0x6415
-name pyyntikuoppia
-tags D2
-crds 28.345803 68.109111
 
 point:0x6415
 name rauh.
@@ -3626,7 +3536,7 @@ crds 29.109892 67.894713
 point:0x650c
 name Kärekeojanhaara
 tags D1
-crds 29.051116 67.875447
+crds 29.051065 67.875464
 
 point:0x650c
 name Kärppäjärvet
@@ -3886,7 +3796,7 @@ crds 27.233520 67.898917
 point:0x650c
 name Ruotkunoja
 tags D1
-crds 28.038114 68.164264
+crds 28.038064 68.164273
 
 point:0x650c
 name Saarisuvanto
@@ -4587,106 +4497,10 @@ refp 27.489268 68.107467
 crds 27.493014 68.107105
 
 text:0x1
-name kivik. asuinpaikka
-reft point:0x6415
-refp 27.485150 68.108442
-crds 27.482391 68.109928
-
-text:0x1
-name muinainen asuinpaikka
-reft point:0x6415
-refp 27.305028 68.049815
-crds 27.303467 68.051088
-
-text:0x1
-name muinainen asuinpaikka
-reft point:0x6415
-refp 27.412752 68.070124
-crds 27.412902 68.071642
-
-text:0x1
-name muinaisasuinpaikka
-reft point:0x6415
-refp 28.099003 68.012665
-crds 28.105506 68.012158
-
-text:0x1
 name purnut.
 reft point:0x6415
 refp 27.071480 67.950050
 crds 27.072707 67.949925
-
-text:0x1
-name pyyntikuoppa
-reft point:0x6415
-refp 27.054668 68.121059
-crds 27.057695 68.121106
-
-text:0x1
-name pyyntikuoppa
-reft point:0x6415
-refp 27.058028 67.956671
-crds 27.049905 67.954379
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.408316 68.058095
-crds 27.412381 68.057370
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.410147 68.050313
-crds 27.412872 68.049056
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.482253 68.182064
-crds 27.476261 68.180354
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.568348 68.240510
-crds 27.569196 68.237452
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.574538 68.243610
-crds 27.577523 68.243882
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.739529 68.258856
-crds 27.743272 68.258315
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.741136 68.265537
-crds 27.744136 68.265029
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 27.810473 68.301656
-crds 27.809308 68.299591
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 28.202315 68.111497
-crds 28.205369 68.111404
-
-text:0x1
-name pyyntikuoppia
-reft point:0x6415
-refp 28.345803 68.109111
-crds 28.343216 68.110442
 
 text:0x1
 name rauh.
@@ -4700,24 +4514,10 @@ reft point:0x6415
 refp 27.370859 68.122452
 crds 27.372785 68.123627
 
-text:0x1
-algn SE
-name pyyntikuoppia
-reft point:0x6415
-refp 27.028358 68.133903
-crds 27.024574 68.133673
-
-text:0x1
-algn SE
-name pyyntikuoppia
-reft point:0x6415
-refp 28.012992 68.207722
-crds 28.009703 68.206154
-
 text:0x2
 name Hiekkaharju
 reft point:0x900
-refp 27.204629 68.075967
+refp 27.204584 68.075978
 crds 27.206441 68.074754
 
 text:0x2
@@ -5211,7 +5011,7 @@ text:0x3
 scle 0.75
 name laavu
 reft point:0x2b04
-refp 29.179902 67.893141
+refp 29.179851 67.893149
 crds 29.181662 67.893148
 
 text:0x3
@@ -5552,7 +5352,7 @@ text:0x3
 scle 0.825
 name Sankavosa
 reft point:0x2800
-refp 28.313187 68.040187
+refp 28.313140 68.040203
 crds 28.314657 68.041601
 
 text:0x3
@@ -6489,7 +6289,7 @@ crds 28.435313 68.012388
 text:0x3
 name Luotterma-aapa
 reft point:0x2800
-refp 27.773637 68.027316
+refp 27.773586 68.027326
 crds 27.742717 68.025450
 
 text:0x3
@@ -7761,6 +7561,14 @@ refp 27.529951 68.210314
 crds 27.498256 68.216111
 
 text:0x4
+angl -316.079
+scle 0.825
+name Kärekeojanhaara
+reft point:0x650c
+refp 29.051065 67.875464
+crds 29.110643 67.878793
+
+text:0x4
 angl -315.538
 scle 0.9
 algn S
@@ -8097,7 +7905,7 @@ angl -66.1699
 scle 0.825
 name Ruotkunoja
 reft point:0x650c
-refp 28.038114 68.164264
+refp 28.038064 68.164273
 crds 28.044392 68.167255
 
 text:0x4
@@ -8486,21 +8294,6 @@ reft point:0x650c
 refp 29.000932 67.973039
 crds 29.128143 67.980825
 
-text:0x4
-angl 43.9241
-scle 0.825
-name Kärekeojanhaara
-reft point:0x650c
-refp 29.051116 67.875447
-crds 29.110643 67.878793
-
-text:0x5
-scle 0.75
-name 713 Sokosti
-reft point:0x1100
-refp 28.138828 68.218470
-crds 28.143099 68.217451
-
 text:0x5
 name 222 Pieni Pittivaara
 reft point:0x1100
@@ -8642,7 +8435,7 @@ crds 28.284302 67.960200
 text:0x5
 name 270 Pultsaharju
 reft point:0x1100
-refp 27.067768 68.149024
+refp 27.067718 68.149030
 crds 27.059733 68.149995
 
 text:0x5
@@ -9296,7 +9089,7 @@ crds 27.408233 68.223692
 text:0x5
 name 353 Viutavaara
 reft point:0x1100
-refp 27.612710 68.177393
+refp 27.612658 68.177394
 crds 27.600842 68.175061
 
 text:0x5
@@ -10034,7 +9827,7 @@ crds 28.359365 68.275375
 text:0x5
 name 637 Siulapää
 reft point:0x1100
-refp 28.427243 68.173126
+refp 28.427192 68.173143
 crds 28.407090 68.175352
 
 text:0x5
@@ -10150,6 +9943,13 @@ refp 27.155279 67.975775
 crds 27.151933 67.977819
 
 text:0x5
+scle 1.5
+name 713 Sokosti
+reft point:0x1100
+refp 28.138828 68.218470
+crds 28.141587 68.216185
+
+text:0x5
 angl -341.217
 name 255 Yl.lamminharju
 reft point:0x1100
@@ -10172,7 +9972,7 @@ text:0x6
 name Juromapäät
 reft point:0xd00
 refp 27.897369 68.295034
-crds 27.899063 68.296845
+crds 27.896507 68.296633
 
 text:0x6
 name Kangas-Rakitsat

@@ -74,6 +74,13 @@ void filter_vmap(VMap2 & vmap){
 //    change_name(obj, 0x2b04, NAN, NAN, u8"^leir.alue", u8""); // camping
     change_name(obj, 0x2b04, NAN, NAN, u8"^vanhaink.", u8""); // д/о
 
+    change_name(obj, 0x6415, NAN, NAN, u8"^struven ketjun piste", "Struven ketjun piste");
+    change_name(obj, 0x6415, NAN, NAN, u8"^pyyntikuop(at|pia|pa)", "");
+    change_name(obj, 0x6415, NAN, NAN, u8"^kivik. asuinpaikka", "");
+    change_name(obj, 0x6415, NAN, NAN, u8"^muinainen asuinpaikka", "");
+    change_name(obj, 0x6415, NAN, NAN, u8"^muinaisasuinpaikka", "");
+    change_name(obj, 0x6415, NAN, NAN, u8"^kivikautinen asuinpaikka", "");
+
     // V51
 
     change_name(obj, 0x2b04, 28.021351, 68.209214,
@@ -112,6 +119,13 @@ void filter_vmap(VMap2 & vmap){
 
     change_name(obj, 0x2800, 27.523532, 68.654741,
       u8"^moottorikelkkareitti", "");
+
+    // V41
+    change_name(obj, 0x2800, 25.779002, 68.669768,
+      u8"^Morgamojan Kultala", "");
+
+    change_name(obj, 0x2800, 25.002424, 68.410926,
+      u8"^Kultakuru", "");
 
     if (obj.name == "") vmap.del(id);
     else vmap.put(id, obj);
