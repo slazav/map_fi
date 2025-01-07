@@ -1,7 +1,7 @@
 *.o
+find_object
 make_text
 make_base
-make_base2
 map_brd
 update_text
 Makefile.deps
