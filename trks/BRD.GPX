@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2025-01-07T18:38:26.603Z</time>
+	</metadata>
+	<trk>
+		<name>BRD</name>
+		<trkseg>
+			<trkpt lat="68.445139" lon="26.989288"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="67.881230" lon="26.987915"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="67.867523" lon="29.286804"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.077663" lon="29.309120"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.196307" lon="28.645477"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.307425" lon="28.578100"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.319510" lon="28.570719"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.342803" lon="28.556042"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.376007" lon="28.535013"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.415257" lon="28.510551"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.443626" lon="28.492956"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.518682" lon="28.447037"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.539417" lon="28.433647"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.594366" lon="28.510895"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.657305" lon="28.599815"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.717076" lon="28.684616"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.732648" lon="28.707619"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.737753" lon="28.710709"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.746093" lon="26.998558"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="68.447662" lon="26.996155"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>
