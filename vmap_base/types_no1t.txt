@@ -1,0 +1,102 @@
+# type  - pt type - text type - keep angle - scale -
+
+## Море
+fjord      text:4  point:0x650C  1  x1  # sjo/farvann   /fjord      -- фьорд
+holmeISjo  text:3  point:0x2800  0  x1  # sjo/kystkontur/holmeISjo  -- остров
+nesISjo    text:3  point:0x2800  0  x1  # sjo/kystkontur/nesISjo    -- мыс
+strandISjo text:3  point:0x2800  0  x1  # sjo/kystkontur/strandISjo -- пляж/берег
+vikISjo    text:4  point:0x650C  0  x1  # sjo/kystkontur/vikISjo    -- бухта
+
+## Пресная вода
+eid         text:3  point:0x2800  0  x1     # ferskvann/ferskvannskontur/eid  -- берег, ?
+halvoy      text:3  point:0x2800  0  x1     # ferskvann/ferskvannskontur/halvoy -- мыс
+holme       text:3  point:0x2800  0  x1     # ferskvann/ferskvannskontur/holme -- остров
+oy          text:3  point:0x2800  0  x1     # ferskvann/ferskvannskontur/oy -- тоже остров?
+oygruppe    text:3  point:0x2800  0  x1     # ferskvann/ferskvannskontur/oygruppe -- группа островов
+nes         text:3  point:0x2800  0  x1     # ferskvann/ferskvannskontur/nes   -- мыс
+strand      text:3  point:0x2800  0  x1     # ferskvann/ferskvannskontur/strand -- пляж/берег
+vik         text:4  point:0x650C  0  x1     # ferskvann/ferskvannskontur/vik -- бухта
+sund        text:4  point:0x650C  0  x1     # ferskvann/ferskvannskontur/sund -- пролив?
+skjaer       text:3  point:0x2800  0  x1     # ferskvann/grunnerIFerskvann/skjaer -- мель
+bekk        text:4  point:0x650C  1  x1     # ferskvann/rennendeVann/bekk -- ручей
+elv         text:4  point:0x650C  1  x1     # ferskvann/rennendeVann/elv -- река
+foss        text:4  point:0x6508  0  0.750  # ferskvann/rennendeVann/foss -- водопад
+hol         text:4  point:0x650C  0  0.750  # ferskvann/rennendeVann/hol -- плес/омут?
+lon         text:4  point:0x6508  0  0.750  # ferskvann/rennendeVann/lon -- порог/плотина?
+nesVedElver text:3  point:0x2800  0  x1     # ferskvann/rennendeVann/nesVedElver - речной мыс
+os          text:4  point:0x650C  0  0.750  # ferskvann/rennendeVann/os -- слияние рек?
+stryk       text:4  point:0x6508  0  0.750  # ferskvann/rennendeVann/stryk -- порог
+gruppeAvTjern text:4  point:0x650C  0  x1     # ferskvann/stillestaendeVann/gruppeAvTjern -- группа озер
+gruppeAvVann  text:4  point:0x650C  0  x1     # ferskvann/stillestaendeVann/gruppeAvVann -- группа озер?
+innsjo        text:4  point:0x650C  0  x1     # ferskvann/stillestaendeVann/innsjo -- озеро
+tjern         text:4  point:0x650C  0  x1     # ferskvann/stillestaendeVann/tjern -- озеро
+vann          text:4  point:0x650C  0  x1     # ferskvann/stillestaendeVann/vann -- озеро
+delAvInnsjo   text:4  point:0x6508  0 0.750   # ferskvann/stillestaendeVann/delAvInnsjo - часть озера?
+
+## Рельеф
+berg        text:5  point:0x1100  0  1.0     # terreng/hoyder/berg -- гора
+fjell       text:5  point:0x1100  0  1.0     # terreng/hoyder/fjell --гора
+hoyde       text:5  point:0x1100  0  1.0     # terreng/hoyder/hoyde -- высота
+topp        text:5  point:0x1100  0  1.0     # terreng/hoyder/topp -- вершина
+fjellkant   text:3  point:0x2800  0  x1     # terreng/hoyder/fjellkant -- горный район
+rygg        text:3  point:0x2800  0  x1     # terreng/hoyder/rygg -- хребет
+haug        text:3  point:0x2800  0  x1     # terreng/hoyder/haug -- насыпь
+as          text:3  point:0x2800  0  x1     # terreng/hoyder/as -- ?
+mo          text:3  point:0x2800  0  x1     # terreng/flater/mo -- ?
+slette      text:3  point:0x2800  0  x1     # terreng/flater/slette -- равнина
+botn        text:3  point:0x2800  0  x1     # terreng/senkninger/botn -- дно впадины
+dal         text:3  point:0x2800  1  x1     # terreng/senkninger/dal -- долина
+sokk        text:3  point:0x2800  0  x1     # terreng/senkninger/sokk -- какая-то долинка/овраг?
+senkning    text:3  point:0x2800  0  x1     # terreng/senkninger/senkning -- депрессия
+skar        text:3  point:0x2800  0  x1     # terreng/senkninger/skar -- уступ
+bakke       text:3  point:0x2800  0  x1     # terreng/skraninger/bakke -- холм
+li          text:3  point:0x2800  0  x1     # terreng/skraninger/li -- склон
+fjellside   text:3  point:0x2800  0  x1     # terreng/skraninger/fjellside -- склон?
+hylle       text:3  point:0x2800  0  x1     # terreng/terrengdetaljer/hylle -- полка
+fjellomrade text:3  point:0x2800  0  x1     # terreng/terrengomrader/fjellomrade -- горная местность
+vidde       text:3  point:0x2800  0  x1     # terreng/terrengomrader/vidde -- плато
+
+## Поселения
+bygdelagBygd   text:2  point:0x900   0  x1  # bebyggelse/bebyggelsesomrader/bygdelagBygd -- более центральная деревня?
+grend          text:2  point:0x900   0  x1  # bebyggelse/bebyggelsesomrader/grend -- деревня
+hyttefelt      text:2  point:0x900   0  x1  # bebyggelse/bebyggelsesomrader/hyttefelt -- коттеджный поселок
+tettbebyggelse text:2  point:0x900   0  x1  # bebyggelse/bebyggelsesomrader/tettbebyggelse -- застроенный район
+tettsted       text:2  point:0x900   0  x1  # bebyggelse/bebyggelsesomrader/tettsted -- поселение
+boligfelt      text:2  point:0x900   0  x1  # bebyggelse/bebyggelsesomrader/boligfelt -- небольшая деревня
+tuft           text:3  point:0x2800  0  0.75 # bebyggelse/bebyggelsesomrader/tuft - что-то совсем маленькое
+
+## жилой дом
+eneboligMindreBoligbygg  text:3  point:0x2800  0  0.75  # bebyggelse/bolighus/eneboligMindreBoligbygg -- дом
+fritidsbolig             text:3  point:0x2800  0  0.75  # bebyggelse/bolighus/fritidsbolig -- д/о
+gammelBosettingsplass    text:3  point:0x2800  0  0.75  # bebyggelse/bolighus/gammelBosettingsplass -- старое поселение
+
+## разные строения
+bruk                         text:2  point:0x900   0  0.75  # bebyggelse/gardsbebyggelse/bruk -- хутор?
+gard                         text:2  point:0x900   0  0.75  # bebyggelse/gardsbebyggelse/gard -- ферма
+byggForJordbrukFiskeOgFangst text:3  point:0x2800  0  0.75  # bebyggelse/gardsbebyggelse/byggForJordbrukFiskeOgFangst - сельхоз/здание
+eiendom                      text:3  point:0x2800  0  0.75  # bebyggelse/gardsbebyggelse/eiendom
+gjerde                       text:3  point:0x2800  0  0.75  # bebyggelse/gardsbebyggelse/gjerde -- забор?
+seterStol                    text:3  point:0x2800  0  0.75  # bebyggelse/gardsbebyggelse/seterStol
+
+turisthytte                  - - 0  0.75  # bebyggelse/naering/turisthytte -- hytta - take from basemap!
+
+## транспорт
+fyrlykt text:3  point:0x2800  0  0.75  # infrastruktur/navigasjon/fyrlykt -- маяк
+bru     text:3  point:0x2800  0  0.75  # infrastruktur/samferdselsanlegg/bru -- мост
+tunnel  text:3  point:0x2800  0  0.75  # infrastruktur/samferdselsanlegg/tunnel -- туннель
+sti     text:3  point:0x2800  1  0.75  # infrastruktur/veg/sti -- дорога
+
+kirke             text:3  point:0x2800  0  0.75  # kultur/kulturinstitusjoner/kirke -- церковь
+annenKulturdetalj text:3  point:0x2800  0  0.75  # kultur/kulturminner/annenKulturdetalj -- другое культурное место
+eng               text:3  point:0x2800  0  0.75  # markslag/dyrkamark/eng -- луг
+setervoll         text:3  point:0x2800  0  0.75  # markslag/dyrkamark/setervoll -- пастбище
+utmark            text:3  point:0x2800  0  0.75  # markslag/dyrkamark/utmark -- поле?
+isbre             text:4  point:0x650C  0  x1    # markslag/isOgPermafrost/isbre -- ледник
+stein             text:3  point:0x2800  0  x1    # markslag/losmasseavsetninger/stein -- камень
+ur                text:3  point:0x2800  0  x1    # markslag/losmasseavsetninger/ur -- каменная россыпь?
+skog              text:3  point:0x2800  0  x1    # markslag/vegetasjon/skog -- лес
+skogholt          text:3  point:0x2800  0  x1    # markslag/vegetasjon/skogholt -- лесистая местность
+myr               text:3  point:0x2800  0  x1    # markslag/vatmark/myr -- болото
+
+grensemerke       - - 0 x1  # offentligAdministrasjon/administrativeIndelinger/grensemerke -- подпись погран столба
+

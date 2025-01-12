@@ -1,4 +1,4 @@
-*.zip
-*.vmap2
+*.vmap2.gz
 *.png
 *.map
+DATA

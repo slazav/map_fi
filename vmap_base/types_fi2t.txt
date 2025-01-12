@@ -1,0 +1,120 @@
+# <src_type> <dst_type> <ref_type> <legend> <keep_angle> <scale>
+
+12106      -            - 0 0 0.75  # Autotien lauttanumero
+12181      -            - 0 0 0.75  # Paikallistien numero
+12182      -            - 0 0 0.75  # Maantien numero
+12183      -            - 0 0 0.75  # E- valta- tai kantatien numero
+12301 text:3 point:0x2800 0 1 0.75  # Kulkuv.yl.n nimi / trail
+12302 text:3 point:0x2800 1 1 0.75  # Kulkuv.yl.n selite
+14201      -            - 0 0 0.75  # Rautatieliikennepaikan nimi
+16101      -            - 0 0 0.75  # Turvalaitteen nimi
+16102      -            - 1 0 0.75  # Turvalaitteen selite
+16503      -            - 0 0 0.75  # Kulkusyvyys (2.2mm teksti)
+16504      -            - 0 0 0.75  # Kulkusyvyys (1.8mm teksti)
+16508      -            - 0 0 0.75  # Alikulkukorkeus
+16703      -            - 0 0 0.75  # Hylyn syvyys / затонувшее судно глубина
+26202      -            - 1 0 0.75  # Vedenottamon selite
+32101      -            - 0 0 0.75  # Maa-aineksenottoalueen nimi
+32102      -            - 1 0 0.75  # Maa-aineksenottoalueen selite
+32201      -            - 0 0 0.75  # Hautausmaan nimi
+32202      -            - 1 0 0.75  # Hautausmaan selite
+32301      -            - 0 0 0.75  # Kaatopaikan nimi
+32302      -            - 1 0 0.75  # Kaatopaikan selite
+32401      -            - 0 0 0.75  # Liikennealueen nimi
+32402      -            - 1 0 0.75  # Liikennealueen selite
+32501      -            - 0 0 0.75  # Louhoksen nimi / карьер
+32502      -            - 1 0 0.75  # Louhoksen selite / карьер
+32602      -            - 1 0 0.75  # Maatalousmaan selite
+32901      -            - 0 0 0.75  # Puiston nimi
+32902      -            - 1 0 0.75  # Puiston selite
+33001      -            - 0 0 0.75  # T.ytemaan nimi
+33002      -            - 1 0 0.75  # T.ytemaan selite
+33101      -            - 0 0 0.75  # Urheilu- ja virkistysalueen nimi
+33102      -            - 1 0 0.75  # Urheilu- ja virkistysalueen selite
+34601      -            - 0 0 0.75  # Kiven nimi
+34901 text:3 point:0x6601 0 0 0.75  # Merkitt.v.n luontokohteen nimi
+34902 text:3 point:0x6601 1 0 0.75  # Merkitt.v.n luontokohteen selite
+
+35010      -            - 0 0 0.75  # field meadow
+35020      -            - 0 0 0.75  # forest
+35030      -            - 0 0 0.75  # swamp
+35040      -            - 0 0 0.75  # mountain
+35050      -            - 0 0 0.75  # canyons
+35060      -            - 0 0 0.75  # peninsula
+35070      -            - 0 0 0.75  # island
+35080      -            - 0 0 0.75  # shellow water
+35090      -            - 0 0 0.75  # other land object
+
+35101      -            - 0 0 0.75  # tree
+35102      -            - 1 0 0.75  # tree - legend
+
+36101      -            - 0 0 0.75  # bay
+36201      -            - 0 0 0.75  # lake
+36291 text:4 point:0x1000 0 0 0.75  # water altitude mark (!) -> extra map
+36301      -            - 0 0 0.75  # river
+36410      -            - 0 0 0.75  # part of lake
+36420      -            - 0 0 0.75  # part of river
+36490      -            - 0 0 0.75  # other water object
+36500      -            - 1 0 0.75  # legend of other land object
+
+38201      -            - 0 0 0.75  # rapids
+38501      -            - 0 0 0.75  # water stone
+38901      -            - 0 0 0.75  # storage area
+38902      -            - 0 0 0.75  # storage area - legend
+39502      -            - 0 0 0.75  # global forest border
+
+42101 text:3 point:0x2B04 0 0 0.75  # building name (laavu autiotupa)
+42102 text:3 point:0x2B04 1 0 0.75  # building legend
+42201      -            - 0 0 0.75  # group of buildings - name
+42202      -            - 1 0 0.75  # group of buildings - legend
+44202 text:3 point:0x2800 1 0 0.75  # fence - legend
+44301      -            - 0 0 0.75  # water pool - name
+44302      -            - 1 0 0.75  # water pool - legend
+44402      -            - 1 0 0.75  # airline - legend
+44803      -            - 0 0 0.75  # hight of mast
+44901 text:3 point:0x2C04 0 0 0.75  # monument - name
+44902 text:3 point:0x2C04 1 0 0.75  # monument - legend
+45002 text:3 point:0x6606 1 0 0.75  # watch tower - legend
+45303      -            - 0 0 0.75  # chimney hight
+45402      -            - 1 0 0.75  # tar pit - legend
+45502      -            - 1 0 0.75  # wind turbine - legend
+45702      -            - 1 0 0.75  # structure - legend
+45802      -            - 1 0 0.75  # water tower - legend
+
+48111      -            - 0 0 0.75  # town
+48112      -            - 0 0 0.75  # other community
+48120      -            - 0 0 0.75  # village
+48130      -            - 0 0 0.75  # house name
+48190      -            - 0 0 0.75  # other settlement
+
+52191      -            - 0 0 0.75  # contours
+54191      -            - 0 0 0.75  # depth contours
+54210      -            - 0 0 0.75  # depth marks
+62102      -            - 0 0 0.75  # shooting range
+62202      -            - 0 0 0.75  # protected area
+
+72201      -            - 0 0 0.75  # protected nature area
+72202      -            - 1 0 0.75  # protected nature area - legend
+72303 text:1 point:0x6601 0 0 0.75  # natural monument (!)
+72304 text:1 point:0x6601 1 0 0.75  # natural monument - legend
+72403 text:1 point:0x6415 0 0  1.0  # archeological place
+72404 text:1 point:0x6415 1 0  1.0  # archeological place - legend
+72501      -            - 0 0 0.75  # nature park
+72502      -            - 1 0 0.75  # nature park - legend
+72601      -            - 0 0 0.75  # national park
+72701      -            - 0 0 0.75  # wilderness area
+72702      -            - 1 0 0.75  # wilderness area - legend
+72801      -            - 0 0 0.75  # hiking area
+72802      -            - 1 0 0.75  # hiking area - legend
+82102      -            - 1 0 0.75  # Aluemeren ulkorajan selite
+82202      -            - 1 0 0.75  # Rajavy.hykkeen takarajan selite / Finnish border zone
+82302      -            - 1 0 0.75  # Sis.isten aluevesien ulkorajan selite
+82402      -            - 1 0 0.75  # Ulko- ja sis.saariston rajan selite
+82501      -            - 0 0 0.75  # Valtakunnan rajapyykin nimi
+84300      -            - 0 0 0.75  # Kunnan hallintokeskus / муниципальный центр (ратуша и т.п.)
+84301      -            - 0 0 0.75  # L..nin p..kaupunki / столица округа
+84302      -            - 0 0 0.75  # Muu kaupunki / другой город
+84303      -            - 0 0 0.75  # Muu kunta / другая область
+85100      -            - 0 0 0.75  # Kunnan hallintorajan selite
+92401      -            - 0 0 0.75  # Rajapyykin nimi
+95302      -            - 1 0 0.75  # Vesiasteikon selite

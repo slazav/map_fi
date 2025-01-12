@@ -1,0 +1,43 @@
+* *  * *   "Ylimmäi(nen|set|sen) ?"   Yl.
+* *  * *   "Keskimmäi(nen|set|sen) ?" Kesk.
+* *  * *   "Alimmai(nen|set|sen) ?"   Al.
+* *  * *   "Alempi "                  Al.
+* *  * *   "Ylempi "                  Yl.
+
+* point:0x2b04 * * "^koulu$"         -
+* point:0x2b04 * * "^kappeli$"       -
+* point:0x2b04 * * "^kirkko$"        -
+* point:0x2b04 * * "^terveyskeskus$" -
+* point:0x2b04 * * "^b$"             - # Polttoaineen jakelupiste
+* point:0x2b04 * * "^p$"             - # Posti
+* point:0x2b04 * * "^h.as$"          -
+
+* point:0x2b04 * * "^k\\.talo"       - # kaupungintalo
+* point:0x2b04 * * "^s\\.talo"       - # seurantalo
+# * point:0x2b04 * * "^kpa$"         - # Kauppa
+# * point:0x2b04 * * "^leir\\.alue"  - # camping
+* point:0x2b04 * * "^vanhaink\\."    - # д/о
+
+* point:0x6415 * * "^struven ketjun piste"     "Struven ketjun piste"
+* point:0x6415 * * "^pyyntikuop(at|pia|pa)"    -
+* point:0x6415 * * "^kivik. asuinpaikka"       -
+* point:0x6415 * * "^muinainen asuinpaikka"    -
+* point:0x6415 * * "^muinaisasuinpaikka"       -
+* point:0x6415 * * "^kivikautinen asuinpaikka" -
+
+V51t 0x2b04 28.021351 68.209214 "^Kuuselankämppä\\\\vuokratupa" vuokratupa
+V51t 0x2b04 28.026177 68.210752 "^Rajankämppä\\\\autiotupa" -
+V51t 0x2b04 28.258217 68.258433 "^Muorravaarakanruoktu\\\\varauskammi"  varauskammi
+
+V52t 0x2800 27.377093 68.329614  "^Tievatupa" -
+V52t 0x2800 28.294852 68.433827  "^Suomun Ville" -
+V52t 0x6606 27.442198 68.434226  "^kolmiomittauksen muistomerkki\\\\näkötorni"  "näkötorni"
+V52t 0x2b04 27.433983 68.421877  "^Kelo-ojan kullankaivajan tupa\\\\päivätupa"  -
+V52t 0x2b04 27.433026 68.421303  "^Karvaselän kummituskämppä\\\\päivätupa"      "päivätupa"
+V52t 0x2b04 27.424318 68.394476  "^Prospektorin kaivoskämppä\\\\päivätupa"      "päivätupa"
+V52t 0x2800 27.431137 68.410316  "^Hirvaspirtti" -
+V52t 0x2800 27.504833 68.602821  "^luontopolku" -
+V52t 0x2800 27.523532 68.654741  "^moottorikelkkareitti" -
+
+V41t 0x2800 25.779002 68.669768  "^Morgamojan Kultala" -
+V41t 0x2800 25.002424 68.410926  "^Kultakuru" -

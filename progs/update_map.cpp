@@ -2,17 +2,15 @@
 
 #include "getopt/getopt.h"
 #include "getopt/help_printer.h"
-#include "vmap2/vmap2.h"
-#include "vmap2/vmap2io.h"
-#include "vmap2/vmap2tools.h"
 #include "geo_data/geo_utils.h"
+#include "filename/filename.h"
 
+#include "lib.h"
 #include <regex>
 
 using namespace std;
 
-// Transfer text objects (and reference points) from source (original text data)
-// to the destination (overlay map).
+// Update local map from Label/Extra map. Do some object conversions.
 // - Use tag ORG to mark original reference points, keep other destination objects untouched.
 // - If reference point exists in both places - do nothing.
 // - If reference point exists only in the source file - transfer point and labels
@@ -25,7 +23,7 @@ void usage(bool pod=false){
   pr.name("Read shape files from maanmittauslaitos.fi");
   pr.usage("[<options>] <in_file.vmap2> <out_file.vmap2>");
   pr.head(2, "Options:");
-  pr.opts({"HELP","POD","VMAP2"});
+  pr.opts({"HELP","POD", "VMAP2", "A"});
   throw Err();
 }
 
@@ -44,7 +42,10 @@ void change_name(VMap2obj & obj, uint32_t type, double lon, double lat, std::str
 }
 
 // custom filter for vmaps
-void filter_vmap(VMap2 & vmap){
+void filter_vmap(VMap2 & vmap, const std::string & src){
+
+  // read object conversion table
+  auto oconvs = read_oconv("oconvs.txt");
 
   // Create labels
   vmap.iter_start();
@@ -53,6 +54,32 @@ void filter_vmap(VMap2 & vmap){
     auto id = p.first;
     auto & obj = p.second;
 
+    for (const auto & conv: oconvs){
+
+      if (conv.src  != "*" && conv.src != src) continue;
+      if (conv.type != "*" && obj.is_type(conv.type)) continue;
+      if (conv.lat  != "*" && conv.lon != "*" &&
+          geo_dist_2d(obj[0][0],
+              dPoint(str_to_type<double>(conv.lon), str_to_type<double>(conv.lat)))>10) continue;
+
+      auto n = std::regex_replace(
+           obj.name, std::regex(conv.name_re), conv.name_subst);
+      if (n == ""){
+//        std::cerr << "oconv del: "
+//                  << conv.src << " " << conv.type << " " << obj.name << "\n";
+        vmap.del(id);
+        break;
+      }
+
+      if (n!=obj.name){
+//        std::cerr << "oconv sub: " << obj.name << " -> " << n << "\n";
+        obj.name = n;
+        vmap.put(id, obj);
+        break;
+      }
+    }
+  }
+/*
     // all types
     change_name(obj, -1, NAN,NAN, u8"Ylimmäi(nen|set|sen) ?", u8"Yl.");
     change_name(obj, -1, NAN,NAN, u8"Keskimmäi(nen|set|sen) ?", u8"Kesk.");
@@ -126,10 +153,7 @@ void filter_vmap(VMap2 & vmap){
 
     change_name(obj, 0x2800, 25.002424, 68.410926,
       u8"^Kultakuru", "");
-
-    if (obj.name == "") vmap.del(id);
-    else vmap.put(id, obj);
-  }
+*/
 }
 
 /**********************************************************/
@@ -137,8 +161,9 @@ void filter_vmap(VMap2 & vmap){
 int
 main(int argc, char *argv[]){
   try{
-    ms2opt_add_std(options, {"HELP","POD","VERB"});
+    ms2opt_add_std(options, {"HELP","POD"});
     ms2opt_add_vmap2t(options);
+    options.add("src", 1, 0, "A", "Data source (label/extra, default: label)");
 
     vector<string> files;
     Opt O = parse_options_all(&argc, &argv, options, {}, files);
@@ -155,10 +180,18 @@ main(int argc, char *argv[]){
 
     // import both files
     VMap2 vmap1, vmap2;
+    if (!file_exists(in_file)) throw Err() << "Can't find file: " << in_file;
     vmap2_import(in_file, types, vmap1, Opt());
-    vmap2_import(out_file, types, vmap2, Opt());
 
-    filter_vmap(vmap1);
+    if (file_exists(out_file))
+      vmap2_import(out_file, types, vmap2, Opt());
+
+    // set source from filename
+    std::string src = file_get_basename(in_file);
+    std::cerr << "Source: " << src << "\n";
+
+    // filter objects
+    filter_vmap(vmap1, src);
 
     // attach labels, get ref_id -> text_id multimap
     auto refs1 = vmap1.find_refs(100,200);
@@ -168,25 +201,21 @@ main(int argc, char *argv[]){
     auto i=refs1.begin();
     while (i!=refs1.end()){
       auto id = i->first;
-      if (id == 0xFFFFFFFF){ // unconnected label
+
+      if (id == 0xFFFFFFFF){ // unconnected label, skip
         while (i!=refs1.end() && i->first == id) ++i;
         continue;
       }
       auto o1 = vmap1.get(id); // ref point
 
-      // work only with D1/D2 objects
-      if (o1.tags.count("D1")==0 && o1.tags.count("D2")==0) {
-        while (i!=refs1.end() && i->first == id) ++i;
-        continue;
-      }
-
-      // find point with same type and npts, nearest coordinates, and tag D1/D2 in vmap2
+      // find point in destination map with same type,
+      // nearest coordinates, and same source
       dRect rng = o1.bbox(); rng.expand(2e-4);
       uint32_t minid = -1;
       double mindist = INFINITY;
       for (const auto & i2: vmap2.find(o1.type, rng)){
         auto o2 = vmap2.get(i2);
-        if (o2.tags.count("D1")==0 && o2.tags.count("D2")==0) continue;
+        if (o2.opts.get("Source") != src) continue;
         double d = dist(o1,o2); // inf for different npts, nsegments
         if (d<mindist){ mindist = d; minid = i2;}
       }
@@ -215,10 +244,13 @@ main(int argc, char *argv[]){
       }
 
       // if object is missing in vmap2, transfer it with all labels
+      auto old_src = o1.opts.get("Source");
+      o1.opts.put("Source", src);
       vmap2.add(o1);
-      std::cout << "  add object: " << VMap2obj::print_type(o1.type) << ": " << o1.name << " " << o1[0][0] << "\n";
+      std::cout << "  add object: " << old_src << " " << o1.print_type()
+                << ": " << o1.name << " " << o1[0][0] << "\n";
 
-      // transfer all labels
+      // transfer labels
       while (i!=refs1.end() && i->first == id){
         auto l = vmap1.get(i->second);
         vmap2.add(l);
@@ -231,13 +263,15 @@ main(int argc, char *argv[]){
     while (j!=refs2.end()){
       auto id = j->first;
 
-      if (id == 0xFFFFFFFF){ // unconnected label
+      if (id == 0xFFFFFFFF){ // skip unconnected label
         while (j!=refs1.end() && j->first == id) ++j;
         continue;
       }
 
       auto o2 = vmap2.get(id); // ref point
-      if (o2.tags.count("D1")==0 && o2.tags.count("D2")==0) {
+
+      // skip other sources
+      if (o2.opts.get("Source") != src) {
         while (j!=refs2.end() && j->first == id) ++j;
         continue;
       }
@@ -248,19 +282,19 @@ main(int argc, char *argv[]){
       dRect rng = o2.bbox(); rng.expand(2e-4);
       for (const auto & i1: vmap1.find(o2.type, rng)){
         auto o1 = vmap1.get(i1);
-        if (o1.tags.count("D1")==0 && o1.tags.count("D2")==0) continue;
         double d = dist(o1,o2); // inf for different npts, nsegments
         if (d<mindist){ mindist = d; minid = i1;}
       }
 
-      // if object found, skip destination object
+      // if object found, do nothing
       if (mindist<1e-4){
         while (j!=refs2.end() && j->first == id) ++j;
         continue;
       }
 
       // if not, remove destination object and all labels
-      std::cout << "  del object: " << VMap2obj::print_type(o2.type) << ": " << o2.name << " " << o2[0][0] << "\n";
+      std::cout << "  del object: " << VMap2obj::print_type(o2.type)
+                << ": " << o2.name << " " << o2[0][0] << "\n";
       vmap2.del(j->first);
       while (j!=refs2.end() && j->first == id){
         vmap2.del(j->second);

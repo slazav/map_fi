@@ -1,0 +1,56 @@
+# src_reftype - dst_reftype - use_angle(1|0) - scale(<number> or x<number>)
+
+1010125  text:3 point:0x2800   0 0.75  # какое-то урочище? (23.7254295,68.7422405)
+
+1010210  text:5 point:0x1100  0  1.0  # summit (vaara)
+1010205  text:5 point:0x1100  0 0.825 # group of summits (vaarat)
+
+1020405  text:3 point:0x2800   0 0.75  # луг?
+1020410  text:5 point:0x1100  0 0.825 # вершина?
+1020505  text:5 point:0x1100  0 0.825 # вершина?
+1999999  text:3 point:0x2800  0 0.75  # какое-то небольшое урочище
+
+2010205  text:4 point:0x650C  0   x1  # group of lakes (lammit, jarvet)
+2010210  text:4 point:0x650C  0   x1  # lake (jarvi)
+2010215  text:4 point:0x650C  0   x1  # psrt of lake
+2010220  text:4 point:0x650C  0   x1  # reservoir
+2010225  text:4 point:0x650C  0   x1  # part of reservoir (rare)
+2010230  text:4 point:0x650C  1   x1  # canal
+2020105  text:4 point:0x650C  1   x1  # river
+2020110  text:4 point:0x650C  0   x1  # bay
+2020115  text:4 point:0x6508  0 0.75  # rapids
+
+3010105  text:2 point:0x700   0   x1  # towns
+3010110  text:2 point:0x800   0   x1  # villages
+3020105  text:2 point:0x900   0   x1  # small villages
+3030105  text:3 point:0x900   0 0.75  # house
+4010125  text:2 point:0x700   0   x1  # big towns ?
+
+1010105  text:3 point:0x2800  0 x0.8  # groups of islands (saaret)
+1010110  text:3 point:0x2800  0 x0.8  # island (saari)
+1010120  text:3 point:0x2800  0 x0.8  # peninsula (niemi)
+1010305  text:3 point:0x2800  0 0.75  # kanyon (kuru)
+1020105  text:3 point:0x2800  0 x0.8  # place
+1020205  text:3 point:0x2800  0 x0.8  # swamp?
+1020305  text:3 point:0x2800  0 x0.8  # swamp?
+
+1999905  text:3 point:0x2800  0   x1  # ?
+
+5010105  text:3 point:0x2800  0   x1  # national parks
+5010110  text:3 point:0x2800  0   x1  # parks
+5010115  text:3 point:0x2800  0   x1  # nature zone
+5999905  text:3 point:0x2800  0   x1  # protected areas
+5999999  text:3 point:0x2800  0 0.75  # какая-то достапримечательность (27.2997376,69.9523955)
+6010305  text:3 point:0x2800  0   x1  # странный мыс, подписанный жирным шрифтом (27.7954704,68.8318905)
+6010405  text:3 point:0x2800  0   x1  # airoport
+
+7010299  text:3 point:0x2800  0   x1  # рыболовные угодья (kalakentta:)? (26.2440122,68.1002958, 26.8775785,68.0757169, 26.8778566,68.077564)
+7010405  text:2 point:0x900   0   x1  # район города? (25.63359,66.4918021)
+
+8010110  text:3 point:0x900   0 0.75  # какое-то поселение? (24.9823937,67.523373)
+8030130  text:3 point:0x2800  0 0.75  # house ?
+8030150  text:3 point:0x2800  0 0.75  # house ?
+8030199  text:3 point:0x2800  0 0.75  #
+8030120  text:3 point:0x2800  0 0.75  #
+
+9999999  text:3 point:0x2800  0 0.75 # house? (25.710166,67.9366222, 24.6713962,68.6089826)

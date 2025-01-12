@@ -1,0 +1,129 @@
+### areas
+
+open_area             area:0x52  #
+cultivated_land       area:0x52  #
+golf_course           area:0x52  #
+sports_ground         area:0x52  #
+alpine_hill           area:0x14  #
+
+forest                area:0x16  #
+park                  area:0x15  #
+
+marsh                 area:0x54  #
+
+snow_glacier          area:0x4D  #
+
+urban_development     area:0x0E  #
+urban_settlement      area:0x0E  #
+cemetery              area:0x1A  #
+building_area         area:0x04  #
+airport_area          area:0x04  #
+runway                area:0x04  #
+shooting_range        area:0x04  #
+industrial_area       area:0x04  #
+quarry                area:0x58  #
+stone_tip             area:0x58  #
+
+tank_area             area:0x29  # ?
+freshwater_dryfall    area:0x0D  # ?
+river                 area:0x29  #
+sea_surface           area:0x29  #
+lake                  area:0x29  #
+lake_regulated        area:0x29  #
+nature_conservation_area    -  # has name
+public                      -  # ?
+municipality                -  #
+
+
+### lines
+
+#unknown type: lighting_track
+#unknown type: shooting_range_facility
+
+#unknown type: place_name_text
+#unknown type: presentation_text
+
+landuse_boundary           -  # разные природные контуры: леса, болота и т.п.
+data_boundary              -  # граница данных
+fictitious_dividing_line   -  # странные куски километровой сетки
+# track                    -  # ?
+dam                line:0x2C  #
+
+stream                            river # разные типы рек
+river_bank                            - # контур площадных рек - полезен, чтобы избежать стыков
+lake_edge                             - # контур озер
+lake_edge_regulated                   - # контур водохранилищ
+river_cline                           - # центральная линия реки (для построения речной сети?)
+lake_center_line                      - # центральная линия озера (для построения речной сети?)
+coastal_contour                       - # берег моря (м.б. полезна, т.к. само море - из кусочков)
+freshwater_dryfall_edge               - # граница затопляемой земли??
+sea_barrier                           - # контур между частями моря
+sea_lake_barrier                      - # контур между морем и рекой
+lake_river_barrier                    - # контур между озером и рекой
+lake_lake_barrier                     - # контур мeжду озерами
+floodplain                    line:0x26 # широкие границы русла, обвожу пунктиром
+river_linefictitious                  - # не знаю что, на карте не рисуется
+
+# baseline                            - #
+# channel_rough                       - #
+# edge_section                        - #
+pier                          line:0x06 # пирсы рисую как черную дорогу
+quay_pier                     line:0x06 # набережная
+floating_pier                 line:0x06 #
+breakwater                  line:44500  # тонкой линией, как подъемник
+
+height_curve                       cnt  # горизонталь (20м)
+subsidence_curve                   cnt  # горизонталь вокруг ямы? странный объект
+auxiliary_curve                      -  # вспомогательная горизонталь
+
+road_link                          road # дороги, разные типы
+airline_line                  line:0x1A # ЛЭП
+line                          line:0x1A # ЛЭП без опор (над долной?)
+ski_lift                    line:44500  # todo
+cableway                    line:44500  #
+reindeer_fence                line:0x19 #
+lighting_track                        - # освещенная трасса (поверх дорог)
+# rudder_gate                         - #
+shooting_range_facility               - # стрельбище - стрелочка
+# shooting_range_boundary             - #
+# spesielldetalj_center_line          - #
+
+roof_edge                           -   # контуры больших зданий? 
+# tank_edge                         -   #
+
+national_border               line:0x1D #
+county_boundary                       - #
+municipality_boundary                 - #
+nature_conservation_boundary  line:0x37 #
+# territorial_boundary border         - #
+# public_boundary                     - #
+# agreement_boundary                  - #
+
+
+# points
+
+# baseline_point               -  # - will come with labels
+building_position   point:0x6402  #
+campsite            point:0x2B03  #
+waterfall           point:0x650E  #
+mine                point:0x640C  #
+jump_hill           point:0x6402  #
+airport_position               -  # точечный знак аэропорта
+# nature_conservation_point    -  #
+# navigation_installation      -  #
+# parking_area                 -  #
+skerk                     point:34600  # камень в воде
+special_detail_position   point:0x6415 # крестик: развалины, что-то еще?
+station             point:0x5905  #
+# tank_position                -  #
+territorial_boundary_point  point:82500 # border_point_number (можно сделать подпись при необходимости)
+
+terrain_point        point:0x1100 # point:0x1100 - will come with labels?
+
+tree_group                     -  # point:0x660A - not needed?
+trigonometric_point point:0x0F00  #
+road_closure        point:12200   # fixme
+tele_mast           point:0x6411  #
+tower               point:0x6411  #
+wind_turbine        point:0x6411  #
+

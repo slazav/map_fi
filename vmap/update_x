@@ -6,5 +6,5 @@ files=${@}
 
 for f in $files; do
   base=${f%%.*}
-  ../progs/update_map --types ../types.cfg "../vmap_base/${base}_t.vmap2.gz" "${base}.vmap2"
+  ../progs/update_map --types ../types.cfg "../vmap_base/${base}_x.vmap2.gz" "${base}.vmap2"
 done

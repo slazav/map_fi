@@ -24,7 +24,7 @@ void usage(bool pod=false){
 int
 main(int argc, char *argv[]){
   try{
-    ms2opt_add_std(options, {"HELP","POD","VERB"});
+    ms2opt_add_std(options, {"HELP","POD"});
 
     vector<string> files;
     Opt O = parse_options_all(&argc, &argv, options, {}, files);

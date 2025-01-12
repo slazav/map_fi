@@ -1,0 +1,346 @@
+# Type substutution list. Used for:
+
+# second column:
+# * '-' - skip type
+# * 'R' - replace type in FI1 map
+# * 'A' - att type to FI1 map
+# * 'D' - delete type in FI1 map
+
+area:32111  -  area:0x58  # площадь для добычи песка, щебня
+area:32112  -  area:0x58  # глиняный карьер
+area:32113  -  area:0x58  # торфоразработки
+area:32200  -  area:0x1A  # кладбище
+area:32300  -  area:0x04  # свалка
+area:32411  -  -  # Lentokent.n kiitotie / ВВП твердая
+area:32412  -  -  # Lentokent.n kiitotie / ВВП грунтовая
+area:32413  -  -  # Muu lentokentt.alue / другая зона аэропорта
+area:32414  -  -  # Muu lentoliikennealue
+area:32415  -  -  # Muu lentokentt.alue, p..llystetty / другая зона аэропорта
+area:32416  -  -  # Muu lentokentt.alue, p..llystm.t.n
+area:32417  -  -  # Muu lentoliikennealue, p..llystetty
+area:32418  -  -  # Muu lentoliikennealue, p..llyst.m.t.n
+area:32421  -  area:0x59  # парковка, проезжая зона (D1)
+area:32441  -  area:0x04  # зона аэропорта (D1)
+area:32442  -  area:0x04  # зона аэропорта (D1)
+area:32500  -  area:0x58  # карьер (D1)
+area:32611  -  area:0x52  # поле (D1)
+area:32612  -  area:0x56  # сад (D1)
+area:32800  -  area:0x52  # луг (D1)
+area:32900  -  area:0x56  # парк (D1)
+area:33000  -  area:0x58  # отвалы грунта (D1)
+area:33100  -  area:0x57  # спортплощадка (D1)
+area:34100  -  area:0x19  # скалы (D1)
+area:34300  -  area:0xD   # песок (D1)
+area:34700  -  area:0x8   # галечник, каменные россыпи (D1)
+area:35300  -  -          # Soistuma
+area:35411  -  area:0x54  # открытая заболоченность (D1)
+area:35412  -  area:0x51  # лесная заболоченность (D1)
+area:35421  -  area:0x55  # открытое болото (D1)
+area:35422  -  area:0x4C  # лесное болото (D1)
+area:36200  -  area:0x29  # озеро (D1,D2)
+area:36211  -  area:0x29  # море (D1,D2)
+area:36313  -  -          # Virtavesialue / площадная река
+area:36315  -  area:0x29  # площадная река (D1,D2)
+area:36316  -  area:0x29  # площадной канал (D1,D2)
+area:38300  -  -          # Maatuva vesialue
+area:38400  -  -          # Tulva-alue  / приливная зона
+area:38600  -  -          # Vesikivikko
+area:38700  -  -          # Matalikko / мель
+area:38900  -  area:0x04  # склад (D1)
+area:39110  A  area:0x4F  # Avoin mets.maa / вырубка
+area:39120  -  area:0x14  # кустарник/тундра (D1)
+area:40200  -  area:0x0E  # населенка (D1)
+
+# площадные здания
+area:42210  -  -  # Asuinrakennus, ? krs / жилое
+area:42211  -  -  # Asuinrakennus, 1-2 krs
+area:42212  -  -  # Asuinrakennus, 3-n krs
+area:42220  -  -  # Liike- tai julkinen rakennus, ?-krs / деловое, общественное
+area:42221  -  -  # Liike- tai julkinen rakennus, 1-2 krs
+area:42222  -  -  # Liike- tai julkinen rakennus, 3-n krs
+area:42230  -  -  # Lomarakennus, ? krs / дачные
+area:42231  -  -  # Lomarakennus, 1-2 krs
+area:42232  -  -  # Lomarakennus, 3-n krs
+area:42240  -  -  # Teollinen rakennus, ? krs / промышленные
+area:42241  -  -  # Teollinen rakennus, 1-2 krs
+area:42242  -  -  # Teollinen rakennus, 3-n krs
+area:42250  -  -  # Kirkollinen rakennus, ? krs / церковное
+area:42251  -  -  # Kirkollinen rakennus, 1-2 krs
+area:42252  -  -  # Kirkollinen rakennus, 3-n krs
+area:42260  -  -  # Muu rakennus, ? krs / другое
+area:42261  -  -  # Muu rakennus, 1-2 krs
+area:42262  -  -  # Muu rakennus, 3-n krs
+area:42270  -  -  # Kirkko / церковь
+
+area:44300  - area:0x29  # Allas-alue / площадь бассейна
+area:62200  - -          # Suoja-alue / охраняемая территория
+area:72200  - line:0x37  # (Muu) Luonnonsuojelualue / другая природная территория
+area:72201  - line:0x37  # Luonnonpuisto / природный парк
+area:72202  - line:0x37  # Kansallispuisto / нац.парк
+area:72500  - -          # Suojamets. / охраняемый лес
+area:72800  - -          # Retkeilyalue
+area:84200  - -          # Kunta Kunnan hallintoraja
+
+#########################################
+
+line:12121  -  line:0x01  # шоссе 2a
+line:12122  -  line:0x0B  # шоссе 2b
+line:12131  -  line:0x02  # шоссе 3a
+line:12132  -  line:0x04  # шоссе 3b
+line:12141  -  line:0x06  # дорога
+line:12151  -  -          # паром
+line:12312  A  line:0x16  # Talvitie / зимник, лесовозка
+line:12313  A  line:0x2A  # Polku / тропа
+line:12314  A  line:0x2A  # Kavely- ja pyoratie / пешеходная или велодорожка -- проблема с мостами!
+line:12316  A  line:0x0A  # Ajopolku / дорога
+line:14110  -  line:0x27  # ж/д (D1)
+line:14111  -  -          # электрифицированная ж/д
+line:14112  -  -          # неэлектрифицированная ж/д
+line:14121  -  line:0x0D  # УЖД
+line:16511  -  line:0x41  # корабельный канал
+line:16512  -  line:0x40  # лодочный канал
+line:16522  -  -          # Venereittilinja / лодочный путь 
+line:22200  -  -          # Muuntoasema / Эл.подстанция
+line:22311  -  line:0x29  # ЛЭП > 110kV
+line:22312  A  line:0x1A  # маленькая ЛЭП
+line:30100  -  line:0x42  # искусственная береговая линия
+line:30211  -  line:0x43  # четкие границы
+line:30212  -  line:0x43  # нечеткие границы
+line:30222  -  line:0x43  # нечеткая береговая линия (D1)
+line:30300  -  line:0x2C  # плотина
+line:30900  -  -          # Vesialueiden v.linen reuna / какая-то граница водного объекта
+line:30999  -  -          # Suojelukohteet tekninen reunaviiva / граница болота, технич.?(D2)
+line:32431  A  line:32431          # ВВП аэропорта
+line:32432  A  line:32432          # ВВП аэропорта (грунтовая?)
+line:34400  -  line:0x03  # утес
+line:34500  -  -          # скальная трещина
+line:34800  -  line:0x03  # верх крутого склона
+line:35200  -  -          # Puurivi / полоса деревьев?
+line:35500  -  -          # Suojanne /
+line:36311  -  line:0x15  # ручей менее 2м (D1,D2)
+line:36312  -  line:0x18  # ручей 2-5м (D1,D2)
+line:36314  -  line:0x1F  # ручей >5м (D1,D2)
+line:38200  -  line:0x44  # порог линейный (D1,D2)
+line:39000  -  -          # лесосплавный лоток
+line:39500  -  -          # граница зоны леса (глобальная) (D1,D2)
+
+line:40100  -  -          # Taajaan rakennetun alueen reunaviiva / граница густой населенки
+line:42110  -  -          # Asuinrakennus, ? krs / жилое здание
+line:42111  -  -          # Asuinrakennus, 1-2 krs
+line:42112  -  -          # Asuinrakennus, 3-n krs
+line:42120  -  -          # Liike- tai julkinen rakennus, ?-krs / деловое, общественное здание
+line:42121  -  -          # Liike- tai julkinen rakennus, 1-2 krs
+line:42122  -  -          # Liike- tai julkinen rakennus, 3-n krs
+line:42130  -  -          # Lomarakennus, ? krs / дачи
+line:42131  -  -          # Lomarakennus, 1-2 krs
+line:42132  -  -          # Lomarakennus, 3-n krs
+line:42140  -  -          # Teollinen rakennus, ? krs / пром.здание
+line:42141  -  -          # Teollinen rakennus, 1-2 krs
+line:42142  -  -          # Teollinen rakennus, 3-n krs
+line:42150  -  -          # Kirkollinen rakennus, ? krs / церковное здание
+line:42151  -  -          # Kirkollinen rakennus, 1-2 krs
+line:42152  -  -          # Kirkollinen rakennus, 3-n krs
+line:42160  -  -          # Muu rakennus, ? krs  / другое здание - лесные хижины!
+line:42161  -  -          # Muu rakennus, 1-2 krs
+line:42162  -  -          # Muu rakennus, 3-n kr
+line:42170  -  -          # Kirkko / церковь
+
+line:42200  -  -          # Rakennusalueen reunaviiva / граница населенки
+line:44100  -  -          # Aallonmurtaja / волнорез
+line:44211  R  line:0x19  # забор  (D1, D2 - разные)
+line:44213  -  -          # живая изгородь
+line:44300  -  -          # Allas-viiva / граница бассейна
+line:44500  -  line:44500          # подъемник (D1)
+line:45110  -  -          # Pistolaituri / пристань(D2)
+line:45111  -  -          # Pistolaituri, alle 5 m / пристань(D2)
+line:45112  -  -          # Pistolaituri, v.hint..n 5 m / пристань
+line:45700  -  -          # RakennelmaSelite ?
+line:52100  -  line:0x21  # горизонталь
+line:54100  -  -          # Syvyysk.yr. / кривая глубины
+line:62100  -  -          # стрельбище (D1)
+line:72000  -  -          # Suojelualueen reunaviiva
+line:72500  -  -          # охраняемый лес - граница (D1)
+line:72700  -  -          # Era:maa-alue / дикая территория
+line:82200  -  line:0x36  # граница погранзоны (D1)
+line:84111  -  line:0x1D  # country border (D1)
+line:84113  -  -          # муниципальная граница (D1)
+
+#########################################
+
+point:12198  -  point:12198             # дорожный круг
+point:12200  A  point:12200             # Esterakennelma / шлагбаум
+point:14191  -  -             # Rautatie, s.hk.istyssymboli / символ электрифицированной ж/д
+point:14192  -  -             # Rautatie, k.yt.st. poistetun / устаревший символ ж/д
+point:14200  -  point:0x5905  # ж/д станция
+
+point:16100  -  -             # Turvalaite / водные знаки
+point:16120  -  -             # Linjamerkki
+point:16121  -  -             # Kummeli
+point:16122  -  -             # Tunnusmajakka
+point:16124  -  -             # Loisto
+point:16125  -  -             # Linjaloisto
+point:16126  -  -             # Merimajakka
+point:16127  -  -             # Tutkamerkki
+point:16128  -  -             # Valaistu tutkamerkki
+point:16141  -  -             # Merimerkki, vasen
+point:16142  -  -             # Merimerkki, oikea
+point:16143  -  -             # Merimerkki, pohjois
+point:16144  -  -             # Merimerkki, etel.
+point:16145  -  -             # Merimerkki, it.
+point:16146  -  -             # Merimerkki, l.nsi
+point:16147  -  -             # Merimerkki, kari
+point:16148  -  -             # Merimerkki, turva
+point:16149  -  -             # Merimerkki, erikois
+point:16151  -  -             # Viittapoiju, vasen
+point:16152  -  -             # Viittapoiju, oikea
+point:16153  -  -             # Viittapoiju, pohjois
+point:16154  -  -             # Viittapoiju, etel.
+point:16155  -  -             # Viittapoiju, it.
+point:16156  -  -             # Viittapoiju, l.nsi
+point:16157  -  -             # Viittapoiju, kari
+point:16158  -  -             # Viittapoiju, turva
+point:16159  -  -             # Viittapoiju, erikois
+point:16161  -  -             # Poiju, vasen
+point:16162  -  -             # Poiju, oikea
+point:16163  -  -             # Poiju, pohjois
+point:16164  -  -             # Poiju, etel.
+point:16165  -  -             # Poiju, it.
+point:16166  -  -             # Poiju, l.nsi
+point:16167  -  -             # Poiju, kari
+point:16168  -  -             # Poiju, turva
+point:16169  -  -             # Poiju, erikois
+point:16171  -  -             # Valopoiju, vasen
+point:16172  -  -             # Valopoiju, oikea
+point:16173  -  -             # Valopoiju, pohjois
+point:16174  -  -             # Valopoiju, etel.
+point:16175  -  -             # Valopoiju, it.
+point:16176  -  -             # Valopoiju, l.nsi
+point:16177  -  -             # Valopoiju, kari
+point:16178  -  -             # Valopoiju, turva
+point:16179  -  -             # Valopoiju, erikois
+point:16181  -  -             # J..poiju, vasen
+point:16182  -  -             # J..poiju, oikea
+point:16183  -  -             # J..poiju, pohjois
+point:16184  -  -             # J..poiju, etel.
+point:16185  -  -             # J..poiju, it.
+point:16186  -  -             # J..poiju, l.nsi
+point:16187  -  -             # J..poiju, kari
+point:16188  -  -             # J..poiju, turva
+point:16189  -  -             # J..poiju, erikois
+point:16191  -  -             # Valoj..poiju, vasen
+point:16192  -  -             # Valoj..poiju, oikea
+point:16193  -  -             # Valoj..poiju, pohjois
+point:16194  -  -             # Valoj..poiju, etel.
+point:16195  -  -             # Valoj..poiju, it.
+point:16196  -  -             # Valoj..poiju, l.nsi
+point:16197  -  -             # Valoj..poiju, kari
+point:16198  -  -             # Valoj..poiju, turva
+point:16199  -  -             # Valoj..poiju, erikois
+point:16201  -  -             # Reunamerkki, vasen
+point:16202  -  -             # Reunamerkki, oikea
+point:16203  -  -             # Reunamerkki, pohjois
+point:16204  -  -             # Reunamerkki, etel.
+point:16205  -  -             # Reunamerkki, it.
+point:16206  -  -             # Reunamerkki, l.nsi
+point:16211  -  -             # Valaistu reunamerkki, vasen
+point:16212  -  -             # Valaistu reunamerkki, oikea
+point:16213  -  -             # Valaistu reunamerkki, pohjois
+point:16214  -  -             # Valaistu reunamerkki, etel.
+point:16215  -  -             # Valaistu reunamerkki, it.
+point:16216  -  -             # Valaistu reunamerkki, l.nsi
+
+point:16505  -  -             # Nimelliskulkusuunta / Номинальное направление движения на водном пути
+point:16506  -  -             # Suositeltu kulkusuunta / Рекомендуемое направление движения на водном пути
+point:16507  -  -             # Pakollinen kulkusuunta / Обязательное направление движения на водном пути
+point:16600  -  -             # Ankkuripaikka / место якорной стоянки
+point:16700  -  -             # Hylky / затонувшее судно
+point:16712  -  -             # Hylky, pinnalla / затонувшее судно, на поверхности
+point:16721  -  -             # Hylky, syvyys tuntematon / затонувшее судно, глубина неизвестна
+point:16722  -  -             # Hylky, syvyys tunnettu / затонувшее судно, глубина известна
+point:16800  -  -             # Tunnelin aukko / вход в туннель
+point:22100  -  -             # Muuntaja / трансформатор
+point:22200  -  point:0x6402  # распределительная станция
+point:22392  -  -             # Suurj.nnitelinjan pylv.s / опора лэп
+point:22394  -  -             # Suurj.nnitelinjan symboli / символ большой  ЛЭП
+point:22395  -  -             # Jakeluj.nnitelinjan symboli / символ маленькой ЛЭП
+point:22400  -  point:0x6402  # электростанция
+point:26191  -  -             # Putkijohdon symboli, kaasu / символ трубопровода - газ
+point:26192  -  -             # Putkijohdon symboli, kiinte. aine/ символ трубопровода -
+point:26193  -  -             # Putkijohdon symboli, l.mp./ символ трубопровода - тепло
+point:26194  -  -             # Putkijohdon symboli, vesi/ символ трубопровода - вода
+point:26195  -  -             # Putkijohdon symboli, vesih.yry/ символ трубопровода -  водяной пар
+point:26196  -  -             # Putkijohdon symboli, viem.ri/ символ трубопровода - канализация
+point:26197  -  -             # Putkijohdon symboli, .ljy/ символ трубопровода - нефть
+point:26200  -  -             # Vedenottamo - водозабор (насосная станция и т.п.)
+
+point:30300  - point:0x6402   # плотина (с направлением)
+point:32191  -  -             # Eloper.inen ainessymboli / символы площадных объектов
+point:32192  -  -             # Hieno kivenn.isainessymboli
+point:32291  -  -             # Hautausmaan symboli / символы площадных объектов - кладбище
+point:32591  -  -             # Louhoksen symboli / символы площадных объектов - карьер
+point:32700  -  -             # Mets.maan kasvillisuus / типы леса
+point:32710  -  -             # Havumetsa / хвойный лес
+point:32713  -  -             # Lehtimetsa / лиственный лес
+point:32714  -  -             # Sekametsa / другой/смешанный лес
+point:32715  -  -             # Varvikko / кустарник
+point:32719  -  -             # Pensaikko
+point:32721  -  -             # Mets.maan ojitus
+point:32891  -  -             # Niityn symboli  / символы площадных объектов - луг
+point:33091  -  -             # T.ytemaan symboli
+point:34100  -  -             # Kallio - symboli / скала
+point:34200  -  -             # Harva louhikko / символы площадных объектов - каменная россыпь ?
+point:34600  -  -             # Kivi / большой камень
+point:34900  A  point:0x6601  # Merkitt.v. luontokohde / природный объект (пещера, hiidenkirnu) ????
+point:35100  -  -             # Puu / отдельное дерево
+point:36100  -  -             # L.hde / родник
+point:36392  -  -             # Kapean virtaveden juoksusuunta / направления течения реки - узкий
+point:36393  -  -             # Leve.n virtaveden juoksusuunta / направления течения реки - широкий
+point:36400  -  -             # Vesikuoppa / маленький водоем
+point:38100  -  -             # Kaislikko / тростник
+point:38200  -  point:0x650E  # порог
+point:38500  -  -             # Vesikivi / камень в воде
+point:38511  -  -             # Vesikivi, vedenalainen / камень в воде - подводный
+point:38512  -  point:34600   # Vesikivi, pinnassa / камень в воде - надводный
+point:38513  -  point:34600   # Vesikivi, vedenp..llinen / камень в воде - затапливаемый
+point:38800  -  -             # Uittolaite /.
+point:38991  -  -             # Varastoalueen symboli / символы площадных объектов - склад
+point:42213  -  point:0x6402  # дом
+point:42223  -  point:0x6402  # дом
+point:42233  -  point:0x6402  # дом
+point:42243  -  point:0x6402  # дом
+point:42253  -  point:0x6402  # дом
+point:42263  -  point:0x6402  # дом (другое здание)
+point:42270  -  point:0x2C0B  # церковь
+point:44591  -  -             # Ilmaradan kannatinpylv.s / опора канатной дороги
+point:44600  -  -             # Kellotapuli / башня с часами
+point:44700  -  -             # L.hestymisvalo / огни наведения аэропорта
+point:44800  -  point:0x6411  # Masto / мачта
+point:44900  A  point:0x2C04  # Muistomerkki / памятник
+point:45000  A  point:0x6606  # N.k.torni / смотровая башня
+point:45200  R  point:0x6401  # Portti / ворота, проход в заборе
+point:45300  -  point:0x6411  # Savupiippu / высокая труба
+point:45400  -  -             # Tervahauta / яма для извести, смолы, угля
+point:45500  -  point:0x6411  # ветряк
+point:45710  A  point:0x2B03  # Tulentekopaikka  / место костра!
+point:45800  -  point:0x6411  # водонапорная башня
+
+point:52192  -  -  # Korkeusk.yr.n viettoviiva / бергштрих?
+point:52193  -  -  # Apuk.yr.n viettoviiva
+point:54192  -  -  # Syvyysk.yr.n viettoviiva.
+point:72310  -  +  # Rauhoitettu kivi / памятник природы - камень
+point:72320  -  +  # Rauhoitettu puu / памятник природы - дерево
+point:72330  -  -  # Muinaisj..nn.s / археологический памятник -- появится в подписях
+point:72340  -  -  # Muu rauhoitettu kohde / другой охраняемый объект
+point:82500  -  point:82500 # Valtakunnan rajapyykki/ пограничный столб
+point:95100  -  -  # Tasokiintopiste / реперная точка уровня
+point:95111  -  -  # Tasokiintopiste, I luokka / реперная точка уровня, 1кл
+point:95112  -  -  # Tasokiintopiste, II luokka
+point:95113  -  -  # Tasokiintopiste, III luokka
+point:95200  -  -  # Korkeuskiintopiste / реперная точка
+point:95211  -  -  # Korkeuskiintopiste, I luokka / реперная точка, 1 класс
+point:95212  -  -  # Korkeuskiintopiste, II luokka / реперная точка, 2 класс
+point:95213  -  -  # Korkeuskiintopiste, III luokka / реперная точка, 3 класс
+point:95214  -  -  # Korkeuskiintopiste, IV luokka / реперная точка, 4 класс
+point:95300  -  -  # Vesiasteikko / отметка уреза воды
+point:96001  -  -  # адрес
+point:96002  -  -  # точка отправления (почтовый ящик?)

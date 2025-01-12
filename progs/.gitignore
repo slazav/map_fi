@@ -1,7 +1,9 @@
 *.o
 find_object
-make_text
-make_base
+import_fi1
+import_fi2
+import_no
+make_map
+update_map
 map_brd
-update_text
 Makefile.deps
