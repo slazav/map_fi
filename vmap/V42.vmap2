@@ -1,5811 +1,5811 @@
 point:0x700
 name ENONTEKIÖ
-tags D1
+opts Source: V42_t
 crds 23.635308 68.385550
 
 point:0x700
 name Hetta
-tags D1
+opts Source: V42_t
 crds 23.618925 68.385740
 
 point:0x800
 name Jatuni
-tags D1
+opts Source: V42_t
 crds 22.642468 68.435532
 
 point:0x800
 name Kaaresuvanto
-tags D1
+opts Source: V42_t
 crds 22.485915 68.451049
 
 point:0x800
 name Kultima
-tags D1
+opts Source: V42_t
 crds 22.942482 68.459612
 
 point:0x800
 name Kuttanen
-tags D1
+opts Source: V42_t
 crds 22.845414 68.385640
 
 point:0x800
 name Leppäjärvi
-tags D1
+opts Source: V42_t
 crds 23.309885 68.507479
 
 point:0x800
 name Markkina
-tags D1
+opts Source: V42_t
 crds 22.292164 68.488551
 
 point:0x800
 name Muotkajärvi
-tags D1
+opts Source: V42_t
 crds 23.351877 68.325036
 
 point:0x800
 name Nartteli
-tags D1
+opts Source: V42_t
 crds 23.455943 68.567846
 
 point:0x800
 name Nunnanen
-tags D1
+opts Source: V42_t
 crds 24.502365 68.398453
 
 point:0x800
 name Näkkälä
-tags D1
+opts Source: V42_t
 crds 23.578844 68.605171
 
 point:0x800
 name Palojoensuu
-tags D1
+opts Source: V42_t
 crds 23.080645 68.283987
 
 point:0x800
 name Palojärvi
-tags D1
+opts Source: V42_t
 crds 23.335708 68.576756
 
 point:0x800
 name Peltovuoma
-tags D1
+opts Source: V42_t
 crds 24.195475 68.383163
 
 point:0x800
 name Suonttajärvi
-tags D1
+opts Source: V42_t
 crds 23.220828 68.395530
 
 point:0x800
 name Vuontisjärvi
-tags D1
+opts Source: V42_t
 crds 24.009098 68.439873
 
 point:0x800
 name Vähäniva
-tags D1
+opts Source: V42_t
 crds 22.967593 68.334855
 
 point:0x900
 name Alarinne
-tags D1
+opts Source: V42_t
 crds 24.205378 68.386710
 
 point:0x900
 name Harju
-tags D1
+opts Source: V42_t
 crds 24.146917 68.360154
 
 point:0x900
 name Kenttä
-tags D1
+opts Source: V42_t
 crds 24.174821 68.375431
 
 point:0x900
 name Niemi
-tags D1
+opts Source: V42_t
 crds 23.353222 68.317796
 
 point:0x900
 name Palo
-tags D1
+opts Source: V42_t
 crds 23.957911 68.419223
 
 point:0x900
 name Palovuoma
-tags D1
+opts Source: V42_t
 crds 23.077789 68.308243
 
 point:0x900
 name Pyysoja
-tags D1
+opts Source: V42_t
 crds 23.577784 68.385596
 
 point:0x900
 name Rinne
-tags D1
+opts Source: V42_t
 crds 24.012228 68.438602
 
 point:0x900
 name Sotkaniva
-tags D1
+opts Source: V42_t
 crds 22.847746 68.363149
 
 point:0x900
 name Tervalahti
-tags D1
+opts Source: V42_t
 crds 23.709470 68.398070
 
 point:0x900
 name Tieva
-tags D1
+opts Source: V42_t
 crds 24.184169 68.377133
-
-point:0xd00
-name Hanhijänkäntievat
-tags D1
-crds 24.163712 68.314486
-
-point:0xd00
-name Keskilaet
-tags D1
-crds 23.824415 68.358863
-
-point:0xd00
-name Lappalaisenmellat
-tags D1
-crds 24.381404 68.549562
-
-point:0xd00
-name Maksaselät
-tags D1
-crds 22.629592 68.518642
-
-point:0xd00
-name Nallatievat
-tags D1
-crds 24.289815 68.472841
-
-point:0xd00
-name Pikkuvaarat
-tags D1
-crds 24.412504 68.686818
-
-point:0xd00
-name Potnasenselät
-tags D1
-crds 23.102098 68.504554
-
-point:0xd00
-name Terävänpäänharjut
-tags D1
-crds 22.505978 68.599039
-
-point:0xd00
-name Tuolpaharjut
-tags D1
-crds 23.172978 68.563026
-
-point:0xd00
-name Ullatievat
-tags D1
-crds 23.746484 68.390805
 
 point:0x1100
 name 303 Vaakkasrova
-tags D1
+opts Source: V42_x
 crds 23.974474 68.394456
 
 point:0x1100
 name 317 Nunasrova
-tags D1
+opts Source: V42_x
 crds 23.038671 68.351383
 
 point:0x1100
 name 322 Tuulirovanvaara
-tags D1
+opts Source: V42_x
 crds 24.135983 68.351350
 
 point:0x1100
 name 323 Hiettakkarova
-tags D1
+opts Source: V42_x
 crds 24.232388 68.362253
 
 point:0x1100
 name 323 Iso Pahtavaara
-tags D1
+opts Source: V42_x
 crds 23.563664 68.430746
 
 point:0x1100
 name 328 Perjantaivaara
-tags D1
+opts Source: V42_x
 crds 23.244183 68.441624
 
 point:0x1100
 name 330 Lotsavaara
-tags D1
+opts Source: V42_x
 crds 24.085198 68.366670
 
 point:0x1100
 name 331 Turmavaara
-tags D1
+opts Source: V42_x
 crds 24.391187 68.383671
 
 point:0x1100
 name 332 Kielisenrova
-tags D1
+opts Source: V42_x
 crds 23.954211 68.369940
 
 point:0x1100
 name 333 Puskavaara
-tags D1
+opts Source: V42_x
 crds 24.060562 68.303107
 
 point:0x1100
 name 334 Niitty-Särkirova
-tags D1
+opts Source: V42_x
 crds 23.161892 68.342435
 
 point:0x1100
 name 336 Ahosenvaara
-tags D1
+opts Source: V42_x
 crds 24.459135 68.350630
 
 point:0x1100
 name 341 Suinavaara
-tags D1
+opts Source: V42_x
 crds 24.548192 68.377805
 
 point:0x1100
 name 342 Kontiorova
-tags D1
+opts Source: V42_x
 crds 23.167701 68.457086
 
 point:0x1100
 name 343 Lompolonrova
-tags D1
+opts Source: V42_x
 crds 23.202559 68.308133
 
 point:0x1100
 name 343 Ruotovaara
-tags D1
+opts Source: V42_x
 crds 23.468205 68.375449
 
 point:0x1100
 name 345 Angasvaara
-tags D1
+opts Source: V42_x
 crds 23.289611 68.442773
 
 point:0x1100
 name 346 Keinolahdenvaara
-tags D1
+opts Source: V42_x
 crds 24.092013 68.303801
 
 point:0x1100
 name 347 Lintuvaara
-tags D1
+opts Source: V42_x
 crds 22.709497 68.424432
 
 point:0x1100
 name 347 Takainen Pissivaara
-tags D1
+opts Source: V42_x
 crds 23.295285 68.378682
 
 point:0x1100
 name 348 Luomavaara
-tags D1
+opts Source: V42_x
 crds 23.586535 68.396440
 
 point:0x1100
 name 350 Lehmiselkä
-tags D1
+opts Source: V42_x
 crds 23.345773 68.359396
 
 point:0x1100
 name 351 Kaijarova
-tags D1
+opts Source: V42_x
 crds 24.139170 68.332601
 
 point:0x1100
 name 352 Alainen Jäntimävaara
-tags D1
+opts Source: V42_x
 crds 22.750257 68.411138
 
 point:0x1100
 name 352 Iso Harrirova
-tags D1
+opts Source: V42_x
 crds 23.456414 68.421333
 
 point:0x1100
 name 352 Pekkalanvaara
-tags D1
+opts Source: V42_x
 crds 23.659743 68.375087
 
 point:0x1100
 name 352 Takainenlaki
-tags D1
+opts Source: V42_x
 crds 23.218860 68.360070
 
 point:0x1100
 name 355 Pursavaara
-tags D1
+opts Source: V42_x
 crds 24.290631 68.409078
 
 point:0x1100
 name 356 Haapavaara
-tags D1
+opts Source: V42_x
 crds 23.110925 68.280726
 
 point:0x1100
 name 356 Kolatusvaara
-tags D1
+opts Source: V42_x
 crds 24.099003 68.317640
 
 point:0x1100
 name 356 MäntyOnnasvaara
-tags D1
+opts Source: V42_x
 crds 23.885971 68.342097
 
 point:0x1100
 name 357 Roskavaara
-tags D1
+opts Source: V42_x
 crds 23.163281 68.292725
 
 point:0x1100
 name 358 Uusivaara
-tags D1
+opts Source: V42_x
 crds 22.939915 68.406099
 
 point:0x1100
 name 358 Vaikkorova
-tags D1
+opts Source: V42_x
 crds 23.826817 68.432605
 
 point:0x1100
 name 358 Välivaara
-tags D1
+opts Source: V42_x
 crds 24.019748 68.343273
 
 point:0x1100
 name 362 Saivorova
-tags D1
+opts Source: V42_x
 crds 23.328515 68.431430
 
 point:0x1100
 name 363 Karontakasenvaara
-tags D1
+opts Source: V42_x
 crds 23.879598 68.441482
 
 point:0x1100
 name 363 Papinvaara
-tags D1
+opts Source: V42_x
 crds 22.432205 68.488480
 
 point:0x1100
 name 365 Jänkkävaara
-tags D1
+opts Source: V42_x
 crds 22.698858 68.454021
 
 point:0x1100
 name 366 Korkeamaa
-tags D1
+opts Source: V42_x
 crds 23.246015 68.534518
 
 point:0x1100
 name 366 Lainiselkä
-tags D1
+opts Source: V42_x
 crds 24.316213 68.415988
 
 point:0x1100
 name 366 Pikkuvaara
-tags D1
+opts Source: V42_x
 crds 24.230811 68.328940
 
 point:0x1100
 name 366 Vähäselkä
-tags D1
+opts Source: V42_x
 crds 23.407333 68.274083
 
 point:0x1100
 name 367 Neljännesvaara
-tags D1
+opts Source: V42_x
 crds 23.679150 68.363928
 
 point:0x1100
 name 367 Pitkäselkä
-tags D1
+opts Source: V42_x
 crds 24.249530 68.478724
 
 point:0x1100
 name 367 Ylinen Jäntimävaara
-tags D1
+opts Source: V42_x
 crds 22.771263 68.423399
 
 point:0x1100
 name 370 Kolmasvaara
-tags D1
+opts Source: V42_x
 crds 23.154975 68.280238
 
 point:0x1100
 name 370 Kurkkionvaara
-tags D1
+opts Source: V42_x
 crds 22.865588 68.368346
 
 point:0x1100
 name 371 Honkavaara
-tags D1
+opts Source: V42_x
 crds 23.116645 68.452620
 
 point:0x1100
 name 371 Seitavaara
-tags D1
+opts Source: V42_x
 crds 22.317559 68.523073
 
 point:0x1100
 name 372 Mäntyharju
-tags D1
+opts Source: V42_x
 crds 24.376686 68.516472
 
 point:0x1100
 name 372 Ollisonvaara
-tags D1
+opts Source: V42_x
 crds 22.918625 68.352715
 
 point:0x1100
 name 372 Särkirova
-tags D1
+opts Source: V42_x
 crds 23.318358 68.277212
 
 point:0x1100
 name 373 Kokkovaara
-tags D1
+opts Source: V42_x
 crds 22.313395 68.545702
 
 point:0x1100
 name 374 Etelä-Vittaselkä
-tags D1
+opts Source: V42_x
 crds 22.989058 68.405596
 
 point:0x1100
 name 375 Puumarasto
-tags D1
+opts Source: V42_x
 crds 23.890128 68.295390
 
 point:0x1100
 name 376 Huhtaselkä
-tags D1
+opts Source: V42_x
 crds 24.237818 68.314729
 
 point:0x1100
 name 376 Rautalahdenvaara
-tags D1
+opts Source: V42_x
 crds 23.380491 68.597171
 
 point:0x1100
 name 377 Ylinen Nautivaara
-tags D1
+opts Source: V42_x
 crds 22.755669 68.459411
 
 point:0x1100
 name 378 Juoksuvaara
-tags D1
+opts Source: V42_x
 crds 24.199734 68.325645
 
 point:0x1100
 name 378 Vuostovaara
-tags D1
+opts Source: V42_x
 crds 23.955215 68.477963
 
 point:0x1100
 name 380 Alainenvaara
-tags D1
+opts Source: V42_x
 crds 23.289987 68.488356
 
 point:0x1100
 name 381 Kivivaara
-tags D1
+opts Source: V42_x
 crds 23.622267 68.350011
 
 point:0x1100
 name 382 Alainen Nautivaara
-tags D1
+opts Source: V42_x
 crds 22.748889 68.445211
 
 point:0x1100
 name 382 Mänty-Ahovaara
-tags D1
+opts Source: V42_x
 crds 24.042007 68.357506
 
 point:0x1100
 name 383 Pulttivaara
-tags D1
+opts Source: V42_x
 crds 23.775678 68.473821
 
 point:0x1100
 name 384 Niettavaara
-tags D1
+opts Source: V42_x
 crds 24.522852 68.419594
 
 point:0x1100
 name 385 Matala Eiran Luhtavaara
-tags D1
+opts Source: V42_x
 crds 24.566599 68.306763
 
 point:0x1100
 name 385 Pahtavaara
-tags D1
+opts Source: V42_x
 crds 23.004047 68.372977
 
 point:0x1100
 name 386 Pekanvaara
-tags D1
+opts Source: V42_x
 crds 22.761734 68.469409
 
 point:0x1100
 name 386 Sokkavaara
-tags D1
+opts Source: V42_x
 crds 23.374757 68.288417
 
 point:0x1100
 name 388 Kermikkäharju
-tags D1
+opts Source: V42_x
 crds 24.598279 68.558083
 
 point:0x1100
 name 388 Kiuasskaidimaa
-tags D1
+opts Source: V42_x
 crds 24.637677 68.503446
 
 point:0x1100
 name 388 Kivivaara
-tags D1
+opts Source: V42_x
 crds 24.036333 68.499015
 
 point:0x1100
 name 390 Iso Sattavaara
-tags D1
+opts Source: V42_x
 crds 24.584453 68.336808
 
 point:0x1100
 name 390 Kelloselkä
-tags D1
+opts Source: V42_x
 crds 23.405466 68.448137
 
 point:0x1100
 name 391 Ahvenvaara
-tags D1
+opts Source: V42_x
 crds 23.616861 68.366836
 
 point:0x1100
 name 391 Asumavaara
-tags D1
+opts Source: V42_x
 crds 24.147340 68.470265
 
 point:0x1100
 name 391 Suonttavaara
-tags D1
+opts Source: V42_x
 crds 23.241653 68.370782
 
 point:0x1100
 name 392 Aittaselkä
-tags D1
+opts Source: V42_x
 crds 23.472655 68.292566
 
 point:0x1100
 name 392 Nunasvaara
-tags D1
+opts Source: V42_x
 crds 22.944121 68.373748
 
 point:0x1100
 name 394 Aasikaisen Paloselkä
-tags D1
+opts Source: V42_x
 crds 24.631957 68.444070
 
 point:0x1100
 name 396 Kuttasenmarasto
-tags D1
+opts Source: V42_x
 crds 22.879768 68.566288
 
 point:0x1100
 name 396 Mustavaara
-tags D1
+opts Source: V42_x
 crds 23.724523 68.358495
 
 point:0x1100
 name 396 Silmärova
-tags D1
+opts Source: V42_x
 crds 23.498322 68.546075
 
 point:0x1100
 name 396 Vittaselkä
-tags D1
+opts Source: V42_x
 crds 24.558283 68.442180
 
 point:0x1100
 name 397 Mustavaara
-tags D1
+opts Source: V42_x
 crds 23.025873 68.414378
 
 point:0x1100
 name 397 Tuolpavaara
-tags D1
+opts Source: V42_x
 crds 23.924899 68.475478
 
 point:0x1100
 name 398 Kuusselkä
-tags D1
+opts Source: V42_x
 crds 23.352871 68.403625
 
 point:0x1100
 name 398 Talomaa
-tags D1
+opts Source: V42_x
 crds 23.575660 68.560480
 
 point:0x1100
 name 399 Risuvaara
-tags D1
+opts Source: V42_x
 crds 23.567196 68.288992
 
 point:0x1100
 name 400 Hirvasvaara
-tags D1
+opts Source: V42_x
 crds 23.009325 68.389067
 
 point:0x1100
 name 400 Markkavaara
-tags D1
+opts Source: V42_x
 crds 22.344301 68.506192
 
 point:0x1100
 name 401 Pikku Saukaraisenvaara
-tags D1
+opts Source: V42_x
 crds 24.365380 68.430369
 
 point:0x1100
 name 401 Siosrova
-tags D1
+opts Source: V42_x
 crds 23.647664 68.293395
 
 point:0x1100
 name 403 Vittaselkä
-tags D1
+opts Source: V42_x
 crds 23.005376 68.420363
 
 point:0x1100
 name 404 Kaarremarasto
-tags D1
+opts Source: V42_x
 crds 23.832411 68.500111
 
 point:0x1100
 name 404 Pahtavaara
-tags D1
+opts Source: V42_x
 crds 22.479431 68.486196
 
 point:0x1100
 name 405 Rovavaara
-tags D1
+opts Source: V42_x
 crds 22.698239 68.485993
 
 point:0x1100
 name 407 Isovaara
-tags D1
+opts Source: V42_x
 crds 23.691067 68.350457
 
 point:0x1100
 name 407 Kaarrevaara
-tags D1
+opts Source: V42_x
 crds 24.453981 68.314970
 
 point:0x1100
 name 407 Paljas Ahovaara
-tags D1
+opts Source: V42_x
 crds 23.994287 68.346574
 
 point:0x1100
 name 408 Jyppyränselkä
-tags D1
+opts Source: V42_x
 crds 23.644640 68.413016
 
 point:0x1100
 name 408 Rissiselkä
-tags D1
+opts Source: V42_x
 crds 22.466382 68.550903
 
 point:0x1100
 name 410 Kennovaara
-tags D1
+opts Source: V42_x
 crds 22.599795 68.485110
 
 point:0x1100
 name 410 Palovaara
-tags D1
+opts Source: V42_x
 crds 22.838036 68.416254
 
 point:0x1100
 name 410 Sakkaravaara
-tags D1
+opts Source: V42_x
 crds 22.483862 68.460663
 
 point:0x1100
 name 411 Jyppyrä
-tags D1
+opts Source: V42_x
 crds 23.667416 68.400538
 
 point:0x1100
 name 413 Palovaara
-tags D1
+opts Source: V42_x
 crds 23.740921 68.420096
 
 point:0x1100
 name 413 Vuostoselkä
-tags D1
+opts Source: V42_x
 crds 24.001776 68.483088
 
 point:0x1100
 name 415 Mukanvaara
-tags D1
+opts Source: V42_x
 crds 23.486833 68.471985
 
 point:0x1100
 name 415 Venkoharju
-tags D1
+opts Source: V42_x
 crds 22.482604 68.522639
 
 point:0x1100
 name 416 Hirvasmarasto
-tags D1
+opts Source: V42_x
 crds 24.120106 68.599628
 
 point:0x1100
 name 416 Luolavaara
-tags D1
+opts Source: V42_x
 crds 22.625337 68.456358
 
 point:0x1100
 name 416 Sarvivaara
-tags D1
+opts Source: V42_x
 crds 22.983805 68.504956
 
 point:0x1100
 name 416 Sissankiselkä
-tags D1
+opts Source: V42_x
 crds 23.622271 68.444911
 
 point:0x1100
 name 417 Siikavaara
-tags D1
+opts Source: V42_x
 crds 23.448570 68.581619
 
 point:0x1100
 name 419 Vaarajoenkielas
-tags D1
+opts Source: V42_x
 crds 23.229215 68.594189
 
 point:0x1100
 name 420 Hangasselkä
-tags D1
+opts Source: V42_x
 crds 23.345222 68.446083
 
 point:0x1100
 name 420 Härkävaara
-tags D1
+opts Source: V42_x
 crds 22.634749 68.473033
 
 point:0x1100
 name 420 Mäntykielas
-tags D1
+opts Source: V42_x
 crds 23.069918 68.563501
 
 point:0x1100
 name 420 Paarmavaara
-tags D1
+opts Source: V42_x
 crds 24.403816 68.324047
 
 point:0x1100
 name 420 Pasmaselkä
-tags D1
+opts Source: V42_x
 crds 24.310376 68.295540
 
 point:0x1100
 name 421 Sierumavaara
-tags D1
+opts Source: V42_x
 crds 22.892358 68.471309
 
 point:0x1100
 name 422 Haikervaara
-tags D1
+opts Source: V42_x
 crds 23.910702 68.528160
 
 point:0x1100
 name 423 Honkavaara
-tags D1
+opts Source: V42_x
 crds 24.542662 68.546151
 
 point:0x1100
 name 426 Kultimavaara
-tags D1
+opts Source: V42_x
 crds 22.885400 68.454953
 
 point:0x1100
 name 427 Koihkalanvaara
-tags D1
+opts Source: V42_x
 crds 22.316403 68.579986
 
 point:0x1100
 name 427 Kokkovaara
-tags D1
+opts Source: V42_x
 crds 23.437527 68.523935
 
 point:0x1100
 name 428 Pöyrisselkä
-tags D1
+opts Source: V42_x
 crds 24.077754 68.491381
 
 point:0x1100
 name 429 Kotavaara
-tags D1
+opts Source: V42_x
 crds 22.443685 68.510226
 
 point:0x1100
 name 430 Korkea Kiuasvaara
-tags D1
+opts Source: V42_x
 crds 24.645225 68.531479
 
 point:0x1100
 name 430 Outa-Näkkälävaara
-tags D1
+opts Source: V42_x
 crds 23.510203 68.580895
 
 point:0x1100
 name 430 Saukaraisenvaara
-tags D1
+opts Source: V42_x
 crds 24.365624 68.437530
 
 point:0x1100
 name 430 Sileäharju
-tags D1
+opts Source: V42_x
 crds 24.350191 68.594698
 
 point:0x1100
 name 431 Kivivaara
-tags D1
+opts Source: V42_x
 crds 22.744402 68.556043
 
 point:0x1100
 name 431 Nunisvaara
-tags D1
+opts Source: V42_x
 crds 24.414716 68.288696
 
 point:0x1100
 name 432 Liikavaara
-tags D1
+opts Source: V42_x
 crds 23.002273 68.473201
 
 point:0x1100
 name 432 Palovaara
-tags D1
+opts Source: V42_x
 crds 23.294401 68.578605
 
 point:0x1100
 name 432 Suoppumavaara
-tags D1
+opts Source: V42_x
 crds 23.580303 68.530951
 
 point:0x1100
 name 434 Kaaranasvaara
-tags D1
+opts Source: V42_x
 crds 23.617050 68.586444
 
 point:0x1100
 name 435 Kallavaara
-tags D1
+opts Source: V42_x
 crds 24.295040 68.521513
 
 point:0x1100
 name 436 Joukhaisvaara
-tags D1
+opts Source: V42_x
 crds 22.890270 68.481024
 
 point:0x1100
 name 436 Palovaara
-tags D1
+opts Source: V42_x
 crds 22.854929 68.568327
 
 point:0x1100
 name 436 Risu-Tienkeri
-tags D1
+opts Source: V42_x
 crds 23.546646 68.512959
 
 point:0x1100
 name 437 Sarviselkä
-tags D1
+opts Source: V42_x
 crds 22.967901 68.523446
 
 point:0x1100
 name 438 Savivaara
-tags D1
+opts Source: V42_x
 crds 22.985618 68.561472
 
 point:0x1100
 name 439 Palloselkä
-tags D1
+opts Source: V42_x
 crds 23.369691 68.654070
 
 point:0x1100
 name 440 Ingeluskavaara
-tags D1
+opts Source: V42_x
 crds 23.386766 68.499362
 
 point:0x1100
 name 440 Kätkäruohtavaara
-tags D1
+opts Source: V42_x
 crds 24.153139 68.501262
 
 point:0x1100
 name 440 Seynismarasto
-tags D1
+opts Source: V42_x
 crds 22.872294 68.627389
 
 point:0x1100
 name 443 Luovavaarankielas
-tags D1
+opts Source: V42_x
 crds 23.248587 68.614530
 
 point:0x1100
 name 443 Pahtavaara
-tags D1
+opts Source: V42_x
 crds 22.984790 68.634747
 
 point:0x1100
 name 443 Riukumarasto
-tags D1
+opts Source: V42_x
 crds 22.512947 68.640296
 
 point:0x1100
 name 447 Lavirova
-tags D1
+opts Source: V42_x
 crds 22.569681 68.517049
 
 point:0x1100
 name 447 Mankavaara
-tags D1
+opts Source: V42_x
 crds 24.076201 68.530676
 
 point:0x1100
 name 448 Iso Onnasvaara
-tags D1
+opts Source: V42_x
 crds 23.791528 68.358978
 
 point:0x1100
 name 448 Paljasselkä
-tags D1
+opts Source: V42_x
 crds 23.625420 68.428403
 
 point:0x1100
 name 450 Marjavaara
-tags D1
+opts Source: V42_x
 crds 22.970856 68.431255
 
 point:0x1100
 name 451 Riehtimarasto
-tags D1
+opts Source: V42_x
 crds 22.816011 68.579678
 
 point:0x1100
 name 452 Maaselkävaara
-tags D1
+opts Source: V42_x
 crds 23.291154 68.645062
 
 point:0x1100
 name 452 Äijävaara
-tags D1
+opts Source: V42_x
 crds 23.025210 68.446814
 
 point:0x1100
 name 455 Jutamakielas
-tags D1
+opts Source: V42_x
 crds 23.065297 68.589809
 
 point:0x1100
 name 455 Risuvaara
-tags D1
+opts Source: V42_x
 crds 24.567673 68.565828
 
 point:0x1100
 name 455 Tommuttirova
-tags D1
+opts Source: V42_x
 crds 22.550957 68.631821
 
 point:0x1100
 name 456 Siilasvaara
-tags D1
+opts Source: V42_x
 crds 22.998197 68.620302
 
 point:0x1100
 name 456 Stallovaara
-tags D1
+opts Source: V42_x
 crds 24.228881 68.575847
 
 point:0x1100
 name 457 Huijunselkä
-tags D1
+opts Source: V42_x
 crds 23.389415 68.678018
 
 point:0x1100
 name 457 Tienkerivaara
-tags D1
+opts Source: V42_x
 crds 23.521770 68.506301
 
 point:0x1100
 name 459 Harrimarasto
-tags D1
+opts Source: V42_x
 crds 22.682594 68.519703
 
 point:0x1100
 name 460 Lauttanen
-tags D1
+opts Source: V42_x
 crds 22.742098 68.543768
 
 point:0x1100
 name 462 Rokkirova
-tags D1
+opts Source: V42_x
 crds 22.597905 68.565978
 
 point:0x1100
 name 464 Kaarremarasto
-tags D1
+opts Source: V42_x
 crds 22.897682 68.647507
 
 point:0x1100
 name 466 Nälkävaara
-tags D1
+opts Source: V42_x
 crds 24.186846 68.537017
 
 point:0x1100
 name 467 Lijankivaara
-tags D1
+opts Source: V42_x
 crds 23.331598 68.521915
 
 point:0x1100
 name 467 Puuvaara
-tags D1
+opts Source: V42_x
 crds 23.100775 68.594243
 
 point:0x1100
 name 469 Sileävaara
-tags D1
+opts Source: V42_x
 crds 24.121628 68.531653
 
 point:0x1100
 name 469 Syvärova
-tags D1
+opts Source: V42_x
 crds 22.523732 68.582947
 
 point:0x1100
 name 469 Välikielas
-tags D1
+opts Source: V42_x
 crds 23.224731 68.627422
 
 point:0x1100
 name 470 Nauriskielas
-tags D1
+opts Source: V42_x
 crds 22.733028 68.572663
 
 point:0x1100
 name 473 Itämävaara
-tags D1
+opts Source: V42_x
 crds 22.850010 68.481731
 
 point:0x1100
 name 473 Kauranmarasto
-tags D1
+opts Source: V42_x
 crds 22.691625 68.625098
 
 point:0x1100
 name 476 Pikku Mahkuvaara
-tags D1
+opts Source: V42_x
 crds 23.879057 68.606827
 
 point:0x1100
 name 476 Risuvaara
-tags D1
+opts Source: V42_x
 crds 24.146602 68.619716
 
 point:0x1100
 name 476 Risuvaara
-tags D1
+opts Source: V42_x
 crds 24.426418 68.588112
 
 point:0x1100
 name 476 Settimarasto
-tags D1
+opts Source: V42_x
 crds 22.466011 68.629495
 
 point:0x1100
 name 480 Luovavaara
-tags D1
+opts Source: V42_x
 crds 23.205972 68.617141
 
 point:0x1100
 name 481 Laavukielas
-tags D1
+opts Source: V42_x
 crds 22.717109 68.591229
 
 point:0x1100
 name 482 Juoluvaara
-tags D1
+opts Source: V42_x
 crds 24.593212 68.633608
 
 point:0x1100
 name 482 Kalkumarasto
-tags D1
+opts Source: V42_x
 crds 24.057823 68.710980
 
 point:0x1100
 name 482 Laihtavaara
-tags D1
+opts Source: V42_x
 crds 23.700085 68.515536
 
 point:0x1100
 name 485 Patavaara
-tags D1
+opts Source: V42_x
 crds 24.523964 68.604592
 
 point:0x1100
 name 486 Mahkuvaara
-tags D1
+opts Source: V42_x
 crds 23.926266 68.603044
 
 point:0x1100
 name 489 Uijarova
-tags D1
+opts Source: V42_x
 crds 22.523032 68.651119
 
 point:0x1100
 name 490 Lenkihaka
-tags D1
+opts Source: V42_x
 crds 24.652842 68.610266
 
 point:0x1100
 name 491 Näkkälävaara
-tags D1
+opts Source: V42_x
 crds 23.547566 68.587876
 
 point:0x1100
 name 493 Seyrisvaara
-tags D1
+opts Source: V42_x
 crds 23.539551 68.653391
 
 point:0x1100
 name 496 Kierisvaara
-tags D1
+opts Source: V42_x
 crds 23.231192 68.638309
 
 point:0x1100
 name 496 Lumpuvaara
-tags D1
+opts Source: V42_x
 crds 22.993275 68.674150
 
 point:0x1100
 name 496 Salvaspalo
-tags D1
+opts Source: V42_x
 crds 23.049811 68.671133
 
 point:0x1100
 name 497 Vuorkuvaara
-tags D1
+opts Source: V42_x
 crds 23.809736 68.627267
 
 point:0x1100
 name 498 Litteävaara
-tags D1
+opts Source: V42_x
 crds 24.303898 68.625135
 
 point:0x1100
 name 500 Kollivaara
-tags D1
+opts Source: V42_x
 crds 24.486406 68.560802
 
 point:0x1100
 name 502 Kielinen
-tags D1
+opts Source: V42_x
 crds 22.596707 68.641417
 
 point:0x1100
 name 504 Pahtavaara
-tags D1
+opts Source: V42_x
 crds 22.574672 68.659122
 
 point:0x1100
 name 505 Keijarainen
-tags D1
+opts Source: V42_x
 crds 23.657438 68.550634
 
 point:0x1100
 name 508 Rajakielas
-tags D1
+opts Source: V42_x
 crds 24.574256 68.682544
 
 point:0x1100
 name 510 Sammalvaara
-tags D1
+opts Source: V42_x
 crds 23.603274 68.300199
 
 point:0x1100
 name 516 Pikku Rautuoivi
-tags D1
+opts Source: V42_x
 crds 24.622746 68.664800
 
 point:0x1100
 name 519 Palo-Kuorttusvaara
-tags D1
+opts Source: V42_x
 crds 24.108659 68.516905
 
 point:0x1100
 name 521 Ainuppivaara
-tags D1
+opts Source: V42_x
 crds 23.833293 68.609101
 
 point:0x1100
 name 521 Pieni Kermikkäpää
-tags D1
+opts Source: V42_x
 crds 24.528600 68.635679
 
 point:0x1100
 name 521 Siosvaara
-tags D1
+opts Source: V42_x
 crds 23.832316 68.291774
 
 point:0x1100
 name 525 Jäkälä-Kuorttusvaara
-tags D1
+opts Source: V42_x
 crds 24.091874 68.545066
 
 point:0x1100
 name 526 Kivinokka
-tags D1
+opts Source: V42_x
 crds 23.737993 68.570260
 
 point:0x1100
 name 526 Porrastunturi
-tags D1
+opts Source: V42_x
 crds 24.172236 68.627132
 
 point:0x1100
 name 527 Etelänkielas
-tags D1
+opts Source: V42_x
 crds 22.772221 68.586950
 
 point:0x1100
 name 529 Tuulivaara
-tags D1
+opts Source: V42_x
 crds 22.790776 68.617885
 
 point:0x1100
 name 530 Kantamavaara
-tags D1
+opts Source: V42_x
 crds 24.491813 68.674744
 
 point:0x1100
 name 530 Uijavaara
-tags D1
+opts Source: V42_x
 crds 22.540639 68.660033
 
 point:0x1100
 name 531 Marttavaara
-tags D1
+opts Source: V42_x
 crds 22.608801 68.583259
 
 point:0x1100
 name 531 Palovaara
-tags D1
+opts Source: V42_x
 crds 24.389003 68.701523
 
 point:0x1100
 name 533 Ellanharju
-tags D1
+opts Source: V42_x
 crds 23.737751 68.620581
 
 point:0x1100
 name 535 Tollakasvaara
-tags D1
+opts Source: V42_x
 crds 23.990622 68.646809
 
 point:0x1100
 name 540 Suinavaara
-tags D1
+opts Source: V42_x
 crds 24.254819 68.603458
 
 point:0x1100
 name 541 Palkisoivi
-tags D1
+opts Source: V42_x
 crds 23.685240 68.610217
 
 point:0x1100
 name 541 Salvastunturin Etelävaara
-tags D1
+opts Source: V42_x
 crds 23.063979 68.624410
 
 point:0x1100
 name 541 Tuolvanenä
-tags D1
+opts Source: V42_x
 crds 22.889165 68.674413
 
 point:0x1100
 name 543 Pekankielas
-tags D1
+opts Source: V42_x
 crds 22.699409 68.683335
 
 point:0x1100
 name 548 Lavivaara
-tags D1
+opts Source: V42_x
 crds 22.564372 68.536274
 
 point:0x1100
 name 550 Salvastunturi
-tags D1
+opts Source: V42_x
 crds 23.067971 68.639558
 
 point:0x1100
 name 551 Rautuoivi
-tags D1
+opts Source: V42_x
 crds 24.608060 68.681583
 
 point:0x1100
 name 557 Jäkälä-Porrastunturi
-tags D1
+opts Source: V42_x
 crds 24.187360 68.619290
 
 point:0x1100
 name 560 Ylivaara
-tags D1
+opts Source: V42_x
 crds 23.839485 68.546692
 
 point:0x1100
 name 561 Kiellitunturi
-tags D1
+opts Source: V42_x
 crds 22.799240 68.687507
 
 point:0x1100
 name 568 Vuomavaara
-tags D1
+opts Source: V42_x
 crds 23.970181 68.590264
 
 point:0x1100
 name 575 Suukisvaara
-tags D1
+opts Source: V42_x
 crds 24.459718 68.578745
 
 point:0x1100
 name 577 Hietakero
-tags D1
+opts Source: V42_x
 crds 22.608581 68.662149
 
 point:0x1100
 name 587 Etelälaki
-tags D1
+opts Source: V42_x
 crds 22.748824 68.664322
 
 point:0x1100
 name 588 Tarvantovaara
-tags D1
+opts Source: V42_x
 crds 22.759035 68.602231
 
 point:0x1100
 name 590 Palolaki
-tags D1
+opts Source: V42_x
 crds 24.209800 68.641174
 
 point:0x1100
 name 595 Olkovaara
-tags D1
+opts Source: V42_x
 crds 23.768356 68.576203
 
 point:0x1100
 name 596 Haaravaara
-tags D1
+opts Source: V42_x
 crds 23.762187 68.300914
 
 point:0x1100
 name 600 Valkamapää
-tags D1
+opts Source: V42_x
 crds 24.206791 68.717275
 
 point:0x1100
 name 607 Termisvaara
-tags D1
+opts Source: V42_x
 crds 23.676306 68.703447
 
 point:0x1100
 name 630 Jierstivaara
-tags D1
+opts Source: V42_x
 crds 23.701985 68.632840
 
 point:0x1100
 name 655 Välivaara
-tags D1
+opts Source: V42_x
 crds 23.759334 68.286592
 
 point:0x1100
 name 710 Pyhäkero
-tags D1
+opts Source: V42_x
 crds 23.771446 68.324641
+
+point:0x1100
+name Hanhijänkäntievat
+opts Source: V42_x
+crds 24.163712 68.314486
+
+point:0x1100
+name Keskilaet
+opts Source: V42_x
+crds 23.824415 68.358863
+
+point:0x1100
+name Lappalaisenmellat
+opts Source: V42_x
+crds 24.381404 68.549562
+
+point:0x1100
+name Maksaselät
+opts Source: V42_x
+crds 22.629592 68.518642
+
+point:0x1100
+name Nallatievat
+opts Source: V42_x
+crds 24.289815 68.472841
+
+point:0x1100
+name Pikkuvaarat
+opts Source: V42_x
+crds 24.412504 68.686818
+
+point:0x1100
+name Potnasenselät
+opts Source: V42_x
+crds 23.102098 68.504554
+
+point:0x1100
+name Terävänpäänharjut
+opts Source: V42_x
+crds 22.505978 68.599039
+
+point:0x1100
+name Tuolpaharjut
+opts Source: V42_x
+crds 23.172978 68.563026
+
+point:0x1100
+name Ullatievat
+opts Source: V42_x
+crds 23.746484 68.390805
 
 point:0x2800
 name Aho
-tags D1
+opts Source: V42_t
 crds 22.784308 68.443625
 
 point:0x2800
 name Ahovuoma
-tags D1
+opts Source: V42_t
 crds 24.038751 68.384959
 
 point:0x2800
 name Aittamaa
-tags D1
+opts Source: V42_t
 crds 22.514117 68.514540
 
 point:0x2800
 name Akanvuoma
-tags D1
+opts Source: V42_t
 crds 23.444784 68.332212
 
 point:0x2800
 name Aksuvuoma
-tags D1
+opts Source: V42_t
 crds 22.860314 68.440599
 
 point:0x2800
 name Alajänkkä
-tags D1
+opts Source: V42_t
 crds 22.678420 68.416738
 
 point:0x2800
 name Alavuoma
-tags D1
+opts Source: V42_t
 crds 24.009173 68.418260
 
 point:0x2800
 name Angelinrova
-tags D1
+opts Source: V42_t
 crds 24.159082 68.401231
 
 point:0x2800
 name Anterusvuoma
-tags D1
+opts Source: V42_t
 crds 24.259585 68.425222
 
 point:0x2800
 name Auvakkovuoma
-tags D1
+opts Source: V42_t
 crds 22.978963 68.640666
 
 point:0x2800
 name Boazogeinnodat
-tags D2
+opts Source: V42_t
 crds 23.315413 68.528807
 
 point:0x2800
 name ENONTEKIÖN LENTOASEMA
-tags D1
+opts Source: V42_t
 crds 23.426233 68.359391
 
 point:0x2800
 name Ellamavuoma
-tags D1
+opts Source: V42_t
 crds 23.515943 68.612775
 
 point:0x2800
 name Etelänpuolen Potnasenselkä
-tags D1
+opts Source: V42_t
 crds 23.081896 68.473485
 
 point:0x2800
 name Haarakoskenvuoma
-tags D1
+opts Source: V42_t
 crds 23.870901 68.363253
 
 point:0x2800
 name Harrivuoma
-tags D1
+opts Source: V42_t
 crds 22.651886 68.533681
 
 point:0x2800
 name Haukivuoma
-tags D1
+opts Source: V42_t
 crds 24.138664 68.559898
 
 point:0x2800
 name Hevosojankatkelma
-tags D1
+opts Source: V42_t
 crds 23.362090 68.622815
 
 point:0x2800
 name Hietajänkkä
-tags D1
+opts Source: V42_t
 crds 22.361713 68.491238
 
 point:0x2800
 name Hietavuoma
-tags D1
+opts Source: V42_t
 crds 22.349549 68.552258
 
 point:0x2800
 name Hirsimaa
-tags D1
+opts Source: V42_t
 crds 23.981949 68.354426
 
 point:0x2800
 name Hirvasvuoma
-tags D1
+opts Source: V42_t
 crds 23.138500 68.403214
 
 point:0x2800
 name Huttikaisenpalo
-tags D1
+opts Source: V42_t
 crds 24.461670 68.437212
 
 point:0x2800
 name Isojänkkä
-tags D1
+opts Source: V42_t
 crds 23.974793 68.303538
 
 point:0x2800
 name Isomarasto
-tags D1
+opts Source: V42_t
 crds 24.500792 68.527776
 
 point:0x2800
 name Isovuoma
-tags D1
+opts Source: V42_t
 crds 23.365251 68.542254
 
 point:0x2800
 name Itämävuoma
-tags D1
+opts Source: V42_t
 crds 22.867410 68.527838
 
 point:0x2800
 name Jalmarin Niittyvuoma
-tags D1
+opts Source: V42_t
 crds 22.823138 68.538617
 
 point:0x2800
 name Jatuninselät
-tags D1
+opts Source: V42_t
 crds 22.614720 68.464000
 
 point:0x2800
 name Jietanasvuoma
-tags D1
+opts Source: V42_t
 crds 22.559667 68.446632
 
 point:0x2800
 name Joukhaisvuoma
-tags D1
+opts Source: V42_t
 crds 22.913109 68.494148
 
 point:0x2800
 name Juhonjänkkä
-tags D1
+opts Source: V42_t
 crds 23.376736 68.367628
 
 point:0x2800
 name Jutamaruto
-tags D1
+opts Source: V42_t
 crds 22.933093 68.645815
 
 point:0x2800
 name Juuhnankeino
-tags D2
+opts Source: V42_t
 crds 22.873627 68.415538
 
 point:0x2800
 name Jäkälämaa
-tags D1
+opts Source: V42_t
 crds 24.574939 68.455859
 
 point:0x2800
 name Kapperapalo
-tags D1
+opts Source: V42_t
 crds 24.658614 68.341203
 
 point:0x2800
 name Karhakkamaa
-tags D1
+opts Source: V42_t
 crds 24.011452 68.303952
 
 point:0x2800
 name Karkuvuoma
-tags D1
+opts Source: V42_t
 crds 23.259726 68.397124
 
 point:0x2800
 name Keijaraisskaiti
-tags D1
+opts Source: V42_t
 crds 23.659775 68.520775
 
 point:0x2800
 name Keinovuoma
-tags D1
+opts Source: V42_t
 crds 24.105088 68.354385
 
 point:0x2800
 name Kenttävuoma
-tags D1
+opts Source: V42_t
 crds 23.418200 68.542840
 
 point:0x2800
 name Kesävuoma
-tags D1
+opts Source: V42_t
 crds 22.865357 68.647436
 
 point:0x2800
 name Kiekerörova
-tags D1
+opts Source: V42_t
 crds 23.503931 68.306568
 
 point:0x2800
 name Kiekerövuoma
-tags D1
+opts Source: V42_t
 crds 23.511489 68.337217
 
 point:0x2800
 name Kiiskivuoma
-tags D1
+opts Source: V42_t
 crds 22.984001 68.688001
 
 point:0x2800
 name Kiiskivuoma
-tags D1
+opts Source: V42_t
 crds 23.315280 68.374273
 
 point:0x2800
 name Killerämaa
-tags D1
+opts Source: V42_t
 crds 23.177882 68.419892
 
 point:0x2800
 name Killerävuoma
-tags D1
+opts Source: V42_t
 crds 23.180396 68.437271
 
 point:0x2800
 name Kiuasskaidimarasto
-tags D1
+opts Source: V42_t
 crds 24.617536 68.517812
 
 point:0x2800
 name Kiviojanpalo
-tags D1
+opts Source: V42_t
 crds 24.566575 68.407268
 
 point:0x2800
 name Kokkovuoma
-tags D1
+opts Source: V42_t
 crds 23.449559 68.547204
 
 point:0x2800
 name Kollimarasto
-tags D1
+opts Source: V42_t
 crds 24.494467 68.512742
 
 point:0x2800
 name Kollipalo
-tags D1
+opts Source: V42_t
 crds 24.461778 68.544115
 
 point:0x2800
 name Kollivuoma
-tags D1
+opts Source: V42_t
 crds 24.447261 68.534463
 
 point:0x2800
 name Kortejänkkä
-tags D1
+opts Source: V42_t
 crds 24.098158 68.469907
 
 point:0x2800
 name Kortevuoma
-tags D1
+opts Source: V42_t
 crds 23.187787 68.327536
 
 point:0x2800
 name Kortevuoma
-tags D1
+opts Source: V42_t
 crds 23.334318 68.475287
 
 point:0x2800
 name Kortevuoma
-tags D1
+opts Source: V42_t
 crds 24.426533 68.616146
 
 point:0x2800
 name Kotajänkkä
-tags D1
+opts Source: V42_t
 crds 24.356095 68.474739
 
 point:0x2800
 name Kottivuoma
-tags D1
+opts Source: V42_t
 crds 23.907530 68.573898
 
 point:0x2800
 name Kousujärvenmaa
-tags D1
+opts Source: V42_t
 crds 24.490909 68.454871
 
 point:0x2800
 name Kunnarinniemi
-tags D1
+opts Source: V42_t
 crds 22.360692 68.456427
 
 point:0x2800
 name Kuontasvuoma
-tags D1
+opts Source: V42_t
 crds 23.243396 68.476138
 
 point:0x2800
 name Kuoskisenvuoma
-tags D1
+opts Source: V42_t
 crds 24.456469 68.485111
 
 point:0x2800
 name Kurkkionvuoma
-tags D1
+opts Source: V42_t
 crds 22.878155 68.384725
 
 point:0x2800
 name Laitavaaranvuoma
-tags D1
+opts Source: V42_t
 crds 23.195672 68.272496
 
 point:0x2800
 name Lammasniemi
-tags D1
+opts Source: V42_t
 crds 24.287835 68.380626
 
 point:0x2800
 name Lassinjänkkä
-tags D1
+opts Source: V42_t
 crds 23.600742 68.522438
 
 point:0x2800
 name Lauantaijänkkä
-tags D1
+opts Source: V42_t
 crds 22.341542 68.521484
 
 point:0x2800
 name Lauluvuoma
-tags D1
+opts Source: V42_t
 crds 23.924077 68.713833
 
 point:0x2800
 name Lautakotavuoma
-tags D1
+opts Source: V42_t
 crds 23.976169 68.681742
 
 point:0x2800
 name Leveävuoma
-tags D1
+opts Source: V42_t
 crds 23.402645 68.417294
 
 point:0x2800
 name Lintuvuoma
-tags D1
+opts Source: V42_t
 crds 22.677310 68.426996
 
 point:0x2800
 name Lumpuvuoma
-tags D1
+opts Source: V42_t
 crds 22.971502 68.654805
 
 point:0x2800
 name Luovuoma
-tags D1
+opts Source: V42_t
 crds 23.540953 68.409231
 
 point:0x2800
 name Maanpäävuoma
-tags D1
+opts Source: V42_t
 crds 23.248991 68.409081
 
 point:0x2800
 name Markkinajänkkä
-tags D1
+opts Source: V42_t
 crds 22.362849 68.476854
 
 point:0x2800
 name Matalapalo
-tags D1
+opts Source: V42_t
 crds 24.464439 68.418136
 
 point:0x2800
 name Matti-vainaan palo
-tags D1
+opts Source: V42_t
 crds 24.098353 68.442025
 
 point:0x2800
 name Munavuoma
-tags D1
+opts Source: V42_t
 crds 24.190575 68.413543
 
 point:0x2800
 name Mäntymaa
-tags D1
+opts Source: V42_t
 crds 23.475358 68.608888
 
 point:0x2800
 name Nallamarasto
-tags D1
+opts Source: V42_t
 crds 23.907913 68.684348
 
 point:0x2800
 name Neitokaitti
-tags D1
+opts Source: V42_t
 crds 23.781563 68.420450
 
 point:0x2800
 name Neitovuoma
-tags D1
+opts Source: V42_t
 crds 23.742471 68.444430
 
 point:0x2800
 name Notkovuoma
-tags D1
+opts Source: V42_t
 crds 23.115655 68.627012
 
 point:0x2800
 name Nunasvuoma
-tags D1
+opts Source: V42_t
 crds 22.923299 68.408477
 
 point:0x2800
 name Nunasvuoma
-tags D1
+opts Source: V42_t
 crds 22.992385 68.352007
 
 point:0x2800
 name Näätämaa
-tags D1
+opts Source: V42_t
 crds 22.365568 68.502056
 
 point:0x2800
 name Oivuksenvuoma
-tags D1
+opts Source: V42_t
 crds 23.886507 68.697613
 
 point:0x2800
 name Ojavuoma
-tags D1
+opts Source: V42_t
 crds 23.049926 68.333622
 
 point:0x2800
 name Paatsikkapalo
-tags D1
+opts Source: V42_t
 crds 23.208504 68.515983
 
 point:0x2800
 name Pahtanenänvuoma
-tags D1
+opts Source: V42_t
 crds 23.178691 68.353798
 
 point:0x2800
 name Palakaisenvuoma
-tags D1
+opts Source: V42_t
 crds 24.249916 68.398807
 
 point:0x2800
 name Pallas-Yllästunturin kansallispuisto
-tags D1
+opts Source: V42_t
 crds 24.019893 68.093101
 
 point:0x2800
 name Paloaho
-tags D1
+opts Source: V42_t
 crds 22.811400 68.449603
 
 point:0x2800
 name Palovaaranvuoma
-tags D1
+opts Source: V42_t
 crds 22.845293 68.545387
 
 point:0x2800
 name Palovuoma
-tags D1
+opts Source: V42_t
 crds 22.798190 68.414493
 
 point:0x2800
 name Palsavuoma
-tags D1
+opts Source: V42_t
 crds 22.737616 68.421284
 
 point:0x2800
 name Paskajänkkä
-tags D1
+opts Source: V42_t
 crds 23.573751 68.460574
 
 point:0x2800
 name Paskaouta
-tags D1
+opts Source: V42_t
 crds 23.572395 68.489744
 
 point:0x2800
 name Petaittamaa
-tags D1
+opts Source: V42_t
 crds 24.259896 68.409846
 
 point:0x2800
 name Peukkarinpalo
-tags D1
+opts Source: V42_t
 crds 24.009264 68.520428
 
 point:0x2800
 name Pienajänkkä
-tags D1
+opts Source: V42_t
 crds 24.016168 68.326024
 
 point:0x2800
 name Pietukaisenvuoma
-tags D1
+opts Source: V42_t
 crds 24.377957 68.345517
 
 point:0x2800
 name Pirkkosenvuoma
-tags D1
+opts Source: V42_t
 crds 24.207250 68.370651
 
 point:0x2800
 name Pissivuoma
-tags D1
+opts Source: V42_t
 crds 23.301987 68.401905
 
 point:0x2800
 name Pitkäjänkkä
-tags D1
+opts Source: V42_t
 crds 24.635810 68.339839
 
 point:0x2800
 name Pitkänjärvenjänkkä
-tags D1
+opts Source: V42_t
 crds 24.058078 68.582080
 
 point:0x2800
 name Pitkäselkä
-tags D1
+opts Source: V42_t
 crds 23.444552 68.650012
 
 point:0x2800
 name Pohjoisjänkkä
-tags D1
+opts Source: V42_t
 crds 24.510050 68.466460
 
 point:0x2800
 name Porovuoma
-tags D1
+opts Source: V42_t
 crds 23.197323 68.409397
 
 point:0x2800
 name Proksinmarasto
-tags D1
+opts Source: V42_t
 crds 23.925594 68.657758
 
 point:0x2800
 name Proksinvuoma
-tags D1
+opts Source: V42_t
 crds 23.953575 68.695197
 
 point:0x2800
 name Pöyrisjärven erämaa-alue
-tags D1
+opts Source: V42_t
 crds 23.814754 68.677489
 
 point:0x2800
 name Raiskavuoma
-tags D1
+opts Source: V42_t
 crds 22.963017 68.592967
 
 point:0x2800
 name Rajaskaiti
-tags D1
+opts Source: V42_t
 crds 23.158927 68.628819
 
 point:0x2800
 name Rastajoenmaa
-tags D1
+opts Source: V42_t
 crds 23.348019 68.594529
 
 point:0x2800
 name Rautavuoma
-tags D1
+opts Source: V42_t
 crds 23.904830 68.638338
 
 point:0x2800
 name Rautulanvuoma
-tags D1
+opts Source: V42_t
 crds 23.297839 68.620103
 
 point:0x2800
 name Repojänkkä
-tags D1
+opts Source: V42_t
 crds 22.805095 68.463241
 
 point:0x2800
 name Riitajänkkä
-tags D1
+opts Source: V42_t
 crds 22.434549 68.478839
 
 point:0x2800
 name Ruossavuoma
-tags D1
+opts Source: V42_t
 crds 23.775092 68.640869
 
 point:0x2800
 name Rämikattamavuoma
-tags D1
+opts Source: V42_t
 crds 24.195815 68.301434
 
 point:0x2800
 name Saaravuoma
-tags D1
+opts Source: V42_t
 crds 24.144802 68.436092
 
 point:0x2800
 name Saarettomamaa
-tags D1
+opts Source: V42_t
 crds 24.618913 68.403908
 
 point:0x2800
 name Salmivuoma
-tags D1
+opts Source: V42_t
 crds 23.431420 68.401131
 
 point:0x2800
 name Salttiselkä
-tags D1
+opts Source: V42_t
 crds 22.762255 68.493794
 
 point:0x2800
 name Sarviselänvuoma
-tags D1
+opts Source: V42_t
 crds 22.946148 68.529740
 
 point:0x2800
 name Sattarova
-tags D1
+opts Source: V42_t
 crds 24.435624 68.378074
 
 point:0x2800
 name Sattavuoma
-tags D1
+opts Source: V42_t
 crds 24.508274 68.327652
 
 point:0x2800
 name Saukaraisenvuoma
-tags D1
+opts Source: V42_t
 crds 24.353708 68.450170
 
 point:0x2800
 name Saukkovuoma
-tags D1
+opts Source: V42_t
 crds 24.341426 68.326213
 
 point:0x2800
 name Saukkovuomanperämaa
-tags D1
+opts Source: V42_t
 crds 24.335747 68.306168
 
 point:0x2800
 name Saurajänkkä
-tags D1
+opts Source: V42_t
 crds 23.177903 68.559724
 
 point:0x2800
 name Seipusmaa
-tags D1
+opts Source: V42_t
 crds 23.524194 68.633768
 
 point:0x2800
 name Selänpäänjänkkä
-tags D1
+opts Source: V42_t
 crds 23.621099 68.478546
 
 point:0x2800
 name Seyrisvuoma
-tags D1
+opts Source: V42_t
 crds 23.418097 68.594275
 
 point:0x2800
 name Siettelänvuoma
-tags D1
+opts Source: V42_t
 crds 24.630927 68.315981
 
 point:0x2800
 name Siikavuopionjänkkä
-tags D1
+opts Source: V42_t
 crds 24.458779 68.467783
 
 point:0x2800
 name Silpavuoma
-tags D1
+opts Source: V42_t
 crds 24.127197 68.391101
 
 point:0x2800
 name Sioskuru
-tags D1
+opts Source: V42_t
 crds 23.784938 68.295521
 
 point:0x2800
 name Sitsapesänvuoma
-tags D1
+opts Source: V42_t
 crds 24.055649 68.315042
 
 point:0x2800
 name Sokkaporinvuoma
-tags D1
+opts Source: V42_t
 crds 24.043970 68.395907
 
 point:0x2800
 name Sotkavuoma
-tags D1
+opts Source: V42_t
 crds 23.291477 68.346425
 
 point:0x2800
 name Soukisjärvenmaa
-tags D1
+opts Source: V42_t
 crds 24.612532 68.389273
 
 point:0x2800
 name Suinavuoma
-tags D1
+opts Source: V42_t
 crds 24.584581 68.385303
 
 point:0x2800
 name Suinavuomanmaa
-tags D1
+opts Source: V42_t
 crds 24.524880 68.356807
 
 point:0x2800
 name Suomajänkkä
-tags D1
+opts Source: V42_t
 crds 24.354722 68.382605
 
 point:0x2800
 name Suvannonvuoma
-tags D1
+opts Source: V42_t
 crds 24.592927 68.394795
 
 point:0x2800
 name Syvävuoma
-tags D1
+opts Source: V42_t
 crds 22.703890 68.606389
 
 point:0x2800
 name Takavuoma
-tags D1
+opts Source: V42_t
 crds 24.062966 68.296194
 
 point:0x2800
 name Talvatus
-tags D1
+opts Source: V42_t
 crds 24.131640 68.410668
 
 point:0x2800
 name Tammukkajoenjänkät
-tags D1
+opts Source: V42_t
 crds 23.403943 68.666217
 
 point:0x2800
 name Tarvantovaaran erämaa-alue
-tags D1
+opts Source: V42_t
 crds 22.744103 68.545735
 
 point:0x2800
 name Tolppanivanniemi
-tags D1
+opts Source: V42_t
 crds 22.576799 68.423930
 
 point:0x2800
 name Tuolpajänkä
-tags D1
+opts Source: V42_t
 crds 23.954160 68.455881
 
 point:0x2800
 name Tuolpamarasto
-tags D1
+opts Source: V42_t
 crds 23.889169 68.652816
 
 point:0x2800
 name Tuolpavuoma
-tags D1
+opts Source: V42_t
 crds 23.160457 68.576736
 
 point:0x2800
 name Tuoremaa
-tags D1
+opts Source: V42_t
 crds 22.892405 68.398026
 
 point:0x2800
 name Tuulivuoma
-tags D1
+opts Source: V42_t
 crds 24.179835 68.345544
 
 point:0x2800
 name Tynnyrivuoma
-tags D1
+opts Source: V42_t
 crds 23.314140 68.462610
 
 point:0x2800
 name Törmisvuoma
-tags D1
+opts Source: V42_t
 crds 23.091629 68.373324
 
 point:0x2800
 name Uijavuoma
-tags D1
+opts Source: V42_t
 crds 22.525202 68.688450
 
 point:0x2800
 name Ukkosenpalo
-tags D1
+opts Source: V42_t
 crds 24.620131 68.427098
 
 point:0x2800
 name Urakkavuoma
-tags D1
+opts Source: V42_t
 crds 23.293467 68.412162
 
 point:0x2800
 name Vaaravuoma
-tags D1
+opts Source: V42_t
 crds 23.090777 68.447496
 
 point:0x2800
 name Valkamapalo
-tags D1
+opts Source: V42_t
 crds 24.085751 68.679528
 
 point:0x2800
 name Valkamavuoma
-tags D1
+opts Source: V42_t
 crds 24.085427 68.627056
 
 point:0x2800
 name Victoria-reitti
-tags D2
+opts Source: V42_t
 crds 22.380004 68.472869
 
 point:0x2800
 name Vuomakoskenmaa
-tags D1
+opts Source: V42_t
 crds 24.545347 68.489113
 
 point:0x2800
 name Vuomapalo
-tags D1
+opts Source: V42_t
 crds 23.973221 68.551060
 
 point:0x2800
 name Vuorasvuopionmaa
-tags D1
+opts Source: V42_t
 crds 24.666177 68.417211
 
 point:0x2800
 name Vuostojänkkä
-tags D1
+opts Source: V42_t
 crds 24.021901 68.460396
 
 point:0x2800
 name Vääräkkävuoma
-tags D1
+opts Source: V42_t
 crds 22.558244 68.494649
 
 point:0x2800
 name ampumarata
-tags D2
+opts Source: V42_t
 crds 22.524805 68.457722
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 22.988043 68.490030
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 23.336878 68.590159
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 23.439971 68.346970
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 23.528259 68.604816
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 23.802571 68.691781
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 24.055510 68.340278
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 24.118195 68.410648
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 24.171741 68.400354
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 24.184349 68.333532
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 24.597763 68.601422
 
 point:0x2800
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 24.649804 68.355268
 
 point:0x2800
 name hiihtoreitti
-tags D2
+opts Source: V42_t
 crds 23.725663 68.325449
 
 point:0x2800
 name hiihtoreitti
-tags D2
+opts Source: V42_t
 crds 23.857932 68.346010
 
 point:0x2800
 name kahlaamo
-tags D2
+opts Source: V42_t
 crds 23.698159 68.417216
 
 point:0x2800
 name kahlaamo
-tags D2
+opts Source: V42_t
 crds 23.812929 68.700864
 
 point:0x2800
 name kahlaamo
-tags D2
+opts Source: V42_t
 crds 23.910416 68.715050
 
 point:0x2800
 name lautta
-tags D2
+opts Source: V42_t
 crds 23.847181 68.696671
 
 point:0x2800
 name retkeilyreitti
-tags D2
+opts Source: V42_t
 crds 23.567252 68.584662
 
 point:0x2800
 name retkeilyreitti
-tags D2
+opts Source: V42_t
 crds 23.576074 68.446462
 
 point:0x2800
 name retkeilyreitti
-tags D2
+opts Source: V42_t
 crds 23.611863 68.530856
 
 point:0x2800
 name retkeilyreitti
-tags D2
+opts Source: V42_t
 crds 23.623439 68.634252
 
 point:0x2800
 name retkeilyreitti
-tags D2
+opts Source: V42_t
 crds 23.634045 68.469546
 
 point:0x2800
 name retkeilyreitti
-tags D2
+opts Source: V42_t
 crds 23.737699 68.336413
 
 point:0x2800
 name retkeilyreitti
-tags D2
+opts Source: V42_t
 crds 23.820217 68.294818
 
 point:0x2800
 name retkeilyreitti
-tags D2
+opts Source: V42_t
 crds 23.953012 68.290908
 
 point:0x2800
 name retkeilyreitti
-tags D2
+opts Source: V42_t
 crds 24.380891 68.429244
 
 point:0x2800
 name val. kuntorata
-tags D2
+opts Source: V42_t
 crds 22.487714 68.454365
 
 point:0x2800
 name val. kuntorata
-tags D2
+opts Source: V42_t
 crds 23.634609 68.392903
 
 point:0x2800
 name val. kuntorata
-tags D2
+opts Source: V42_t
 crds 23.665621 68.406263
 
 point:0x2800
 name val. kuntorata
-tags D2
+opts Source: V42_t
 crds 24.188484 68.396266
 
 point:0x2800
 name Äijäjärvenmaa
-tags D1
+opts Source: V42_t
 crds 23.224276 68.288107
 
 point:0x2800
 name Äijäpalo
-tags D1
+opts Source: V42_t
 crds 23.276640 68.275467
 
 point:0x2800
 name Äijävainaanvuoma
-tags D1
+opts Source: V42_t
 crds 24.317343 68.442820
 
 point:0x2b04
 name Isokurkkio\\autiotupa
-tags D2
+opts Source: V42_t
 crds 22.277876 68.629922
 
 point:0x2b04
 name Jyppyrän näköalakota
-tags D2
+opts Source: V42_t
 crds 23.668053 68.400348
 
 point:0x2b04
 name Korteoja\\autiotupa
-tags D2
+opts Source: V42_t
 crds 24.394513 68.602955
 
 point:0x2b04
 name Lenkihaka\\autiotupa
-tags D2
+opts Source: V42_t
 crds 24.580133 68.615588
 
 point:0x2b04
 name Muotkajärvi\\päivätupa
-tags D2
+opts Source: V42_t
 crds 23.437711 68.350651
 
 point:0x2b04
 name Nallatupa\\autiotupa
-tags D2
+opts Source: V42_t
 crds 24.323153 68.467275
 
 point:0x2b04
 name Näkkälän Välitupa\\autiotupa
-tags D2
+opts Source: V42_t
 crds 23.619031 68.509992
 
 point:0x2b04
 name Pyhäkero\\autiotupa
-tags D2
+opts Source: V42_t
 crds 23.720392 68.342870
 
 point:0x2b04
 name Pöyrisjärvi\\autio- ja varaustupa
-tags D2
+opts Source: V42_t
 crds 23.812879 68.699962
 
 point:0x2b04
 name Salvasjärvi\\autiotupa
-tags D2
+opts Source: V42_t
 crds 23.038197 68.680060
 
 point:0x2b04
 name Sioskoski\\päivätupa
-tags D2
+opts Source: V42_t
 crds 23.975984 68.316787
 
 point:0x2b04
 name Sioskuru\\autio- ja varaustupa
-tags D2
+opts Source: V42_t
 crds 23.817038 68.297885
 
 point:0x2b04
 name Sissanki\\vuokrakota
-tags D2
+opts Source: V42_t
 crds 23.614897 68.437086
 
 point:0x2b04
 name Stallojärvi\\autiotupa
-tags D2
+opts Source: V42_t
 crds 24.255894 68.570653
 
 point:0x2b04
 name Syväjärvi\\autiotupa
-tags D2
+opts Source: V42_t
 crds 22.517463 68.603465
 
 point:0x2b04
 name Tunturi-Lapin luontokeskus
-tags D2
+opts Source: V42_t
 crds 23.667224 68.395329
 
 point:0x2b04
 name Ungelon torppa
-tags D2
+opts Source: V42_t
 crds 23.657536 68.387644
 
 point:0x2b04
 name Välimaa
-tags D2
+opts Source: V42_t
 crds 22.905797 68.424375
 
 point:0x2b04
 name erotusaita
-tags D2
+opts Source: V42_t
 crds 22.520467 68.454278
 
 point:0x2b04
 name huoltoas.
-tags D2
+opts Source: V42_t
 crds 23.335639 68.570783
 
 point:0x2b04
 name kivikautinen asuinpaikka
-tags D2
+opts Source: V42_t
 crds 23.303209 68.504126
 
 point:0x2b04
 name kota
-tags D2
+opts Source: V42_t
 crds 23.093691 68.331469
 
 point:0x2b04
 name kota
-tags D2
+opts Source: V42_t
 crds 23.338741 68.322284
 
 point:0x2b04
 name kota
-tags D2
+opts Source: V42_t
 crds 23.815027 68.401092
 
 point:0x2b04
 name kota
-tags D2
+opts Source: V42_t
 crds 23.879664 68.328345
 
 point:0x2b04
 name kota
-tags D2
+opts Source: V42_t
 crds 24.516686 68.398140
 
 point:0x2b04
 name kylätalo
-tags D2
+opts Source: V42_t
 crds 23.083930 68.280728
 
 point:0x2b04
 name laavu
-tags D2
+opts Source: V42_t
 crds 22.556597 68.434788
 
 point:0x2b04
 name laavu
-tags D2
+opts Source: V42_t
 crds 22.626038 68.435350
 
 point:0x2b04
 name laavu
-tags D2
+opts Source: V42_t
 crds 22.836354 68.387463
 
 point:0x2b04
 name laavu
-tags D2
+opts Source: V42_t
 crds 23.285943 68.310846
 
 point:0x2b04
 name laavu
-tags D2
+opts Source: V42_t
 crds 23.582893 68.450776
 
 point:0x2b04
 name laavu
-tags D2
+opts Source: V42_t
 crds 23.602612 68.344029
 
 point:0x2b04
 name laavu
-tags D2
+opts Source: V42_t
 crds 23.661564 68.396252
 
 point:0x2b04
 name laavu
-tags D2
+opts Source: V42_t
 crds 23.787495 68.380652
 
 point:0x2b04
 name laavu
-tags D2
+opts Source: V42_t
 crds 23.884319 68.407583
 
 point:0x2b04
 name laavu
-tags D2
+opts Source: V42_t
 crds 24.134560 68.408243
 
 point:0x2b04
 name lintutorni
-tags D2
+opts Source: V42_t
 crds 22.338601 68.482687
 
 point:0x2b04
 name lintutorni
-tags D2
+opts Source: V42_t
 crds 23.285289 68.311077
 
 point:0x2b04
 name ls.alue
-tags D2
+opts Source: V42_t
 crds 23.508726 68.609057
 
 point:0x2b04
 name ls.alue
-tags D2
+opts Source: V42_t
 crds 23.529943 68.600121
 
 point:0x2b04
 name ls.alue
-tags D2
+opts Source: V42_t
 crds 23.623649 68.555514
 
 point:0x2b04
 name ls.alue
-tags D2
+opts Source: V42_t
 crds 24.073706 68.377771
 
 point:0x2b04
 name ls.alue
-tags D2
+opts Source: V42_t
 crds 24.235096 68.384648
 
 point:0x2b04
 name majoitusliike
-tags D2
+opts Source: V42_t
 crds 23.320762 68.509387
 
 point:0x2b04
 name metsästysmaja
-tags D2
+opts Source: V42_t
 crds 22.733191 68.395068
 
 point:0x2b04
 name metsästysmaja
-tags D2
+opts Source: V42_t
 crds 23.056215 68.384646
 
 point:0x2b04
 name metsästysmaja
-tags D2
+opts Source: V42_t
 crds 23.390648 68.440914
 
 point:0x2b04
 name museo
-tags D2
+opts Source: V42_t
 crds 23.698317 68.395681
 
 point:0x2b04
 name tulli
-tags D2
+opts Source: V42_t
 crds 22.477398 68.445042
 
 point:0x2b04
 name tulli
-tags D2
+opts Source: V42_t
 crds 23.323201 68.659970
 
 point:0x2b04
 name venesatama
-tags D2
+opts Source: V42_t
 crds 23.644737 68.383544
 
 point:0x6415
 name Erkunan seita
-tags D2
+opts Source: V42_t
 crds 23.306534 68.601106
 
 point:0x6415
 name Struven ketjun piste
-tags D2
+opts Source: V42_t
 crds 22.745934 68.682457
 
 point:0x6415
 name Struven ketjun piste
-tags D2
+opts Source: V42_t
 crds 23.712075 68.649316
 
 point:0x6415
 name kirkon paikka
-tags D2
+opts Source: V42_t
 crds 23.069690 68.288394
 
 point:0x6415
 name kivilatomus
-tags D2
+opts Source: V42_t
 crds 23.330858 68.642081
 
 point:0x6415
 name pyyntikuopia
-tags D2
+opts Source: V42_t
 crds 22.510900 68.495761
 
 point:0x6415
 name seitakivi
-tags D2
+opts Source: V42_t
 crds 23.574561 68.594211
 
 point:0x6508
 name Alainen Tapokoski
-tags D1
+opts Source: V42_t
 crds 22.985705 68.321005
 
 point:0x6508
 name Kurkkio
-tags D1
+opts Source: V42_t
 crds 22.919807 68.443486
 
 point:0x6508
 name Laakakurkkio
-tags D1
+opts Source: V42_t
 crds 24.064206 68.460779
 
 point:0x6508
 name Mannakoski
-tags D1
+opts Source: V42_t
 crds 22.342580 68.482604
 
 point:0x6508
 name Melkkakoski
-tags D1
+opts Source: V42_t
 crds 23.246135 68.517743
 
 point:0x6508
 name Ollisonkoski
-tags D1
+opts Source: V42_t
 crds 22.872375 68.353933
 
 point:0x6508
 name Onnaskoski
-tags D1
+opts Source: V42_t
 crds 23.935199 68.330692
 
 point:0x6508
 name Pahtakoski
-tags D1
+opts Source: V42_t
 crds 22.294391 68.586676
 
 point:0x6508
 name Pahtakoski
-tags D1
+opts Source: V42_t
 crds 23.209868 68.494463
 
 point:0x6508
 name Petäjäkoski
-tags D1
+opts Source: V42_t
 crds 23.060588 68.305726
 
 point:0x6508
 name Pitkäniva
-tags D1
+opts Source: V42_t
 crds 22.691148 68.403387
 
 point:0x6508
 name Rappaskoski
-tags D1
+opts Source: V42_t
 crds 22.349644 68.462640
 
 point:0x6508
 name Saarikosket
-tags D1
+opts Source: V42_t
 crds 24.017327 68.508826
 
 point:0x6508
 name Siltakoski
-tags D1
+opts Source: V42_t
 crds 24.130746 68.407549
 
 point:0x6508
 name Vuomakoski
-tags D1
+opts Source: V42_t
 crds 24.011980 68.612455
 
 point:0x6508
 name Vuotsukoski
-tags D1
+opts Source: V42_t
 crds 24.300870 68.446956
 
 point:0x6508
 name Vähäkurkkio
-tags D1
+opts Source: V42_t
 crds 22.294696 68.591964
 
 point:0x6508
 name Vääräniva
-tags D1
+opts Source: V42_t
 crds 22.675985 68.412558
 
 point:0x6508
 name Ylinen Tapokoski
-tags D1
+opts Source: V42_t
 crds 22.975736 68.329149
 
 point:0x650c
 name Aasikainen
-tags D1
+opts Source: V42_t
 crds 24.630647 68.459165
 
 point:0x650c
 name Aaslakkajärvi
-tags D1
+opts Source: V42_t
 crds 22.545038 68.593041
 
 point:0x650c
 name Aataminjärvi
-tags D1
+opts Source: V42_t
 crds 22.960279 68.589005
 
 point:0x650c
 name Ahojärvi
-tags D1
+opts Source: V42_t
 crds 24.045437 68.372271
 
 point:0x650c
 name Ahosenjärvi
-tags D1
+opts Source: V42_t
 crds 24.474424 68.344464
 
 point:0x650c
 name Ahvenjärvi
-tags D1
+opts Source: V42_t
 crds 22.881984 68.406556
 
 point:0x650c
 name Ahvenjärvi
-tags D1
+opts Source: V42_t
 crds 23.098708 68.422228
 
 point:0x650c
 name Ahvenjärvi
-tags D1
+opts Source: V42_t
 crds 23.317709 68.300557
 
 point:0x650c
 name Ahvenjärvi
-tags D1
+opts Source: V42_t
 crds 23.461851 68.575019
 
 point:0x650c
 name Ahvensaivot
-tags D1
+opts Source: V42_t
 crds 23.163916 68.449258
 
 point:0x650c
 name Ainuppijärvi
-tags D1
+opts Source: V42_t
 crds 23.835238 68.601788
 
 point:0x650c
 name Ainuvarppanen
-tags D1
+opts Source: V42_t
 crds 24.164880 68.392116
 
 point:0x650c
 name Aiteenjoki
-tags D1
+opts Source: V42_t
 crds 24.555818 68.538388
 
 point:0x650c
 name Aiteenlommol
-tags D1
+opts Source: V42_t
 crds 24.614313 68.575472
 
 point:0x650c
 name Aitijärvi
-tags D1
+opts Source: V42_t
 crds 24.268895 68.331187
 
 point:0x650c
 name Aittajärvi
-tags D1
+opts Source: V42_t
 crds 23.486766 68.279950
 
 point:0x650c
 name Aittajärvi
-tags D1
+opts Source: V42_t
 crds 23.838998 68.584031
 
 point:0x650c
 name Akanjoki
-tags D1
+opts Source: V42_t
 crds 23.446634 68.314995
 
 point:0x650c
 name Aksujärvi
-tags D1
+opts Source: V42_t
 crds 22.872249 68.441290
 
 point:0x650c
 name Al.Luppojärvi
-tags D1
+opts Source: V42_t
 crds 24.301425 68.342141
 
 point:0x650c
 name Al.Pulkanjärvi
-tags D1
+opts Source: V42_t
 crds 22.785822 68.649528
 
 point:0x650c
 name Al.Rittistämäjärvi
-tags D1
+opts Source: V42_t
 crds 24.433899 68.458265
 
 point:0x650c
 name Alainen Angassaivo
-tags D1
+opts Source: V42_t
 crds 23.298949 68.434106
 
 point:0x650c
 name Alainen Raaskaltiojärvi
-tags D1
+opts Source: V42_t
 crds 23.596154 68.662591
 
 point:0x650c
 name Alainen Sammalkunta
-tags D1
+opts Source: V42_t
 crds 23.523399 68.548443
 
 point:0x650c
 name Alainenlommol
-tags D1
+opts Source: V42_t
 crds 23.142790 68.425597
 
 point:0x650c
 name Alaisenrudonjärvi
-tags D1
+opts Source: V42_t
 crds 23.264344 68.584233
 
 point:0x650c
 name Alinen Markkajärvi
-tags D1
+opts Source: V42_t
 crds 22.357896 68.508225
 
 point:0x650c
 name Alinen Nokottamanjärvi
-tags D1
+opts Source: V42_t
 crds 23.129342 68.346886
 
 point:0x650c
 name Allijärvet
-tags D1
+opts Source: V42_t
 crds 24.159454 68.585412
 
 point:0x650c
 name Allijärvi
-tags D1
+opts Source: V42_t
 crds 23.137502 68.322460
 
 point:0x650c
 name Allijärvi
-tags D1
+opts Source: V42_t
 crds 23.924220 68.488450
 
 point:0x650c
 name Ammaltamajärvi
-tags D1
+opts Source: V42_t
 crds 24.293797 68.480624
 
 point:0x650c
 name Angalasjärvet
-tags D1
+opts Source: V42_t
 crds 24.460261 68.383486
 
 point:0x650c
 name Angasjärvi
-tags D1
+opts Source: V42_t
 crds 23.278746 68.436405
 
 point:0x650c
 name Angasmuotkanjärvi
-tags D1
+opts Source: V42_t
 crds 23.228634 68.424284
 
 point:0x650c
 name Angelijärvi
-tags D1
+opts Source: V42_t
 crds 24.185369 68.390167
 
 point:0x650c
 name Eetinjärvi
-tags D1
+opts Source: V42_t
 crds 24.022578 68.357958
 
 point:0x650c
 name Eiran Luhtajärvi
-tags D1
+opts Source: V42_t
 crds 24.560784 68.315703
 
 point:0x650c
 name Ellamajärvi
-tags D1
+opts Source: V42_t
 crds 23.508167 68.602209
 
 point:0x650c
 name Ellanjoki
-tags D1
+opts Source: V42_t
 crds 23.814616 68.643454
 
 point:0x650c
 name Ellanjärvi
-tags D1
+opts Source: V42_t
 crds 23.772027 68.613306
 
 point:0x650c
 name Elli-Marian syntymälantto
-tags D1
+opts Source: V42_t
 crds 22.938071 68.560435
 
 point:0x650c
 name Etelä-Paallojärvi
-tags D1
+opts Source: V42_t
 crds 23.622641 68.609999
 
 point:0x650c
 name Haarakoskenjärvi
-tags D1
+opts Source: V42_t
 crds 23.858336 68.372119
 
 point:0x650c
 name Hangasjärvi
-tags D1
+opts Source: V42_t
 crds 23.380510 68.452072
 
 point:0x650c
 name Hangasjärvi
-tags D1
+opts Source: V42_t
 crds 24.119784 68.470287
 
 point:0x650c
 name Hanhijärvet
-tags D1
+opts Source: V42_t
 crds 23.131837 68.530326
 
 point:0x650c
 name Hanhijärvi
-tags D1
+opts Source: V42_t
 crds 23.252345 68.576900
 
 point:0x650c
 name Hanhijärvi
-tags D1
+opts Source: V42_t
 crds 24.567544 68.367161
 
 point:0x650c
 name Hansijärvi
-tags D1
+opts Source: V42_t
 crds 24.599796 68.582858
 
 point:0x650c
 name Harjujärvi
-tags D1
+opts Source: V42_t
 crds 23.283928 68.453678
 
 point:0x650c
 name Harjunvälijärvi
-tags D1
+opts Source: V42_t
 crds 23.048886 68.510735
 
 point:0x650c
 name Harrijoki
-tags D1
+opts Source: V42_t
 crds 22.669476 68.512731
 
 point:0x650c
 name Harrijärvet
-tags D1
+opts Source: V42_t
 crds 24.583610 68.645377
 
 point:0x650c
 name Harrijärvi
-tags D1
+opts Source: V42_t
 crds 22.671314 68.553796
 
 point:0x650c
 name Harrijärvi
-tags D1
+opts Source: V42_t
 crds 23.414461 68.552008
 
 point:0x650c
 name Harrijärvi
-tags D1
+opts Source: V42_t
 crds 23.886136 68.668602
 
 point:0x650c
 name Harrijärvi
-tags D1
+opts Source: V42_t
 crds 24.091310 68.297454
 
 point:0x650c
 name Harrilommol
-tags D1
+opts Source: V42_t
 crds 22.664329 68.639760
 
 point:0x650c
 name Harrilommol
-tags D1
+opts Source: V42_t
 crds 23.164873 68.412036
 
 point:0x650c
 name Harrilommol
-tags D1
+opts Source: V42_t
 crds 23.874286 68.678517
 
 point:0x650c
 name Harrilompolot
-tags D1
+opts Source: V42_t
 crds 24.610801 68.649306
 
 point:0x650c
 name Hauki-Termisjärvi
-tags D1
+opts Source: V42_t
 crds 23.735685 68.702214
 
 point:0x650c
 name Haukijärvi
-tags D1
+opts Source: V42_t
 crds 23.610742 68.356682
 
 point:0x650c
 name Haukijärvi
-tags D1
+opts Source: V42_t
 crds 24.125471 68.566830
 
 point:0x650c
 name Haukijärvi
-tags D1
+opts Source: V42_t
 crds 24.285053 68.716262
 
 point:0x650c
 name Haukilommol
-tags D1
+opts Source: V42_t
 crds 24.125245 68.561513
 
 point:0x650c
 name Haukivuopio
-tags D1
+opts Source: V42_t
 crds 24.081981 68.572020
 
 point:0x650c
 name Hautajärvi
-tags D1
+opts Source: V42_t
 crds 24.343167 68.586348
 
 point:0x650c
 name Heinäjänkänjärvet
-tags D1
+opts Source: V42_t
 crds 22.488069 68.563195
 
 point:0x650c
 name Heinäjärvet
-tags D1
+opts Source: V42_t
 crds 22.661690 68.623393
 
 point:0x650c
 name Heinäjärvet
-tags D1
+opts Source: V42_t
 crds 24.199613 68.447251
 
 point:0x650c
 name Heinäjärvi
-tags D1
+opts Source: V42_t
 crds 23.564414 68.604740
 
 point:0x650c
 name Hermannijoki
-tags D1
+opts Source: V42_t
 crds 24.374874 68.638395
 
 point:0x650c
 name Hevoslampi
-tags D1
+opts Source: V42_t
 crds 22.947443 68.521929
 
 point:0x650c
 name Hietajoki
-tags D1
+opts Source: V42_t
 crds 22.394888 68.529891
 
 point:0x650c
 name Hietajärvi
-tags D1
+opts Source: V42_t
 crds 23.161275 68.533085
 
 point:0x650c
 name Hiettakkajärvi
-tags D1
+opts Source: V42_t
 crds 24.242055 68.366722
 
 point:0x650c
 name Hirvasjärvi
-tags D1
+opts Source: V42_t
 crds 23.068838 68.388584
 
 point:0x650c
 name Hirvasjärvi
-tags D1
+opts Source: V42_t
 crds 24.133565 68.584171
 
 point:0x650c
 name Hirvilammet
-tags D1
+opts Source: V42_t
 crds 22.877406 68.535491
 
 point:0x650c
 name Holminjärvi
-tags D1
+opts Source: V42_t
 crds 23.288617 68.590882
 
 point:0x650c
 name Honkajärvet
-tags D1
+opts Source: V42_t
 crds 24.536158 68.560982
 
 point:0x650c
 name Hormajärvi
-tags D1
+opts Source: V42_t
 crds 23.606738 68.459112
 
 point:0x650c
 name Huhtajärvi
-tags D1
+opts Source: V42_t
 crds 24.224215 68.321777
 
 point:0x650c
 name Härmäporinjärvet
-tags D1
+opts Source: V42_t
 crds 24.489348 68.476294
 
 point:0x650c
 name Iinuppijärvi
-tags D1
+opts Source: V42_t
 crds 23.712340 68.684291
 
 point:0x650c
 name Iittämänjoki
-tags D1
+opts Source: V42_t
 crds 24.104083 68.389207
 
 point:0x650c
 name Ikäjärvi
-tags D1
+opts Source: V42_t
 crds 22.493434 68.475545
 
 point:0x650c
 name Ingansyntymäjärvi
-tags D1
+opts Source: V42_t
 crds 22.880782 68.622819
 
 point:0x650c
 name Iskeltämäjärvi
-tags D1
+opts Source: V42_t
 crds 24.248281 68.354429
 
 point:0x650c
 name Iso Ahvenjärvi
-tags D1
+opts Source: V42_t
 crds 23.634819 68.359026
 
 point:0x650c
 name Iso Lehtijärvi
-tags D1
+opts Source: V42_t
 crds 24.402243 68.475217
 
 point:0x650c
 name Iso Ritaharjunjärvi
-tags D1
+opts Source: V42_t
 crds 23.251093 68.492177
 
 point:0x650c
 name Iso Roskajärvi
-tags D1
+opts Source: V42_t
 crds 23.217802 68.304628
 
 point:0x650c
 name Iso Saarijärvi
-tags D1
+opts Source: V42_t
 crds 22.859416 68.388192
 
 point:0x650c
 name Iso Sakkarajärvi
-tags D1
+opts Source: V42_t
 crds 22.458894 68.454551
 
 point:0x650c
 name Iso Suinajärvi
-tags D1
+opts Source: V42_t
 crds 24.302450 68.594288
 
 point:0x650c
 name Iso Vuomajärvi
-tags D1
+opts Source: V42_t
 crds 23.955789 68.622051
 
 point:0x650c
 name Iso-Kalaton
-tags D1
+opts Source: V42_t
 crds 23.860166 68.453938
 
 point:0x650c
 name Iso-Leveä
-tags D1
+opts Source: V42_t
 crds 23.345359 68.419384
 
 point:0x650c
 name Isolommol
-tags D1
+opts Source: V42_t
 crds 23.218840 68.316773
 
 point:0x650c
 name Isosaivo
-tags D1
+opts Source: V42_t
 crds 24.050175 68.448878
 
 point:0x650c
 name Itkujärvet
-tags D1
+opts Source: V42_t
 crds 24.527555 68.479352
 
 point:0x650c
 name Itämäjärvi
-tags D1
+opts Source: V42_t
 crds 22.871341 68.510407
 
 point:0x650c
 name Jaamihjärvi
-tags D1
+opts Source: V42_t
 crds 22.636596 68.679199
 
 point:0x650c
 name Jaarna
-tags D1
+opts Source: V42_t
 crds 22.639822 68.630983
 
 point:0x650c
 name Jierstijoki
-tags D1
+opts Source: V42_t
 crds 23.791415 68.683940
 
 point:0x650c
 name Jierstijärvi
-tags D1
+opts Source: V42_t
 crds 23.759243 68.655685
 
 point:0x650c
 name Jierstirovanjärvi
-tags D1
+opts Source: V42_t
 crds 23.724067 68.664417
 
 point:0x650c
 name Jietanasjärvi
-tags D1
+opts Source: V42_t
 crds 22.601096 68.456587
 
 point:0x650c
 name Jokilommol
-tags D1
+opts Source: V42_t
 crds 24.654614 68.635640
 
 point:0x650c
 name Joukhaisjärvi
-tags D1
+opts Source: V42_t
 crds 22.885657 68.492372
 
 point:0x650c
 name Joulukotamaajärvi
-tags D1
+opts Source: V42_t
 crds 24.293420 68.568099
 
 point:0x650c
 name Juhanijoki
-tags D1
+opts Source: V42_t
 crds 24.012752 68.712908
 
 point:0x650c
 name Juhanjärvi
-tags D1
+opts Source: V42_t
 crds 23.697243 68.473940
 
 point:0x650c
 name Jussa-Matin järvi
-tags D1
+opts Source: V42_t
 crds 22.814373 68.652636
 
 point:0x650c
 name Juuson Kotasijajärvet
-tags D1
+opts Source: V42_t
 crds 22.618351 68.566389
 
 point:0x650c
 name Jänkkäjärvet
-tags D1
+opts Source: V42_t
 crds 23.303715 68.305027
 
 point:0x650c
 name Jänkkäjärvi
-tags D1
+opts Source: V42_t
 crds 23.259328 68.350401
 
 point:0x650c
 name Kaakkurijärvi
-tags D1
+opts Source: V42_t
 crds 23.007546 68.665627
 
 point:0x650c
 name Kaakkurijärvi
-tags D1
+opts Source: V42_t
 crds 23.592810 68.332719
 
 point:0x650c
 name Kaakkurijärvi
-tags D1
+opts Source: V42_t
 crds 23.956513 68.628659
 
 point:0x650c
 name Kaakkurijärvi
-tags D1
+opts Source: V42_t
 crds 24.037429 68.555738
 
 point:0x650c
 name Kaamusjärvi
-tags D1
+opts Source: V42_t
 crds 23.602656 68.691599
 
 point:0x650c
 name Kaarantojärvet
-tags D1
+opts Source: V42_t
 crds 22.559841 68.571934
 
 point:0x650c
 name Kaarrejärvi
-tags D1
+opts Source: V42_t
 crds 24.482964 68.322501
 
 point:0x650c
 name Kaarrejärvi
-tags D1
+opts Source: V42_t
 crds 24.587440 68.437526
 
 point:0x650c
 name Kaijukanjärvi
-tags D1
+opts Source: V42_t
 crds 23.193522 68.379343
 
 point:0x650c
 name Kainijärvet
-tags D1
+opts Source: V42_t
 crds 24.347376 68.401429
 
 point:0x650c
 name Kaivosjärvet
-tags D1
+opts Source: V42_t
 crds 22.504967 68.577706
 
 point:0x650c
 name Kaivosjärvet
-tags D1
+opts Source: V42_t
 crds 22.542658 68.491520
 
 point:0x650c
 name Kaivosjärvet
-tags D1
+opts Source: V42_t
 crds 23.597760 68.626599
 
 point:0x650c
 name Kaivosjärvet
-tags D1
+opts Source: V42_t
 crds 24.426411 68.432428
 
 point:0x650c
 name Kaivosjärvi
-tags D1
+opts Source: V42_t
 crds 22.599931 68.606311
 
 point:0x650c
 name Kaivosjärvi
-tags D1
+opts Source: V42_t
 crds 23.194420 68.448663
 
 point:0x650c
 name Kaivosjärvi
-tags D1
+opts Source: V42_t
 crds 23.803378 68.373337
 
 point:0x650c
 name Kaivosjärvi
-tags D1
+opts Source: V42_t
 crds 24.032595 68.297835
 
 point:0x650c
 name Kaivosjärvi
-tags D1
+opts Source: V42_t
 crds 24.092239 68.329585
 
 point:0x650c
 name Kaivosjärvi
-tags D1
+opts Source: V42_t
 crds 24.594479 68.369506
 
 point:0x650c
 name Kalaton
-tags D1
+opts Source: V42_t
 crds 22.921959 68.419264
 
 point:0x650c
 name Kalaton-Kaura
-tags D1
+opts Source: V42_t
 crds 22.730045 68.640725
 
 point:0x650c
 name Kalattomat
-tags D1
+opts Source: V42_t
 crds 22.736171 68.510574
 
 point:0x650c
 name Kalkujoki
-tags D1
+opts Source: V42_t
 crds 24.030504 68.687069
 
 point:0x650c
 name Kallajoki
-tags D1
+opts Source: V42_t
 crds 24.340365 68.526071
 
 point:0x650c
 name Kallajärvet
-tags D1
+opts Source: V42_t
 crds 24.290092 68.549583
 
 point:0x650c
 name Karimatinjärvi
-tags D1
+opts Source: V42_t
 crds 23.893128 68.575817
 
 point:0x650c
 name Karpamaanjärvi
-tags D1
+opts Source: V42_t
 crds 24.539077 68.469983
 
 point:0x650c
 name Kaunisjärvi
-tags D1
+opts Source: V42_t
 crds 23.518197 68.407858
 
 point:0x650c
 name Kaunisjärvi
-tags D1
+opts Source: V42_t
 crds 24.342656 68.298327
 
 point:0x650c
 name Kaura
-tags D1
+opts Source: V42_t
 crds 22.680457 68.633189
 
 point:0x650c
 name Kenttälommol
-tags D1
+opts Source: V42_t
 crds 23.183200 68.320162
 
 point:0x650c
 name Kenttärovanjärvi
-tags D1
+opts Source: V42_t
 crds 23.525885 68.348564
 
 point:0x650c
 name Keskijoki
-tags D1
+opts Source: V42_t
 crds 22.397526 68.665191
 
 point:0x650c
 name Keskijärvi
-tags D1
+opts Source: V42_t
 crds 23.920056 68.505527
 
 point:0x650c
 name Kesäjärvi
-tags D1
+opts Source: V42_t
 crds 22.828391 68.644807
 
 point:0x650c
 name Kiekeröjoki
-tags D1
+opts Source: V42_t
 crds 23.529427 68.326402
 
 point:0x650c
 name Kiekeröjärvi
-tags D1
+opts Source: V42_t
 crds 23.529478 68.312165
 
 point:0x650c
 name Kielisenjärvi
-tags D1
+opts Source: V42_t
 crds 24.005990 68.357879
 
 point:0x650c
 name Kielisenlantto
-tags D1
+opts Source: V42_t
 crds 22.587497 68.633369
 
 point:0x650c
 name Kihlankijärvi
-tags D1
+opts Source: V42_t
 crds 23.414520 68.349681
 
 point:0x650c
 name Kiiskijärvi
-tags D1
+opts Source: V42_t
 crds 23.309727 68.382643
 
 point:0x650c
 name Killeräjärvi
-tags D1
+opts Source: V42_t
 crds 23.204285 68.416343
 
 point:0x650c
 name Kilpukkajärvi
-tags D1
+opts Source: V42_t
 crds 24.628427 68.376563
 
 point:0x650c
 name Kiuasjärvi
-tags D1
+opts Source: V42_t
 crds 24.652245 68.493277
 
 point:0x650c
 name Kiuasoja
-tags D1
+opts Source: V42_t
 crds 24.563603 68.505101
 
 point:0x650c
 name Kivilantto
-tags D1
+opts Source: V42_t
 crds 22.860899 68.463881
 
 point:0x650c
 name Kivilompolo
-tags D1
+opts Source: V42_t
 crds 23.322574 68.662746
 
 point:0x650c
 name Kivilompolo
-tags D1
+opts Source: V42_t
 crds 24.245947 68.376076
 
 point:0x650c
 name Koirajärvi
-tags D1
+opts Source: V42_t
 crds 23.890437 68.473406
 
 point:0x650c
 name Kokkojärvi
-tags D1
+opts Source: V42_t
 crds 22.460731 68.475070
 
 point:0x650c
 name Kokkojärvi
-tags D1
+opts Source: V42_t
 crds 23.403073 68.585158
 
 point:0x650c
 name Kokkojärvi
-tags D1
+opts Source: V42_t
 crds 23.474471 68.523938
 
 point:0x650c
 name Kokkojärvi
-tags D1
+opts Source: V42_t
 crds 24.200879 68.463548
 
 point:0x650c
 name Kokkoriipi
-tags D1
+opts Source: V42_t
 crds 23.455241 68.518820
 
 point:0x650c
 name Kokkovuomanjärvi
-tags D1
+opts Source: V42_t
 crds 23.455800 68.541289
 
 point:0x650c
 name Kolatusjärvi
-tags D1
+opts Source: V42_t
 crds 24.100360 68.306423
 
 point:0x650c
 name Kolatuslampi
-tags D1
+opts Source: V42_t
 crds 24.121448 68.307521
 
 point:0x650c
 name Kollanjärvi
-tags D1
+opts Source: V42_t
 crds 23.007089 68.606467
 
 point:0x650c
 name Kollioja
-tags D1
+opts Source: V42_t
 crds 24.471345 68.505080
 
 point:0x650c
 name Kontiojärvi
-tags D1
+opts Source: V42_t
 crds 23.115999 68.432918
 
 point:0x650c
 name Kontiosaivot
-tags D1
+opts Source: V42_t
 crds 23.146300 68.456602
 
 point:0x650c
 name Korkeajärvi
-tags D1
+opts Source: V42_t
 crds 23.686374 68.375606
 
 point:0x650c
 name Kortejärvi
-tags D1
+opts Source: V42_t
 crds 24.104765 68.326440
 
 point:0x650c
 name Kortejärvi
-tags D1
+opts Source: V42_t
 crds 24.443837 68.625290
 
 point:0x650c
 name Kotajärvi
-tags D1
+opts Source: V42_t
 crds 23.505143 68.643674
 
 point:0x650c
 name Kotajärvi
-tags D1
+opts Source: V42_t
 crds 24.108847 68.717463
 
 point:0x650c
 name Kotajärvi
-tags D1
+opts Source: V42_t
 crds 24.448789 68.335704
 
 point:0x650c
 name Kotasijajärvi
-tags D1
+opts Source: V42_t
 crds 24.268734 68.715662
 
 point:0x650c
 name Kotosaivo
-tags D1
+opts Source: V42_t
 crds 23.345924 68.561922
 
 point:0x650c
 name Kottijärvi
-tags D1
+opts Source: V42_t
 crds 23.859197 68.613832
 
 point:0x650c
 name Kottijärvi
-tags D1
+opts Source: V42_t
 crds 24.086058 68.375438
 
 point:0x650c
 name Kottilammet
-tags D1
+opts Source: V42_t
 crds 24.088508 68.380636
 
 point:0x650c
 name Kousujärvi
-tags D1
+opts Source: V42_t
 crds 24.462922 68.455543
 
 point:0x650c
 name Kovavuopio
-tags D1
+opts Source: V42_t
 crds 24.633290 68.475167
 
 point:0x650c
 name Kultajoki
-tags D1
+opts Source: V42_t
 crds 23.474258 68.590819
 
 point:0x650c
 name Kultimajärvi
-tags D1
+opts Source: V42_t
 crds 22.930266 68.463629
 
 point:0x650c
 name Kuolpajoki
-tags D1
+opts Source: V42_t
 crds 22.900346 68.631824
 
 point:0x650c
 name Kuolpajärvi
-tags D1
+opts Source: V42_t
 crds 22.925519 68.677580
 
 point:0x650c
 name Kuonnajärvi
-tags D1
+opts Source: V42_t
 crds 24.090376 68.428277
 
 point:0x650c
 name Kuontasjärvi
-tags D1
+opts Source: V42_t
 crds 23.317698 68.485620
 
 point:0x650c
 name Kuoppalommol
-tags D1
+opts Source: V42_t
 crds 23.144603 68.432439
 
 point:0x650c
 name Kuorttuslompolo
-tags D1
+opts Source: V42_t
 crds 24.036256 68.526816
 
 point:0x650c
 name Kuoskinen
-tags D1
+opts Source: V42_t
 crds 24.432823 68.479803
 
 point:0x650c
 name Kurkkio
-tags D1
+opts Source: V42_t
 crds 23.382146 68.637862
 
 point:0x650c
 name Kursujärvi
-tags D1
+opts Source: V42_t
 crds 23.090050 68.485643
 
 point:0x650c
 name Kuusikotasijajoki
-tags D1
+opts Source: V42_t
 crds 22.813914 68.544541
 
 point:0x650c
 name Käkkälöjoki
-tags D1
+opts Source: V42_t
 crds 23.936594 68.378819
 
 point:0x650c
 name Käyräjärvi
-tags D1
+opts Source: V42_t
 crds 23.896926 68.469071
 
 point:0x650c
 name Laavujärvi
-tags D1
+opts Source: V42_t
 crds 23.458569 68.666590
 
 point:0x650c
 name Lainijärvi
-tags D1
+opts Source: V42_t
 crds 24.367709 68.406837
 
 point:0x650c
 name Lainiporinjärvi
-tags D1
+opts Source: V42_t
 crds 24.130031 68.456823
 
 point:0x650c
 name Lalvajärvi
-tags D1
+opts Source: V42_t
 crds 23.369102 68.465864
 
 point:0x650c
 name Lalvajärvi
-tags D1
+opts Source: V42_t
 crds 24.447918 68.670904
 
 point:0x650c
 name Latvajärvi
-tags D1
+opts Source: V42_t
 crds 24.103047 68.332708
 
 point:0x650c
 name Launijärvi
-tags D1
+opts Source: V42_t
 crds 22.930338 68.430077
 
 point:0x650c
 name Lauttajärvi
-tags D1
+opts Source: V42_t
 crds 23.558567 68.599892
 
 point:0x650c
 name Lauttakämpänlantto
-tags D1
+opts Source: V42_t
 crds 22.838208 68.430028
 
 point:0x650c
 name Lavijoki
-tags D1
+opts Source: V42_t
 crds 22.541121 68.440365
 
 point:0x650c
 name Lavijärvi
-tags D1
+opts Source: V42_t
 crds 22.604412 68.529025
 
 point:0x650c
 name Lavirovajärvi
-tags D1
+opts Source: V42_t
 crds 22.536518 68.552345
 
 point:0x650c
 name Lavivaaranlantot
-tags D1
+opts Source: V42_t
 crds 22.540560 68.509239
 
 point:0x650c
 name Leevinjärvi
-tags D1
+opts Source: V42_t
 crds 24.671975 68.424665
 
 point:0x650c
 name Lehtijärvet
-tags D1
+opts Source: V42_t
 crds 24.382489 68.485098
 
 point:0x650c
 name Leipijoki
-tags D1
+opts Source: V42_t
 crds 23.846531 68.508121
 
 point:0x650c
 name Leppäjärvi
-tags D1
+opts Source: V42_t
 crds 23.310191 68.516315
 
 point:0x650c
 name Leveäjärvi
-tags D1
+opts Source: V42_t
 crds 23.401100 68.323579
 
 point:0x650c
 name Lijankijärvi
-tags D1
+opts Source: V42_t
 crds 23.378624 68.522589
 
 point:0x650c
 name Lijankilommol
-tags D1
+opts Source: V42_t
 crds 23.386511 68.538442
 
 point:0x650c
 name Lintujärvi
-tags D1
+opts Source: V42_t
 crds 22.669803 68.430775
 
 point:0x650c
 name Liulamajärvi
-tags D1
+opts Source: V42_t
 crds 24.468512 68.688841
 
 point:0x650c
 name Lompolo
-tags D1
+opts Source: V42_t
 crds 22.966026 68.356015
 
 point:0x650c
 name Lompolo
-tags D1
+opts Source: V42_t
 crds 23.850579 68.609664
 
 point:0x650c
 name Luhtajärvi
-tags D1
+opts Source: V42_t
 crds 23.233879 68.333152
 
 point:0x650c
 name Luhtajärvi
-tags D1
+opts Source: V42_t
 crds 24.308756 68.494153
 
 point:0x650c
 name Luomarovajärvi
-tags D1
+opts Source: V42_t
 crds 23.571587 68.415059
 
 point:0x650c
 name Luovajärvi
-tags D1
+opts Source: V42_t
 crds 22.877199 68.461444
 
 point:0x650c
 name Luovuomanjärvi
-tags D1
+opts Source: V42_t
 crds 23.543960 68.396446
 
 point:0x650c
 name Luponperä
-tags D1
+opts Source: V42_t
 crds 23.349020 68.307873
 
 point:0x650c
 name Luppojärvet
-tags D1
+opts Source: V42_t
 crds 23.008862 68.576862
 
 point:0x650c
 name Luppokurunjärvi
-tags D1
+opts Source: V42_t
 crds 24.160315 68.310536
 
 point:0x650c
 name Luppomaanjärvi
-tags D1
+opts Source: V42_t
 crds 24.401239 68.300259
 
 point:0x650c
 name Maantiejärvi
-tags D1
+opts Source: V42_t
 crds 23.357209 68.558962
 
 point:0x650c
 name Maantiejärvi
-tags D1
+opts Source: V42_t
 crds 23.941850 68.633747
 
 point:0x650c
 name Maattojärvet
-tags D1
+opts Source: V42_t
 crds 24.275639 68.663393
 
 point:0x650c
 name Madejärvi
-tags D1
+opts Source: V42_t
 crds 24.540846 68.324430
 
 point:0x650c
 name Majavajoki
-tags D1
+opts Source: V42_t
 crds 24.071805 68.633113
 
 point:0x650c
 name Makauslantot
-tags D1
+opts Source: V42_t
 crds 22.797591 68.680125
 
 point:0x650c
 name Maljasjoki
-tags D1
+opts Source: V42_t
 crds 22.730690 68.415322
 
 point:0x650c
 name Mankajärvi
-tags D1
+opts Source: V42_t
 crds 24.087445 68.527012
 
 point:0x650c
 name Marastojoki
-tags D1
+opts Source: V42_t
 crds 23.894657 68.300611
 
 point:0x650c
 name Marjajärvi
-tags D1
+opts Source: V42_t
 crds 22.764950 68.391700
 
 point:0x650c
 name Markkajoki
-tags D1
+opts Source: V42_t
 crds 23.990910 68.415337
 
 point:0x650c
 name Markun Nilsan järvi
-tags D1
+opts Source: V42_t
 crds 23.209702 68.460786
 
 point:0x650c
 name Marttajärvi
-tags D1
+opts Source: V42_t
 crds 22.570118 68.590054
 
 point:0x650c
 name Matala-Tuorkottaja
-tags D1
+opts Source: V42_t
 crds 23.537615 68.608855
 
 point:0x650c
 name Matalajärvi
-tags D1
+opts Source: V42_t
 crds 22.589620 68.620321
 
 point:0x650c
 name Matalajärvi
-tags D1
+opts Source: V42_t
 crds 22.889687 68.403335
 
 point:0x650c
 name Matsanen
-tags D1
+opts Source: V42_t
 crds 23.580645 68.609963
 
 point:0x650c
 name Mellalantot
-tags D1
+opts Source: V42_t
 crds 24.029878 68.294957
 
 point:0x650c
 name Metsomukanjärvi
-tags D1
+opts Source: V42_t
 crds 23.185518 68.389014
 
 point:0x650c
 name Mukanjärvi
-tags D1
+opts Source: V42_t
 crds 23.536240 68.489782
 
 point:0x650c
 name Mukka-Lijanki
-tags D1
+opts Source: V42_t
 crds 23.454751 68.506733
 
 point:0x650c
 name Mukkajärvi
-tags D1
+opts Source: V42_t
 crds 22.588993 68.684646
 
 point:0x650c
 name Mukkajärvi
-tags D1
+opts Source: V42_t
 crds 22.958598 68.349029
 
 point:0x650c
 name Mukkajärvi
-tags D1
+opts Source: V42_t
 crds 23.114206 68.420813
 
 point:0x650c
 name Munajärvi
-tags D1
+opts Source: V42_t
 crds 24.228674 68.420479
 
 point:0x650c
 name Muonionjoki
-tags D1
+opts Source: V42_t
 crds 23.581495 67.213621
 
 point:0x650c
 name Muorijärvi
-tags D1
+opts Source: V42_t
 crds 22.983252 68.446089
 
 point:0x650c
 name Muotkajärvi
-tags D1
+opts Source: V42_t
 crds 23.388166 68.335609
 
 point:0x650c
 name Muotkajärvi
-tags D1
+opts Source: V42_t
 crds 23.839154 68.651521
 
 point:0x650c
 name Muotkajärvi
-tags D1
+opts Source: V42_t
 crds 24.267628 68.340997
 
 point:0x650c
 name Muotkalahdenjärvi
-tags D1
+opts Source: V42_t
 crds 23.340212 68.334243
 
 point:0x650c
 name Muotkantakainenjärvi
-tags D1
+opts Source: V42_t
 crds 23.469322 68.347381
 
 point:0x650c
 name Mustajärvi
-tags D1
+opts Source: V42_t
 crds 23.872553 68.484815
 
 point:0x650c
 name Mustalommol
-tags D1
+opts Source: V42_t
 crds 23.889202 68.491345
 
 point:0x650c
 name Mustankurunlantto
-tags D1
+opts Source: V42_t
 crds 22.991906 68.399014
 
 point:0x650c
 name Mustinjärvi
-tags D1
+opts Source: V42_t
 crds 22.919397 68.603291
 
 point:0x650c
 name Muurusjärvi
-tags D1
+opts Source: V42_t
 crds 23.465421 68.392573
 
 point:0x650c
 name Myrkkyjärvi
-tags D1
+opts Source: V42_t
 crds 23.464232 68.500721
 
 point:0x650c
 name Naapanjärvi
-tags D1
+opts Source: V42_t
 crds 23.800238 68.694897
 
 point:0x650c
 name Nallajärvi
-tags D1
+opts Source: V42_t
 crds 23.933926 68.695504
 
 point:0x650c
 name Nallajärvi
-tags D1
+opts Source: V42_t
 crds 24.265355 68.466552
 
 point:0x650c
 name Narttelijärvi
-tags D1
+opts Source: V42_t
 crds 23.436817 68.560216
 
 point:0x650c
 name Neitojärvi
-tags D1
+opts Source: V42_t
 crds 23.725499 68.452822
 
 point:0x650c
 name Niemijärvi
-tags D1
+opts Source: V42_t
 crds 23.689527 68.671493
 
 point:0x650c
 name Niemijärvi
-tags D1
+opts Source: V42_t
 crds 24.130446 68.701759
 
 point:0x650c
 name Niemijärvi
-tags D1
+opts Source: V42_t
 crds 24.610474 68.621972
 
 point:0x650c
 name Niettajärvi
-tags D1
+opts Source: V42_t
 crds 24.501379 68.404454
 
 point:0x650c
 name Niitty-Särkijärvi
-tags D1
+opts Source: V42_t
 crds 23.163196 68.332041
 
 point:0x650c
 name Nimetönjärvi
-tags D1
+opts Source: V42_t
 crds 22.811809 68.527320
 
 point:0x650c
 name Nunasjoki
-tags D1
+opts Source: V42_t
 crds 22.927495 68.367070
 
 point:0x650c
 name Nunasjärvi
-tags D1
+opts Source: V42_t
 crds 23.036404 68.362479
 
 point:0x650c
 name Näkkäläjoki
-tags D1
+opts Source: V42_t
 crds 23.761214 68.405539
 
 point:0x650c
 name Näkkäläjärvi
-tags D1
+opts Source: V42_t
 crds 23.589269 68.589606
 
 point:0x650c
 name Närpistöjoki
-tags D1
+opts Source: V42_t
 crds 23.595794 68.464008
 
 point:0x650c
 name Olkajärvi
-tags D1
+opts Source: V42_t
 crds 24.271865 68.457970
 
 point:0x650c
 name Olkojoki
-tags D1
+opts Source: V42_t
 crds 23.647546 68.580136
 
 point:0x650c
 name Olkojärvi
-tags D1
+opts Source: V42_t
 crds 23.714297 68.582979
 
 point:0x650c
 name Onnasjoki
-tags D1
+opts Source: V42_t
 crds 23.897701 68.334986
 
 point:0x650c
 name Onnasjärvet
-tags D1
+opts Source: V42_t
 crds 23.799034 68.350577
 
 point:0x650c
 name Ounasjoki
-tags D1
+opts Source: V42_t
 crds 25.664930 66.557152
 
 point:0x650c
 name Ounasjärvi
-tags D1
+opts Source: V42_t
 crds 23.598937 68.381578
 
 point:0x650c
 name Outajärvet
-tags D1
+opts Source: V42_t
 crds 24.666046 68.365461
 
 point:0x650c
 name Paanajärvi
-tags D1
+opts Source: V42_t
 crds 24.392777 68.432026
 
 point:0x650c
 name Paatsikkajoki
-tags D1
+opts Source: V42_t
 crds 23.131574 68.544769
 
 point:0x650c
 name Pahajoki
-tags D1
+opts Source: V42_t
 crds 22.678705 68.446125
 
 point:0x650c
 name Pahkurinjärvet
-tags D1
+opts Source: V42_t
 crds 23.442867 68.367969
 
 point:0x650c
 name Pahtajoki
-tags D1
+opts Source: V42_t
 crds 23.132310 68.533915
 
 point:0x650c
 name Pahtajärvi
-tags D1
+opts Source: V42_t
 crds 22.970462 68.630303
 
 point:0x650c
 name Pahtajärvi
-tags D1
+opts Source: V42_t
 crds 23.022094 68.368735
 
 point:0x650c
 name Pahtajärvi
-tags D1
+opts Source: V42_t
 crds 23.104875 68.532561
 
 point:0x650c
 name Pahtajärvi
-tags D1
+opts Source: V42_t
 crds 23.276245 68.375014
 
 point:0x650c
 name Pahtajärvi
-tags D1
+opts Source: V42_t
 crds 23.466686 68.581050
 
 point:0x650c
 name Pahtajärvi
-tags D1
+opts Source: V42_t
 crds 23.585163 68.424973
 
 point:0x650c
 name Pahtakoskenjärvi
-tags D1
+opts Source: V42_t
 crds 23.235672 68.498805
 
 point:0x650c
 name Painasjärvi
-tags D1
+opts Source: V42_t
 crds 23.858452 68.435531
 
 point:0x650c
 name Paittasjärvi
-tags D1
+opts Source: V42_t
 crds 22.590485 68.671513
 
 point:0x650c
 name Palkkaanposkijärvi
-tags D1
+opts Source: V42_t
 crds 22.982258 68.584298
 
 point:0x650c
 name Pallojoki
-tags D1
+opts Source: V42_t
 crds 23.349972 68.648374
 
 point:0x650c
 name Palojoki
-tags D1
+opts Source: V42_t
 crds 23.095681 68.294031
 
 point:0x650c
 name Palojärvi
-tags D1
+opts Source: V42_t
 crds 23.360798 68.583586
 
 point:0x650c
 name Palolommol
-tags D1
+opts Source: V42_t
 crds 23.336529 68.540574
 
 point:0x650c
 name Palovaaranjärvet
-tags D1
+opts Source: V42_t
 crds 22.810113 68.562726
 
 point:0x650c
 name Palovuopio
-tags D1
+opts Source: V42_t
 crds 22.806358 68.397641
 
 point:0x650c
 name Papinjärvi
-tags D1
+opts Source: V42_t
 crds 22.431628 68.484002
 
 point:0x650c
 name Parkkijärvi
-tags D1
+opts Source: V42_t
 crds 24.391833 68.401412
 
 point:0x650c
 name Paskamajärvi
-tags D1
+opts Source: V42_t
 crds 23.614058 68.560608
 
 point:0x650c
 name Pasmajärvi
-tags D1
+opts Source: V42_t
 crds 24.287839 68.371311
 
 point:0x650c
 name Peltojoki
-tags D1
+opts Source: V42_t
 crds 24.138010 68.385390
 
 point:0x650c
 name Peltojärvi
-tags D1
+opts Source: V42_t
 crds 24.123430 68.373639
 
 point:0x650c
 name Periläjärvi
-tags D1
+opts Source: V42_t
 crds 23.802004 68.397201
 
 point:0x650c
 name Perjantaijärvi
-tags D1
+opts Source: V42_t
 crds 23.203720 68.452590
 
 point:0x650c
 name Peukkarinjärvet
-tags D1
+opts Source: V42_t
 crds 24.009493 68.539766
 
 point:0x650c
 name Peurajärvi
-tags D1
+opts Source: V42_t
 crds 23.463628 68.319085
 
 point:0x650c
 name Peurajärvi
-tags D1
+opts Source: V42_t
 crds 24.621810 68.348830
 
 point:0x650c
 name Pieni Ahojärvi
-tags D1
+opts Source: V42_t
 crds 24.058752 68.361975
 
 point:0x650c
 name Pieni Suinajärvi
-tags D1
+opts Source: V42_t
 crds 24.267565 68.622256
 
 point:0x650c
 name Pientsujärvi
-tags D1
+opts Source: V42_t
 crds 24.005541 68.406489
 
 point:0x650c
 name Pierkkujärvi
-tags D1
+opts Source: V42_t
 crds 24.655081 68.648262
 
 point:0x650c
 name Pietukainen
-tags D1
+opts Source: V42_t
 crds 24.028196 68.363471
 
 point:0x650c
 name Pietukaisenjärvi
-tags D1
+opts Source: V42_t
 crds 24.161475 68.487717
 
 point:0x650c
 name Pietukaisenjärvi
-tags D1
+opts Source: V42_t
 crds 24.361320 68.354125
 
 point:0x650c
 name Pikku Kovavuopio
-tags D1
+opts Source: V42_t
 crds 24.616320 68.472388
 
 point:0x650c
 name Pikku Roskajärvi
-tags D1
+opts Source: V42_t
 crds 23.179496 68.301817
 
 point:0x650c
 name Pikku Saukaraisenjärvi
-tags D1
+opts Source: V42_t
 crds 24.398572 68.448384
 
 point:0x650c
 name Pikku Sissankijärvi
-tags D1
+opts Source: V42_t
 crds 23.678872 68.437005
 
 point:0x650c
 name Pikku Soukisjärvi
-tags D1
+opts Source: V42_t
 crds 24.653959 68.385306
 
 point:0x650c
 name Pikku Vuomajärvi
-tags D1
+opts Source: V42_t
 crds 23.928784 68.622051
 
 point:0x650c
 name Pikku-Kalaton
-tags D1
+opts Source: V42_t
 crds 22.929332 68.416298
 
 point:0x650c
 name Pissinjärvi
-tags D1
+opts Source: V42_t
 crds 24.054250 68.338299
 
 point:0x650c
 name Pitkä Nunasjärvi
-tags D1
+opts Source: V42_t
 crds 22.941830 68.397907
 
 point:0x650c
 name Pitkäjoki
-tags D1
+opts Source: V42_t
 crds 23.956133 68.520539
 
 point:0x650c
 name Pitkäjärvi
-tags D1
+opts Source: V42_t
 crds 22.535553 68.484266
 
 point:0x650c
 name Pitkäjärvi
-tags D1
+opts Source: V42_t
 crds 22.892142 68.462243
 
 point:0x650c
 name Pitkäjärvi
-tags D1
+opts Source: V42_t
 crds 23.131797 68.419399
 
 point:0x650c
 name Pitkäjärvi
-tags D1
+opts Source: V42_t
 crds 23.409234 68.562623
 
 point:0x650c
 name Pitkäjärvi
-tags D1
+opts Source: V42_t
 crds 23.553571 68.335703
 
 point:0x650c
 name Pitkäjärvi
-tags D1
+opts Source: V42_t
 crds 23.817766 68.558316
 
 point:0x650c
 name Pitkäjärvi
-tags D1
+opts Source: V42_t
 crds 23.875029 68.461059
 
 point:0x650c
 name Pitkäjärvi
-tags D1
+opts Source: V42_t
 crds 24.031116 68.561262
 
 point:0x650c
 name Pitkäjärvi
-tags D1
+opts Source: V42_t
 crds 24.483869 68.570465
 
 point:0x650c
 name Pitkälantto
-tags D1
+opts Source: V42_t
 crds 22.791692 68.535551
 
 point:0x650c
 name Pitkän-Erkin järvi
-tags D1
+opts Source: V42_t
 crds 22.958296 68.461717
 
 point:0x650c
 name Pohjois-Paallojärvi
-tags D1
+opts Source: V42_t
 crds 23.617192 68.619912
 
 point:0x650c
 name Porokotajärvi
-tags D1
+opts Source: V42_t
 crds 23.337868 68.324730
 
 point:0x650c
 name Porokotajärvi
-tags D1
+opts Source: V42_t
 crds 23.698173 68.372992
 
 point:0x650c
 name Postituvanjärvet
-tags D1
+opts Source: V42_t
 crds 23.630801 68.302791
 
 point:0x650c
 name Potnasenjärvet
-tags D1
+opts Source: V42_t
 crds 23.073253 68.496758
 
 point:0x650c
 name Potnasenoja
-tags D1
+opts Source: V42_t
 crds 23.155936 68.471660
 
 point:0x650c
 name Pounikkojärvi
-tags D1
+opts Source: V42_t
 crds 24.348966 68.351336
 
 point:0x650c
 name Proksinjärvi
-tags D1
+opts Source: V42_t
 crds 23.914689 68.658344
 
 point:0x650c
 name Pulttijärvi
-tags D1
+opts Source: V42_t
 crds 23.794754 68.467283
 
 point:0x650c
 name Putkijärvi
-tags D1
+opts Source: V42_t
 crds 23.679449 68.666723
 
 point:0x650c
 name Puusasjoki
-tags D1
+opts Source: V42_t
 crds 22.424670 68.566963
 
 point:0x650c
 name Pyhäjärvi
-tags D1
+opts Source: V42_t
 crds 23.767222 68.329853
 
 point:0x650c
 name Pölätysjärvet
-tags D1
+opts Source: V42_t
 crds 22.874920 68.582844
 
 point:0x650c
 name Pöyrisjoki
-tags D1
+opts Source: V42_t
 crds 24.070441 68.465134
 
 point:0x650c
 name Raapilantto
-tags D1
+opts Source: V42_t
 crds 23.664314 68.588920
 
 point:0x650c
 name Raejärvi
-tags D1
+opts Source: V42_t
 crds 22.728575 68.635854
 
 point:0x650c
 name Raijojärvet
-tags D1
+opts Source: V42_t
 crds 24.136279 68.319828
 
 point:0x650c
 name Raiskajärvi
-tags D1
+opts Source: V42_t
 crds 22.980012 68.609497
 
 point:0x650c
 name Rastajoki
-tags D1
+opts Source: V42_t
 crds 23.384399 68.638220
 
 point:0x650c
 name Rautajärvi
-tags D1
+opts Source: V42_t
 crds 23.865052 68.649293
 
 point:0x650c
 name Rautujärvi
-tags D1
+opts Source: V42_t
 crds 23.464678 68.682980
 
 point:0x650c
 name Rautujärvi
-tags D1
+opts Source: V42_t
 crds 23.604830 68.344663
 
 point:0x650c
 name Rautujärvi
-tags D1
+opts Source: V42_t
 crds 24.197106 68.629615
 
 point:0x650c
 name Ravaltojoki
-tags D1
+opts Source: V42_t
 crds 22.706368 68.655896
 
 point:0x650c
 name Ravaltojärvi
-tags D1
+opts Source: V42_t
 crds 22.674675 68.677789
 
 point:0x650c
 name Ravaltonlommol
-tags D1
+opts Source: V42_t
 crds 22.685610 68.664012
 
 point:0x650c
 name Repojärvi
-tags D1
+opts Source: V42_t
 crds 22.834561 68.472048
 
 point:0x650c
 name Retkajärvi
-tags D1
+opts Source: V42_t
 crds 24.376419 68.654278
 
 point:0x650c
 name Riikusjärvi
-tags D1
+opts Source: V42_t
 crds 23.508711 68.560477
 
 point:0x650c
 name Riipijärvi
-tags D1
+opts Source: V42_t
 crds 24.069977 68.449436
 
 point:0x650c
 name Riivijärvi
-tags D1
+opts Source: V42_t
 crds 23.125416 68.275271
 
 point:0x650c
 name Rimpijärvi
-tags D1
+opts Source: V42_t
 crds 23.328806 68.341720
 
 point:0x650c
 name Ritajärvi
-tags D1
+opts Source: V42_t
 crds 24.009586 68.529492
 
 point:0x650c
 name Rossinjärvi
-tags D1
+opts Source: V42_t
 crds 23.861996 68.702274
 
 point:0x650c
 name Rovajärvi
-tags D1
+opts Source: V42_t
 crds 22.689004 68.491489
 
 point:0x650c
 name Rovanalustajärvi
-tags D1
+opts Source: V42_t
 crds 23.037608 68.342644
 
 point:0x650c
 name Rovissolijärvi
-tags D1
+opts Source: V42_t
 crds 24.251549 68.335499
 
 point:0x650c
 name Runkajärvi
-tags D1
+opts Source: V42_t
 crds 22.294565 68.565893
 
 point:0x650c
 name Runninjärvi
-tags D1
+opts Source: V42_t
 crds 22.960391 68.569065
 
 point:0x650c
 name Ruossajärvi
-tags D1
+opts Source: V42_t
 crds 23.779358 68.629660
 
 point:0x650c
 name Ruotojärvi
-tags D1
+opts Source: V42_t
 crds 23.497957 68.377612
 
 point:0x650c
 name Ruotojärvi
-tags D1
+opts Source: V42_t
 crds 24.128464 68.387101
 
 point:0x650c
 name Rupijärvet
-tags D1
+opts Source: V42_t
 crds 24.643487 68.630913
 
 point:0x650c
 name Rytkösenjärvi
-tags D1
+opts Source: V42_t
 crds 23.000800 68.522013
 
 point:0x650c
 name Rämikattamajärvi
-tags D1
+opts Source: V42_t
 crds 24.185458 68.293933
 
 point:0x650c
 name Rämäjärvet
-tags D1
+opts Source: V42_t
 crds 22.818246 68.511422
 
 point:0x650c
 name Saappajärvi
-tags D1
+opts Source: V42_t
 crds 22.655062 68.656885
 
 point:0x650c
 name Saarajärvet
-tags D1
+opts Source: V42_t
 crds 24.120916 68.426330
 
 point:0x650c
 name Saarijärvi
-tags D1
+opts Source: V42_t
 crds 22.742775 68.505718
 
 point:0x650c
 name Saarijärvi
-tags D1
+opts Source: V42_t
 crds 23.298312 68.512132
 
 point:0x650c
 name Saarijärvi
-tags D1
+opts Source: V42_t
 crds 23.383747 68.390445
 
 point:0x650c
 name Saarijärvi
-tags D1
+opts Source: V42_t
 crds 23.549250 68.560142
 
 point:0x650c
 name Saarijärvi
-tags D1
+opts Source: V42_t
 crds 24.073431 68.716048
 
 point:0x650c
 name Saarijärvi
-tags D1
+opts Source: V42_t
 crds 24.155833 68.562115
 
 point:0x650c
 name Saarijärvi
-tags D1
+opts Source: V42_t
 crds 24.316384 68.501517
 
 point:0x650c
 name Saarijärvi
-tags D1
+opts Source: V42_t
 crds 24.495005 68.619733
 
 point:0x650c
 name Saariluponjärvi
-tags D1
+opts Source: V42_t
 crds 23.101726 68.578432
 
 point:0x650c
 name Saaripalonjärvi
-tags D1
+opts Source: V42_t
 crds 23.381126 68.402736
 
 point:0x650c
 name Saitsalmenlommol
-tags D1
+opts Source: V42_t
 crds 23.491403 68.345665
 
 point:0x650c
 name Saivinen
-tags D1
+opts Source: V42_t
 crds 24.001695 68.392987
 
 point:0x650c
 name Saivo
-tags D1
+opts Source: V42_t
 crds 24.247471 68.382099
 
 point:0x650c
 name Saivo
-tags D1
+opts Source: V42_t
 crds 24.486429 68.385994
 
 point:0x650c
 name Saivojärvi
-tags D1
+opts Source: V42_t
 crds 23.277123 68.517852
 
 point:0x650c
 name Salkojärvi
-tags D1
+opts Source: V42_t
 crds 23.249238 68.333123
 
 point:0x650c
 name Salkonjärvi
-tags D1
+opts Source: V42_t
 crds 23.578432 68.687354
 
 point:0x650c
 name Salmijoki
-tags D1
+opts Source: V42_t
 crds 23.886916 68.567485
 
 point:0x650c
 name Salmijärvet
-tags D1
+opts Source: V42_t
 crds 22.931723 68.612614
 
 point:0x650c
 name Salmijärvet
-tags D1
+opts Source: V42_t
 crds 23.299553 68.499711
 
 point:0x650c
 name Salmijärvi
-tags D1
+opts Source: V42_t
 crds 22.639450 68.611567
 
 point:0x650c
 name Salmijärvi
-tags D1
+opts Source: V42_t
 crds 22.949094 68.438122
 
 point:0x650c
 name Salmijärvi
-tags D1
+opts Source: V42_t
 crds 22.965591 68.470800
 
 point:0x650c
 name Salmijärvi
-tags D1
+opts Source: V42_t
 crds 23.310634 68.409669
 
 point:0x650c
 name Salmijärvi
-tags D1
+opts Source: V42_t
 crds 23.611966 68.313345
 
 point:0x650c
 name Salmijärvi
-tags D1
+opts Source: V42_t
 crds 23.824121 68.576127
 
 point:0x650c
 name Salttijoki
-tags D1
+opts Source: V42_t
 crds 22.735189 68.493180
 
 point:0x650c
 name Salttijärvi
-tags D1
+opts Source: V42_t
 crds 22.795099 68.497440
 
 point:0x650c
 name Salvasjoki
-tags D1
+opts Source: V42_t
 crds 23.292802 68.545184
 
 point:0x650c
 name Salvasjärvi
-tags D1
+opts Source: V42_t
 crds 23.029132 68.677731
 
 point:0x650c
 name Salvassaivo
-tags D1
+opts Source: V42_t
 crds 23.040592 68.687417
 
 point:0x650c
 name Sammakkojärvi
-tags D1
+opts Source: V42_t
 crds 23.335885 68.301213
 
 point:0x650c
 name Sammaljoki
-tags D1
+opts Source: V42_t
 crds 23.574169 68.333219
 
 point:0x650c
 name Sammalvuopio
-tags D1
+opts Source: V42_t
 crds 23.392712 68.510008
 
 point:0x650c
 name Sappijärvet
-tags D1
+opts Source: V42_t
 crds 23.483038 68.516281
 
 point:0x650c
 name Sarvijärvi
-tags D1
+opts Source: V42_t
 crds 23.005283 68.504672
 
 point:0x650c
 name Sattajoki
-tags D1
+opts Source: V42_t
 crds 24.475828 68.359370
 
 point:0x650c
 name Sattajärvi
-tags D1
+opts Source: V42_t
 crds 24.510709 68.342124
 
 point:0x650c
 name Sattalompolot
-tags D1
+opts Source: V42_t
 crds 24.430824 68.363401
 
 point:0x650c
 name Saukarainen
-tags D1
+opts Source: V42_t
 crds 24.406250 68.442737
 
 point:0x650c
 name Savijärvi
-tags D1
+opts Source: V42_t
 crds 22.875444 68.681773
 
 point:0x650c
 name Savijärvi
-tags D1
+opts Source: V42_t
 crds 23.857448 68.381971
 
 point:0x650c
 name Savivaaranlantto
-tags D1
+opts Source: V42_t
 crds 22.978614 68.555413
 
 point:0x650c
 name Seigajärvet
-tags D1
+opts Source: V42_t
 crds 23.816560 68.661458
 
 point:0x650c
 name Selänjärvi
-tags D1
+opts Source: V42_t
 crds 23.362936 68.279908
 
 point:0x650c
 name Selänpääjärvi
-tags D1
+opts Source: V42_t
 crds 23.364242 68.416471
 
 point:0x650c
 name Sermakkajärvi
-tags D1
+opts Source: V42_t
 crds 24.249595 68.506767
 
 point:0x650c
 name Sermakkalompolot
-tags D1
+opts Source: V42_t
 crds 24.289067 68.477351
 
 point:0x650c
 name Seyrisjoki
-tags D1
+opts Source: V42_t
 crds 23.397990 68.592680
 
 point:0x650c
 name Seyrisjärvi
-tags D1
+opts Source: V42_t
 crds 23.505371 68.660099
 
 point:0x650c
 name Sierumajärvet
-tags D1
+opts Source: V42_t
 crds 22.914410 68.475193
 
 point:0x650c
 name Sietkajoki
-tags D1
+opts Source: V42_t
 crds 22.819106 68.522565
 
 point:0x650c
 name Sietkalommol
-tags D1
+opts Source: V42_t
 crds 22.841054 68.530187
 
 point:0x650c
 name Siikajärvi
-tags D1
+opts Source: V42_t
 crds 23.449823 68.592588
 
 point:0x650c
 name Siilasjoki
-tags D1
+opts Source: V42_t
 crds 22.981030 68.623320
 
 point:0x650c
 name Siilaslompolo
-tags D1
+opts Source: V42_t
 crds 23.017168 68.646111
 
 point:0x650c
 name Silmäjärvi
-tags D1
+opts Source: V42_t
 crds 23.494629 68.539295
 
 point:0x650c
 name Siosjoki
-tags D1
+opts Source: V42_t
 crds 23.630082 68.149692
 
 point:0x650c
 name Siosjoki
-tags D1
+opts Source: V42_t
 crds 23.941885 68.305744
 
 point:0x650c
 name Siosjärvi
-tags D1
+opts Source: V42_t
 crds 23.670514 68.302641
 
 point:0x650c
 name Sissankijärvi
-tags D1
+opts Source: V42_t
 crds 23.655530 68.442992
 
 point:0x650c
 name Sisustajärvi
-tags D1
+opts Source: V42_t
 crds 22.704646 68.440687
 
 point:0x650c
 name Sotkajärvi
-tags D1
+opts Source: V42_t
 crds 23.286102 68.319621
 
 point:0x650c
 name Soukisjärvi
-tags D1
+opts Source: V42_t
 crds 24.646197 68.397117
 
 point:0x650c
 name Stallojärvi
-tags D1
+opts Source: V42_t
 crds 24.235058 68.570881
 
 point:0x650c
 name Suasjärvi
-tags D1
+opts Source: V42_t
 crds 23.458372 68.482116
 
 point:0x650c
 name Suasoja
-tags D1
+opts Source: V42_t
 crds 23.437330 68.463130
 
 point:0x650c
 name Suikurajärvi
-tags D1
+opts Source: V42_t
 crds 24.358511 68.462406
 
 point:0x650c
 name Suinajoki
-tags D1
+opts Source: V42_t
 crds 24.318274 68.583483
 
 point:0x650c
 name Suinajärvi
-tags D1
+opts Source: V42_t
 crds 24.604676 68.374643
 
 point:0x650c
 name Suolojärvi
-tags D1
+opts Source: V42_t
 crds 22.566876 68.670543
 
 point:0x650c
 name Suomajärvet
-tags D1
+opts Source: V42_t
 crds 24.333445 68.387328
 
 point:0x650c
 name Suonttajoki
-tags D1
+opts Source: V42_t
 crds 23.522968 68.389340
 
 point:0x650c
 name Suonttajärvi
-tags D1
+opts Source: V42_t
 crds 23.208900 68.390158
 
 point:0x650c
 name Suoppumajärvi
-tags D1
+opts Source: V42_t
 crds 23.567434 68.544760
 
 point:0x650c
 name Surmajoki
-tags D1
+opts Source: V42_t
 crds 22.850957 68.549120
 
 point:0x650c
 name Suttijärvi
-tags D1
+opts Source: V42_t
 crds 24.630671 68.411907
 
 point:0x650c
 name Suukisjoki
-tags D1
+opts Source: V42_t
 crds 24.350806 68.506756
 
 point:0x650c
 name Syntiinlankeemusjärvi
-tags D1
+opts Source: V42_t
 crds 22.979820 68.492514
 
 point:0x650c
 name Syväjärvi
-tags D1
+opts Source: V42_t
 crds 22.557313 68.612892
 
 point:0x650c
 name Syväjärvi
-tags D1
+opts Source: V42_t
 crds 23.217496 68.340401
 
 point:0x650c
 name Syväjärvi
-tags D1
+opts Source: V42_t
 crds 23.430543 68.409896
 
 point:0x650c
 name Särkijärvi
-tags D1
+opts Source: V42_t
 crds 23.032107 68.432068
 
 point:0x650c
 name Särkijärvi
-tags D1
+opts Source: V42_t
 crds 23.310355 68.292977
 
 point:0x650c
 name Tammukkajoki
-tags D1
+opts Source: V42_t
 crds 23.405013 68.650935
 
 point:0x650c
 name Tammukkajärvi
-tags D1
+opts Source: V42_t
 crds 23.826703 68.326267
 
 point:0x650c
 name Tammukkalantto
-tags D1
+opts Source: V42_t
 crds 23.052566 68.573948
 
 point:0x650c
 name Tammukkaoja
-tags D1
+opts Source: V42_t
 crds 23.132808 68.634264
 
 point:0x650c
 name Tarvantojoki
-tags D1
+opts Source: V42_t
 crds 22.908803 68.431992
 
 point:0x650c
 name Tarvantojärvet
-tags D1
+opts Source: V42_t
 crds 22.803161 68.656601
 
 point:0x650c
 name Termisjärvi
-tags D1
+opts Source: V42_t
 crds 23.732464 68.691137
 
 point:0x650c
 name Termislommol
-tags D1
+opts Source: V42_t
 crds 23.735276 68.686749
 
 point:0x650c
 name Tervajärvi
-tags D1
+opts Source: V42_t
 crds 24.426203 68.451184
 
 point:0x650c
 name Tienkerijärvi
-tags D1
+opts Source: V42_t
 crds 23.526188 68.524119
 
 point:0x650c
 name Tohtajajärvi
-tags D1
+opts Source: V42_t
 crds 23.626180 68.331990
 
 point:0x650c
 name Tohtajajärvi
-tags D1
+opts Source: V42_t
 crds 23.829995 68.623039
 
 point:0x650c
 name Tolfinjärvi
-tags D1
+opts Source: V42_t
 crds 23.987585 68.532423
 
 point:0x650c
 name Tommuttijärvi
-tags D1
+opts Source: V42_t
 crds 22.569389 68.644317
 
 point:0x650c
 name Tuolpajärvi
-tags D1
+opts Source: V42_t
 crds 23.152214 68.569011
 
 point:0x650c
 name Tuolpajärvi
-tags D1
+opts Source: V42_t
 crds 23.866339 68.656269
 
 point:0x650c
 name Tuolpajärvi
-tags D1
+opts Source: V42_t
 crds 23.904691 68.456417
 
 point:0x650c
 name Tuorkottajajärvi
-tags D1
+opts Source: V42_t
 crds 23.585638 68.644213
 
 point:0x650c
 name Tupalommol
-tags D1
+opts Source: V42_t
 crds 23.851981 68.695165
 
 point:0x650c
 name Turmajärvi
-tags D1
+opts Source: V42_t
 crds 24.403357 68.395360
 
 point:0x650c
 name Turvekotajärvi
-tags D1
+opts Source: V42_t
 crds 24.420723 68.355752
 
 point:0x650c
 name Törmisjärvi
-tags D1
+opts Source: V42_t
 crds 23.037246 68.373584
 
 point:0x650c
 name Uijajoki
-tags D1
+opts Source: V42_t
 crds 22.409722 68.601137
 
 point:0x650c
 name Uijajärvi
-tags D1
+opts Source: V42_t
 crds 22.512343 68.668681
 
 point:0x650c
 name Ullajärvi
-tags D1
+opts Source: V42_t
 crds 23.779795 68.386836
 
 point:0x650c
 name Ullalompolot
-tags D1
+opts Source: V42_t
 crds 23.854687 68.395497
 
 point:0x650c
 name Ullantomajärvi
-tags D1
+opts Source: V42_t
 crds 22.896974 68.420177
 
 point:0x650c
 name Umojoki
-tags D1
+opts Source: V42_t
 crds 22.547204 68.470208
 
 point:0x650c
 name Urakkajoki
-tags D1
+opts Source: V42_t
 crds 23.291595 68.415193
 
 point:0x650c
 name Urakkajärvi
-tags D1
+opts Source: V42_t
 crds 23.273079 68.414002
 
 point:0x650c
 name Uudenjänkänjärvet
-tags D1
+opts Source: V42_t
 crds 24.342095 68.361051
 
 point:0x650c
 name Uusijärvi
-tags D1
+opts Source: V42_t
 crds 22.958946 68.401404
 
 point:0x650c
 name Uusijärvi
-tags D1
+opts Source: V42_t
 crds 23.063572 68.517470
 
 point:0x650c
 name Uusijärvi
-tags D1
+opts Source: V42_t
 crds 23.778507 68.703566
 
 point:0x650c
 name Uusijärvi
-tags D1
+opts Source: V42_t
 crds 24.333677 68.350211
 
 point:0x650c
 name Uusisaivo
-tags D1
+opts Source: V42_t
 crds 23.251323 68.563402
 
 point:0x650c
 name Vaarajärvi
-tags D1
+opts Source: V42_t
 crds 23.066103 68.446231
 
 point:0x650c
 name Vaaranjärvi
-tags D1
+opts Source: V42_t
 crds 22.655962 68.457063
 
 point:0x650c
 name Vaaranpääjärvi
-tags D1
+opts Source: V42_t
 crds 23.922729 68.481762
 
 point:0x650c
 name Vaaranvälijärvi
-tags D1
+opts Source: V42_t
 crds 22.320785 68.498362
 
 point:0x650c
 name Vaikkojoki
-tags D1
+opts Source: V42_t
 crds 23.792884 68.439533
 
 point:0x650c
 name Valkamajoki
-tags D1
+opts Source: V42_t
 crds 24.109827 68.616032
 
 point:0x650c
 name Valkeajärvi
-tags D1
+opts Source: V42_t
 crds 23.903923 68.372824
 
 point:0x650c
 name Valkkojärvi
-tags D1
+opts Source: V42_t
 crds 23.562526 68.619398
 
 point:0x650c
 name Varttijärvi
-tags D1
+opts Source: V42_t
 crds 22.322084 68.643229
 
 point:0x650c
 name Venejärvi
-tags D1
+opts Source: V42_t
 crds 24.430575 68.405369
 
 point:0x650c
 name Vieltojärvi
-tags D1
+opts Source: V42_t
 crds 24.531917 68.399070
 
 point:0x650c
 name Villenjärvi
-tags D1
+opts Source: V42_t
 crds 22.841060 68.605783
 
 point:0x650c
 name Vittaselänjärvi
-tags D1
+opts Source: V42_t
 crds 22.991873 68.424425
 
 point:0x650c
 name Vuollikka
-tags D1
+opts Source: V42_t
 crds 23.520062 68.363376
 
 point:0x650c
 name Vuomajärvi
-tags D1
+opts Source: V42_t
 crds 22.783694 68.405547
 
 point:0x650c
 name Vuomajärvi
-tags D1
+opts Source: V42_t
 crds 24.430478 68.390011
 
 point:0x650c
 name Vuontisjoki
-tags D1
+opts Source: V42_t
 crds 23.933106 68.407767
 
 point:0x650c
 name Vuontisjärvi
-tags D1
+opts Source: V42_t
 crds 23.987978 68.435267
 
 point:0x650c
 name Vuorkujärvet
-tags D1
+opts Source: V42_t
 crds 23.799153 68.626089
 
 point:0x650c
 name Vuoskujärvi
-tags D1
+opts Source: V42_t
 crds 23.610491 68.643600
 
 point:0x650c
 name Vuostojoki
-tags D1
+opts Source: V42_t
 crds 24.002626 68.451226
 
 point:0x650c
 name Vuostojärvi
-tags D1
+opts Source: V42_t
 crds 23.974320 68.488187
 
 point:0x650c
 name Vuotsujärvi
-tags D1
+opts Source: V42_t
 crds 24.298103 68.453434
 
 point:0x650c
 name Vähäjärvi
-tags D1
+opts Source: V42_t
 crds 24.281992 68.330995
 
 point:0x650c
 name Välijärvi
-tags D1
+opts Source: V42_t
 crds 23.135633 68.329534
 
 point:0x650c
 name Välijärvi
-tags D1
+opts Source: V42_t
 crds 23.373757 68.459031
 
 point:0x650c
 name Välituvanjärvi
-tags D1
+opts Source: V42_t
 crds 23.481282 68.436178
 
 point:0x650c
 name Yl.Kuolpajärvi
-tags D1
+opts Source: V42_t
 crds 22.927016 68.687981
 
 point:0x650c
 name Ylijoki
-tags D1
+opts Source: V42_t
 crds 22.678575 68.577472
 
 point:0x650c
 name Ylijoki
-tags D1
+opts Source: V42_t
 crds 23.926609 68.535304
 
 point:0x650c
 name Ylijoki
-tags D1
+opts Source: V42_t
 crds 24.375190 68.372052
 
 point:0x650c
 name Ylijärvi
-tags D1
+opts Source: V42_t
 crds 23.899740 68.555659
 
 point:0x650c
 name Ylilommol
-tags D1
+opts Source: V42_t
 crds 23.844067 68.684678
 
 point:0x650c
 name Ylinen Angassaivo
-tags D1
+opts Source: V42_t
 crds 23.304296 68.445694
 
 point:0x650c
 name Ylinen Kellojärvi
-tags D1
+opts Source: V42_t
 crds 23.394500 68.432345
 
 point:0x650c
 name Ylinen Markkajärvi
-tags D1
+opts Source: V42_t
 crds 22.347315 68.514910
 
 point:0x650c
 name Ylinen Nokottamanjärvi
-tags D1
+opts Source: V42_t
 crds 23.151198 68.359103
 
 point:0x650c
 name Ylinen Raaskaltiojärvi
-tags D1
+opts Source: V42_t
 crds 23.612098 68.671620
 
 point:0x650c
 name Ylinen Tuulijärvi
-tags D1
+opts Source: V42_t
 crds 24.115698 68.344489
 
 point:0x650c
 name Ymmyräinenjärvi
-tags D1
+opts Source: V42_t
 crds 23.411847 68.469085
 
 point:0x650c
 name Äijäjärvet
-tags D1
+opts Source: V42_t
 crds 23.260228 68.282308
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 22.338983 68.517167
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 22.344841 68.489473
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 22.375417 68.521506
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 22.398575 68.529222
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 23.274720 68.653327
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 23.582393 68.677650
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 23.611285 68.666553
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 23.772352 68.689642
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 23.795531 68.679497
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 23.961716 68.684888
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 24.104161 68.660858
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 24.538004 68.512069
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 24.584028 68.402521
 
 point:0x6601
 name palsasuo
-tags D2
+opts Source: V42_t
 crds 24.610013 68.536324
 
 point:0x6606
 name lintutorni
-tags D2
+opts Source: V42_t
 crds 23.885009 68.407573
 
 text:0x1
@@ -13919,63 +13919,73 @@ refp 24.365624 68.437530
 crds 24.362876 68.439307
 
 text:0x6
+scle 0.8
 name Hanhijänkäntievat
-reft point:0xd00
+reft point:0x1100
 refp 24.163712 68.314486
 crds 24.152370 68.314928
 
 text:0x6
+scle 0.8
 name Keskilaet
-reft point:0xd00
+reft point:0x1100
 refp 23.824415 68.358863
 crds 23.820093 68.360246
 
 text:0x6
+scle 0.8
 name Lappalaisenmellat
-reft point:0xd00
+reft point:0x1100
 refp 24.381404 68.549562
 crds 24.380141 68.550670
 
 text:0x6
+scle 0.8
 name Maksaselät
-reft point:0xd00
+reft point:0x1100
 refp 22.629592 68.518642
 crds 22.623224 68.519666
 
 text:0x6
+scle 0.8
 name Nallatievat
-reft point:0xd00
+reft point:0x1100
 refp 24.289815 68.472841
 crds 24.285254 68.473162
 
 text:0x6
+scle 0.8
 name Pikkuvaarat
-reft point:0xd00
+reft point:0x1100
 refp 24.412504 68.686818
 crds 24.415809 68.686208
 
 text:0x6
+scle 0.8
 name Potnasenselät
-reft point:0xd00
+reft point:0x1100
 refp 23.102098 68.504554
 crds 23.089024 68.503820
 
 text:0x6
+scle 0.8
 name Tuolpaharjut
-reft point:0xd00
+reft point:0x1100
 refp 23.172978 68.563026
 crds 23.167208 68.563975
 
 text:0x6
+scle 0.8
 name Ullatievat
-reft point:0xd00
+reft point:0x1100
 refp 23.746484 68.390805
 crds 23.742549 68.389004
 
 text:0x6
+scle 0.8
 algn SE
 name Terävänpäänharjut
-reft point:0xd00
+reft point:0x1100
 refp 22.505978 68.599039
 crds 22.505451 68.597421
 
