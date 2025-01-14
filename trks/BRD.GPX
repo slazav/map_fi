@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
 	<metadata>
-		<time>2025-01-07T21:30:03.670Z</time>
+		<time>2025-01-14T15:49:01.528Z</time>
 	</metadata>
 	<trk>
 		<name>BRD</name>
@@ -158,7 +158,6 @@
 			<trkpt lat="68.680658" lon="25.106850"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="68.677600" lon="25.107536"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="68.676476" lon="25.110798"><time>1970-01-01T00:00:01.000Z</time></trkpt>
-			<trkpt lat="68.674042" lon="25.110626"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="68.671232" lon="25.110455"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="68.666924" lon="25.112858"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="68.663614" lon="25.113544"><time>1970-01-01T00:00:01.000Z</time></trkpt>
@@ -260,6 +259,12 @@
 			<trkpt lat="68.478666" lon="22.328682"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="68.479170" lon="22.336922"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 			<trkpt lat="68.480807" lon="22.340012"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+		<trkseg>
+			<trkpt lat="69.106797" lon="22.175903"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="69.050403" lon="20.465469"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="69.481153" lon="20.343933"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="69.539319" lon="22.078400"><time>1970-01-01T00:00:01.000Z</time></trkpt>
 		</trkseg>
 	</trk>
 </gpx>

@@ -33,22 +33,24 @@ tjern         text:4  point:0x650C  0  x1     # ferskvann/stillestaendeVann/tjer
 vann          text:4  point:0x650C  0  x1     # ferskvann/stillestaendeVann/vann -- озеро
 delAvInnsjo   text:4  point:0x6508  0 0.750   # ferskvann/stillestaendeVann/delAvInnsjo - часть озера?
 
-## Рельеф
+## Рельеф (все что 0x1100 идет в extra map!)
 berg        text:5  point:0x1100  0  1.0     # terreng/hoyder/berg -- гора
 fjell       text:5  point:0x1100  0  1.0     # terreng/hoyder/fjell --гора
 hoyde       text:5  point:0x1100  0  1.0     # terreng/hoyder/hoyde -- высота
 topp        text:5  point:0x1100  0  1.0     # terreng/hoyder/topp -- вершина
-fjellkant   text:3  point:0x2800  0  x1     # terreng/hoyder/fjellkant -- горный район
+haug        text:5  point:0x1100  0  0.8     # terreng/hoyder/haug -- насыпь
+as          text:5  point:0x1100  0  0.8     # terreng/hoyder/as -- ?
+
+fjellkant   text:3  point:0x2800  0  x1     # terreng/hoyder/fjellkant -- горный отрог
 rygg        text:3  point:0x2800  0  x1     # terreng/hoyder/rygg -- хребет
-haug        text:3  point:0x2800  0  x1     # terreng/hoyder/haug -- насыпь
-as          text:3  point:0x2800  0  x1     # terreng/hoyder/as -- ?
+
 mo          text:3  point:0x2800  0  x1     # terreng/flater/mo -- ?
 slette      text:3  point:0x2800  0  x1     # terreng/flater/slette -- равнина
 botn        text:3  point:0x2800  0  x1     # terreng/senkninger/botn -- дно впадины
 dal         text:3  point:0x2800  1  x1     # terreng/senkninger/dal -- долина
 sokk        text:3  point:0x2800  0  x1     # terreng/senkninger/sokk -- какая-то долинка/овраг?
 senkning    text:3  point:0x2800  0  x1     # terreng/senkninger/senkning -- депрессия
-skar        text:3  point:0x2800  0  x1     # terreng/senkninger/skar -- уступ
+skar        text:3  point:0x2800  0  x1     # terreng/senkninger/skar -- уступ, обрыв, иногда ущелье
 bakke       text:3  point:0x2800  0  x1     # terreng/skraninger/bakke -- холм
 li          text:3  point:0x2800  0  x1     # terreng/skraninger/li -- склон
 fjellside   text:3  point:0x2800  0  x1     # terreng/skraninger/fjellside -- склон?

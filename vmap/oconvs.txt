@@ -25,19 +25,32 @@
 * point:0x6415 * * "^muinaisasuinpaikka"       -
 * point:0x6415 * * "^kivikautinen asuinpaikka" -
 
-V51t 0x2b04 28.021351 68.209214 "^Kuuselankämppä\\\\vuokratupa" vuokratupa
-V51t 0x2b04 28.026177 68.210752 "^Rajankämppä\\\\autiotupa" -
-V51t 0x2b04 28.258217 68.258433 "^Muorravaarakanruoktu\\\\varauskammi"  varauskammi
+V51_t point:0x2b04  28.021351 68.209214 "^Kuuselankämppä\\\\vuokratupa" vuokratupa
+V51_t point:0x2b04  28.026177 68.210752 "^Rajankämppä\\\\autiotupa" " "
+V51_t point:0x2b04  28.258217 68.258433 "^.*$"\
+                      "Muorravaarakanruoktu\\varauskammi\\Muorravaarakka\\autio- ja varaustupa"
+V51_t point:0x2800  27.100549 68.177069 "Koilliskairan luontokeskus" -
 
-V52t 0x2800 27.377093 68.329614  "^Tievatupa" -
-V52t 0x2800 28.294852 68.433827  "^Suomun Ville" -
-V52t 0x6606 27.442198 68.434226  "^kolmiomittauksen muistomerkki\\\\näkötorni"  "näkötorni"
-V52t 0x2b04 27.433983 68.421877  "^Kelo-ojan kullankaivajan tupa\\\\päivätupa"  -
-V52t 0x2b04 27.433026 68.421303  "^Karvaselän kummituskämppä\\\\päivätupa"      "päivätupa"
-V52t 0x2b04 27.424318 68.394476  "^Prospektorin kaivoskämppä\\\\päivätupa"      "päivätupa"
-V52t 0x2800 27.431137 68.410316  "^Hirvaspirtti" -
-V52t 0x2800 27.504833 68.602821  "^luontopolku" -
-V52t 0x2800 27.523532 68.654741  "^moottorikelkkareitti" -
+V52_t point:0x2800  27.377093 68.329614  "^Tievatupa" -
+V52_t point:0x2800  28.294852 68.433827  "^Suomun Ville$" -
+V52_t point:0x2b04  27.433983 68.421877  "^Kelo-ojan kullankaivajan tupa\\\\päivätupa"  " "
+V52_t point:0x2b04  27.433026 68.421303  "^Karvaselän kummituskämppä\\\\päivätupa"      "päivätupa"
+V52_t point:0x2b04  27.424318 68.394476  "^Prospektorin kaivoskämppä\\\\päivätupa"      "päivätupa"
+V52_t point:0x2800  27.431137 68.410316  "^Hirvaspirtti" -
+V52_t point:0x2800  27.504833 68.602821  "^luontopolku" -
+V52_t point:0x2800  27.523532 68.654741  "^moottorikelkkareitti" -
 
-V41t 0x2800 25.779002 68.669768  "^Morgamojan Kultala" -
-V41t 0x2800 25.002424 68.410926  "^Kultakuru" -
+V41_t point:0x2800  25.779002 68.669768  "^Morgamojan Kultala" -
+V41_t point:0x2800  25.002424 68.410926  "^Kultakuru" -
+
+W34_t point:0x2b04  * * "^Porojärvi, "     "Porojärvi\\"
+W34_t point:0x2b04  * * "^Jogasjärvi, "    "Jogasjärvi\\"
+W34_t point:0x2b04  * * "^Meekonjärvi, varaustupa"  " "
+W34_t point:0x2b04  * * "^Meekonjärvi, vuokratupa"  "Meekonj.rvi\\varaus- ja vuokratupa" 
+W34_t point:0x2b04  * * "^Meekonjärvi, autiotupa"  "Meekonjärvi\\autiotupa"
+W34_t point:0x650c  21.641773 69.265872 "^L.*" -  # finnish part of lake
+W34_t point:0x650c  21.525419 69.290543 "^S.*" -  # NO part of lake
+W34_t point:0x2b04  20.557061 69.060300 "^K.*varaustupa" -
+W34_t point:0x2b04  20.557061 69.060300 "^K.*autiotupa"  "Kuohkimajärvi\\autio- ja varaustupa"
+
+
