@@ -29,23 +29,12 @@ void usage(bool pod=false){
 
 /**********************************************************/
 
-void replace_string(std::string & str, const std::string & s, const std::string & r){
-  str = std::regex_replace(str, std::regex(s), r);
-}
-
-void change_name(VMap2obj & obj, uint32_t type, double lon, double lat, std::string s, std::string r){
-  if (type!=-1 && obj.type != type) return;
-  if (!std::isnan(lat) && !std::isnan(lat) && 
-      geo_dist_2d(obj[0][0], dPoint(lon, lat))>10) return;
-//  if (obj.name == name) obj.name = repl;
-  obj.name = std::regex_replace(obj.name, std::regex(s), r);
-}
-
 // custom filter for vmaps
 void filter_vmap(VMap2 & vmap, const std::string & src){
 
   // read object conversion table
   auto oconvs = read_oconv("oconvs.txt");
+
 
   // Create labels
   vmap.iter_start();
@@ -53,107 +42,34 @@ void filter_vmap(VMap2 & vmap, const std::string & src){
     auto p = vmap.iter_get_next();
     auto id = p.first;
     auto & obj = p.second;
+    if (obj.is_class(VMAP2_TEXT)) continue;
 
     for (const auto & conv: oconvs){
 
       if (conv.src  != "*" && conv.src != src) continue;
-      if (conv.type != "*" && obj.is_type(conv.type)) continue;
-      if (conv.lat  != "*" && conv.lon != "*" &&
-          geo_dist_2d(obj[0][0],
-              dPoint(str_to_type<double>(conv.lon), str_to_type<double>(conv.lat)))>10) continue;
+      if (conv.type != "*" && !obj.is_type(conv.type)) continue;
+      if (conv.lat  != "*" && conv.lon != "*"){
+         dPoint pt(str_to_type<double>(conv.lon), str_to_type<double>(conv.lat));
+         if (geo_dist_2d(obj.get_first_pt(), pt) > 200) continue;
+      }
 
       auto n = std::regex_replace(
            obj.name, std::regex(conv.name_re), conv.name_subst);
-      if (n == ""){
-//        std::cerr << "oconv del: "
-//                  << conv.src << " " << conv.type << " " << obj.name << "\n";
+
+      if (n == "" || n == "-"){
+        //std::cerr << "oconv del: " << conv.type << " " << obj.name << "\n";
         vmap.del(id);
         break;
       }
 
       if (n!=obj.name){
-//        std::cerr << "oconv sub: " << obj.name << " -> " << n << "\n";
+        //std::cerr << "oconv sub: " << obj.name << " -> " << n << "\n";
         obj.name = n;
         vmap.put(id, obj);
         break;
       }
     }
   }
-/*
-    // all types
-    change_name(obj, -1, NAN,NAN, u8"Ylimmäi(nen|set|sen) ?", u8"Yl.");
-    change_name(obj, -1, NAN,NAN, u8"Keskimmäi(nen|set|sen) ?", u8"Kesk.");
-    change_name(obj, -1, NAN,NAN, u8"Alimmai(nen|set|sen) ?", u8"Al.");
-    change_name(obj, -1, NAN,NAN, u8"Alempi ", u8"Al.");
-    change_name(obj, -1, NAN,NAN, u8"Ylempi ", u8"Yl.");
-
-    change_name(obj, 0x2b04, NAN, NAN, u8"^koulu$", u8"");
-    change_name(obj, 0x2b04, NAN, NAN, u8"^kappeli$", u8"");
-    change_name(obj, 0x2b04, NAN, NAN, u8"^kirkko$", u8"");
-    change_name(obj, 0x2b04, NAN, NAN, u8"^terveyskeskus$", u8"");
-    change_name(obj, 0x2b04, NAN, NAN, u8"^b$", u8""); // Polttoaineen jakelupiste
-    change_name(obj, 0x2b04, NAN, NAN, u8"^p$", u8""); // Posti
-    change_name(obj, 0x2b04, NAN, NAN, u8"^h.as$", u8"");
-
-    change_name(obj, 0x2b04, NAN, NAN, u8"^k.talo", u8""); // kaupungintalo
-    change_name(obj, 0x2b04, NAN, NAN, u8"^s.talo", u8""); // seurantalo
-//    change_name(obj, 0x2b04, NAN, NAN, u8"^kpa$", u8""); // Kauppa
-//    change_name(obj, 0x2b04, NAN, NAN, u8"^leir.alue", u8""); // camping
-    change_name(obj, 0x2b04, NAN, NAN, u8"^vanhaink.", u8""); // д/о
-
-    change_name(obj, 0x6415, NAN, NAN, u8"^struven ketjun piste", "Struven ketjun piste");
-    change_name(obj, 0x6415, NAN, NAN, u8"^pyyntikuop(at|pia|pa)", "");
-    change_name(obj, 0x6415, NAN, NAN, u8"^kivik. asuinpaikka", "");
-    change_name(obj, 0x6415, NAN, NAN, u8"^muinainen asuinpaikka", "");
-    change_name(obj, 0x6415, NAN, NAN, u8"^muinaisasuinpaikka", "");
-    change_name(obj, 0x6415, NAN, NAN, u8"^kivikautinen asuinpaikka", "");
-
-    // V51
-
-    change_name(obj, 0x2b04, 28.021351, 68.209214,
-      u8"^Kuuselankämppä\\\\vuokratupa", u8"vuokratupa");
-
-    change_name(obj, 0x2b04, 28.026177, 68.210752,
-      u8"^Rajankämppä\\\\autiotupa", u8" ");
-
-    change_name(obj, 0x2b04, 28.258217, 68.258433,
-      u8"^Muorravaarakanruoktu\\\\varauskammi", u8"varauskammi");
-
-    // V52
-    change_name(obj, 0x2800, 27.377093, 68.329614,
-      u8"^Tievatupa", "");
-
-    change_name(obj, 0x2800, 28.294852, 68.433827,
-      u8"^Suomun Ville", "");
-
-    change_name(obj, 0x6606, 27.442198, 68.434226,
-      u8"^kolmiomittauksen muistomerkki\\\\näkötorni", u8"näkötorni");
-
-    change_name(obj, 0x2b04, 27.433983, 68.421877,
-      u8"^Kelo-ojan kullankaivajan tupa\\\\päivätupa", " ");
-
-    change_name(obj, 0x2b04, 27.433026, 68.421303,
-      u8"^Karvaselän kummituskämppä\\\\päivätupa", u8"päivätupa");
-
-    change_name(obj, 0x2b04, 27.424318, 68.394476,
-      u8"^Prospektorin kaivoskämppä\\\\päivätupa", u8"päivätupa");
-
-    change_name(obj, 0x2800, 27.431137, 68.410316,
-      u8"^Hirvaspirtti", "");
-
-    change_name(obj, 0x2800, 27.504833, 68.602821,
-      u8"^luontopolku", "");
-
-    change_name(obj, 0x2800, 27.523532, 68.654741,
-      u8"^moottorikelkkareitti", "");
-
-    // V41
-    change_name(obj, 0x2800, 25.779002, 68.669768,
-      u8"^Morgamojan Kultala", "");
-
-    change_name(obj, 0x2800, 25.002424, 68.410926,
-      u8"^Kultakuru", "");
-*/
 }
 
 /**********************************************************/
@@ -226,7 +142,9 @@ main(int argc, char *argv[]){
 
         // update name and coordinates
         if (o2.name != o1.name)
-          std::cout << "  update name: " << o2.name << " -> " << o1.name << "\n";
+          std::cout << "  update name: " << " " << o1.print_type()
+                  << ": " << o2.name << " -> " << o1.name << " "
+                  << o1.get_first_pt() << "\n";
         o2.name = o1.name;
         o2.set_coords(o1);
         vmap2.put(i2, o2);
@@ -247,8 +165,8 @@ main(int argc, char *argv[]){
       auto old_src = o1.opts.get("Source");
       o1.opts.put("Source", src);
       vmap2.add(o1);
-      std::cout << "  add object: " << old_src << " " << o1.print_type()
-                << ": " << o1.name << " " << o1[0][0] << "\n";
+      std::cout << "  add object: " << " " << o1.print_type()
+                << ": " << o1.name << " " << o1.get_first_pt() << "\n";
 
       // transfer labels
       while (i!=refs1.end() && i->first == id){
@@ -294,7 +212,7 @@ main(int argc, char *argv[]){
 
       // if not, remove destination object and all labels
       std::cout << "  del object: " << VMap2obj::print_type(o2.type)
-                << ": " << o2.name << " " << o2[0][0] << "\n";
+                << ": " << o2.name << " " << o2.get_first_pt() << "\n";
       vmap2.del(j->first);
       while (j!=refs2.end() && j->first == id){
         vmap2.del(j->second);

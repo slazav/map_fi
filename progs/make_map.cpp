@@ -55,12 +55,12 @@ import_fi1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
         tinfo = txt_convs[t];
       else {
         std::cerr << "Unknown text type: " << t << " "
-                  << oi.get_first() << " " << oi.opts.get("spelling") << "\n";
+                  << oi.get_first_pt() << " " << oi.opts.get("spelling") << "\n";
         continue;
       }
 
       VMap2obj obj(tinfo.type);
-      obj.add_point(oi.get_first());
+      obj.add_point(oi.get_first_pt());
       obj.set_ref_type(tinfo.rtype);
       obj.ref_pt = oi.ref_pt;
       // Always use "spelling" field: we can have double labels,
@@ -79,7 +79,7 @@ import_fi1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
       else obj.scale = str_to_type<double>(tinfo.scale);
 
       obj.opts.put("lang", oi.opts.get("language", ""));
-      text_buf[oi.opts.get<int>("placeid")].emplace(-obj.get_first().y, obj);
+      text_buf[oi.opts.get<int>("placeid")].emplace(-obj.get_first_pt().y, obj);
     }
     /**********************************/
     // other types
@@ -87,7 +87,7 @@ import_fi1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
       // convert type
       auto t = oi.opts.get("type1");
       if (typ_convs.count(t)==0){
-        std::cerr << "unknown type: " << t << " " << oi.get_first() << "\n";
+        std::cerr << "unknown type: " << t << " " << oi.get_first_pt() << "\n";
         continue;
       }
       if (typ_convs[t]=="-") continue;
@@ -147,11 +147,11 @@ import_fi1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
       if (o.second.opts.get("lang") != langpref[ln]) continue;
 
       // keep first label and labels far from it
-      if (first || geo_dist_2d(pt, o.second.get_first()) > 1000){
+      if (first || geo_dist_2d(pt, o.second.get_first_pt()) > 1000){
          if (extra) vmapx.add(o.second);
          else vmapt.add(o.second);
       }
-      pt = o.second.get_first();
+      pt = o.second.get_first_pt();
       first=false;
     }
   }
@@ -183,8 +183,8 @@ import_fi2(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
   }
   for (const auto & i: toremove) vmap.del(i);
 
-  // sort by key (text type + ref_point position)
-  std::map<std::string, std::multimap<double, VMap2obj> > text_buf;
+  // group labels by reference points, sort by -y coordinate
+  std::list<std::multimap<double, VMap2obj> > label_groups;
 
   /********************************************************/
 
@@ -204,13 +204,13 @@ import_fi2(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
         tinfo = txt_convs[t];
       else {
         std::cerr << "Unknown text type: " << t << " "
-                  << oi.get_first() << " " << oi.opts.get("TEKSTI") << "\n";
+                  << oi.get_first_pt() << " " << oi.opts.get("TEKSTI") << "\n";
         continue;
       }
       if (tinfo.type == "-" || tinfo.rtype == "") continue;
 
       VMap2obj obj(tinfo.type);
-      obj.add_point(oi.get_first());
+      obj.add_point(oi.get_first_pt());
       obj.set_ref_type(tinfo.rtype);
       obj.ref_pt = oi.ref_pt;
       obj.name = oi.opts.get("TEKSTI");
@@ -239,16 +239,32 @@ import_fi2(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
         continue;
       }
 
-      // we want to combine together text objects:
-      // - multiple languages
-      // - carried over names
-      // - name + legend (different input types!)
-      // We do not want to combine different ref_types (summit + monument).
-      // We will use output ref_type + coords as a key.
-      // coord accuracy is 1" - about 30m
+      // We want to combine together text objects with
+      // same ref_type (not input type), close ref_pt
+      // Select correct label:
+      // - language preference -- not supported in FI2
+      // + upper label first, skip lower (same or different names)
+      // + join upper legend
 
-      auto key = tinfo.rtype + "-" + type_to_str(iPoint(obj.ref_pt*3600));
-      text_buf[key].emplace(-obj.get_first().y, obj);
+      bool found = false;
+      for (auto & group: label_groups){
+        for (const auto & i: group){
+          auto & obj2 = i.second;
+          if (obj.ref_type != obj2.ref_type) continue;
+          if (geo_dist_2d(obj.ref_pt, obj2.ref_pt) > 50) continue;
+          found = true;
+          break;
+        }
+        if (found){
+          group.emplace(-obj.get_first_pt().y, obj);
+          break;
+        }
+      }
+      if (!found) {
+        std::multimap<double, VMap2obj> group;
+        group.emplace(-obj.get_first_pt().y, obj);
+        label_groups.push_back(group);
+      }
     }
     /**********************************/
     // other objects
@@ -256,7 +272,7 @@ import_fi2(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
       // check type
       std::string ti = oi.opts.get("type1");
       if (typ_convs.count(ti)==0){
-        std::cerr << "unknown type: " << ti << " " << oi.get_first() << "\n";
+        std::cerr << "unknown type: " << ti << " " << oi.get_first_pt() << "\n";
         continue;
       }
       auto act = typ_convs[ti].action;
@@ -295,22 +311,39 @@ import_fi2(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
 
   /**********************************/
   // Second pass for text objects
-  for (auto tt: text_buf){
-    auto fsti = tt.second.begin(); // first (upper) label
-    auto & fsto = fsti->second;
-    if (fsti == tt.second.end()) continue; //should not be
+  // Example of complicated groups:
+  //   Name(lang1) Name(lang2) Leg Name(lang1) Name(lang2) Leg [68.25827 28.25834]  (two objects are merged)
+  //   Leg1 Leg2 [68.43527 27.44415]
+  //   Name(lang1), Name(lang2), far from each other, single refpoint: 21.321321,69.129069
+  // I fill only names which go after another name.
+  // Here we have strictly one ref_pt and one label for each group.
+  // In FI1 and NO1 we may want to keep far labels with same text (rivers)
 
-    for (auto i = fsti; i!=tt.second.end(); ++i){
-      // find the first legend, if it's not the first label - append name
-      if (i->second.opts.exists("legend") && i!=fsti){
-        fsto.name += '\\' + i->second.name;
-        break;
-      }
+  for (auto group: label_groups){
+    // append names and legends to the first object
+    if (group.size()==0) continue;
+    auto & obj = group.begin()->second;
+
+    // TODO: river labels
+//    for (auto i = group.begin(); i!=group.end(); ++i);
+//      if (i==group.begin()) continue;
+//      if (i->second.name == obj.name) &&
+//         (geo_dist_2d(i->second.get_first_pt, obj.get_first_pt) > 1000)
+//        vmapt.add(i->second);
+//    }
+
+    bool lp = false;
+    for (auto i = group.begin(); i!=group.end();){
+      bool l = i->second.opts.exists("legend");
+      if (i==group.begin()) { lp=l; ++i; continue;}
+      if (!l && !lp){ i = group.erase(i); continue; }
+      obj.name += "\\" + i->second.name;
+      lp=l; ++i;
     }
-    vmapt.add(fsto);
 
-    // make ref object
-    vmapt.add(make_ref_obj(fsto, "FI2"));
+
+    vmapt.add(obj);
+    vmapt.add(make_ref_obj(obj, "FI2"));
   }
 }
 
@@ -353,7 +386,7 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
       else {
         std::cerr << "Unknown text type: "
                   << oi.opts.get("text_fulltype", t)
-                  << "\n  " << oi.get_first() << "\n";
+                  << "\n  " << oi.get_first_pt() << "\n";
         // use default
       }
       if (tinfo.type=="-") continue;
@@ -376,18 +409,18 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
       if (!tinfo.angle) obj.angle=NAN;
 
       // scale
-      obj.scale = oi.opts.get<double>("fontsize")/8.0;
+      obj.scale = oi.opts.get<double>("fontsize")/9.0;
       if (tinfo.scale.size() && tinfo.scale[0]=='x'){
         obj.scale *= str_to_type<double>(tinfo.scale.substr(1));
         if (obj.scale<0.75) obj.scale = 0.75;
       }
       else obj.scale = str_to_type<double>(tinfo.scale);
 
-      obj.add_point(oi.get_first());
-      obj.ref_pt = oi.get_first();
+      obj.add_point(oi.get_first_pt());
+      obj.ref_pt = oi.get_first_pt();
 
       // place_number or point
-      text_buf[oi.opts.get("place_number")].emplace(-obj.get_first().y, obj);
+      text_buf[oi.opts.get("place_number")].emplace(-obj.get_first_pt().y, obj);
     }
     /********************************/
     else if (oi.is_type("text:2")){
@@ -396,8 +429,8 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
 
       VMap2obj obj;
       obj.name = oi.opts.get("fulltext");
-      obj.add_point(oi.get_first());
-      obj.ref_pt = oi.get_first(); // no good ref_point
+      obj.add_point(oi.get_first_pt());
+      obj.ref_pt = oi.get_first_pt(); // no good ref_point
  
       // water altitude marks (exact positions are not important) -> to extra map
       if (t == "hoydetallVann") {
@@ -431,7 +464,7 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
       std::string t = oi.opts.get("table");
       // check type
       if (typ_convs.count(t)==0){
-        std::cerr << "unknown type: " << t << " " << oi.get_first() << "\n";
+        std::cerr << "unknown type: " << t << " " << oi.get_first_pt() << "\n";
         continue;
       }
       if (typ_convs[t] == "-") continue;
@@ -487,9 +520,9 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
         VMap2obj txt("text:3");
         txt.scale = 0.75;
         txt.name = obj.name;
-        txt.ref_pt = obj.get_first();
+        txt.ref_pt = obj.get_first_pt();
         txt.ref_type = obj.type;
-        txt.add_point(obj.get_first() + dPoint(3e-3,0));
+        txt.add_point(obj.get_first_pt() + dPoint(3e-3,0));
         vmapt.add(txt);
         continue;
       }
@@ -503,9 +536,9 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
         VMap2obj txt("text:3");
         txt.scale = 0.75;
         txt.name = obj.name;
-        txt.ref_pt = obj.get_first();
+        txt.ref_pt = obj.get_first_pt();
         txt.ref_type = obj.type;
-        txt.add_point(obj.get_first() + dPoint(3e-3,0));
+        txt.add_point(obj.get_first_pt() + dPoint(3e-3,0));
         vmapt.add(txt);
         continue;
       }
@@ -521,9 +554,9 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
         VMap2obj txt("text:6");
         txt.name = obj.name;
         txt.scale = 0.8;
-        txt.ref_pt = obj.get_first();
+        txt.ref_pt = obj.get_first_pt();
         txt.ref_type = obj.type;
-        txt.add_point(obj.get_first() + dPoint(3e-3,0));
+        txt.add_point(obj.get_first_pt() + dPoint(3e-3,0));
         vmapt.add(txt);
         continue;
       }
@@ -539,9 +572,9 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
         VMap2obj txt("text:6");
         txt.name = obj.name;
         txt.scale = 0.8;
-        txt.ref_pt = obj.get_first();
+        txt.ref_pt = obj.get_first_pt();
         txt.ref_type = obj.type;
-        txt.add_point(obj.get_first() + dPoint(3e-3,0));
+        txt.add_point(obj.get_first_pt() + dPoint(3e-3,0));
         vmapx.add(txt);
         continue;
       }
@@ -579,13 +612,13 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
         // save object
         map.add(o.second);
 
-        pt = o.second.get_first();
+        pt = o.second.get_first_pt();
         nm = o.second.name;
         first=false;
         continue;
       }
       // keep other labels with same name which are far enough
-      if (geo_dist_2d(pt, o.second.get_first()) > 1000 &&
+      if (geo_dist_2d(pt, o.second.get_first_pt()) > 1000 &&
           nm == o.second.name) map.add(o.second);
     }
   }
