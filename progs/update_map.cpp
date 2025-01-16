@@ -66,7 +66,6 @@ void filter_vmap(VMap2 & vmap, const std::string & src){
         //std::cerr << "oconv sub: " << obj.name << " -> " << n << "\n";
         obj.name = n;
         vmap.put(id, obj);
-        break;
       }
     }
   }
