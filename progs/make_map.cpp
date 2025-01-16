@@ -499,7 +499,15 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
       // special types: roads
       if (t == "road"){
         auto rt = oi.opts.get("type_road");
-        if (rt == "enkelBilveg")          t = "line:0x02"; // simple road ?
+        if (rt == "enkelBilveg"){
+          auto cat = oi.opts.get("road_category");
+          if (cat == "E") t = "line:0x01"; // federal?
+          else if (cat == "R") t = "line:0x0B"; // regional?
+          else if (cat == "F") t = "line:0x02";
+          else if (cat == "K") t = "line:0x02"; // local
+          else if (cat == "P") t = "line:0x06"; // driveways to houses
+          else { std::cout << "unknown road_category: " << cat << "\n"; continue;}
+        }
         else if (rt == "traktorveg")      t = "line:0x0A"; // mud road
         else if (rt == "sti")             t = "line:0x16";    // path
         else if (rt == "barmarksloype")   t = "line:0x2A";    // foot trail
@@ -595,7 +603,8 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
     for (auto o: tt.second){
 
       // to extra map
-      bool ex = o.second.is_ref_type("point:0x1100");
+      bool ex = o.second.is_ref_type("point:0x1100") || // отметки высот
+                o.second.is_ref_type("point:0x6508"); // водопады
       VMap2 & map = ex? vmapx : vmapt;
 
       if (first) {
