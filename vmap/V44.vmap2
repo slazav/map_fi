@@ -21,7 +21,7 @@ crds 25.481233 68.371634
 point:0x800
 name Menesjärvi
 opts Source: V44_t
-crds 26.410434 68.741914
+crds 26.410379 68.741934
 
 point:0x900
 name Jumbál
@@ -1986,7 +1986,7 @@ crds 25.758466 68.696796
 point:0x2800
 name Poikkikuru
 opts Source: V44_t
-crds 24.946248 68.477312
+crds 24.946194 68.477312
 
 point:0x2800
 name Porttijänkä
@@ -2021,7 +2021,7 @@ crds 26.777235 68.316579
 point:0x2800
 name Repojänkä
 opts Source: V44_t
-crds 25.239189 68.562750
+crds 25.239188 68.562770
 
 point:0x2800
 name Repokaira
@@ -2041,7 +2041,7 @@ crds 25.647540 68.349937
 point:0x2800
 name Risujänkä
 opts Source: V44_t
-crds 25.629038 68.362425
+crds 25.629037 68.362445
 
 point:0x2800
 name Rovakuolpuna
@@ -2286,37 +2286,37 @@ crds 26.628707 68.456023
 point:0x2800
 name erotusaita
 opts Source: V44_t
-crds 24.962572 68.547403
+crds 24.962545 68.547413
 
 point:0x2800
 name erotusaita
 opts Source: V44_t
-crds 25.528782 68.381287
+crds 25.528733 68.381306
 
 point:0x2800
 name erotusaita
 opts Source: V44_t
-crds 25.702827 68.685679
+crds 25.702784 68.685684
 
 point:0x2800
 name erotusaita
 opts Source: V44_t
-crds 26.160822 68.555376
+crds 26.160814 68.555378
 
 point:0x2800
 name erotusaita
 opts Source: V44_t
-crds 26.261462 68.602463
+crds 26.261431 68.602475
 
 point:0x2800
 name erotusaita
 opts Source: V44_t
-crds 26.642113 68.655395
+crds 26.642062 68.655407
 
 point:0x2800
 name erotusaita
 opts Source: V44_t
-crds 26.944582 68.386785
+crds 26.944542 68.386800
 
 point:0x2800
 name kahlaamo
@@ -3036,7 +3036,7 @@ crds 26.759007 68.593876
 point:0x650c
 name Hauki-Suivakkojärvi
 opts Source: V44_t
-crds 26.557441 68.706130
+crds 26.557386 68.706130
 
 point:0x650c
 name Haukijärvi
@@ -4131,7 +4131,7 @@ crds 25.804322 68.577909
 point:0x650c
 name Vaijoenlampi
 opts Source: V44_t
-crds 25.814753 68.556771
+crds 25.814752 68.556791
 
 point:0x650c
 name Vaijoki
@@ -4325,7 +4325,7 @@ scle 1.1
 algn SE
 name Menesjärvi
 reft point:0x800
-refp 26.410434 68.741914
+refp 26.410379 68.741934
 crds 26.406553 68.739263
 
 text:0x3
@@ -4682,36 +4682,36 @@ text:0x3
 scle 0.75
 name erotusaita
 reft point:0x2800
-refp 25.528782 68.381287
-crds 25.530979 68.381096
+refp 25.528733 68.381306
+crds 25.530958 68.381101
 
 text:0x3
 scle 0.75
 name erotusaita
 reft point:0x2800
-refp 25.702827 68.685679
-crds 25.707365 68.684831
+refp 25.702784 68.685684
+crds 25.707364 68.684851
 
 text:0x3
 scle 0.75
 name erotusaita
 reft point:0x2800
-refp 26.261462 68.602463
-crds 26.267290 68.601353
+refp 26.261431 68.602475
+crds 26.267286 68.601370
 
 text:0x3
 scle 0.75
 name erotusaita
 reft point:0x2800
-refp 26.642113 68.655395
-crds 26.650485 68.657021
+refp 26.642062 68.655407
+crds 26.650439 68.657037
 
 text:0x3
 scle 0.75
 name erotusaita
 reft point:0x2800
-refp 26.944582 68.386785
-crds 26.946886 68.384989
+refp 26.944542 68.386800
+crds 26.946837 68.385001
 
 text:0x3
 scle 0.75
@@ -4870,16 +4870,16 @@ scle 0.75
 algn SE
 name erotusaita
 reft point:0x2800
-refp 24.962572 68.547403
-crds 24.960070 68.547579
+refp 24.962545 68.547413
+crds 24.960027 68.547589
 
 text:0x3
 scle 0.75
 algn SE
 name erotusaita
 reft point:0x2800
-refp 26.160822 68.555376
-crds 26.162363 68.557706
+refp 26.160814 68.555378
+crds 26.162352 68.557714
 
 text:0x3
 scle 0.75
@@ -5029,14 +5029,6 @@ crds 25.836727 68.338963
 text:0x3
 scle 0.866667
 algn SE
-name Heavvogorsa
-reft point:0x2800
-refp 24.864900 68.664553
-crds 24.864900 68.664553
-
-text:0x3
-scle 0.866667
-algn SE
 name Jusseniillaseanan
 reft point:0x2800
 refp 24.937616 68.733699
@@ -5049,14 +5041,6 @@ name Njuolasjohbuollán
 reft point:0x2800
 refp 25.068651 68.655857
 crds 25.068651 68.655857
-
-text:0x3
-scle 0.866667
-algn S
-name Sieiddegorsa
-reft point:0x2800
-refp 24.821221 68.629337
-crds 24.821221 68.629337
 
 text:0x3
 scle 0.866667
@@ -5522,7 +5506,7 @@ algn S
 name Opmojeaggi
 reft point:0x2800
 refp 24.800797 68.706250
-crds 24.800797 68.706250
+crds 24.808220 68.711084
 
 text:0x3
 scle 0.96
@@ -5727,7 +5711,7 @@ crds 25.698804 68.537992
 text:0x3
 name Risujänkä
 reft point:0x2800
-refp 25.629038 68.362425
+refp 25.629037 68.362445
 crds 25.620305 68.360800
 
 text:0x3
@@ -5907,7 +5891,7 @@ text:0x3
 scle 1.2
 name Repojänkä
 reft point:0x2800
-refp 25.239189 68.562750
+refp 25.239188 68.562770
 crds 25.214863 68.563860
 
 text:0x3
@@ -5991,6 +5975,15 @@ refp 25.903579 68.476691
 crds 25.914127 68.475428
 
 text:0x3
+angl -76.5933
+scle 0.866667
+algn S
+name Heavvogorsa
+reft point:0x2800
+refp 24.864900 68.664553
+crds 24.861238 68.667164
+
+text:0x3
 angl -74.9198
 scle 0.75
 name Vanha Rovasen maantie
@@ -6019,7 +6012,7 @@ scle 0.825
 algn S
 name Poikkikuru
 reft point:0x2800
-refp 24.946248 68.477312
+refp 24.946194 68.477312
 crds 24.943326 68.477357
 
 text:0x3
@@ -6057,6 +6050,15 @@ refp 25.915191 68.333319
 crds 25.921103 68.337098
 
 text:0x3
+angl -41.6171
+scle 0.866667
+algn S
+name Sieiddegorsa
+reft point:0x2800
+refp 24.821221 68.629337
+crds 24.832974 68.630587
+
+text:0x3
 angl -40.1953
 scle 0.75
 name Keinoäytsi
@@ -6088,7 +6090,7 @@ algn SE
 name Rávdovuopmi
 reft point:0x2800
 refp 24.761237 68.719389
-crds 24.761237 68.719389
+crds 24.760684 68.718777
 
 text:0x3
 angl -12.0021
@@ -6878,7 +6880,7 @@ text:0x4
 scle 0.825
 name Vaijoenlampi
 reft point:0x650c
-refp 25.814753 68.556771
+refp 25.814752 68.556791
 crds 25.818938 68.555905
 
 text:0x4
@@ -7120,7 +7122,7 @@ scle 0.825
 algn S
 name Hauki-Suivakkojärvi
 reft point:0x650c
-refp 26.557441 68.706130
+refp 26.557386 68.706130
 crds 26.536248 68.709010
 
 text:0x4
@@ -7562,7 +7564,7 @@ scle 0.916667
 name Sieiddejávri
 reft point:0x650c
 refp 24.719897 68.671352
-crds 24.719897 68.671352
+crds 24.718591 68.668412
 
 text:0x4
 scle 0.916667
@@ -7570,7 +7572,7 @@ algn SE
 name Rávdojávri
 reft point:0x650c
 refp 24.676098 68.673937
-crds 24.676098 68.673937
+crds 24.682541 68.674413
 
 text:0x4
 scle 0.916667
@@ -7578,7 +7580,7 @@ algn SE
 name Skárrejávri
 reft point:0x650c
 refp 24.649734 68.715920
-crds 24.649734 68.715920
+crds 24.665597 68.709338
 
 text:0x4
 scle 0.916667
@@ -7600,6 +7602,15 @@ name Hammasjärvi
 reft point:0x650c
 refp 26.867159 68.681566
 crds 26.852910 68.679165
+
+text:0x4
+angl -360.09
+scle 0.9
+name Doaresávži
+opts lang: sme
+reft point:0x650c
+refp 25.040223 68.495113
+crds 25.034168 68.496280
 
 text:0x4
 angl -359.835
@@ -7628,15 +7639,6 @@ refp 25.730026 68.623534
 crds 25.699414 68.623625
 
 text:0x4
-angl -356.905
-scle 0.916667
-algn S
-name Sieiddejohka
-reft point:0x650c
-refp 24.839410 68.693698
-crds 24.839410 68.693698
-
-text:0x4
 angl -356.023
 algn S
 name Pikku Rullajoki
@@ -7661,6 +7663,15 @@ name Kirakkajoki
 reft point:0x650c
 refp 27.009691 68.692762
 crds 26.946842 68.657892
+
+text:0x4
+angl -351.891
+scle 0.916667
+algn S
+name Sieiddejohka
+reft point:0x650c
+refp 24.839410 68.693698
+crds 24.852389 68.694690
 
 text:0x4
 angl -350.208
@@ -7769,6 +7780,15 @@ refp 25.740107 68.646672
 crds 25.748297 68.647619
 
 text:0x4
+angl -329.513
+scle 0.75
+algn S
+name Suttesjohka
+reft point:0x650c
+refp 25.065626 68.717261
+crds 25.065626 68.717261
+
+text:0x4
 angl -327.854
 algn S
 name Karvajoki
@@ -7825,6 +7845,14 @@ name Kapperaoja
 reft point:0x650c
 refp 24.681214 68.376231
 crds 24.687013 68.376585
+
+text:0x4
+angl -324.156
+name Máttit Ravadas
+opts lang: sme
+reft point:0x650c
+refp 25.836181 68.713533
+crds 25.834547 68.714571
 
 text:0x4
 angl -323.662
@@ -7957,6 +7985,15 @@ name Nurmijoki
 reft point:0x650c
 refp 25.331291 68.472045
 crds 25.334155 68.473719
+
+text:0x4
+angl -312.398
+scle 0.9
+name Davit Ravadas
+opts lang: sme
+reft point:0x650c
+refp 25.888128 68.727358
+crds 25.890505 68.719259
 
 text:0x4
 angl -312.011
@@ -8156,15 +8193,6 @@ refp 25.624208 68.436629
 crds 25.631703 68.437095
 
 text:0x4
-angl -289.739
-scle 0.75
-algn S
-name Skárrejohka
-reft point:0x650c
-refp 24.665615 68.719658
-crds 24.665615 68.719658
-
-text:0x4
 angl -286.739
 algn S
 name Sallijoki
@@ -8205,6 +8233,15 @@ name Vaskisjoki
 reft point:0x650c
 refp 26.823775 68.536965
 crds 26.829752 68.540849
+
+text:0x4
+angl -269.73
+scle 0.75
+algn S
+name Skárrejohka
+reft point:0x650c
+refp 24.665615 68.719658
+crds 24.672853 68.721443
 
 text:0x4
 angl -94.8322
@@ -8267,15 +8304,6 @@ refp 26.398927 68.547074
 crds 26.413653 68.552550
 
 text:0x4
-angl -74.5657
-scle 0.75
-algn SE
-name Rávdojohka
-reft point:0x650c
-refp 24.719527 68.692161
-crds 24.719527 68.692161
-
-text:0x4
 angl -73.7338
 scle 0.825
 algn S
@@ -8300,6 +8328,15 @@ name Vaijoki
 reft point:0x650c
 refp 25.806468 68.606805
 crds 25.801711 68.608314
+
+text:0x4
+angl -64.5757
+scle 0.75
+algn S
+name Rávdojohka
+reft point:0x650c
+refp 24.719527 68.692161
+crds 24.710666 68.688643
 
 text:0x4
 angl -63.7319
@@ -8684,41 +8721,6 @@ name Puolikko-oja
 reft point:0x650c
 refp 26.935326 68.340500
 crds 26.888846 68.336004
-
-text:0x4
-angl -0.0891813
-scle 0.9
-name Doaresávži
-opts lang: sme
-reft point:0x650c
-refp 25.040223 68.495113
-crds 25.034168 68.496280
-
-text:0x4
-angl 30.4875
-scle 0.75
-algn S
-name Suttesjohka
-reft point:0x650c
-refp 25.065626 68.717261
-crds 25.065626 68.717261
-
-text:0x4
-angl 35.8451
-name Máttit Ravadas
-opts lang: sme
-reft point:0x650c
-refp 25.836181 68.713533
-crds 25.834547 68.714571
-
-text:0x4
-angl 47.6027
-scle 0.9
-name Davit Ravadas
-opts lang: sme
-reft point:0x650c
-refp 25.888128 68.727358
-crds 25.890505 68.719259
 
 text:0x5
 scle 0.8

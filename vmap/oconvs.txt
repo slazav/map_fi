@@ -4,6 +4,8 @@
 * *  * *   "Alempi "                  Al.
 * *  * *   "Ylempi "                  Yl.
 
+* point:0x2b04  * * "(.*), (autiotupa|varaustupa|vuokratupa)"     "$1\\$2"
+
 * point:0x2b04 * * "^koulu$"         -
 * point:0x2b04 * * "^kappeli$"       -
 * point:0x2b04 * * "^kirkko$"        -
@@ -11,6 +13,7 @@
 * point:0x2b04 * * "^b$"             - # Polttoaineen jakelupiste
 * point:0x2b04 * * "^p$"             - # Posti
 * point:0x2b04 * * "^h.as$"          -
+* point:0x2800 * * "^erotusaita$"    -
 
 * point:0x2b04 * * "^k\\.talo"       - # kaupungintalo
 * point:0x2b04 * * "^s\\.talo"       - # seurantalo
@@ -19,7 +22,7 @@
 * point:0x2b04 * * "^vanhaink\\."    - # д/о
 
 * point:0x6415 * * "^struven ketjun piste"     "Struven ketjun piste"
-* point:0x6415 * * "^pyyntikuop(at|pia|pa)"    -
+* point:0x6415 * * "^pyyntikuop(at|pia|pa|ia)" -
 * point:0x6415 * * "^kivik. asuinpaikka"       -
 * point:0x6415 * * "^muinainen asuinpaikka"    -
 * point:0x6415 * * "^muinaisasuinpaikka"       -
@@ -43,14 +46,28 @@ V52_t point:0x2800  27.523532 68.654741  "^moottorikelkkareitti" -
 V41_t point:0x2800  25.779002 68.669768  "^Morgamojan Kultala" -
 V41_t point:0x2800  25.002424 68.410926  "^Kultakuru" -
 
-W34_t point:0x2b04  * * "^Porojärvi, "     "Porojärvi\\"
-W34_t point:0x2b04  * * "^Jogasjärvi, "    "Jogasjärvi\\"
-W34_t point:0x2b04  * * "^Meekonjärvi, varaustupa"  " "
-W34_t point:0x2b04  * * "^Meekonjärvi, vuokratupa"  "Meekonj.rvi\\varaus- ja vuokratupa" 
-W34_t point:0x2b04  * * "^Meekonjärvi, autiotupa"  "Meekonjärvi\\autiotupa"
-W34_t point:0x650c  21.641773 69.265872 "^L.*" -  # finnish part of lake
-W34_t point:0x650c  21.525419 69.290543 "^S.*" -  # NO part of lake
-W34_t point:0x2b04  20.557061 69.060300 "^K.*varaustupa" -
+W33_t point:0x2800  22.190661 68.889716  "^Hirvasvuopio, vuokratupa" - # keep only 0x2b04
+W33_t point:0x2800  21.056339 68.888256  "Peera" - # keep only 0x2b04
+W33_t point:0x2800  20.876109 69.007170  "val. kuntorata" -
+
+W33_t point:0x2b04  20.870672 69.016219  "hot\\." -
+W33_t point:0x2b04  20.876653 69.018920  "hotelli" -
+W33_t point:0x2b04  20.888268 69.013839  "hotelli" -
+W33_t point:0x2b04  20.879010 69.014521  "lomak." -
+W33_t point:0x2b04  20.888403 69.012874  "Kilpisj.rven luontokeskus" "luontokeskus"
+
+W33_t point:0x2b04  21.799511 68.679631  "Aatsa" "Aatsa\\autiotupa"
+W33_t point:0x2b04  21.800228 68.679203  "^autiotupa" -
+W33_t point:0x650c  21.076729 69.059483  "^.oahpe.*" -  # Finn part of lake
+W33_t point:0x2b04  21.396134 68.902327  "^Suppijoki eli" "Suppijoki/Puuvrasjoki"
+W33_t point:0x2800  20.889997 69.019240  "retkeilyreitti" -
+
+
+W34_t point:0x650c  21.641773 69.265872 "^L.*" -  # Finn part of lake
+W34_t point:0x650c  21.525419 69.290543 "^S.*" -  # Norw part of lake
+W34_t point:0x2b04  21.342427 69.162000 "^Meekonj.*varaustupa"  " "
+W34_t point:0x2b04  21.342716 69.161423 "^Meekonj.*vuokratupa"  "Meekonjärvi\\varaus- ja vuokratupa" 
+W34_t point:0x2b04  20.557419 69.060775 "^K.*varaustupa" " "
 W34_t point:0x2b04  20.557061 69.060300 "^K.*autiotupa"  "Kuohkimajärvi\\autio- ja varaustupa"
 
 
