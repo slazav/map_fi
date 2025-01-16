@@ -2,7 +2,7 @@ MOD_SOURCES := lib.cpp
 MOD_HEADERS := lib.h
 PROGRAMS :=\
   map_brd find_object\
-  import_fi1 import_fi2 import_no\
+  import_fi1 import_fi2 import_no import_se\
   make_map update_map\
 test
 
