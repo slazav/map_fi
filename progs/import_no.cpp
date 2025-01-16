@@ -444,7 +444,7 @@ main(int argc, char *argv[]){
           line_filter_rdp(crds, 10); // m
           if (crds.npts()==0) continue;
         }
-        cnv2.frw(crds); // -> WGS84
+        obj.set_coords(cnv2.frw_acc(crds)); // -> WGS84, accurate
 
         obj.dMultiLine::operator=(crds);
         vmap.add(obj);
