@@ -55,8 +55,8 @@ At this step data are splitted into three parts:
 
   * Base map: objects which I want to keep without any modifications.
 
-  * Label map: labels with their reference points (because of original
-    data structure labels are always attached to point objects).
+  * Label map: labels with their reference points (original
+    labels are attached to point objects or have no object coordinates).
     In the next step I want to adjust label position and sizes manually but update
     reference points (positions and names) from original data.
 
@@ -65,8 +65,25 @@ At this step data are splitted into three parts:
 
 3. Conversions/editing at the object level. This step is done only
    with Label/Extra maps. I'm keeping "manual version" of this data
-   and use 
 
 
+```
+Original data:   [FI1]         [FI2]         [NO1]
+                   |             |             |
+              (import_fi1)  (import_fi2)  (import_no1)
+                   |             |             |
+               *.fi1.vmap2   *.fi2.vmap2   *.no1.vmap2
+                   |             |             |
+                    --------> (make_map) <-----
+                              /    |    \
+                             /     |     \
+base,label,extra:  *_b.vmap2   *_t.vmap2   *_x.vmap2    
+                        |          |          /
+                        |          |    / - - - update
+                        |       *.vmap2 <--- edit
+                        |          |
+                         --------->|
+                                 output
+```
 
 
