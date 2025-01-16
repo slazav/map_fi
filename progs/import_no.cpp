@@ -227,8 +227,8 @@ std::map<std::string, std::string> regions = {
 };
 
 std::map<std::string, std::string> cnvs = {
-  {"Troms",    "ESPG:25833"},
-  {"Finnmark", "ESPG:25835"},
+  {"Troms",    "EPSG:25833"},
+  {"Finnmark", "EPSG:25835"},
 };
 
 
