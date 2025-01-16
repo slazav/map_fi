@@ -9,7 +9,7 @@
 #include "geo_data/geo_io.h"
 #include "geo_nom/geo_nom_fi.h"
 #include "vmap2/vmap2io.h"
-#include "postgis/ewkb.h"
+#include "gis/ewkb.h"
 #include "filename/filename.h"
 #include "geom/poly_tools.h"
 #include <regex>
@@ -362,7 +362,7 @@ main(int argc, char *argv[]){
         else continue; // skip records w/o coords
 
         // convert coordinates, crop to range, skip objects outside the range
-        auto crds = ewkb_decode(o.get(cfield), false);
+        auto crds = ewkb_decode(o.get(cfield), false, false);
         cnv1.frw(crds); // -> FI
 
         if (table=="data_boundary"){
