@@ -192,7 +192,7 @@ main(int argc, char *argv[]){
         vmap.add(obj);
       }
     }
-    vmap2_export(vmap, VMap2types(), name + "_fi2.vmap2.gz", Opt());
+    if (vmap.size()) vmap2_export(vmap, VMap2types(), name + "_fi2.vmap2.gz", Opt());
 
   }
   catch(Err & e){

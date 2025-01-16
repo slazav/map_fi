@@ -458,7 +458,7 @@ main(int argc, char *argv[]){
       }
     }
 
-    vmap2_export(vmap, VMap2types(), ofile, Opt());
+    if (vmap.size()) vmap2_export(vmap, VMap2types(), ofile, Opt());
   }
   catch(Err & e){
     if (e.str()!="") cerr << "Error: " << e.str() << "\n";
