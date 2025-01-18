@@ -58,7 +58,7 @@ W33_t point:0x2b04  20.888403 69.012874  "Kilpisj.rven luontokeskus" "luontokesk
 
 W33_t point:0x2b04  21.799511 68.679631  "Aatsa" "Aatsa\\autiotupa"
 W33_t point:0x2b04  21.800228 68.679203  "^autiotupa" -
-W33_t point:0x650c  21.076729 69.059483  "^.oahpe.*" -  # Finn part of lake
+W33_t point:0x650c  21.076729 69.059483  "^.*oahpe.*" -  # Finn part of lake
 W33_t point:0x2b04  21.396134 68.902327  "^Suppijoki eli" "Suppijoki/Puuvrasjoki"
 W33_t point:0x2800  20.889997 69.019240  "retkeilyreitti" -
 

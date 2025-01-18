@@ -1,0 +1,177 @@
+area:2631 area:0x29    # Ocean
+area:2632 area:0x29    # Lake
+area:2633 area:0x29    # Watercourse surface
+area:2634 area:0x29    # Structured water
+
+area:2635 area:0x4D    # Glacier
+
+area:1572 line:0x14    # Dense vegetation, difficult to access
+area:1573 area:0x16    # Forest -- можно не рисовать, т.к. зеленая подложка
+area:2645 area:0x16    # Coniferous and mixed forest
+area:2646 area:0x16    # Deciduous forest
+area:2647 area:0x16    # Mountain birch forest
+
+area:2640 area:0x52  # Open land
+area:2642 area:0x52  # Field
+area:2644 area:0x52  # Bare mountain - тундра, надо рисовать белым
+
+area:2651 area:0x51  # Marshland, solid
+area:2652 area:0x4C  # Marshland, wet
+
+# area:1571 -          # Mountain in the open
+# area:1741 area:0x04  # Transformer (area)
+# area:2061 area:0x0E  # Residential
+# area:2062 area:0x04  # Industry
+# area:2063            # Community function
+# area:2064            # Business
+# area:2065            # Utility building
+# area:2066            # Complementary building
+# area:2067            # Other building
+# area:2636            # Closed development
+# area:2637            # High-rise development
+# area:2638            # Low-rise development
+# area:2639          # Industrial and commercial development
+area:2643 area:0x15  # Fruit growing
+area:2648 -          # Unmapped area -- какой-то непонятный технический знак
+area:2831 area:0x04  # Industrial area
+# area:2832            # Community function
+# area:2833            # Recreation
+area:2834 line:0x36  # Civilian shooting range (в т.ч. космический полигон)
+# area:2853            # Runway
+area:2854 area:0x04  # Airport area
+area:5501 line:0x36  # Military training area
+area:5503 line:0x36  # Military shooting range
+area:5602 line:0x37  # Prohibited area for off-road vehicles
+area:5603 line:0x37  # National park
+area:5604 line:0x37  # Nature reserve
+area:5606 line:0x37  # Animal protection area
+area:5607 -          # Cultural reserve
+area:5608 line:0x37  # Nature conservation area
+area:5611 line:0x37  # Prohibited area for off-road vehicles, time-limited
+
+
+line:1561 -          # Maritime territorial boundary in the sea
+line:1562 line:0x1D  # National boundary
+line:1563 -          # County boundary
+line:1564 -          # Municipal boundary
+# line:1565 # Cultivation boundary
+line:1581 river      # Watercourse
+line:1583 line:0x48  # Fors
+# line:1584 line:0x48  # Waterfall
+line:1623 line:0x2A  # Cycle path
+line:1624 line:0x2A  # Footpath
+line:1625 line:0x2A  # Electric light track
+line:1628 line:0x0A  # Tractor road
+line:1702 line:0x29  # Main power line
+line:1703 line:0x1A  # Regional power line
+line:1704 line:0x1A  # Distribution power line
+line:1801 line:0x01  # Motorway
+line:1802 line:0x01  # Motorway
+line:1803 line:0x0B  # Congestion-free road
+line:1804 line:0x0B  # Country road
+line:1805 line:0x02  # Country road small
+line:1806 line:0x04  # Minor road
+line:1807 line:0x06  # Minor road single standard
+line:1808 line:0x02  # Overall link
+line:1809 line:0x02  # Main street
+line:1810 line:0x02  # Local street, large
+line:1811 line:0x04  # Local street, small
+# line:1821          # Ski trail
+# line:1822          # Suitable route
+line:1823 line:0x2A  # Reindeer trail
+# line:1824          # Catchment area to trail
+# line:1825          # Rowing trail
+# line:1826          # Difficult-to-orientate footpath
+line:1828 -          # Busy boat trail
+# line:1842          # Parkway
+line:1846 -          # Hiking trail - совмещается с line:1624
+line:1847 -          # Hiking and winter trail
+line:1848 line:0x16  # Winter trail
+line:1861 line:0x27  # Railway
+line:1862 line:0x0D  # Museum railway
+# line:1881          # Arctic Circle
+line:1891 line:0x42  # Ferry route
+# line:1902          # Jetty
+line:1903 line:0x2C  # Dam construction
+line:1907 line:0x06  # Pier -- как черная дорога
+# line:1910          # Water tube/water chute
+line:1978 line:0x43  # Ropeway
+line:1980 line:0x19  # Reindeer fence
+line:2401 cnt        # Contour line5
+line:2402 cnt        # Pit curve5
+line:2404 cnt        # Contour line10
+line:2405 cnt        # Pit curve10
+# line:2501         # Ancient remains, center line
+# line:2502         # Ancient remains, larger
+# line:2505         # Mine hole, edge line
+line:2611 -         # Boundary line, unmapped area
+line:2612 line:0x46 # Shoreline, sea
+line:2613 line:0x46 # Shoreline, lake
+line:2614 line:0x46 # Shoreline, watercourse surface
+line:2615 line:0x46 # Shoreline, constructed water
+line:2616 -         # boundary between sea areas
+line:2617 -         # boundary between water areas
+line:2618 -         # Glacier boundary
+line:2619 -         # Building area limit
+line:2620 -         # Industrial and commercial development boundary
+line:2621 -         # line:0x23  Cultivated land boundary
+line:2622 -         # line:0x23  Open land boundary
+line:2623 -         # line:0x23  Forest land boundary
+
+point:1042 point:0x2C0B  # Church
+point:1044 point:0x6402  # Kota
+#point:1045 point:0x6411 # Tower
+#point:1046 Windbreak
+point:1047 point:0x6411  # Windmill
+point:1050 point:0x2B04  # Rest hut
+point:1051 point:0x6411  # Lighthouse
+#point:1052 Protective wall
+point:1596 -             # Current direction arrow, small
+point:1597 -             # Current direction arrow, large
+#point:1742 Transformer area point
+#point:1831 Ski trail symbol
+point:1832 -             # Ford (!)
+point:1833 helpline      # Helpline
+#point:1834 Parking
+point:1836 -             # Mandatory route for snowmobiling -- значек снегохода
+point:1838 footbridge    # Footbridge, point
+point:1871 point:0x5905  # Railway station
+point:1923 point:0x6402  # Dam building, point
+#point:2016 Bell tower
+point:2019 point:0x6411  # Mast
+point:2022 point:0x6411  # Chimney
+point:2025 point:0x6411  # Wind turbine
+point:2032 point:0x2B04  # Single cabin in the mountains
+#point:2033 # Mountain station
+#point:2034 # Manor house
+point:2037 point:0x2C0B  # Religious building
+point:2041 point:0x2B04  # Tourist cabin/overnight cabin
+point:2045 point:0x6402  # Building, size class 1
+point:2046 point:0x6402  # Building, size class 2
+point:2047 point:0x6402  # Building, size class 3
+#point:2048 # Research station
+#point:2049 # Homestead
+#point:2050 # Nature centre
+point:2203 point:0x6401  # Locked gate or barrier
+#point:2205 # U-turn
+#point:2207 # Rest area
+#point:2209 # Traffic area
+#point:2411 # Ground height
+point:2412 point:0x0F00  # Triangle point
+#point:2413 # Height fixed point
+#point:2511 # Ancient monument, large information symbol
+#point:2512 # Ancient monument, minor
+#point:2513 # Milestone
+#point:2514 # Ruin
+#point:2515 # Memorial stone, large enlightenment symbol
+#point:2516 # Other cultural and historical remains, minor
+#point:2517 # Mine pit
+#point:2518 # Architectural monument
+#point:2841 # Industrial area, point
+#point:2842 # Community function, point
+#point:2843 # Recreation, point
+#point:2844 # Sports field, point
+#point:2852 # Helicopter site
+point:5121  point:82500 # Border pole
+#point:5803 # Other natural object
+#point:5804 # Natural monument

@@ -1,0 +1,14 @@
+# type  - pt type - text type - keep angle - scale -
+
+construction_area  text:3  point:0x2800  0 0.750   #
+building           text:3  point:0x2800  0 0.750   #
+mountain_info      text:5  point:0x1100  0 x1      #
+hydrography        text:4  point:0x650C  1 x1      #
+contour            -       -             0 x1      #
+monument           text:3  point:0x2800  0 0.750   #
+church             text:3  point:0x2800  0 0.750   #
+protected_nature   text:3  point:0x2800  0 0.750   #
+terrain            text:3  point:0x2800  0 0.750   #
+urban_area         text:2  point:0x900   0 0.750   #
+information        text:3  point:0x2800  0 0.750   #
+

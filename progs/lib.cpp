@@ -200,3 +200,91 @@ opt_del_def(Opt & opts, const std::string & src, const std::string & def){
   if (!opts.exists(src)) return;
   if (opts.get(src) == def) opts.erase(src);
 }
+
+/********************************************************************/
+
+#include "geo_data/geo_io.h"
+#include "geom/poly_tools.h"
+
+void
+crop_to_border(VMap2 & vmap, const std::string & fname){
+
+  // read border polygon from file
+  GeoData d;
+  read_geo(fname, d);
+  if (d.trks.size()<1) {
+    std::cerr << "can't find border file: " << fname;
+    return;
+  }
+  dLine brd = *d.trks.begin();
+  brd.flatten();
+
+  dPolyTester tst(brd);
+  dPoint v;
+
+  vmap.iter_start();
+  while (!vmap.iter_end()){
+    auto pp = vmap.iter_get_next();
+    auto i = pp.first;
+    auto obj = pp.second;
+
+    // point objects
+    if (obj.is_class(VMAP2_POINT)){
+      auto pt = obj.get_first_pt();
+
+      // remove border poles
+      if (obj.is_type("point:82500")){
+        if (nearest_pt(brd, v, pt, 1/1200.0) < 1/1200.0) vmap.del(i);
+        continue;
+      }
+      if (tst.test_pt(pt)) vmap.del(i);
+      continue;
+    }
+
+    // crop only line objects
+    if (!obj.is_class(VMAP2_LINE)) continue;
+    bool is_brd = obj.is_type("line:0x1D");
+
+bool z = obj.is_type("line:0x19");
+
+
+    auto mod = false;
+    auto seg = obj.begin();
+    while (seg!=obj.end()){
+      dMultiLine ml;
+      auto i1 = seg->begin(), i2 = seg->begin();
+      while (i2!=seg->end()){
+
+        dPoint pt = *i2;
+        bool keep = true;
+        // keep border points: far from our border
+        if (is_brd && nearest_pt(brd, v, pt, 1/1200.0) < 1/1200.0) keep=false;
+        // keep non border points: outside our border or near out border
+        if (!is_brd && tst.test_pt(*i2) && nearest_pt(brd, v, pt, 1/1200.0) > 1/1200.0) keep=false;
+        if (!keep){
+          if (i1!=i2){
+            // save segment, keep 2 extra points at the end (no exact line cutting)
+            if (i1!=seg->begin()) --i1;
+            ml.push_back(dLine(i1,i2+1));
+          }
+          i2++; i1=i2;
+          continue;
+        }
+        else {
+          i2++; continue;
+        }
+      }
+
+      if (i1==seg->begin()) { ++seg; continue; } // no modification
+      if (i1!=i2) ml.push_back(dLine(i1,i2));
+      seg = obj.erase(seg);
+      mod = true;
+      if (ml.size()) seg = obj.insert(seg, ml.begin(), ml.end()) + ml.size();
+    }
+    if (mod){
+      if (obj.size()==0) vmap.del(i);
+      else (vmap.put(i, obj));
+    }
+  }
+
+}

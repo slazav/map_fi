@@ -94,19 +94,42 @@ import_fi1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
       t = typ_convs[t];
 
       // create object and set coordinates
-      VMap2obj obj(t);
+      VMap2obj obj;
       obj.dMultiLine::operator=(oi);
+      obj.opts.put("Source", "FI1");
+
+      obj.opts.put("type1",  oi.opts.get("type1"));
+      obj.opts.put("type2",  oi.opts.get("type2"));
 
       // contours names (D1)
       if (t == "line:0x21" && oi.opts.exists("height")){
         double k = oi.opts.get<double>("height");
         obj.name = oi.opts.get("height");
-        if (int(k)%50 == 0) obj.set_type("line:0x22");
+        if (int(k)%50 == 0) t = "line:0x22";
       }
 
-      obj.opts.put("type1",  oi.opts.get("type1"));
-      obj.opts.put("type2",  oi.opts.get("type2"));
-      obj.opts.put("Source", "FI1");
+      // add coastline for all waters
+      if (t == "area:0x29"){
+        auto obj1=obj;
+        obj1.set_type("line:0x46");
+        vmap.add(obj1);
+      }
+
+      // special type: swamps
+      if (t == "swamp"){
+        auto t1 = oi.opts.get("type1"); // original type
+        if (t1=="area:35411" || t1=="area:35412") t="area:0x51";
+        else t="area:0x4C";
+
+        // open swamps: add open area as a separate object
+        if (t1=="area:35411" || t1=="area:35421") {
+          auto obj1 = obj;
+          obj1.set_type("area:0x52");
+          vmap.add(obj1);
+        }
+      }
+
+      obj.set_type(t);
       vmap.add(obj);
     }
   }
@@ -360,6 +383,8 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
   read_src(vmap_src, data_dir + "/" + name + "_no1.vmap2.gz");
   if (vmap_src.size()==0) return;
 
+  crop_to_border(vmap, "brd_no.gpx");
+
   // We want to sort text objects by place_number field, then by -y coordinate
   // Similar to fi1t (unfortunately all languages are always set to "nor")
   std::map<std::string, std::multimap<double, VMap2obj> > text_buf;
@@ -509,10 +534,18 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
           else { std::cout << "unknown road_category: " << cat << "\n"; continue;}
         }
         else if (rt == "traktorveg")      t = "line:0x0A"; // mud road
-        else if (rt == "sti")             t = "line:0x16";    // path
+        else if (rt == "sti")             t = "line:0x2A";    // path
         else if (rt == "barmarksloype")   t = "line:0x2A";    // foot trail
         else if (rt == "gangOgSykkelveg") t = "line:0x2A";    // walking-or-cycling
         else { std::cout << "unknown type_road: " << rt << "\n"; continue;}
+      }
+
+      // special type: swamps
+      if (t == "swamp"){
+        t = "area:0x51";
+        auto obj1 = obj; // add open area polygon
+        obj1.set_type("area:0x52");
+        vmap.add(obj1);
       }
 
       // Moving to label/extra map:
@@ -635,6 +668,295 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name,
 
 /************************************************/
 
+void
+import_se1(VMap2 & vmap, VMap2 & vmapt, VMap2 & vmapx, const std::string & name, const std::string & data_dir){
+
+  auto typ_convs = read_tconv_str("types_se1.txt");
+  auto txt_convs = read_tconv_txt("types_se1t.txt");
+
+  // read source data
+  VMap2 vmap_src;
+  read_src(vmap_src, data_dir + "/" + name + "_se1.vmap2.gz");
+  if (vmap_src.size()==0) return;
+
+  crop_to_border(vmap, "brd_se.gpx");
+
+  // We want to sort text objects by place_number field, then by -y coordinate
+  // Similar to fi1t (unfortunately all languages are always set to "nor")
+  std::map<std::string, std::multimap<double, VMap2obj> > text_buf;
+
+  vmap_src.iter_start();
+  while (!vmap_src.iter_end()){
+    auto pi = vmap_src.iter_get_next();
+    auto ii = pi.first;
+    auto oi = pi.second;
+
+    /********************************/
+    // text objects
+    if (oi.is_type("text:1")){
+      std::string t = oi.opts.get("textkategori");
+
+      // types
+      tconv_txt_t tinfo = {"point:34600", "text:1", 1, "1.00"}; // default
+      if (txt_convs.count(t)!=0)
+        tinfo = txt_convs[t];
+      else {
+        std::cerr << "Unknown text type: "
+                  << oi.opts.get("text_fulltype", t)
+                  << "\n  " << oi.get_first_pt() << "\n";
+        // use default
+      }
+      if (tinfo.type=="-") continue;
+
+      VMap2obj obj;
+      obj.set_type(tinfo.type);
+      obj.set_ref_type(tinfo.rtype);
+
+
+      obj.name = oi.opts.get("karttext");
+
+      // angle
+      obj.angle = -oi.opts.get<double>("angle");
+      if (!tinfo.angle) obj.angle=NAN;
+
+      // scale
+      // textstorleksklass ranges from 1 to 7
+      obj.scale = (oi.opts.get<double>("textstorleksklass") + 5)/8;
+      if (tinfo.scale.size() && tinfo.scale[0]=='x'){
+        obj.scale *= str_to_type<double>(tinfo.scale.substr(1));
+        if (obj.scale<0.75) obj.scale = 0.75;
+      }
+      else obj.scale = str_to_type<double>(tinfo.scale);
+
+      obj.add_point(oi.get_first_pt());
+      obj.ref_pt = oi.get_first_pt();
+      vmapt.add(obj);
+      vmapt.add(make_ref_obj(obj, "SE1"));
+
+      // place_number or point
+//      text_buf[oi.opts.get("place_number")].emplace(-obj.get_first_pt().y, obj);
+    }
+
+    /********************************/
+/*
+    else if (oi.is_type("text:2")){
+
+      std::string t = oi.opts.get("text_type");
+
+      VMap2obj obj;
+      obj.name = oi.opts.get("fulltext");
+      obj.add_point(oi.get_first_pt());
+      obj.ref_pt = oi.get_first_pt(); // no good ref_point
+ 
+      // water altitude marks (exact positions are not important) -> to extra map
+      if (t == "hoydetallVann") {
+        obj.set_type("text:4");
+        obj.set_ref_type("point:0x1000");
+        obj.scale = 0.75;
+        vmapx.add(obj);
+        vmapx.add(make_ref_obj(obj, "NO1"));
+        continue;
+      }
+      // trigs - will be taken from point objects
+      else if (t == "fastmerke"){
+        continue;
+      }
+      // glacier altitude marks - skip them because we do not have exact positions
+      else if (t == "hoydetallPunktIsbre"){
+        continue;
+      }
+      // altitude marks - will be taken from point objects
+      else if (t == "hoydetallPunkt"){
+        continue;
+      }
+      else {
+        std::cerr << "unknown presentation_text type: " << t << "\n";
+        continue;
+      }
+*/
+    /********************************/
+    // non-text objects
+    else {
+      // check type
+      std::string t = oi.print_type_dec();
+      if (typ_convs.count(t)==0){
+        std::cerr << "unknown type: " << t << " " << oi.get_first_pt() << "\n";
+        continue;
+      }
+      if (typ_convs[t] == "-") continue;
+      t = typ_convs[t];
+
+      // create object and set coordinates
+      VMap2obj obj;
+      obj.dMultiLine::operator=(oi);
+      obj.name = oi.opts.get("name");
+      obj.opts.put("Source", "SE1");
+
+      // special type contours
+      if (t == "cnt"){
+        obj.name = oi.opts.get("hojdvarde");
+        double k = oi.opts.get<double>("hojdvarde");
+        if (int(k)%10 != 0) continue;
+        if (int(k)%50 == 0) t = "line:0x22";
+        else  t = "line:0x21";
+      }
+
+      // special types: rivers
+      if (t == "river"){
+        int ww = oi.opts.get<int>("storleksklass");
+        switch (ww){
+          case 1: t="line:0x15"; break;
+          case 2: t="line:0x18"; break;
+          case 3: t="line:0x18"; break;
+          case 4: t="line:0x1F"; break;
+          case 5: t="line:0x1F"; break;
+          case 6: t="line:0x1F"; break;
+          case 7: t="line:0x1F"; break;
+          default: {std::cerr << "unknown river size: " << ww << "\n"; continue; }
+        }
+      }
+
+      // special types: point footbridge
+      if (t == "footbridge"){
+        double a = M_PI/180.0*oi.opts.get<double>("rotation");
+        t = "line:0x08";
+        dPoint pt = obj.get_first_pt();
+        dPoint v(cos(a)/cos(pt.y*M_PI/180.0), sin(a));
+        double vl = geo_dist_2d(pt, pt+v);
+        v *= 20/vl; // 20m length
+        obj.clear();
+        obj.add_point(pt-v/2);
+        obj.add_point(pt+v/2);
+      }
+
+      // special types: helpline  (add title, put to vmapt)
+      if (t == "helpline"){
+        obj.set_type("point:0x6415");
+        obj.name = "helpline";
+        vmapt.add(obj);
+        continue;
+      }
+
+      // Moving to label/extra map:
+/*
+      // special types: hytta, with and without name -> to text map
+      if (oi.opts.get("table") == "building_position" &&
+          oi.opts.get("building_type") == "956") {
+
+        obj.set_type("point:0x2B04");
+        vmapt.add(obj);
+
+        if (obj.name == "") continue;
+        VMap2obj txt("text:3");
+        txt.scale = 0.75;
+        txt.name = obj.name;
+        txt.ref_pt = obj.get_first_pt();
+        txt.ref_type = obj.type;
+        txt.add_point(obj.get_first_pt() + dPoint(3e-3,0));
+        vmapt.add(txt);
+        continue;
+      }
+
+      // other buildings with names -> to text map
+      if (oi.opts.get("table") == "building_position" &&
+          obj.name!="") {
+
+        vmapt.add(obj);
+
+        VMap2obj txt("text:3");
+        txt.scale = 0.75;
+        txt.name = obj.name;
+        txt.ref_pt = obj.get_first_pt();
+        txt.ref_type = obj.type;
+        txt.add_point(obj.get_first_pt() + dPoint(3e-3,0));
+        vmapt.add(txt);
+        continue;
+      }
+
+      // special types: trig -> to text map
+      if (oi.opts.get("table") == "trigonometric_point" &&
+          oi.opts.get("height") != "") {
+
+        obj.set_type("point:0x0F00");
+        obj.name = oi.opts.get("height");
+        vmapt.add(obj);
+
+        VMap2obj txt("text:6");
+        txt.name = obj.name;
+        txt.scale = 0.8;
+        txt.ref_pt = obj.get_first_pt();
+        txt.ref_type = obj.type;
+        txt.add_point(obj.get_first_pt() + dPoint(3e-3,0));
+        vmapt.add(txt);
+        continue;
+      }
+
+      // altitude points -> to extra map
+      if (oi.opts.get("table") == "terrain_point" &&
+          oi.opts.get("height") != "") {
+
+        obj.set_type("point:0x0D00");
+        obj.name = oi.opts.get("height");
+        vmapx.add(obj);
+
+        VMap2obj txt("text:6");
+        txt.name = obj.name;
+        txt.scale = 0.8;
+        txt.ref_pt = obj.get_first_pt();
+        txt.ref_type = obj.type;
+        txt.add_point(obj.get_first_pt() + dPoint(3e-3,0));
+        vmapx.add(txt);
+        continue;
+      }
+*/
+      obj.set_type(t);
+      vmap.add(obj);
+    }
+  }
+
+  /********************************/
+/*  // Second pass for text objects
+  for (const auto tt: text_buf){
+    // Just keep the upper label and labels with same name far from original
+
+    bool first = true;
+    dPoint pt; // main point
+    std::string nm; // main name
+    for (auto o: tt.second){
+
+      // to extra map
+      bool ex = o.second.is_ref_type("point:0x1100") || // отметки высот
+                o.second.is_ref_type("point:0x6508"); // водопады
+      VMap2 & map = ex? vmapx : vmapt;
+
+      if (first) {
+
+        // Check that same name does not appear near it
+        // This is needed because some buiding names could be
+        // converted from non-text objects.
+        if (map.find_nearest(o.second.type, o.second.name, o.second.ref_pt, 1000)!=-1)
+          continue;
+
+        // make reference object
+        map.add(make_ref_obj(o.second, "NO1"));
+
+        // save object
+        map.add(o.second);
+
+        pt = o.second.get_first_pt();
+        nm = o.second.name;
+        first=false;
+        continue;
+      }
+      // keep other labels with same name which are far enough
+      if (geo_dist_2d(pt, o.second.get_first_pt()) > 1000 &&
+          nm == o.second.name) map.add(o.second);
+    }
+  }
+*/
+}
+/************************************************/
+
 int
 main(int argc, char *argv[]){
   try{
@@ -653,6 +975,7 @@ main(int argc, char *argv[]){
     import_fi1(vmap, vmapt, vmapx, name, data_dir);
     import_fi2(vmap, vmapt, vmapx, name, data_dir);
     import_no1(vmap, vmapt, vmapx, name, data_dir);
+    import_se1(vmap, vmapt, vmapx, name, data_dir);
 
     do_join_lines(vmap, 20, 30);
     vmap2_export(vmap,  VMap2types(), name + "_b.vmap2.gz", Opt());

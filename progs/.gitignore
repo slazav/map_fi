@@ -3,6 +3,7 @@ find_object
 import_fi1
 import_fi2
 import_no
+import_se
 make_map
 update_map
 map_brd

@@ -201,38 +201,6 @@ std::map<std::string, std::string> tr = {
  {"vindkraftverk", "wind_turbine"},
 };
 
-std::map<std::string, std::set<std::string> > maps = {
-{"V34", {"Troms"}},
-{"V42", {"Finnmark"}},
-{"V44", {"Finnmark"}},
-{"W33", {"Troms", "Finnmark"}},
-{"W34", {"Troms"}},
-{"W41", {"Troms", "Finnmark"}},
-{"W42", {"Troms", "Finnmark"}},
-{"W43", {"Finnmark"}},
-{"W44", {"Finnmark"}},
-{"W51", {"Finnmark"}},
-{"W52", {"Finnmark"}},
-{"X41", {"Troms", "Finnmark"}},
-{"X42", {"Troms", "Finnmark"}},
-{"X43", {"Finnmark"}},
-{"X44", {"Finnmark"}},
-{"X51", {"Finnmark"}},
-{"X52", {"Finnmark"}},
-};
-
-std::map<std::string, std::string> regions = {
-  {"Troms",    "Basisdata_55_Troms_25833_N50Kartdata_PostGIS.sql"},
-  {"Finnmark", "Basisdata_56_Finnmark_25835_N50Kartdata_PostGIS.sql"},
-};
-
-std::map<std::string, std::string> cnvs = {
-  {"Troms",    "EPSG:25833"},
-  {"Finnmark", "EPSG:25835"},
-};
-
-
-
 std::vector<std::string>
 split(const std::string & str, const std::string & del) {
   std::vector<std::string> ret;
@@ -302,7 +270,7 @@ GetOptSet options;
 void usage(bool pod=false){
   HelpPrinter pr(pod, options, "import_no");
   pr.name("Read PostGis sql data from https://kartkatalog.geonorge.no");
-  pr.usage("[<options>] <name>");
+  pr.usage("[<options>] <name> <src file1> ...");
   pr.head(2, "Options:");
   pr.opts({"HELP","POD"});
   throw Err();
@@ -318,8 +286,9 @@ main(int argc, char *argv[]){
     if (O.exists("help")) usage();
     if (O.exists("pod"))  usage(true);
 
-    if (args.size() != 1) usage();
+    if (args.size() < 2) usage();
     std::string name  = args[0];
+    args.erase(args.begin());
 
     // expand cropping region be 100m to avoid side effects on the border
     dRect box = nom_to_range_fi(name);
@@ -329,22 +298,24 @@ main(int argc, char *argv[]){
 
     VMap2 vmap;
 
-    for (const auto & reg: maps[name]){
-      if (regions.count(reg)<1)
-        throw Err() << "undefined region: " << reg;
+    for (const auto & f: args){
 
-      auto ifile = regions[reg];
-      if (!file_exists(ifile))
-        throw Err() << "file does not exist: " << ifile;
+      if (!file_exists(f))
+        throw Err() << "file does not exist: " << f;
 
-      ConvGeo cnv1(cnvs[reg], "ETRS-TM35FIN");
+      std::string cnvname;
+      if (f.find("25833")!=f.npos) cnvname = "EPSG:25833";
+      else if (f.find("25835")!=f.npos) cnvname = "EPSG:25835";
+      else throw Err() << "can't get crs name";
+
+      ConvGeo cnv1(cnvname, "ETRS-TM35FIN");
       ConvGeo cnv2("ETRS-TM35FIN");
 
       std::string t0 = "";
       int  nn=0;
       dMultiLine brd;
-      SqlReader reader(ifile);
-      std::cerr << "reading: " << reg << "\n";
+      SqlReader reader(f);
+      std::cerr << "reading: " << f << "\n";
       while (reader) {
         auto o = reader.get_data();
 
@@ -365,21 +336,21 @@ main(int argc, char *argv[]){
         auto crds = ewkb_decode(o.get(cfield), false, false);
         cnv1.frw(crds); // -> FI
 
-        if (table=="data_boundary"){
-          brd.insert(brd.end(), crds.begin(), crds.end());
-          continue;
-        }
+//        if (table=="data_boundary"){
+//        if (table=="national_border"){
+//          brd.insert(brd.end(), crds.begin(), crds.end());
+//        }
 
         // crop to FI map (area objects are closed lines!)
         crds = rect_crop_multi(box, crds, cl=="area");
         if (crds.size()==0) continue;
 
 
-        // print all new tables
-        if (table != t0){
-          if (nn>0) std::cerr << t0 << ": " << nn << "objects\n";
-          t0 = table; nn=0;
-        }
+//        // print all new tables
+//        if (table != t0){
+//          if (nn>0) std::cerr << t0 << ": " << nn << "objects\n";
+//          t0 = table; nn=0;
+//        }
         nn++;
 
         // add type1/type2 fields for text
@@ -445,17 +416,15 @@ main(int argc, char *argv[]){
           if (crds.npts()==0) continue;
         }
         obj.set_coords(cnv2.frw_acc(crds)); // -> WGS84, accurate
-
-        obj.dMultiLine::operator=(crds);
         vmap.add(obj);
       }
-      if (nn>0) std::cerr << t0 << ": " << nn << "objects\n";
+      std::cerr << t0 << ": " << nn << "objects\n";
 
-      {
-        GeoData D;
-        D.push_back(GeoTrk(cnv2.frw_acc(brd)));
-        write_gpx(reg + ".gpx", D);
-      }
+//      {
+//        GeoData D;
+//        D.push_back(GeoTrk(cnv2.frw_acc(brd)));
+//        write_gpx(cnvname + "brd.gpx", D);
+//      }
     }
 
     if (vmap.size()) vmap2_export(vmap, VMap2types(), ofile, Opt());

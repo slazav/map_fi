@@ -66,4 +66,8 @@ void opt_del_def(Opt & opts, const std::string & src, const std::string & def);
 
 /*********************************************************************/
 
+// crop border data
+void crop_to_border(VMap2 & vmap, const std::string & fname);
+
+
 #endif

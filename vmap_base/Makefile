@@ -30,7 +30,7 @@ TYPEINFO = ../types.cfg
 all: ${VMAPSB} ${VMAPST} ${VMAPSX} ${PNGB} ${PNGX}
 
 %_b.vmap2.gz %_t.vmap2.gz %_x.vmap2.gz:
-	../progs/make_map "$*" "DATA"
+	../progs/make_map "$*" "../vmap1"
 
 %_x.png %_x.map: %_b.vmap2.gz %_t.vmap2.gz %_x.vmap2.gz
 	time ~/mapsoft2/programs/ms2render/ms2render $+ --out "$@"\
@@ -39,7 +39,7 @@ all: ${VMAPSB} ${VMAPST} ${VMAPSX} ${PNGB} ${PNGX}
     --mkref nom_fi --name "$*" --dpi "200"\
     --png_format pal --map "$*_x.map"
 
-%_b.png %b.map: %_b.vmap2.gz
+%_b.png %_b.map: %_b.vmap2.gz
 	time ~/mapsoft2/programs/ms2render/ms2render $+ --out "$@"\
     --config "${RENDER_CONF}" --types "${TYPEINFO}"\
     --define "{\"nom_name\":\"$*\"}"\
