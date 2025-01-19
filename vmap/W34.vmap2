@@ -16576,7 +16576,7 @@ algn S
 name Márkosorda
 reft point:0x2800
 refp 20.286789 69.094905
-crds 20.290344 69.093467
+crds 20.290289 69.093466
 
 text:0x3
 angl -318.981
@@ -24871,7 +24871,7 @@ name 844 Jorba-Čierti
 opts lang: sme
 reft point:0x1100
 refp 21.844438 69.141021
-crds 21.845568 69.139196
+crds 21.845636 69.138661
 
 text:0x5
 algn SE

@@ -44,9 +44,6 @@ opts Source: FI1
 crds 21.233737 68.816923
 
 point:0xd00
-crds 20.956936 68.703239
-
-point:0xd00
 name 1001
 crds 20.367622 68.633051
 
@@ -459,6 +456,10 @@ name 885
 crds 20.698929 68.820703
 
 point:0xd00
+name 885
+crds 20.956936 68.703239
+
+point:0xd00
 name 886
 crds 20.466328 68.944025
 
@@ -667,996 +668,112 @@ opts Source: NO1
 crds 19.902044 69.012486
 
 point:0x1000
-name 1011
-opts Source: NO1
-crds 20.221437 68.948991
-
-point:0x1000
-name 1027
-opts Source: NO1
-crds 20.051776 68.990759
-
-point:0x1000
-name 1043
-opts Source: NO1
-crds 19.849534 68.904034
-
-point:0x1000
-name 1161
-opts Source: NO1
-crds 20.122983 68.994818
-
-point:0x1000
-name 398
-opts Source: FI2
-crds 21.586090 68.682360
-
-point:0x1000
-name 398
-opts Source: FI2
-crds 21.601990 68.672870
-
-point:0x1000
-name 405
-opts Source: FI2
-crds 21.437670 68.691620
-
-point:0x1000
-name 431
-opts Source: FI2
-crds 22.195990 68.869870
-
-point:0x1000
-name 432
-opts Source: FI2
-crds 22.161840 68.929980
-
-point:0x1000
-name 432
-opts Source: FI2
-crds 22.178640 68.912290
-
-point:0x1000
-name 433
-opts Source: FI2
-crds 22.200760 68.855530
-
-point:0x1000
-name 437
-opts Source: FI2
-crds 22.174150 68.824560
-
-point:0x1000
-name 440
-opts Source: FI2
-crds 22.202750 68.799420
-
-point:0x1000
-name 445
-opts Source: FI2
-crds 21.258240 68.823090
-
-point:0x1000
 name 446
-opts Source: FI2
-crds 21.556130 68.718720
-
-point:0x1000
-name 447
-opts Source: FI2
-crds 21.150080 68.851030
-
-point:0x1000
-name 448
-opts Source: FI2
-crds 21.205520 68.844330
-
-point:0x1000
-name 448
-opts Source: FI2
-crds 22.052101 68.926544
+crds 21.201897 68.803393
 
 point:0x1000
 name 450
-opts Source: FI2
-crds 22.078270 68.935730
-
-point:0x1000
-name 450
-opts Source: FI2
-crds 22.192590 68.947230
-
-point:0x1000
-name 452
-opts Source: FI2
-crds 22.078670 68.965300
-
-point:0x1000
-name 452
-opts Source: FI2
-crds 22.092590 68.951430
-
-point:0x1000
-name 455
-opts Source: FI2
-crds 22.024520 68.961240
-
-point:0x1000
-name 458
-opts Source: FI2
-crds 20.908408 68.895787
-
-point:0x1000
-name 458
-opts Source: FI2
-crds 20.983620 68.900850
-
-point:0x1000
-name 458
-opts Source: FI2
-crds 21.059992 68.879656
-
-point:0x1000
-name 458
-opts Source: FI2
-crds 21.101230 68.892530
+crds 21.095810 68.846426
 
 point:0x1000
 name 459
-opts Source: FI2
-crds 20.866580 68.924690
+crds 20.920544 68.891416
 
 point:0x1000
-name 459
-opts Source: FI2
-crds 21.230750 68.853290
-
-point:0x1000
-name 460
-opts Source: FI2
-crds 22.017710 68.936490
-
-point:0x1000
-name 464
-opts Source: FI2
-crds 21.496680 68.697840
-
-point:0x1000
-name 464
-opts Source: FI2
-crds 22.139940 68.789520
-
-point:0x1000
-name 473
-opts Source: FI2
-crds 20.933160 68.971090
-
-point:0x1000
-name 473
-opts Source: FI2
-crds 21.912340 68.845950
-
-point:0x1000
-name 473
-opts Source: FI2
-crds 22.141828 68.776937
-
-point:0x1000
-name 474
-opts Source: FI2
-crds 21.290570 68.799100
-
-point:0x1000
-name 476
-opts Source: FI2
-crds 22.175140 68.682820
-
-point:0x1000
-name 480
-opts Source: FI2
-crds 21.478640 68.708070
-
-point:0x1000
-name 488
-opts Source: FI2
-crds 21.498200 68.709950
-
-point:0x1000
-name 488
-opts Source: FI2
-crds 21.838630 68.831880
-
-point:0x1000
-name 492
-opts Source: FI2
-crds 21.470870 68.752290
-
-point:0x1000
-name 494
-opts Source: FI2
-crds 20.663150 69.052580
-
-point:0x1000
-name 497
-opts Source: FI2
-crds 22.047604 68.677083
-
-point:0x1000
-name 500
-opts Source: FI2
-crds 21.962740 68.787880
-
-point:0x1000
-name 500
-opts Source: NO1
-crds 22.166590 69.058350
-
-point:0x1000
-name 501
-opts Source: FI2
-crds 21.236056 68.866268
-
-point:0x1000
-name 504
-opts Source: FI2
-crds 21.313980 68.852350
-
-point:0x1000
-name 506
-opts Source: FI2
-crds 21.305810 68.864480
-
-point:0x1000
-name 507
-opts Source: NO1
-crds 22.174580 69.007270
-
-point:0x1000
-name 508
-opts Source: FI2
-crds 21.219400 68.874890
-
-point:0x1000
-name 509
-opts Source: FI2
-crds 22.020399 68.747508
-
-point:0x1000
-name 511
-opts Source: FI2
-crds 21.189540 68.884010
-
-point:0x1000
-name 511
-opts Source: NO1
-crds 21.988370 69.075339
-
-point:0x1000
-name 513
-opts Source: FI2
-crds 21.743580 68.683140
-
-point:0x1000
-name 517
-opts Source: FI2
-crds 21.944150 69.033320
-
-point:0x1000
-name 521
-opts Source: FI2
-crds 21.673830 68.870630
+name 484
+crds 20.930157 68.845187
 
 point:0x1000
 name 524
-crds 21.222997 68.755929
-
-point:0x1000
-name 524
-opts Source: FI2
-crds 21.564170 68.733770
-
-point:0x1000
-name 524
-opts Source: FI2
-crds 22.047750 68.689880
-
-point:0x1000
-name 527
-opts Source: FI2
-crds 22.096440 68.829140
-
-point:0x1000
-name 528
-opts Source: FI2
-crds 20.981480 68.918810
-
-point:0x1000
-name 531
-opts Source: FI2
-crds 21.799275 68.682405
-
-point:0x1000
-name 531
-opts Source: FI2
-crds 21.930160 69.048950
-
-point:0x1000
-name 533
-opts Source: FI2
-crds 21.773470 69.015030
-
-point:0x1000
-name 538
-opts Source: FI2
-crds 21.365600 68.857990
-
-point:0x1000
-name 539
-opts Source: FI2
-crds 21.715810 69.012360
-
-point:0x1000
-name 539
-opts Source: FI2
-crds 21.930550 69.073550
-
-point:0x1000
-name 540
-opts Source: FI2
-crds 21.917470 69.061630
-
-point:0x1000
-name 541
-opts Source: FI2
-crds 21.448330 68.847330
-
-point:0x1000
-name 542
-opts Source: NO1
-crds 22.101470 69.078740
-
-point:0x1000
-name 547
-opts Source: FI2
-crds 21.622200 69.009560
-
-point:0x1000
-name 547
-opts Source: FI2
-crds 21.696170 69.024610
-
-point:0x1000
-name 550
-opts Source: FI2
-crds 21.628980 68.872030
-
-point:0x1000
-name 550
-opts Source: FI2
-crds 21.869590 69.079960
-
-point:0x1000
-name 551
-opts Source: FI2
-crds 21.504680 68.861650
-
-point:0x1000
-name 551
-opts Source: FI2
-crds 21.930400 68.673270
-
-point:0x1000
-name 552
-opts Source: FI2
-crds 21.561280 69.010810
-
-point:0x1000
-name 554
-opts Source: FI2
-crds 21.535410 68.866220
+crds 21.223011 68.755923
 
 point:0x1000
 name 556
-opts Source: FI2
-crds 21.514290 69.024750
+crds 20.820293 68.943964
 
 point:0x1000
-name 557
-opts Source: FI2
-crds 21.832150 69.082210
+name 589
+crds 20.381093 68.922750
 
 point:0x1000
-name 557
-opts Source: NO1
-crds 22.051960 69.059490
-
-point:0x1000
-name 559
-opts Source: FI2
-crds 20.915200 69.029500
-
-point:0x1000
-name 560
-opts Source: FI2
-crds 21.952370 68.678910
-
-point:0x1000
-name 562
-opts Source: FI2
-crds 21.818866 68.983288
-
-point:0x1000
-name 565
-opts Source: FI2
-crds 21.851630 68.877820
-
-point:0x1000
-name 566
-opts Source: FI2
-crds 22.035770 68.804100
-
-point:0x1000
-name 567
-opts Source: FI2
-crds 21.889040 68.898120
-
-point:0x1000
-name 570
-opts Source: FI2
-crds 21.924972 68.766698
-
-point:0x1000
-name 571
-opts Source: FI2
-crds 22.038150 68.811620
-
-point:0x1000
-name 572
-opts Source: FI2
-crds 21.879990 69.053230
-
-point:0x1000
-name 573
-opts Source: FI2
-crds 20.995650 68.943770
-
-point:0x1000
-name 575
-opts Source: FI2
-crds 21.494200 68.875360
-
-point:0x1000
-name 582
-opts Source: FI2
-crds 21.495950 68.884760
-
-point:0x1000
-name 584
-opts Source: FI2
-crds 20.982770 68.935880
-
-point:0x1000
-name 592
-opts Source: NO1
-crds 20.196545 68.917364
-
-point:0x1000
-name 593
-opts Source: FI2
-crds 21.467250 69.016050
-
-point:0x1000
-name 593
-opts Source: NO1
-crds 20.164131 68.929968
-
-point:0x1000
-name 598
-opts Source: FI2
-crds 21.358230 69.040500
-
-point:0x1000
-name 598
-opts Source: FI2
-crds 21.812590 68.767370
-
-point:0x1000
-name 605
-opts Source: FI2
-crds 21.331130 69.032140
-
-point:0x1000
-name 610
-opts Source: NO1
-crds 20.269751 68.903965
-
-point:0x1000
-name 612
-opts Source: FI2
-crds 21.256840 69.022010
-
-point:0x1000
-name 613
-opts Source: FI2
-crds 21.031940 68.932320
-
-point:0x1000
-name 621
-opts Source: NO1
-crds 20.020200 68.607510
-
-point:0x1000
-name 627
-opts Source: FI2
-crds 21.689330 68.899540
-
-point:0x1000
-name 637
-opts Source: FI2
-crds 21.814690 68.717980
-
-point:0x1000
-name 638
-opts Source: FI2
-crds 21.124610 69.014680
-
-point:0x1000
-name 646
-opts Source: FI2
-crds 21.015310 69.014640
-
-point:0x1000
-name 648
-opts Source: FI2
-crds 21.981050 68.696800
-
-point:0x1000
-name 658
-opts Source: FI2
-crds 21.167130 68.934514
-
-point:0x1000
-name 662
-opts Source: FI2
-crds 21.107790 68.950230
-
-point:0x1000
-name 662
-opts Source: NO1
-crds 19.955333 68.784961
-
-point:0x1000
-name 664
-opts Source: NO1
-crds 21.011704 69.047943
-
-point:0x1000
-name 665
-opts Source: NO1
-crds 19.916790 68.774990
-
-point:0x1000
-name 665
-opts Source: NO1
-crds 20.285557 68.884477
-
-point:0x1000
-name 666
-opts Source: FI2
-crds 21.671770 69.059560
-
-point:0x1000
-name 666
-opts Source: FI2
-crds 21.742530 68.732150
-
-point:0x1000
-name 666
-opts Source: NO1
-crds 19.973729 68.792445
-
-point:0x1000
-name 668
-opts Source: NO1
-crds 19.839361 69.018898
-
-point:0x1000
-name 669
-opts Source: FI2
-crds 21.438730 69.073630
-
-point:0x1000
-name 670
-opts Source: NO1
-crds 20.255006 68.848432
-
-point:0x1000
-name 674
-opts Source: NO1
-crds 19.974650 68.773090
-
-point:0x1000
-name 674
-opts Source: NO1
-crds 20.298825 68.872466
-
-point:0x1000
-name 675
-opts Source: NO1
-crds 20.015240 68.790510
+name 672
+crds 20.706263 68.696448
 
 point:0x1000
 name 678
-crds 20.492402 68.759784
-
-point:0x1000
-name 678
-opts Source: FI2
-crds 20.987620 69.045070
-
-point:0x1000
-name 679
-opts Source: NO1
-crds 20.303607 68.817577
-
-point:0x1000
-name 680
-opts Source: FI2
-crds 20.883020 69.051160
-
-point:0x1000
-name 680
-opts Source: NO1
-crds 21.047560 69.061490
+crds 20.492420 68.759779
 
 point:0x1000
 name 682
-opts Source: FI2
-crds 21.075320 68.954190
+crds 20.411708 68.813623
 
 point:0x1000
-name 684
-opts Source: FI2
-crds 21.102021 69.059315
+name 682
+crds 20.534477 68.871501
 
 point:0x1000
-name 684
-opts Source: NO1
-crds 19.988521 68.802301
-
-point:0x1000
-name 689
-opts Source: NO1
-crds 20.241693 68.797843
-
-point:0x1000
-name 691
-opts Source: FI2
-crds 21.108730 69.069630
-
-point:0x1000
-name 694
-opts Source: NO1
-crds 20.067660 68.698460
-
-point:0x1000
-name 695
-opts Source: FI2
-crds 21.125820 68.929450
-
-point:0x1000
-name 700
-opts Source: NO1
-crds 20.160642 68.802248
-
-point:0x1000
-name 705
-opts Source: NO1
-crds 19.913210 68.747660
-
-point:0x1000
-name 708
-opts Source: FI2
-crds 21.075020 69.031830
-
-point:0x1000
-name 713
-opts Source: FI2
-crds 21.185240 69.047130
-
-point:0x1000
-name 713
-opts Source: NO1
-crds 19.899516 69.026519
-
-point:0x1000
-name 720
-opts Source: NO1
-crds 20.190157 68.675888
+name 682
+crds 20.563660 68.684091
 
 point:0x1000
 name 721
-crds 20.209821 68.660310
+crds 20.209866 68.660303
 
 point:0x1000
 name 725
-crds 20.837070 68.695508
+crds 20.837116 68.695507
 
 point:0x1000
-name 725
-opts Source: NO1
-crds 20.006870 68.758210
+name 728
+crds 20.716438 68.770411
 
 point:0x1000
-name 727
-opts Source: NO1
-crds 20.030520 68.744070
+name 729
+crds 20.775318 68.771343
 
 point:0x1000
-name 733
-opts Source: FI2
-crds 21.602050 68.949840
+name 736
+crds 20.638106 68.981757
 
 point:0x1000
-name 741
-opts Source: FI2
-crds 21.309210 69.071940
+name 736
+crds 20.705280 68.652306
 
 point:0x1000
 name 742
-crds 20.657532 68.824735
+crds 20.658356 68.824916
 
 point:0x1000
 name 746
-crds 20.972166 68.753944
+crds 20.205693 69.037522
 
 point:0x1000
-name 755
-opts Source: NO1
-crds 20.119180 68.668000
+name 746
+crds 20.972214 68.753932
 
 point:0x1000
-name 756
-opts Source: NO1
-crds 19.943018 68.990217
-
-point:0x1000
-name 756
-opts Source: NO1
-crds 19.944394 68.871606
-
-point:0x1000
-name 756
-opts Source: NO1
-crds 20.011250 68.728530
-
-point:0x1000
-name 758
-opts Source: FI2
-crds 21.333629 69.011200
-
-point:0x1000
-name 758
-opts Source: NO1
-crds 20.159470 68.657130
-
-point:0x1000
-name 759
-opts Source: NO1
-crds 19.999418 68.920384
+name 753
+crds 21.006866 68.762616
 
 point:0x1000
 name 762
-opts Source: FI2
-crds 21.646570 68.825490
-
-point:0x1000
-name 766
-opts Source: NO1
-crds 20.114450 68.685343
-
-point:0x1000
-name 767
-opts Source: NO1
-crds 19.975050 68.657400
-
-point:0x1000
-name 771
-opts Source: NO1
-crds 20.026504 68.890533
-
-point:0x1000
-name 773
-opts Source: NO1
-crds 20.296610 68.779228
-
-point:0x1000
-name 774
-opts Source: FI2
-crds 21.665130 68.838550
-
-point:0x1000
-name 775
-opts Source: FI2
-crds 21.204730 69.056050
+crds 20.760555 68.812267
 
 point:0x1000
 name 778
-crds 20.206579 68.993512
-
-point:0x1000
-name 786
-opts Source: FI2
-crds 21.390620 68.965610
-
-point:0x1000
-name 788
-opts Source: NO1
-crds 20.024736 68.622034
-
-point:0x1000
-name 792
-opts Source: NO1
-crds 19.974570 68.643040
+crds 20.206604 68.993494
 
 point:0x1000
 name 795
-opts Source: NO1
-crds 19.992470 68.670850
+crds 20.350800 68.743417
 
 point:0x1000
-name 797
-opts Source: FI2
-crds 21.127640 69.033800
-
-point:0x1000
-name 806
-opts Source: FI2
-crds 21.263180 68.957920
-
-point:0x1000
-name 820
-opts Source: NO1
-crds 20.004226 68.634242
-
-point:0x1000
-name 824
-opts Source: FI2
-crds 21.381000 68.953120
-
-point:0x1000
-name 826
-opts Source: FI2
-crds 21.330540 68.946430
-
-point:0x1000
-name 832
-opts Source: NO1
-crds 20.134342 68.725414
-
-point:0x1000
-name 834
-opts Source: NO1
-crds 20.205686 68.880065
-
-point:0x1000
-name 835
-opts Source: FI2
-crds 21.253190 68.984907
-
-point:0x1000
-name 840
-opts Source: NO1
-crds 20.147714 68.734008
-
-point:0x1000
-name 840
-opts Source: NO1
-crds 20.248911 68.814785
-
-point:0x1000
-name 846
-opts Source: NO1
-crds 20.193637 68.783831
-
-point:0x1000
-name 850
-opts Source: NO1
-crds 20.174527 68.727392
-
-point:0x1000
-name 852
-opts Source: NO1
-crds 20.107430 68.767610
-
-point:0x1000
-name 858
-opts Source: NO1
-crds 20.187202 68.868065
-
-point:0x1000
-name 860
-opts Source: NO1
-crds 20.218038 68.723643
-
-point:0x1000
-name 864
-opts Source: NO1
-crds 20.199888 68.828554
-
-point:0x1000
-name 868
-opts Source: NO1
-crds 20.087360 68.743220
-
-point:0x1000
-name 870
-opts Source: NO1
-crds 20.099247 68.787304
-
-point:0x1000
-name 874
-opts Source: NO1
-crds 19.880850 68.896123
-
-point:0x1000
-name 875
-opts Source: NO1
-crds 19.985239 68.899725
-
-point:0x1000
-name 877
-opts Source: NO1
-crds 20.218580 68.685870
+name 812
+crds 20.303593 68.694821
 
 point:0x1000
 name 878
-crds 20.349051 68.649013
-
-point:0x1000
-name 883
-opts Source: NO1
-crds 20.074470 68.640070
-
-point:0x1000
-name 898
-opts Source: NO1
-crds 19.965432 68.920732
-
-point:0x1000
-name 902
-opts Source: NO1
-crds 20.061066 69.011544
-
-point:0x1000
-name 904
-opts Source: NO1
-crds 20.011891 68.858780
-
-point:0x1000
-name 918
-opts Source: NO1
-crds 20.082661 68.986313
-
-point:0x1000
-name 927
-opts Source: NO1
-crds 20.127584 68.835773
-
-point:0x1000
-name 943
-opts Source: NO1
-crds 20.034781 68.967816
-
-point:0x1000
-name 943
-opts Source: NO1
-crds 20.098197 68.870109
-
-point:0x1000
-name 953
-opts Source: NO1
-crds 19.967721 68.998120
+crds 20.349083 68.648994
 
 point:0x1100
 name 1019 Jollánoaivi
@@ -2371,7 +1488,7 @@ crds 21.264448 69.074805
 point:0x1100
 name Akkavaara
 opts Source: SE1
-crds 21.111192 68.849821
+crds 21.111190 68.849820
 
 point:0x1100
 name Akkispahta
@@ -2381,12 +1498,12 @@ crds 21.553290 68.765820
 point:0x1100
 name Baikkasvárri
 opts Source: SE1
-crds 20.559821 69.045808
+crds 20.559820 69.045810
 
 point:0x1100
 name Bajit Guolbanoaivi
 opts Source: SE1
-crds 20.717908 69.003554
+crds 20.717910 69.003550
 
 point:0x1100
 name Bajit Luspevárri
@@ -2396,7 +1513,7 @@ crds 20.553392 68.776236
 point:0x1100
 name Bajit Sieiddivárri
 opts Source: SE1
-crds 20.402525 68.832689
+crds 20.402530 68.832690
 
 point:0x1100
 name Bajit Vuoikkit
@@ -2406,12 +1523,12 @@ crds 21.152394 68.733907
 point:0x1100
 name Bajit Vávrratoaivi
 opts Source: SE1
-crds 20.398893 69.036540
+crds 20.398890 69.036540
 
 point:0x1100
 name Bearraloaivi
 opts Source: SE1
-crds 20.406410 68.861104
+crds 20.406410 68.861100
 
 point:0x1100
 name Beassit
@@ -2421,12 +1538,12 @@ crds 20.164330 68.664370
 point:0x1100
 name Beikkasvárri
 opts Source: SE1
-crds 20.576692 68.711849
+crds 20.576690 68.711850
 
 point:0x1100
 name Biedjogielas
 opts Source: SE1
-crds 20.335387 68.734340
+crds 20.335390 68.734340
 
 point:0x1100
 name Biedjogielas
@@ -2436,17 +1553,17 @@ crds 21.152233 68.676569
 point:0x1100
 name Bielloaivi
 opts Source: NO1
-crds 19.840724 68.906442
+crds 19.840720 68.906440
 
 point:0x1100
 name Biggosoaivi
 opts Source: SE1
-crds 20.894665 68.661820
+crds 20.894829 68.661801
 
 point:0x1100
 name Biggosoaivváš
 opts Source: SE1
-crds 20.911380 68.643687
+crds 20.911380 68.643690
 
 point:0x1100
 name Bizejohgieravárit
@@ -2456,12 +1573,12 @@ crds 21.685700 68.825800
 point:0x1100
 name Boaldovárri
 opts Source: SE1
-crds 20.717014 68.888252
+crds 20.716958 68.888251
 
 point:0x1100
 name Boggevárdu
 opts Source: SE1
-crds 20.543715 68.665133
+crds 20.543710 68.665130
 
 point:0x1100
 name Bollošgielas
@@ -2481,17 +1598,17 @@ crds 20.581750 68.858013
 point:0x1100
 name Buoššir
 opts Source: NO1
-crds 20.050329 68.837934
+crds 20.050330 68.837930
 
 point:0x1100
 name Bárdal
 opts Source: NO1
-crds 20.314958 68.783090
+crds 20.314960 68.783090
 
 point:0x1100
 name Bávvaloaivi
 opts Source: SE1
-crds 20.705638 68.988453
+crds 20.705640 68.988450
 
 point:0x1100
 name Bávššatvárri
@@ -2501,12 +1618,12 @@ crds 20.466513 68.934789
 point:0x1100
 name Covronjunni
 opts Source: SE1
-crds 20.951638 68.683465
+crds 20.951640 68.683460
 
 point:0x1100
 name Covrooaivi
 opts Source: SE1
-crds 20.966343 68.691438
+crds 20.964890 68.691742
 
 point:0x1100
 name Davit Jeageloaivi
@@ -2521,22 +1638,22 @@ crds 20.072620 68.669410
 point:0x1100
 name Doaresoaivi
 opts Source: SE1
-crds 20.731223 68.638912
+crds 20.730781 68.638342
 
 point:0x1100
 name Doaresoaivi
 opts Source: SE1
-crds 20.768731 68.703724
+crds 20.768730 68.703720
 
 point:0x1100
 name Doaresoaivi
 opts Source: SE1
-crds 21.120897 68.770000
+crds 21.120900 68.770000
 
 point:0x1100
 name Duolljevárri
 opts Source: SE1
-crds 20.394003 68.885775
+crds 20.394001 68.885854
 
 point:0x1100
 name Dálvasnjaŋgguhat
@@ -2546,7 +1663,7 @@ crds 21.355920 68.804150
 point:0x1100
 name Dánta
 opts Source: SE1
-crds 20.608732 69.031538
+crds 20.608730 69.031540
 
 point:0x1100
 name Dáččabákti
@@ -2566,22 +1683,22 @@ crds 20.124160 68.643340
 point:0x1100
 name Ganešoaivi
 opts Source: SE1
-crds 20.869911 68.769576
+crds 20.870221 68.770143
 
 point:0x1100
 name Geahpeshoŋkkat
 opts Source: SE1
-crds 20.611517 68.991054
+crds 20.611520 68.991050
 
 point:0x1100
 name Gealbir
 opts Source: NO1
-crds 20.246626 68.741961
+crds 20.246630 68.741960
 
 point:0x1100
 name Geatkevárri
 opts Source: SE1
-crds 20.436225 68.669893
+crds 20.436230 68.669890
 
 point:0x1100
 name Geavri
@@ -2601,17 +1718,17 @@ crds 20.850588 68.886117
 point:0x1100
 name Gillaroaivi
 opts Source: SE1
-crds 20.901717 68.722516
+crds 20.900350 68.722974
 
 point:0x1100
 name Gironoaivi
 opts Source: NO1
-crds 19.860688 68.898036
+crds 19.860690 68.898040
 
 point:0x1100
 name Goahtemuorgáisi
 opts Source: NO1
-crds 19.975484 68.987972
+crds 19.975480 68.987970
 
 point:0x1100
 name Goahtemuorvárri
@@ -2626,17 +1743,17 @@ crds 20.480458 68.733462
 point:0x1100
 name Gobmevárri
 opts Source: SE1
-crds 20.382428 68.948786
+crds 20.382430 68.948790
 
 point:0x1100
 name Goddečohkat
 opts Source: SE1
-crds 20.898116 68.738567
+crds 20.898120 68.738570
 
 point:0x1100
 name Golggotoaivvit
 opts Source: SE1
-crds 20.796460 68.825580
+crds 20.796184 68.825579
 
 point:0x1100
 name Gorževárri
@@ -2666,22 +1783,22 @@ crds 20.703452 68.734793
 point:0x1100
 name Guovloaivi
 opts Source: SE1
-crds 20.607593 68.677193
+crds 20.607590 68.677190
 
 point:0x1100
 name Gussavárit
 opts Source: SE1
-crds 20.831701 68.637939
+crds 20.832337 68.637665
 
 point:0x1100
 name Gáibbinjunni
 opts Source: NO1
-crds 19.902242 69.012496
+crds 19.902240 69.012500
 
 point:0x1100
 name Gálavárri
 opts Source: SE1
-crds 21.051456 68.848006
+crds 21.051460 68.848010
 
 point:0x1100
 name Gárasgielas
@@ -2701,7 +1818,7 @@ crds 20.054590 68.623340
 point:0x1100
 name Holgavárri
 opts Source: SE1
-crds 20.953221 68.702129
+crds 20.957163 68.703326
 
 point:0x1100
 name Hurvegielas
@@ -2711,7 +1828,7 @@ crds 20.214460 68.710480
 point:0x1100
 name Háhttavárri
 opts Source: SE1
-crds 20.606268 68.878291
+crds 20.606270 68.878290
 
 point:0x1100
 name Hárvvesoaivi
@@ -2726,12 +1843,12 @@ crds 21.006650 68.919770
 point:0x1100
 name Høglikka
 opts Source: NO1
-crds 19.862996 68.922290
+crds 19.863000 68.922290
 
 point:0x1100
 name Isdalsfjella
 opts Source: NO1
-crds 20.042250 69.017311
+crds 20.042250 69.017310
 
 point:0x1100
 name Jalggohas
@@ -2746,7 +1863,7 @@ crds 20.988050 69.052760
 point:0x1100
 name Jeageloaivi
 opts Source: SE1
-crds 21.173077 68.765322
+crds 21.171699 68.765200
 
 point:0x1100
 name Jerta
@@ -2756,7 +1873,7 @@ crds 19.967140 68.702120
 point:0x1100
 name Jiehtanasgielas
 opts Source: SE1
-crds 20.568550 68.640644
+crds 20.568605 68.640645
 
 point:0x1100
 name Julosvárri
@@ -2766,12 +1883,12 @@ crds 19.953050 68.644020
 point:0x1100
 name Juoksaváhnjunni
 opts Source: NO1
-crds 20.124152 69.005460
+crds 20.124150 69.005460
 
 point:0x1100
 name Juoksavátnjunni
 opts Source: SE1
-crds 20.237903 68.956298
+crds 20.237847 68.956318
 
 point:0x1100
 name Juovvačorru
@@ -2781,37 +1898,37 @@ crds 21.317670 68.966900
 point:0x1100
 name Kaarinasvaara
 opts Source: SE1
-crds 20.821965 68.913669
+crds 20.821989 68.913662
 
 point:0x1100
 name Kassåive
 opts Source: SE1
-crds 20.372156 68.743349
+crds 20.372160 68.743350
 
 point:0x1100
 name Kirkkovaara
 opts Source: SE1
-crds 21.127295 68.811807
+crds 21.127184 68.811727
 
 point:0x1100
 name Kivivaara
 opts Source: SE1
-crds 21.366674 68.715820
+crds 21.366071 68.715858
 
 point:0x1100
 name Koutnahavaara
 opts Source: SE1
-crds 21.337313 68.709901
+crds 21.335257 68.710328
 
 point:0x1100
 name Lammasvaara
 opts Source: SE1
-crds 21.347971 68.741873
+crds 21.347970 68.741870
 
 point:0x1100
 name Larsbákti
 opts Source: NO1
-crds 19.863295 69.025378
+crds 19.857262 69.026571
 
 point:0x1100
 name Latnjavárri
@@ -2821,32 +1938,32 @@ crds 20.619708 68.930644
 point:0x1100
 name Leaibevuomivárri
 opts Source: SE1
-crds 20.744418 68.981134
+crds 20.744420 68.981130
 
 point:0x1100
 name Likkafjellet
 opts Source: NO1
-crds 19.832474 68.938190
+crds 19.832470 68.938190
 
 point:0x1100
 name Lulit Gassoaivi
 opts Source: SE1
-crds 20.392491 68.728867
+crds 20.392582 68.728643
 
 point:0x1100
 name Lulit Jeageloaivi
 opts Source: SE1
-crds 20.573184 68.814372
+crds 20.573180 68.814370
 
 point:0x1100
 name Lullehavárri
 opts Source: SE1
-crds 20.859852 68.725667
+crds 20.859850 68.725670
 
 point:0x1100
 name Láhkonjoaskevárri
 opts Source: SE1
-crds 20.523102 68.998021
+crds 20.523100 68.998020
 
 point:0x1100
 name Láppisnjunni
@@ -2866,7 +1983,7 @@ crds 20.305913 69.010601
 point:0x1100
 name Låglikka
 opts Source: NO1
-crds 19.967386 68.913495
+crds 19.967390 68.913490
 
 point:0x1100
 name Mielggat
@@ -2876,7 +1993,7 @@ crds 20.103470 68.704140
 point:0x1100
 name Mikkelifjellet
 opts Source: NO1
-crds 19.951319 68.968203
+crds 19.951320 68.968200
 
 point:0x1100
 name Mordánvárri
@@ -2886,12 +2003,12 @@ crds 20.458507 68.825491
 point:0x1100
 name Moskkugáisi
 opts Source: SE1
-crds 20.127623 69.010159
+crds 20.127566 69.010178
 
 point:0x1100
 name Moskángáisi
 opts Source: NO1
-crds 20.171108 68.961032
+crds 20.171110 68.961030
 
 point:0x1100
 name Muvravárri
@@ -2906,7 +2023,7 @@ crds 20.220410 68.688240
 point:0x1100
 name Másealvárri
 opts Source: SE1
-crds 20.216386 68.679939
+crds 20.216390 68.679940
 
 point:0x1100
 name Másealvárri
@@ -2921,7 +2038,7 @@ crds 20.551505 69.015257
 point:0x1100
 name Nihkolasnibba
 opts Source: NO1
-crds 20.293743 68.880829
+crds 20.293740 68.880830
 
 point:0x1100
 name Nilsivaara
@@ -2941,22 +2058,22 @@ crds 20.766946 68.895684
 point:0x1100
 name Njuokččačohkka
 opts Source: SE1
-crds 20.367878 68.633174
+crds 20.368455 68.633832
 
 point:0x1100
 name Njárgaroavvi
 opts Source: SE1
-crds 20.711888 68.713329
+crds 20.711890 68.713330
 
 point:0x1100
 name Njárgavárri
 opts Source: SE1
-crds 20.654112 68.716737
+crds 20.651873 68.716436
 
 point:0x1100
 name Nohlli
 opts Source: NO1
-crds 19.856135 68.792271
+crds 19.856130 68.792270
 
 point:0x1100
 name Náhppenarra
@@ -2966,12 +2083,12 @@ crds 20.747868 69.015032
 point:0x1100
 name Návdegielas
 opts Source: NO1
-crds 19.863281 68.816478
+crds 19.863280 68.816480
 
 point:0x1100
 name Oaggovárri
 opts Source: SE1
-crds 20.654543 68.929452
+crds 20.654540 68.929450
 
 point:0x1100
 name Okkivaara
@@ -2981,7 +2098,7 @@ crds 22.191310 68.921830
 point:0x1100
 name Omátvárri
 opts Source: SE1
-crds 20.470923 68.717969
+crds 20.470920 68.717970
 
 point:0x1100
 name Poroharjut
@@ -2996,7 +2113,7 @@ crds 20.226970 69.010922
 point:0x1100
 name Regoheapmi
 opts Source: NO1
-crds 19.975959 68.841711
+crds 19.975960 68.841710
 
 point:0x1100
 name Riebaneanan
@@ -3006,12 +2123,12 @@ crds 22.114040 68.896950
 point:0x1100
 name Ristinasvaara
 opts Source: SE1
-crds 20.811098 68.938233
+crds 20.811100 68.938230
 
 point:0x1100
 name Roavgovárri
 opts Source: SE1
-crds 20.457877 68.908528
+crds 20.457880 68.908530
 
 point:0x1100
 name Roavvevárri
@@ -3021,17 +2138,17 @@ crds 20.817296 68.947824
 point:0x1100
 name Roaváš
 opts Source: SE1
-crds 21.226775 68.760765
+crds 21.226770 68.760770
 
 point:0x1100
 name Rundingen
 opts Source: NO1
-crds 19.826224 68.971406
+crds 19.826220 68.971410
 
 point:0x1100
 name Ruoššačohkka
 opts Source: SE1
-crds 20.642900 68.785446
+crds 20.642900 68.785450
 
 point:0x1100
 name Ruvnnavárri
@@ -3041,12 +2158,12 @@ crds 21.936435 69.098101
 point:0x1100
 name Ráhkkočohkka
 opts Source: SE1
-crds 20.583676 68.903149
+crds 20.583680 68.903150
 
 point:0x1100
 name Rákkasnibba
 opts Source: NO1
-crds 20.144508 68.823236
+crds 20.144510 68.823240
 
 point:0x1100
 name Rámat
@@ -3056,22 +2173,22 @@ crds 19.907233 68.926957
 point:0x1100
 name Rávdoaivvit
 opts Source: SE1
-crds 20.712568 68.828512
+crds 20.712186 68.828212
 
 point:0x1100
 name Rávdovárri
 opts Source: SE1
-crds 20.713725 68.812978
+crds 20.713730 68.812980
 
 point:0x1100
 name Rávdočohkka
 opts Source: SE1
-crds 20.633596 68.844817
+crds 20.632000 68.845133
 
 point:0x1100
 name Rávskkahasvárri
 opts Source: SE1
-crds 20.665117 68.876078
+crds 20.665120 68.876080
 
 point:0x1100
 name Saahtavaara
@@ -3081,32 +2198,32 @@ crds 21.097654 68.827839
 point:0x1100
 name Sabitoaivi
 opts Source: SE1
-crds 21.128091 68.793082
+crds 21.128531 68.793062
 
 point:0x1100
 name Sadjinoaivi
 opts Source: SE1
-crds 20.996988 68.710667
+crds 20.996990 68.710670
 
 point:0x1100
 name Skáidevárri
 opts Source: SE1
-crds 20.816209 68.671104
+crds 20.816210 68.671100
 
 point:0x1100
 name Snjierttet
 opts Source: SE1
-crds 20.534081 68.851786
+crds 20.534360 68.851647
 
 point:0x1100
 name Spállogas
 opts Source: NO1
-crds 20.222919 68.872421
+crds 20.222920 68.872420
 
 point:0x1100
 name Spállogasnibba
 opts Source: NO1
-crds 20.222198 68.886100
+crds 20.222200 68.886100
 
 point:0x1100
 name Stohkkeborri
@@ -3116,7 +2233,7 @@ crds 20.061150 68.651300
 point:0x1100
 name Struvvávárri
 opts Source: SE1
-crds 20.798022 68.959666
+crds 20.798020 68.959670
 
 point:0x1100
 name Stuora Nanná
@@ -3131,17 +2248,17 @@ crds 22.083227 69.053108
 point:0x1100
 name Suollemasvákkičohkka
 opts Source: SE1
-crds 20.153699 68.619919
+crds 20.153700 68.619920
 
 point:0x1100
 name Suolučielgevárri
 opts Source: SE1
-crds 20.246417 68.711847
+crds 20.246420 68.711850
 
 point:0x1100
 name Sáhpánčohkka
 opts Source: SE1
-crds 20.174527 68.630621
+crds 20.174530 68.630620
 
 point:0x1100
 name Sárjjasvárri
@@ -3151,7 +2268,7 @@ crds 20.519063 68.883755
 point:0x1100
 name Sávkavárri
 opts Source: NO1
-crds 20.266439 68.785389
+crds 20.266440 68.785390
 
 point:0x1100
 name Taukivaara
@@ -3166,17 +2283,17 @@ crds 20.010624 68.747583
 point:0x1100
 name Uvllávárri
 opts Source: SE1
-crds 20.655058 68.758844
+crds 20.655060 68.758840
 
 point:0x1100
 name Vanasvárri
 opts Source: NO1
-crds 20.131483 68.776165
+crds 20.131427 68.776185
 
 point:0x1100
 name Virkkalčohkat
 opts Source: SE1
-crds 20.370961 68.701779
+crds 20.370008 68.702200
 
 point:0x1100
 name Vittankivaara
@@ -3186,12 +2303,12 @@ crds 21.227040 68.799685
 point:0x1100
 name Viđaruovddaš
 opts Source: SE1
-crds 20.850489 68.969072
+crds 20.850490 68.969070
 
 point:0x1100
 name Vuojahatvárri
 opts Source: SE1
-crds 20.505272 68.775438
+crds 20.504504 68.775868
 
 point:0x1100
 name Vuolit Derpmošvárri
@@ -3201,22 +2318,22 @@ crds 20.851114 68.863150
 point:0x1100
 name Vuolit Guolbanoaivi
 opts Source: SE1
-crds 20.721892 69.008421
+crds 20.721890 69.008420
 
 point:0x1100
 name Vuolit Luspevárri
 opts Source: SE1
-crds 20.599423 68.761481
+crds 20.599082 68.762058
 
 point:0x1100
 name Vuolit Sieiddivárri
 opts Source: SE1
-crds 20.401442 68.800859
+crds 20.402133 68.800753
 
 point:0x1100
 name Vuolit Vávrratoaivi
 opts Source: SE1
-crds 20.404248 69.018635
+crds 20.404250 69.018640
 
 point:0x1100
 name Vuontiskero
@@ -3226,47 +2343,42 @@ crds 22.012650 68.786880
 point:0x1100
 name Váhccaoaivi
 opts Source: SE1
-crds 21.011959 68.787295
+crds 21.011960 68.787300
 
 point:0x1100
 name Váhttoaivi
 opts Source: SE1
-crds 20.666482 68.656315
+crds 20.666480 68.656320
 
 point:0x1100
 name Ádjávárdu
 opts Source: NO1
-crds 20.141885 68.923002
+crds 20.141880 68.923000
 
 point:0x1100
 name Áidnavárppioaivi
 opts Source: SE1
-crds 21.348470 68.651812
-
-point:0x1100
-name Áillahasláhku
-opts Source: FI1
-crds 21.165317 68.985892
+crds 21.348496 68.651803
 
 point:0x1100
 name Árbuoaivi
 opts Source: SE1
-crds 20.908055 68.829839
+crds 20.908060 68.829840
 
 point:0x1100
 name Árjjátoaivi
 opts Source: SE1
-crds 21.020178 68.677505
+crds 21.020180 68.677500
 
 point:0x1100
 name Áslatvárri
 opts Source: NO1
-crds 20.069924 68.910999
+crds 20.069920 68.911000
 
 point:0x1100
 name Čalmmasvárri
 opts Source: SE1
-crds 20.615060 68.824677
+crds 20.613780 68.824512
 
 point:0x1100
 name Čearpmatvággi
@@ -3301,22 +2413,22 @@ crds 21.024290 69.055800
 point:0x1100
 name Čoalmmivárri
 opts Source: SE1
-crds 20.329453 68.827484
+crds 20.329450 68.827480
 
 point:0x1100
 name Čunuvárri
 opts Source: SE1
-crds 20.792540 68.690234
+crds 20.792540 68.690230
 
 point:0x1100
 name Čurnovárri
 opts Source: SE1
-crds 20.495074 68.922869
+crds 20.495070 68.922870
 
 point:0x1100
 name Čáhcebealvárri
 opts Source: SE1
-crds 20.836881 68.959198
+crds 20.836880 68.959200
 
 point:0x1100
 name Čávskkasvárri
@@ -3326,7 +2438,7 @@ crds 21.360765 68.745932
 point:0x1100
 name Šuošmir
 opts Source: SE1
-crds 20.395779 68.898946
+crds 20.395887 68.899026
 
 point:0x2800
 name Aatsakursu
@@ -3481,7 +2593,7 @@ crds 20.037016 68.776106
 point:0x2800
 name Eaddindievát
 opts Source: NO1
-crds 19.886987 68.794532
+crds 19.887035 68.794531
 
 point:0x2800
 name Fjellfrøsskardet
@@ -3656,7 +2768,7 @@ crds 19.930181 68.776400
 point:0x2800
 name Gárenamuvra
 opts Source: FI1
-crds 21.534947 69.065195
+crds 21.534971 69.065183
 
 point:0x2800
 name Haredalen
@@ -3974,6 +3086,10 @@ opts Source: NO1
 crds 19.883001 68.952079
 
 point:0x2800
+name Rounala kirkplats
+crds 21.152101 68.806910
+
+point:0x2800
 name Ruksesvággi
 opts Source: NO1
 crds 19.801673 69.016109
@@ -3996,7 +3112,7 @@ crds 20.924548 68.661823
 point:0x2800
 name Ráhpesoaigielas
 opts Source: FI1
-crds 21.511208 68.923584
+crds 21.511216 68.923582
 
 point:0x2800
 name Ráhpesádjat
@@ -4086,7 +3202,7 @@ crds 21.166508 68.892370
 point:0x2800
 name Siikavaarat
 opts Source: FI1
-crds 21.683785 68.891674
+crds 21.683838 68.891662
 
 point:0x2800
 name Silbagielas
@@ -4201,12 +3317,12 @@ crds 21.537251 68.822393
 point:0x2800
 name Virdni
 opts Source: FI1
-crds 21.341599 68.957143
+crds 21.341650 68.957140
 
 point:0x2800
 name Virdničielgi
 opts Source: FI1
-crds 21.288971 68.940457
+crds 21.289011 68.940455
 
 point:0x2800
 name Virkkalgohpi
@@ -4286,6 +3402,11 @@ crds 20.791161 68.848256
 point:0x2800
 name rengärde
 opts Source: SE1
+crds 20.837400 68.762338
+
+point:0x2800
+name rengärde
+opts Source: SE1
 crds 20.839522 68.766368
 
 point:0x2800
@@ -4322,6 +3443,11 @@ point:0x2800
 name Áccitvárddut
 opts Source: SE1
 crds 20.872332 68.701287
+
+point:0x2800
+name Áillahasláhku
+opts Source: FI1
+crds 21.165289 68.985893
 
 point:0x2800
 name Ákcáčohkat
@@ -4386,7 +3512,7 @@ crds 21.442906 68.899361
 point:0x2800
 name Čáimmavuomuš
 opts Source: FI1
-crds 21.775474 68.898012
+crds 21.775518 68.898002
 
 point:0x2800
 name Šalbmi
@@ -4591,12 +3717,12 @@ crds 21.694672 69.015678
 point:0x6508
 name Harakkakoski
 opts Source: SE1
-crds 20.785941 68.915034
+crds 20.786943 68.915669
 
 point:0x6508
 name Harakkaniva
 opts Source: SE1
-crds 20.800136 68.906530
+crds 20.801370 68.906816
 
 point:0x6508
 name Karjalankosket
@@ -4726,7 +3852,7 @@ crds 20.766267 69.061923
 point:0x6508
 name Spállogasgorži
 opts Source: NO1
-crds 20.231091 68.878494
+crds 20.231090 68.878490
 
 point:0x6508
 name Tuohikoski
@@ -4739,80 +3865,1910 @@ opts Source: FI2
 crds 21.326141 68.759171
 
 point:0x650c
+scle 0.875
+name Gaskkamus\\Rávdojávri
+opts Source: SE1
+crds 20.678339 68.798198
+
+point:0x650c
+name Aatsajoki
+opts Source: FI1
+crds 21.881593 68.778951
+
+point:0x650c
+name Aavapuoltsanlahti
+opts Source: SE1
+crds 20.864789 68.945215
+
+point:0x650c
+name Adajávri
+opts Source: NO1
+crds 20.121578 68.667109
+
+point:0x650c
+name Ahvenjärvi
+opts Source: FI1
+crds 21.555143 68.716833
+
+point:0x650c
+name Ailakkajoki
+opts Source: FI1
+crds 20.970884 68.972244
+
+point:0x650c
+name Ailakkajärvi
+opts Source: FI1
+crds 21.101140 68.956708
+
+point:0x650c
+name Ailakkalahdenlantot
+opts Source: FI1
+crds 20.934291 68.988631
+
+point:0x650c
+name Ailakkalompolo
+opts Source: FI1
+crds 21.166857 68.935266
+
+point:0x650c
+name Ainavarppijärvi
+opts Source: FI1
+crds 21.447230 68.689746
+
+point:0x650c
+name Ainuvarppijoki
+opts Source: SE1
+crds 21.456824 68.667597
+
+point:0x650c
+name Aittalompolo
+opts Source: FI1
+crds 21.683900 69.010325
+
+point:0x650c
+name Akkisjärvi
+opts Source: FI1
+crds 21.535764 68.754568
+
+point:0x650c
+name Ala-Kilpisjärvi
+opts Source: FI1
+crds 20.905566 68.976219
+
+point:0x650c
+name Anuntijärvi
+opts Source: FI1
+crds 21.765109 69.013531
+
+point:0x650c
+name Aslakelva
+opts Source: NO1
+crds 19.920439 68.859848
+
+point:0x650c
+name Bahtasgohpejávri
+opts Source: FI1
+crds 21.213124 69.057996
+
+point:0x650c
+name Baikaboldnejohka
+opts Source: FI1
+crds 21.600050 68.715685
+
+point:0x650c
+name Bajimus\\Rávdojávri
+opts Source: SE1
+crds 20.642511 68.819370
+
+point:0x650c
+name Bajimus\\Rávskkahasjávri
+opts Source: SE1
+crds 20.578435 68.865961
+
+point:0x650c
+name Bajit Luspejávri
+opts Source: SE1
+crds 20.562221 68.793629
+
+point:0x650c
 name Bajit Sieiddijávri
-crds 20.411053 68.813942
+opts Source: SE1
+crds 20.414235 68.810934
+
+point:0x650c
+name Bajit Voagájávri
+opts Source: SE1
+crds 20.583616 68.658761
+
+point:0x650c
+name Bajit Čuolmmajávri
+opts Source: SE1
+crds 20.244230 68.638590
+
+point:0x650c
+name Balsajávri
+opts Source: FI1
+crds 21.590219 68.950437
+
+point:0x650c
+name Bealčánjohka
+opts Source: SE1
+crds 20.364023 68.970235
+
+point:0x650c
+name Bearačielggejávri
+opts Source: FI1
+crds 21.130194 68.930179
+
+point:0x650c
+name Beassetjávri
+opts Source: NO1
+crds 19.994461 68.672014
+
+point:0x650c
+name Beavrretjohka
+opts Source: NO1
+crds 20.124285 68.701349
+
+point:0x650c
+name Beavrretjávri
+opts Source: NO1
+crds 20.199216 68.724538
+
+point:0x650c
+name Beavrretluoppal
+opts Source: NO1
+crds 20.171075 68.726913
+
+point:0x650c
+name Beikkasjávri
+opts Source: SE1
+crds 20.610095 68.710557
+
+point:0x650c
+name Beikkasluokta
+opts Source: SE1
+crds 20.543927 68.732989
+
+point:0x650c
+name Biedjojohka
+opts Source: SE1
+crds 21.161485 68.658663
+
+point:0x650c
+name Biggosjohka
+opts Source: SE1
+crds 20.860291 68.659323
+
+point:0x650c
+name Bihtojávri
+opts Source: FI1
+crds 21.487091 68.874372
+
+point:0x650c
+name Bizejohgierajávri
+opts Source: FI1
+crds 21.637859 68.822960
+
+point:0x650c
+name Boaldojohka
+opts Source: SE1
+crds 20.691374 68.885204
 
 point:0x650c
 name Boggejávri
-crds 20.563660 68.684091
+opts Source: SE1
+crds 20.546039 68.690222
+
+point:0x650c
+name Bollošjohka
+opts Source: SE1
+crds 20.364704 68.983316
+
+point:0x650c
+name Bovdnajohka
+opts Source: FI1
+crds 21.762646 68.856595
+
+point:0x650c
+name Buikkojávri
+opts Source: SE1
+crds 20.668629 68.715028
+
+point:0x650c
+name Buikujávri
+opts Source: SE1
+crds 20.350152 68.922591
+
+point:0x650c
+name Buodjujávri
+opts Source: SE1
+crds 20.565196 68.853413
+
+point:0x650c
+name Buoggi
+opts Source: FI1
+crds 21.863064 69.080745
+
+point:0x650c
+name Buvrrášjohka
+opts Source: FI1
+crds 21.324174 68.909338
+
+point:0x650c
+name Báfttevuoljávri
+opts Source: NO1
+crds 20.254504 68.850298
+
+point:0x650c
+name Báktejávri
+opts Source: SE1
+crds 20.562815 68.869565
+
+point:0x650c
+name Bárdaljávri
+opts Source: SE1
+crds 20.318696 68.773504
+
+point:0x650c
+name Bávvaljohka
+opts Source: SE1
+crds 20.683575 68.968379
+
+point:0x650c
+name Bávvaljávri
+opts Source: SE1
+crds 20.657869 68.982401
+
+point:0x650c
+name Covrojohka
+opts Source: SE1
+crds 20.942476 68.649719
+
+point:0x650c
+name Darjjunjárgajávri
+opts Source: FI1
+crds 21.976220 68.697471
+
+point:0x650c
+name Deartaluokta
+opts Source: NO1
+crds 20.286879 68.806985
+
+point:0x650c
+name Deatnomuotkkijávri
+opts Source: NO1
+crds 21.990207 69.076986
+
+point:0x650c
+name Dierpmesgobejávri
+opts Source: FI1
+crds 21.337255 69.011305
+
+point:0x650c
+name Dierpmesjohka
+opts Source: FI1
+crds 21.406967 69.036596
+
+point:0x650c
+name Dopparelva
+opts Source: NO1
+crds 19.877733 69.023482
+
+point:0x650c
+name Dápmotjávri
+opts Source: FI1
+crds 21.025480 68.932540
+
+point:0x650c
+name Ganešjávri
+opts Source: SE1
+crds 20.909053 68.756561
+
+point:0x650c
+name Garrajávrrit
+opts Source: FI1
+crds 21.916246 69.071047
+
+point:0x650c
+name Gaskkamus\\Rávskkahasjávri
+opts Source: SE1
+crds 20.600502 68.855436
+
+point:0x650c
+name Gaskkasjohka
+opts Source: SE1
+crds 21.118783 68.669919
+
+point:0x650c
+name Gassavákkejohka
+opts Source: NO1
+crds 20.122842 68.865963
+
+point:0x650c
+name Gassavákkejávrrit
+opts Source: NO1
+crds 20.088721 68.871959
+
+point:0x650c
+name Gassoaivvijohka
+opts Source: SE1
+crds 20.389693 68.736581
 
 point:0x650c
 name Gassoaivvijávri
-crds 20.350800 68.743417
+opts Source: SE1
+crds 20.342989 68.743047
 
 point:0x650c
 name Geahpesjávrrit
-crds 20.638106 68.981757
+opts Source: SE1
+crds 20.638984 68.988391
+
+point:0x650c
+name Geaidnojávri
+opts Source: FI1
+crds 21.929873 69.024559
 
 point:0x650c
 name Geatkejávrrit
-crds 20.775318 68.771343
+opts Source: SE1
+crds 20.781961 68.774385
+
+point:0x650c
+name Gemejávri
+opts Source: NO1
+crds 20.297333 68.927868
+
+point:0x650c
+name Gillarjohka
+opts Source: SE1
+crds 20.870471 68.750284
+
+point:0x650c
+name Gironjohka
+opts Source: NO1
+crds 19.848361 68.873045
+
+point:0x650c
+name Goagdájohka
+opts Source: SE1
+crds 20.387877 68.640829
+
+point:0x650c
+name Goagdájávri
+opts Source: SE1
+crds 20.335447 68.648702
+
+point:0x650c
+name Goahtejávri
+opts Source: FI1
+crds 21.922697 69.046751
+
+point:0x650c
+name Goahtemuorjohka
+opts Source: NO1
+crds 20.143503 68.705327
+
+point:0x650c
+name Goarvejávri
+opts Source: FI1
+crds 21.650860 68.757213
+
+point:0x650c
+name Gobbajávri
+opts Source: NO1
+crds 22.166992 69.009343
+
+point:0x650c
+name Gobbájohka
+opts Source: NO1
+crds 22.188139 68.993734
+
+point:0x650c
+name Gobmejohka
+opts Source: SE1
+crds 20.403395 68.943414
 
 point:0x650c
 name Gobmejávri
-crds 20.381527 68.925639
+opts Source: SE1
+crds 20.371741 68.925510
+
+point:0x650c
+name Goddejohka
+opts Source: NO1
+crds 20.167102 68.692662
+
+point:0x650c
+name Golggotjávri
+opts Source: FI1
+crds 20.985329 68.946598
+
+point:0x650c
+name Golggotjávri
+opts Source: NO1
+crds 20.159206 68.655027
 
 point:0x650c
 name Golggotjávrrit
-crds 20.760555 68.812267
+opts Source: NO1
+crds 19.912910 68.744100
+
+point:0x650c
+name Golggotjávrrit
+opts Source: SE1
+crds 20.755051 68.817171
+
+point:0x650c
+name Gordejávri
+opts Source: FI1
+crds 21.693845 69.022782
+
+point:0x650c
+name Guhturgurajávri
+opts Source: FI1
+crds 21.352391 69.039863
+
+point:0x650c
+name Gulpojávrrit
+opts Source: SE1
+crds 20.797623 68.890547
+
+point:0x650c
+name Gunašjohka
+opts Source: FI1
+crds 21.225253 68.943294
+
+point:0x650c
+name Guolbanjohka
+opts Source: SE1
+crds 20.670178 69.023539
+
+point:0x650c
+name Gádjajávri
+opts Source: NO1
+crds 19.984597 68.803839
+
+point:0x650c
+name Gáhppojávri
+opts Source: SE1
+crds 20.275919 69.041133
+
+point:0x650c
+name Gáibbijohka
+opts Source: NO1
+crds 19.950560 69.023024
+
+point:0x650c
+name Gáibbiriehpijohka
+opts Source: NO1
+crds 19.950124 69.010317
+
+point:0x650c
+name Gárasjohka
+opts Source: NO1
+crds 19.910508 68.789834
+
+point:0x650c
+name Gárasjávri
+opts Source: NO1
+crds 19.917499 68.773537
+
+point:0x650c
+name Harrijärvi
+opts Source: FI1
+crds 21.222619 68.855165
+
+point:0x650c
+name Harrijärvi
+opts Source: FI1
+crds 21.506467 68.888104
+
+point:0x650c
+name Harrisaivo
+opts Source: FI1
+crds 20.667920 69.053262
+
+point:0x650c
+name Haukijärvet
+opts Source: FI1
+crds 21.029022 68.916529
+
+point:0x650c
+name Heargejohka
+opts Source: NO1
+crds 20.004205 68.618523
+
+point:0x650c
+name Heargejávri
+opts Source: NO1
+crds 20.021725 68.623285
+
+point:0x650c
+name Heargejávri
+opts Source: SE1
+crds 20.679242 68.732544
+
+point:0x650c
+name Heikkočazajávri
+opts Source: FI1
+crds 21.290367 68.878712
+
+point:0x650c
+name Hirvassuvanto
+opts Source: FI1
+crds 22.197506 68.831862
+
+point:0x650c
+name Hirvasvuopio
+opts Source: FI1
+crds 22.192785 68.873750
+
+point:0x650c
+name Hurvejohka
+opts Source: SE1
+crds 20.762581 68.853983
+
+point:0x650c
+name Hurvejávrrit
+opts Source: SE1
+crds 20.785863 68.842295
+
+point:0x650c
+name Hárrejohka
+opts Source: FI1
+crds 21.565500 69.038764
+
+point:0x650c
+name Hárrejohka
+opts Source: SE1
+crds 21.117694 68.713020
+
+point:0x650c
+name Hárrejávrrit
+opts Source: SE1
+crds 21.058851 68.708107
+
+point:0x650c
+name Hárvesjávri
+opts Source: NO1
+crds 20.155477 68.804425
+
+point:0x650c
+name Hárvvesluobbalat
+opts Source: NO1
+crds 20.243467 68.803237
+
+point:0x650c
+name Hávgajohka
+opts Source: NO1
+crds 19.917156 68.618757
+
+point:0x650c
+name Hávgajávrrit
+opts Source: FI1
+crds 22.143738 68.789786
+
+point:0x650c
+name Iitosuanto
+opts Source: SE1
+crds 21.386744 68.762959
+
+point:0x650c
+name Iitto-Hankovuopio
+opts Source: SE1
+crds 21.400941 68.730382
+
+point:0x650c
+name Iittojoki
+opts Source: FI1
+crds 21.465815 68.809255
+
+point:0x650c
+name Iselva
+opts Source: NO1
+crds 20.060901 68.938762
+
+point:0x650c
+name Jeageljohka
+opts Source: SE1
+crds 21.155609 68.773743
+
+point:0x650c
+name Jierttáluoppal
+opts Source: NO1
+crds 20.007807 68.709378
+
+point:0x650c
+name Jievvajohka
+opts Source: FI1
+crds 21.925851 69.011661
+
+point:0x650c
+name Jovloluoppal
+opts Source: FI1
+crds 21.452715 68.847356
+
+point:0x650c
+name Julosjávri
+opts Source: NO1
+crds 19.971481 68.658834
+
+point:0x650c
+name Juovalompolo
+opts Source: FI1
+crds 21.233629 68.865540
+
+point:0x650c
+name Jáfoduolbbajávri
+opts Source: FI1
+crds 22.190586 68.708767
+
+point:0x650c
+name Kaitsajoki
+opts Source: FI1
+crds 21.439619 69.059411
+
+point:0x650c
+name Kaitsajärvi
+opts Source: FI1
+crds 21.427089 69.074889
+
+point:0x650c
+name Kaivosjärvi
+opts Source: SE1
+crds 21.411496 68.703145
+
+point:0x650c
+name Kalkkojärvet
+opts Source: FI1
+crds 22.086110 68.732746
+
+point:0x650c
+name Kalmusjoki
+opts Source: SE1
+crds 21.253846 68.717646
+
+point:0x650c
+name Kaskasjoki
+opts Source: FI1
+crds 21.825503 68.853361
+
+point:0x650c
+name Kaskasjärvi
+opts Source: FI1
+crds 21.668207 68.873981
+
+point:0x650c
+name Kaunislampi
+opts Source: FI1
+crds 22.061181 68.977003
+
+point:0x650c
+name Kettulampi
+opts Source: FI1
+crds 22.062132 68.991028
+
+point:0x650c
+name Kiellijärvi
+opts Source: FI1
+crds 20.889930 68.892434
 
 point:0x650c
 name Kiellisaivot
-crds 20.920544 68.891416
+opts Source: SE1
+crds 20.934348 68.892732
+
+point:0x650c
+name Kiljujärvi
+opts Source: SE1
+crds 21.410501 68.715071
+
+point:0x650c
+name Kilpisjärvi
+opts Source: FI1
+crds 20.821296 69.017210
+
+point:0x650c
+name Kilpisluspa
+opts Source: SE1
+crds 20.849175 68.939228
+
+point:0x650c
+name Kinnerpuska
+opts Source: FI1
+crds 22.212576 68.747086
+
+point:0x650c
+name Kirkkojärvi
+opts Source: SE1
+crds 21.180331 68.805968
+
+point:0x650c
+name Kivijärvi
+opts Source: FI1
+crds 21.263883 68.825611
+
+point:0x650c
+name Koltalahti
+opts Source: FI1
+crds 20.626277 69.045977
+
+point:0x650c
+name Korsajoki
+opts Source: FI1
+crds 22.091304 68.850554
+
+point:0x650c
+name Korsajärvi
+opts Source: FI1
+crds 22.099928 68.826694
+
+point:0x650c
+name Koutnahanautsijoki
+opts Source: SE1
+crds 21.362208 68.702530
+
+point:0x650c
+name Kovajoki
+opts Source: FI1
+crds 21.951412 68.856092
+
+point:0x650c
+name Kovajärvi
+opts Source: FI1
+crds 22.040148 68.801616
+
+point:0x650c
+name Kummaeno
+opts Source: SE1
+crds 20.630268 68.917143
+
+point:0x650c
+name Kuujärvi
+opts Source: FI1
+crds 22.170500 68.819811
+
+point:0x650c
+name Könkämäeno
+opts Source: FI1
+crds 22.136601 68.470856
+
+point:0x650c
+name Könkämäälven
+opts Source: SE1
+crds 21.399925 68.725895
+
+point:0x650c
+name Laassajoki
+opts Source: FI1
+crds 20.932587 68.949284
+
+point:0x650c
+name Laassajärvi
+opts Source: FI1
+crds 20.975370 68.933813
+
+point:0x650c
+name Latinalahti
+opts Source: SE1
+crds 21.137838 68.841334
+
+point:0x650c
+name Leaibevuopmejohka
+opts Source: SE1
+crds 20.774291 68.995357
+
+point:0x650c
+name Leveäsuanto
+opts Source: SE1
+crds 21.223551 68.815277
+
+point:0x650c
+name Likkájiehkki
+opts Source: NO1
+crds 19.893169 68.927284
+
+point:0x650c
+name Linkojávrrit
+opts Source: NO1
+crds 19.952509 68.791183
+
+point:0x650c
+name Lottánjávrrit
+opts Source: FI1
+crds 21.587249 68.787210
+
+point:0x650c
+name Louskoautsinjoki
+opts Source: SE1
+crds 21.363927 68.726347
+
+point:0x650c
+name Lovttogiellasajávri
+opts Source: FI1
+crds 21.873332 69.053232
+
+point:0x650c
+name Luhtasaivo
+opts Source: FI1
+crds 22.052029 68.926528
+
+point:0x650c
+name Luvttaluobbalat
+opts Source: FI1
+crds 22.049401 68.910531
+
+point:0x650c
+name Lágujohka
+opts Source: FI1
+crds 21.131320 68.981233
+
+point:0x650c
+name Láhkonjoaskejohka
+opts Source: SE1
+crds 20.534205 68.912637
+
+point:0x650c
+name Láireguoika
+opts Source: SE1
+crds 20.565914 68.930716
+
+point:0x650c
+name Láiresavvon
+opts Source: SE1
+crds 20.592329 68.926033
+
+point:0x650c
+name Látnjajávrrit
+opts Source: FI1
+crds 21.494214 68.712333
+
+point:0x650c
+name Lätäseno
+opts Source: FI1
+crds 22.241436 68.535534
+
+point:0x650c
+name Madejärvi
+opts Source: FI1
+crds 21.222495 68.872539
+
+point:0x650c
+name Mallanlahti
+opts Source: FI1
+crds 20.703491 69.049983
+
+point:0x650c
+name Marastinsuanto
+opts Source: SE1
+crds 21.274889 68.775944
+
+point:0x650c
+name Marjajärvet
+opts Source: FI1
+crds 21.021374 69.014648
+
+point:0x650c
+name Marjajärvi
+opts Source: FI1
+crds 21.073557 68.950778
+
+point:0x650c
+name Marsujoki
+opts Source: FI1
+crds 21.813105 68.776577
+
+point:0x650c
+name Marsujärvi
+opts Source: FI1
+crds 21.734248 68.739183
+
+point:0x650c
+name Melajärvi
+opts Source: FI1
+crds 22.077517 68.952083
+
+point:0x650c
+name Mordánjohka
+opts Source: SE1
+crds 20.485649 68.834049
+
+point:0x650c
+name Mordánjávrrit
+opts Source: SE1
+crds 20.456893 68.834469
+
+point:0x650c
+name Moskánjávri
+opts Source: NO1
+crds 20.195306 68.920586
+
+point:0x650c
+name Mukkajärvi
+opts Source: FI1
+crds 20.990336 68.899489
+
+point:0x650c
+name Mukkavuopio
+opts Source: FI1
+crds 20.980988 68.891733
+
+point:0x650c
+name Munnijärvi
+opts Source: FI1
+crds 22.030009 68.959728
+
+point:0x650c
+name Muotkatakanlahti
+opts Source: FI1
+crds 20.898944 68.933947
+
+point:0x650c
+name Muotkejávri
+opts Source: NO1
+crds 22.205814 68.951134
+
+point:0x650c
+name Másetjávri
+opts Source: FI1
+crds 20.973117 69.045334
+
+point:0x650c
+name Naimakkajärvi
+opts Source: FI1
+crds 21.593757 68.669257
+
+point:0x650c
+name Nakerivuopio
+opts Source: SE1
+crds 21.173109 68.827321
+
+point:0x650c
+name Namakkajoki
+opts Source: FI1
+crds 21.349664 68.835461
+
+point:0x650c
+name Nieidaluoppal
+opts Source: NO1
+crds 22.131732 69.098476
+
+point:0x650c
+name Nihkejávri
+opts Source: FI1
+crds 21.565491 69.010210
+
+point:0x650c
+name Nihkolasjávri
+opts Source: NO1
+crds 20.300004 68.872425
+
+point:0x650c
+name Nilsijoki
+opts Source: SE1
+crds 20.780719 68.942504
+
+point:0x650c
+name Njamatjávri
+opts Source: FI1
+crds 21.525843 68.867335
+
+point:0x650c
+name Njamatluoppal
+opts Source: FI1
+crds 21.496820 68.860493
+
+point:0x650c
+name Njearrejohka
+opts Source: SE1
+crds 20.290041 69.007835
 
 point:0x650c
 name Njearrejávri
-crds 20.205693 69.037522
+opts Source: SE1
+crds 20.194570 69.037021
+
+point:0x650c
+name Njearrečazajohka
+opts Source: NO1
+crds 20.084483 69.029833
 
 point:0x650c
 name Njárgajávri
-crds 20.705452 68.696006
+opts Source: FI1
+crds 21.323664 68.945897
+
+point:0x650c
+name Njárgajávri
+opts Source: FI1
+crds 21.666759 69.056966
+
+point:0x650c
+name Njárgajávri
+opts Source: FI1
+crds 21.809814 68.719428
+
+point:0x650c
+name Njárgajávri
+opts Source: NO1
+crds 20.129378 68.810378
+
+point:0x650c
+name Njárgajávri
+opts Source: NO1
+crds 22.053581 69.057212
+
+point:0x650c
+name Njárgajávri
+opts Source: SE1
+crds 20.696811 68.695095
+
+point:0x650c
+name Njávkanjávri
+opts Source: FI1
+crds 22.132488 68.758955
+
+point:0x650c
+name Nodjejohka
+opts Source: FI1
+crds 21.953557 68.901940
+
+point:0x650c
+name Oaggojávri
+opts Source: SE1
+crds 20.651116 68.952635
+
+point:0x650c
+name Oaggovielbmá
+opts Source: SE1
+crds 20.713890 68.938651
+
+point:0x650c
+name Oikojärvi
+opts Source: FI1
+crds 21.209108 68.846907
+
+point:0x650c
+name Omátjohka
+opts Source: SE1
+crds 20.486002 68.691013
+
+point:0x650c
+name Omátjávri
+opts Source: SE1
+crds 20.533936 68.716413
+
+point:0x650c
+name Paihkasjärvi
+opts Source: FI1
+crds 21.107315 69.015755
+
+point:0x650c
+name Pajurutonjoki
+opts Source: SE1
+crds 20.658348 69.029833
+
+point:0x650c
+name Patonivat
+opts Source: FI1
+crds 22.232849 68.727105
+
+point:0x650c
+name Peerajärvi
+opts Source: FI1
+crds 21.093245 68.888795
+
+point:0x650c
+name Peeramukka
+opts Source: FI1
+crds 22.247029 68.709544
+
+point:0x650c
+name Peeraonkka
+opts Source: FI1
+crds 21.063206 68.880920
+
+point:0x650c
+name Pierfanajärvi
+opts Source: FI1
+crds 21.498619 68.699652
+
+point:0x650c
+name Pikku Melajärvi
+opts Source: FI1
+crds 22.080132 68.963220
+
+point:0x650c
+name Pitkäjärvi
+opts Source: SE1
+crds 20.968513 68.733888
+
+point:0x650c
+name Pitsijoki
+opts Source: FI1
+crds 21.830786 68.841285
+
+point:0x650c
+name Pitsijärvi
+opts Source: FI1
+crds 21.834374 68.829120
+
+point:0x650c
+name Poroeno
+opts Source: FI1
+crds 22.041192 69.007896
+
+point:0x650c
+name Pounujärvi
+opts Source: FI1
+crds 22.157803 68.932495
+
+point:0x650c
+name Pousujärvi
+opts Source: FI1
+crds 21.129535 68.851872
+
+point:0x650c
+name Puittisjoki
+opts Source: FI1
+crds 21.767011 68.969100
+
+point:0x650c
+name Ragatjávri
+opts Source: FI1
+crds 21.257848 68.959233
+
+point:0x650c
+name Raittijärvi
+opts Source: FI1
+crds 21.718164 69.017357
+
+point:0x650c
+name Rakahjoki
+opts Source: FI1
+crds 21.222689 68.980744
+
+point:0x650c
+name Riehppejávri
+opts Source: NO1
+crds 20.214317 68.950539
+
+point:0x650c
+name Riehttejávri
+opts Source: NO1
+crds 20.263417 68.900334
+
+point:0x650c
+name Riittájávri
+opts Source: NO1
+crds 19.977074 68.788388
+
+point:0x650c
+name Riskájávri
+opts Source: SE1
+crds 20.945843 68.727810
+
+point:0x650c
+name Ristijärvi
+opts Source: FI1
+crds 22.041413 68.814358
 
 point:0x650c
 name Ristinasjärvi
-crds 20.820293 68.943964
+opts Source: SE1
+crds 20.802675 68.945001
+
+point:0x650c
+name Roavgojávrrit
+opts Source: SE1
+crds 20.516144 68.904951
+
+point:0x650c
+name Roavášjohka
+opts Source: SE1
+crds 21.234568 68.753929
+
+point:0x650c
+name Roggejávri
+opts Source: FI1
+crds 21.617254 68.869341
+
+point:0x650c
+name Rokkastatjohka
+opts Source: NO1
+crds 20.067124 68.606279
+
+point:0x650c
+name Rommaeno
+opts Source: FI1
+crds 22.011634 68.981221
+
+point:0x650c
+name Rommajärvi
+opts Source: FI1
+crds 21.524077 69.024740
+
+point:0x650c
+name Ropijoki
+opts Source: FI1
+crds 21.580541 68.729371
+
+point:0x650c
+name Ropijärvi
+opts Source: FI1
+crds 21.594753 68.683563
+
+point:0x650c
+name Rosteatnu
+opts Source: NO1
+crds 19.800611 68.961047
+
+point:0x650c
+name Rostoeatnu
+opts Source: SE1
+crds 20.728688 68.731363
+
+point:0x650c
+name Rostojávri
+opts Source: NO1
+crds 20.288832 68.814265
+
+point:0x650c
+name Rostojávri
+opts Source: SE1
+crds 20.460694 68.763533
+
+point:0x650c
+name Ruksesváhjohka
+opts Source: NO1
+crds 19.778330 69.021887
+
+point:0x650c
+name Runkajärvi
+opts Source: FI1
+crds 22.045182 68.965042
+
+point:0x650c
+name Ruovddášjohka
+opts Source: SE1
+crds 20.444372 68.981491
+
+point:0x650c
+name Ruovddášvággejávri
+opts Source: SE1
+crds 20.433418 68.989191
+
+point:0x650c
+name Ruvsojohka
+opts Source: SE1
+crds 20.951012 68.647478
+
+point:0x650c
+name Ruŋggá
+opts Source: FI1
+crds 21.830252 69.081490
+
+point:0x650c
+name Ráigevádjajávri
+opts Source: NO1
+crds 20.024782 68.841826
+
+point:0x650c
+name Ráiskasjohka
+opts Source: NO1
+crds 20.192514 68.795053
+
+point:0x650c
+name Ráiskasjávri
+opts Source: NO1
+crds 20.188039 68.784292
+
+point:0x650c
+name Rákkasgurajávri
+opts Source: NO1
+crds 20.123421 68.840115
+
+point:0x650c
+name Rávdojohka
+opts Source: NO1
+crds 20.106398 68.695672
+
+point:0x650c
+name Rávdojohka
+opts Source: SE1
+crds 20.719868 68.748711
+
+point:0x650c
+name Rávdojávri
+opts Source: NO1
+crds 20.178488 68.683115
+
+point:0x650c
+name Rávskkahasjohka
+opts Source: SE1
+crds 20.798966 68.883810
+
+point:0x650c
+name Rávskkahasvuohppi
+opts Source: SE1
+crds 20.971008 68.886835
+
+point:0x650c
+name Saanajärvi
+opts Source: FI1
+crds 20.875640 69.049925
+
+point:0x650c
+name Saarijärvi
+opts Source: FI1
+crds 21.102022 69.060958
+
+point:0x650c
+name Saarijärvi
+opts Source: FI1
+crds 21.556930 68.741984
+
+point:0x650c
+name Saarijärvi
+opts Source: FI1
+crds 22.170503 68.824581
+
+point:0x650c
+name Sabitjohka
+opts Source: SE1
+crds 21.153264 68.788059
+
+point:0x650c
+name Sadjinjávri
+opts Source: SE1
+crds 20.996175 68.722121
+
+point:0x650c
+name Saitsijoki
+opts Source: FI1
+crds 22.164173 68.690014
+
+point:0x650c
+name Saitsijärvet
+opts Source: FI1
+crds 22.054280 68.677967
+
+point:0x650c
+name Saivo
+opts Source: SE1
+crds 20.885231 68.904022
+
+point:0x650c
+name Saivo
+opts Source: SE1
+crds 21.039094 68.878059
 
 point:0x650c
 name Saivot
-crds 21.201897 68.803393
+opts Source: SE1
+crds 21.194682 68.796998
+
+point:0x650c
+name Salmijärvi
+opts Source: FI1
+crds 21.172137 69.046657
+
+point:0x650c
+name Sieiddiluokta
+opts Source: SE1
+crds 20.428055 68.796067
+
+point:0x650c
+name Sierkisjärvi
+opts Source: FI1
+crds 21.185279 68.882489
+
+point:0x650c
+name Siikajärvi
+opts Source: FI1
+crds 22.072500 68.939186
+
+point:0x650c
+name Siikalompolo
+opts Source: FI1
+crds 22.070079 68.929876
+
+point:0x650c
+name Silbajávri
+opts Source: SE1
+crds 20.632225 68.644895
+
+point:0x650c
+name Snjierttetjávrrit
+opts Source: SE1
+crds 20.503674 68.851293
+
+point:0x650c
+name Soahcanjohka
+opts Source: SE1
+crds 20.741497 68.657664
+
+point:0x650c
+name Spižolánjejohka
+opts Source: NO1
+crds 19.964689 68.626810
+
+point:0x650c
+name Spállogasjávrrit
+opts Source: NO1
+crds 20.177631 68.876415
+
+point:0x650c
+name Spálčajohka
+opts Source: SE1
+crds 20.667856 68.907267
+
+point:0x650c
+name Stohkkeborjávri
+opts Source: NO1
+crds 20.078440 68.643059
+
+point:0x650c
+name Stuorarođujogaš
+opts Source: FI1
+crds 22.008176 68.734627
+
+point:0x650c
+name Suinavuopio
+opts Source: FI1
+crds 22.169854 68.914409
+
+point:0x650c
+name Suolojávri
+opts Source: FI1
+crds 21.938015 69.031812
+
+point:0x650c
+name Suovasjärvi
+opts Source: FI1
+crds 21.368133 68.861555
+
+point:0x650c
+name Suppijoki
+opts Source: FI1
+crds 21.326266 68.836924
+
+point:0x650c
+name Suppijärvi
+opts Source: FI1
+crds 21.306310 68.859651
+
+point:0x650c
+name Suvijoki
+opts Source: SE1
+crds 20.998244 68.818034
+
+point:0x650c
+name Suvijoki
+opts Source: SE1
+crds 21.056095 68.841490
 
 point:0x650c
 name Suvijärvi
-crds 21.095810 68.846426
+opts Source: SE1
+crds 21.087538 68.845418
 
 point:0x650c
-name Vuolimus Rávdojávri
-crds 20.716438 68.770411
+name Sáitejávri
+opts Source: NO1
+crds 22.158720 69.067241
+
+point:0x650c
+name Sáivvajávri
+opts Source: SE1
+crds 20.768034 68.733293
+
+point:0x650c
+name Sáđgejohka
+opts Source: NO1
+crds 21.020160 69.071094
+
+point:0x650c
+name Taatsajärvi
+opts Source: FI1
+crds 20.858113 68.924424
+
+point:0x650c
+name Taatsaluspa
+opts Source: SE1
+crds 20.874570 68.919290
+
+point:0x650c
+name Talonvuopio
+opts Source: SE1
+crds 20.863748 68.911372
+
+point:0x650c
+name Talosuvanto
+opts Source: FI1
+crds 21.256740 68.797580
+
+point:0x650c
+name Tammukkajoki
+opts Source: FI1
+crds 21.744860 68.698899
+
+point:0x650c
+name Tammukkajärvi
+opts Source: FI1
+crds 21.464776 68.754840
+
+point:0x650c
+name Tammukkajärvi
+opts Source: FI1
+crds 21.739185 68.685386
+
+point:0x650c
+name Taukijärvi
+opts Source: SE1
+crds 21.074294 68.857898
+
+point:0x650c
+name Termisjärvi
+opts Source: FI1
+crds 21.275790 69.023401
+
+point:0x650c
+name Toriseno
+opts Source: FI1
+crds 22.046018 68.895319
+
+point:0x650c
+name Trollelva
+opts Source: NO1
+crds 19.997506 68.959681
+
+point:0x650c
+name Tverrelva
+opts Source: NO1
+crds 19.832386 68.989249
+
+point:0x650c
+name Unkkajärvi
+opts Source: FI1
+crds 21.461413 69.013642
+
+point:0x650c
+name Unnajávrráš
+opts Source: FI1
+crds 21.801174 68.682907
+
+point:0x650c
+name Vanasjávri
+opts Source: NO1
+crds 20.096776 68.766617
+
+point:0x650c
+name Vartsajoki
+opts Source: FI1
+crds 21.558708 68.987318
+
+point:0x650c
+name Veivejohka
+opts Source: SE1
+crds 21.181991 68.819963
+
+point:0x650c
+name Veivijärvi
+opts Source: SE1
+crds 21.186425 68.807485
+
+point:0x650c
+name Viellárjohka
+opts Source: SE1
+crds 21.074948 68.818369
+
+point:0x650c
+name Viellárjohka
+opts Source: SE1
+crds 21.076157 68.738923
+
+point:0x650c
+name Virdnijávrrit
+opts Source: FI1
+crds 21.380274 68.965450
+
+point:0x650c
+name Virdniláttu
+opts Source: FI1
+crds 21.381097 68.951014
+
+point:0x650c
+name Virkkaljohka
+opts Source: SE1
+crds 20.399788 68.721681
+
+point:0x650c
+name Virkkalluokta
+opts Source: SE1
+crds 20.430283 68.742952
+
+point:0x650c
+name Vittankijoki
+opts Source: SE1
+crds 21.213722 68.721763
+
+point:0x650c
+name Vittankijärvi
+opts Source: SE1
+crds 21.247474 68.785474
+
+point:0x650c
+name Vollelva
+opts Source: NO1
+crds 19.800846 68.989531
+
+point:0x650c
+name Vuolimus\\Rávdojávri
+opts Source: SE1
+crds 20.698273 68.769663
+
+point:0x650c
+name Vuolimus\\Rávskkahasjávri
+opts Source: SE1
+crds 20.687032 68.860288
+
+point:0x650c
+name Vuolit Luspejávri
+opts Source: SE1
+crds 20.590145 68.773488
+
+point:0x650c
+name Vuolit Sieiddijávri
+opts Source: SE1
+crds 20.423400 68.803874
+
+point:0x650c
+name Vuolit Voagájávri
+opts Source: SE1
+crds 20.611384 68.645092
+
+point:0x650c
+name Vuolit Čuolmmajávri
+opts Source: SE1
+crds 20.282515 68.613732
+
+point:0x650c
+name Vuomusjärvi
+opts Source: FI1
+crds 21.783209 69.002790
+
+point:0x650c
+name Vuomušjohka
+opts Source: FI1
+crds 21.434242 68.887675
+
+point:0x650c
+name Vuonjaljávri
+opts Source: FI1
+crds 21.626211 69.008618
+
+point:0x650c
+name Vuontisjoki
+opts Source: FI1
+crds 21.907136 68.847673
+
+point:0x650c
+name Vuontisjärvi
+opts Source: FI1
+crds 21.949392 68.792079
+
+point:0x650c
+name Vutnošjohka
+opts Source: SE1
+crds 20.757849 68.745128
+
+point:0x650c
+name Vutnošjávri
+opts Source: SE1
+crds 20.799412 68.746815
+
+point:0x650c
+name Váhccajohka
+opts Source: SE1
+crds 21.041700 68.807300
 
 point:0x650c
 name Váhccajávri
-crds 21.003971 68.760898
+opts Source: SE1
+crds 20.994085 68.762142
+
+point:0x650c
+name Váhttejohka
+opts Source: SE1
+crds 20.668215 68.630260
 
 point:0x650c
 name Váhttejávri
-crds 20.705280 68.652306
+opts Source: SE1
+crds 20.693237 68.655466
+
+point:0x650c
+name Vávrratjávri
+opts Source: SE1
+crds 20.403694 69.028613
+
+point:0x650c
+name Välisuvanto
+opts Source: FI1
+crds 22.106438 68.958300
+
+point:0x650c
+name Yl.Vuontisjärvi
+opts Source: FI1
+crds 22.039350 68.743198
+
+point:0x650c
+name Ádjatoaivvejohka
+opts Source: FI1
+crds 22.117496 68.774091
+
+point:0x650c
+name Ádjámuvrrajávrrit
+opts Source: NO1
+crds 20.277010 68.919290
+
+point:0x650c
+name Ádjávárdojávrrit
+opts Source: NO1
+crds 20.155285 68.932251
+
+point:0x650c
+name Ádojávri
+opts Source: NO1
+crds 20.064025 68.699138
+
+point:0x650c
+name Áhkájohka
+opts Source: FI1
+crds 22.015917 68.971199
+
+point:0x650c
+name Áitejávrrit
+opts Source: FI1
+crds 21.747973 69.052399
+
+point:0x650c
+name Ákcájohka
+opts Source: SE1
+crds 20.387186 68.686821
 
 point:0x650c
 name Ákcájávri
-crds 20.303593 68.694821
+opts Source: SE1
+crds 20.302882 68.692018
+
+point:0x650c
+name Árbujohka
+opts Source: SE1
+crds 21.011966 68.849651
 
 point:0x650c
 name Árbujávri
-crds 20.930157 68.845187
+opts Source: SE1
+crds 20.921798 68.848013
+
+point:0x650c
+name Árjjátjohka
+opts Source: SE1
+crds 21.071997 68.664619
+
+point:0x650c
+name Árjjátjávri
+opts Source: SE1
+crds 21.051840 68.686384
+
+point:0x650c
+name Áslatjohka
+opts Source: NO1
+crds 20.089661 68.904657
+
+point:0x650c
+name Áslatjávri
+opts Source: NO1
+crds 19.980055 68.896597
+
+point:0x650c
+name Čalmmasjávri
+opts Source: SE1
+crds 20.598469 68.808424
+
+point:0x650c
+name Čearpmatjohka
+opts Source: SE1
+crds 20.374826 68.997203
+
+point:0x650c
+name Čievččasjohka
+opts Source: NO1
+crds 19.878012 68.844706
+
+point:0x650c
+name Čievččasjávri
+opts Source: NO1
+crds 20.042479 68.790689
+
+point:0x650c
+name Čoahppejohka
+opts Source: NO1
+crds 20.978800 69.068376
+
+point:0x650c
+name Čoahppejávri
+opts Source: NO1
+crds 21.055524 69.055176
+
+point:0x650c
+name Čoahppeluoppal
+opts Source: NO1
+crds 21.016660 69.050998
 
 point:0x650c
 name Čoalmmijávri
-crds 20.534477 68.871501
+opts Source: SE1
+crds 20.520891 68.871757
+
+point:0x650c
+name Čunujávri
+opts Source: SE1
+crds 20.826873 68.680368
+
+point:0x650c
+name Čuolbmajávri
+opts Source: FI1
+crds 22.050540 68.688561
+
+point:0x650c
+name Čuollojohka
+opts Source: SE1
+crds 20.952021 68.780528
+
+point:0x650c
+name Čuovžajohka
+opts Source: FI1
+crds 21.625030 68.890435
+
+point:0x650c
+name Čuovžajávri
+opts Source: FI1
+crds 21.691160 68.898320
+
+point:0x650c
+name Čurnojohka
+opts Source: SE1
+crds 20.519256 68.934788
+
+point:0x650c
+name Čáhkáljávri
+opts Source: FI1
+crds 20.913287 69.025430
+
+point:0x650c
+name Čáimmageahčejávri
+opts Source: FI1
+crds 21.879696 68.898123
+
+point:0x650c
+name Čáimmajohka
+opts Source: FI1
+crds 21.810250 68.872862
+
+point:0x650c
+name Čáimmajávri
+opts Source: FI1
+crds 21.851530 68.881277
+
+point:0x650c
+name Šaddamašjohka
+opts Source: FI1
+crds 21.189053 68.899366
 
 point:0x6601
 name palsasuo
@@ -5456,15 +6412,7 @@ scle 0.75
 name Deatnomuotkihytta
 reft point:0x2b04
 refp 21.961458 69.093157
-crds 21.958256 69.095025
-
-text:0x3
-scle 0.75
-name Dierpmesgohpi
-opts lang: sme
-reft point:0x2800
-refp 21.334315 69.005475
-crds 21.334824 69.005082
+crds 21.944935 69.095355
 
 text:0x3
 scle 0.75
@@ -5795,14 +6743,6 @@ crds 20.375269 68.973276
 
 text:0x3
 scle 0.75
-name Ragatgohpi
-opts lang: sme
-reft point:0x2800
-refp 21.195301 68.970163
-crds 21.186989 68.970172
-
-text:0x3
-scle 0.75
 name Riehtteláhku
 reft point:0x2800
 refp 20.319773 68.894597
@@ -5860,13 +6800,6 @@ crds 22.098954 68.679255
 
 text:0x3
 scle 0.75
-name Salmi
-reft point:0x2800
-refp 20.847562 68.989035
-crds 20.847562 68.989035
-
-text:0x3
-scle 0.75
 name Seite Kallo
 reft point:0x2800
 refp 21.233113 68.653368
@@ -5914,7 +6847,7 @@ scle 0.75
 name Skuolfegielas
 reft point:0x2800
 refp 20.925790 68.770185
-crds 20.925790 68.770185
+crds 20.917281 68.769892
 
 text:0x3
 scle 0.75
@@ -6634,7 +7567,7 @@ name palsasuo
 opts legend: 1
 reft point:0x6601
 refp 22.140308 68.959867
-crds 22.135090 68.957692
+crds 22.135195 68.960900
 
 text:0x3
 scle 0.75
@@ -6705,6 +7638,13 @@ name rengärde
 reft point:0x2800
 refp 20.791161 68.848256
 crds 20.794230 68.848801
+
+text:0x3
+scle 0.75
+name rengärde
+reft point:0x2800
+refp 20.837400 68.762338
+crds 20.837400 68.762338
 
 text:0x3
 scle 0.75
@@ -6807,6 +7747,14 @@ crds 21.053097 68.888501
 text:0x3
 scle 0.75
 algn SE
+name Rounala kirkplats
+reft point:0x2800
+refp 21.152101 68.806910
+crds 21.149070 68.806315
+
+text:0x3
+scle 0.75
+algn SE
 name Ruskoniemi
 reft point:0x2800
 refp 20.859118 68.917348
@@ -6835,6 +7783,14 @@ name Saitsijoki\\laavu
 reft point:0x2b04
 refp 22.241140 68.690023
 crds 22.234339 68.690832
+
+text:0x3
+scle 0.75
+algn SE
+name Salmi
+reft point:0x2800
+refp 20.847562 68.989035
+crds 20.847554 68.988250
 
 text:0x3
 scle 0.75
@@ -7299,14 +8255,6 @@ refp 20.230102 68.738888
 crds 20.230102 68.738888
 
 text:0x3
-scle 0.866667
-algn S
-name Gironriehppi
-reft point:0x2800
-refp 19.880390 68.883951
-crds 19.887125 68.883797
-
-text:0x3
 scle 0.9
 name Käsivarren erämaa-alue
 opts lang: fin
@@ -7356,49 +8304,56 @@ text:0x3
 algn S
 name Eaddindievát
 reft point:0x2800
-refp 19.886987 68.794532
-crds 19.886987 68.794532
+refp 19.887035 68.794531
+crds 19.884771 68.791630
 
 text:0x3
 algn S
 name Gárenamuvra
 reft point:0x2800
-refp 21.534947 69.065195
+refp 21.534971 69.065183
 crds 21.534947 69.065195
 
 text:0x3
 algn S
 name Ráhpesoaigielas
 reft point:0x2800
-refp 21.511208 68.923584
+refp 21.511216 68.923582
 crds 21.511208 68.923584
 
 text:0x3
 algn S
 name Siikavaarat
 reft point:0x2800
-refp 21.683785 68.891674
+refp 21.683838 68.891662
 crds 21.683785 68.891674
 
 text:0x3
 algn S
 name Virdni
 reft point:0x2800
-refp 21.341599 68.957143
+refp 21.341650 68.957140
 crds 21.341599 68.957143
 
 text:0x3
 algn S
 name Virdničielgi
 reft point:0x2800
-refp 21.288971 68.940457
+refp 21.289011 68.940455
 crds 21.288971 68.940457
+
+text:0x3
+algn S
+name Áillahasláhku
+reft point:0x2800
+refp 21.165289 68.985893
+crds 21.165289 68.985893
 
 text:0x3
 algn S
 name Čáimmavuomuš
 reft point:0x2800
-refp 21.775474 68.898012
+refp 21.775518 68.898002
 crds 21.775474 68.898012
 
 text:0x3
@@ -7598,6 +8553,15 @@ refp 20.987947 68.870441
 crds 20.993123 68.871348
 
 text:0x3
+angl -324.349
+scle 0.75
+algn S
+name Ruksesvággi
+reft point:0x2800
+refp 19.801673 69.016109
+crds 19.795257 69.015118
+
+text:0x3
 angl -320.724
 scle 0.75
 algn S
@@ -7671,15 +8635,6 @@ refp 19.961062 68.972696
 crds 19.961062 68.972696
 
 text:0x3
-angl -306.603
-scle 0.866667
-algn S
-name Dáččavággi
-reft point:0x2800
-refp 20.037016 68.776106
-crds 20.037016 68.776106
-
-text:0x3
 angl -305.827
 scle 0.75
 algn S
@@ -7709,6 +8664,15 @@ refp 21.347808 69.050864
 crds 21.350836 69.052742
 
 text:0x3
+angl -301.601
+scle 0.866667
+algn S
+name Dáččavággi
+reft point:0x2800
+refp 20.037016 68.776106
+crds 20.037596 68.776280
+
+text:0x3
 angl -300.615
 scle 0.75
 algn S
@@ -7734,7 +8698,7 @@ name Balsajeaggi
 opts lang: sme
 reft point:0x2800
 refp 22.122967 68.971282
-crds 22.153162 68.961978
+crds 22.156261 68.962934
 
 text:0x3
 angl -292.619
@@ -7844,6 +8808,15 @@ refp 22.251038 68.750733
 crds 22.233984 68.749043
 
 text:0x3
+angl -71.0699
+scle 0.866667
+algn S
+name Gironriehppi
+reft point:0x2800
+refp 19.880390 68.883951
+crds 19.884533 68.885851
+
+text:0x3
 angl -69.2209
 scle 0.75
 algn S
@@ -7852,6 +8825,16 @@ opts lang: fin
 reft point:0x2800
 refp 21.858002 68.718411
 crds 21.857862 68.719870
+
+text:0x3
+angl -54.8478
+scle 0.75
+algn S
+name Ragatgohpi
+opts lang: sme
+reft point:0x2800
+refp 21.195301 68.970163
+crds 21.195658 68.972163
 
 text:0x3
 angl -52.866
@@ -7989,6 +8972,16 @@ refp 21.210034 68.739202
 crds 21.203970 68.739417
 
 text:0x3
+angl -9.70475
+scle 0.75
+algn S
+name Dierpmesgohpi
+opts lang: sme
+reft point:0x2800
+refp 21.334315 69.005475
+crds 21.349808 69.004079
+
+text:0x3
 angl -8.76379
 scle 0.75
 name Maitopojanpolku
@@ -8039,21 +9032,19 @@ reft point:0x2800
 refp 19.930181 68.776400
 crds 19.930181 68.776400
 
-text:0x3
-angl -4.343
+text:0x4
 scle 0.75
-algn SE
-name Ruksesvággi
-reft point:0x2800
-refp 19.801673 69.016109
-crds 19.801673 69.016109
+name Adajávri
+reft point:0x650c
+refp 20.121578 68.667109
+crds 20.116216 68.669532
 
 text:0x4
 scle 0.75
 name Aitakoski
 reft point:0x6508
 refp 21.783341 69.008598
-crds 21.790341 69.009297
+crds 21.787274 69.008991
 
 text:0x4
 scle 0.75
@@ -8073,6 +9064,20 @@ crds 21.387524 68.767371
 
 text:0x4
 scle 0.75
+name Beassetjávri
+reft point:0x650c
+refp 19.994461 68.672014
+crds 19.991987 68.668281
+
+text:0x4
+scle 0.75
+name Deatnomuotkkijávri
+reft point:0x650c
+refp 21.990207 69.076986
+crds 21.993621 69.076980
+
+text:0x4
+scle 0.75
 name Guhkesguoika
 reft point:0x6508
 refp 21.694672 69.015678
@@ -8080,17 +9085,38 @@ crds 21.684559 69.017461
 
 text:0x4
 scle 0.75
+name Gádjajávri
+reft point:0x650c
+refp 19.984597 68.803839
+crds 19.987195 68.804398
+
+text:0x4
+scle 0.75
 name Harakkakoski
 reft point:0x6508
-refp 20.785941 68.915034
-crds 20.787289 68.915034
+refp 20.786943 68.915669
+crds 20.784869 68.916945
 
 text:0x4
 scle 0.75
 name Harakkaniva
 reft point:0x6508
-refp 20.800136 68.906530
-crds 20.801483 68.906530
+refp 20.801370 68.906816
+crds 20.802341 68.907170
+
+text:0x4
+scle 0.75
+name Heargejávri
+reft point:0x650c
+refp 20.021725 68.623285
+crds 20.021611 68.624784
+
+text:0x4
+scle 0.75
+name Julosjávri
+reft point:0x650c
+refp 19.971481 68.658834
+crds 19.976445 68.659084
 
 text:0x4
 scle 0.75
@@ -8098,7 +9124,7 @@ name Karjalankosket
 opts lang: fin
 reft point:0x6508
 refp 21.199180 68.822149
-crds 21.198699 68.824618
+crds 21.197598 68.824679
 
 text:0x4
 scle 0.75
@@ -8173,18 +9199,31 @@ crds 22.110731 68.965260
 
 text:0x4
 scle 0.75
-name Peerakoski
-reft point:0x6508
-refp 21.076146 68.870067
-crds 21.080129 68.869811
+name Nieidaluoppal
+reft point:0x650c
+refp 22.131732 69.098476
+crds 22.133562 69.098480
+
+text:0x4
+scle 0.75
+name Nihkolasjávri
+reft point:0x650c
+refp 20.300004 68.872425
+crds 20.303790 68.870874
+
+text:0x4
+scle 0.75
+name Njárgajávri
+reft point:0x650c
+refp 20.129378 68.810378
+crds 20.115385 68.814836
 
 text:0x4
 scle 0.75
 name Peerakoski
-opts lang: fin
 reft point:0x6508
-refp 22.224389 68.711969
-crds 22.199857 68.712298
+refp 21.076146 68.870067
+crds 21.080129 68.869811
 
 text:0x4
 scle 0.75
@@ -8203,10 +9242,38 @@ crds 21.736087 69.008691
 
 text:0x4
 scle 0.75
+name Riittájávri
+reft point:0x650c
+refp 19.977074 68.788388
+crds 19.978845 68.787777
+
+text:0x4
+scle 0.75
 name Runkkakoski
 reft point:0x6508
 refp 21.845351 69.087243
 crds 21.838711 69.084646
+
+text:0x4
+scle 0.75
+name Ráigevádjajávri
+reft point:0x650c
+refp 20.024782 68.841826
+crds 20.020103 68.843234
+
+text:0x4
+scle 0.75
+name Ráiskasjávri
+reft point:0x650c
+refp 20.188039 68.784292
+crds 20.187986 68.784939
+
+text:0x4
+scle 0.75
+name Rákkasgurajávri
+reft point:0x650c
+refp 20.123421 68.840115
+crds 20.130981 68.838978
 
 text:0x4
 scle 0.75
@@ -8228,7 +9295,7 @@ text:0x4
 scle 0.75
 name Spállogasgorži
 reft point:0x6508
-refp 20.231091 68.878494
+refp 20.231090 68.878490
 crds 20.228853 68.876253
 
 text:0x4
@@ -8248,11 +9315,52 @@ crds 21.322144 68.756283
 text:0x4
 scle 0.75
 algn SE
+name Beavrretluoppal
+reft point:0x650c
+refp 20.171075 68.726913
+crds 20.180282 68.722961
+
+text:0x4
+scle 0.75
+algn SE
+name Báfttevuoljávri
+reft point:0x650c
+refp 20.254504 68.850298
+crds 20.254504 68.850298
+
+text:0x4
+scle 0.75
+algn SE
+name Gemejávri
+reft point:0x650c
+refp 20.297333 68.927868
+crds 20.307322 68.928228
+
+text:0x4
+scle 0.75
+algn SE
+name Gobbajávri
+reft point:0x650c
+refp 22.166992 69.009343
+crds 22.173268 69.010865
+
+text:0x4
+scle 0.75
+algn SE
 name Kutukoski
 opts lang: fin
 reft point:0x6508
 refp 21.991965 68.770541
 crds 21.987038 68.770830
+
+text:0x4
+scle 0.75
+algn SE
+name Peerakoski
+opts lang: fin
+reft point:0x6508
+refp 22.224389 68.711969
+crds 22.221592 68.712644
 
 text:0x4
 scle 0.75
@@ -8305,45 +9413,1632 @@ refp 20.766267 69.061923
 crds 20.763568 69.060855
 
 text:0x4
-angl -360.003
-name Ákcájávri
+scle 0.75
+algn SE
+name Stohkkeborjávri
 reft point:0x650c
-refp 20.303593 68.694821
-crds 20.292654 68.697435
+refp 20.078440 68.643059
+crds 20.078440 68.643059
 
 text:0x4
-angl -360.002
-name Gassoaivvijávri
+scle 0.75
+algn SE
+name Ádojávri
 reft point:0x650c
-refp 20.350800 68.743417
-crds 20.344925 68.747185
+refp 20.064025 68.699138
+crds 20.062551 68.698831
 
 text:0x4
-angl -360.002
+scle 0.75
+algn S
+name Golggotjávri
+reft point:0x650c
+refp 20.159206 68.655027
+crds 20.163661 68.659125
+
+text:0x4
+scle 0.825
+name Ailakkalompolo
+opts lang: fin
+reft point:0x650c
+refp 21.166857 68.935266
+crds 21.150180 68.930609
+
+text:0x4
+scle 0.825
+name Akkisjärvi
+opts lang: fin
+reft point:0x650c
+refp 21.535764 68.754568
+crds 21.525941 68.751760
+
+text:0x4
+scle 0.825
+name Bahtasgohpejávri
+opts lang: sme
+reft point:0x650c
+refp 21.213124 69.057996
+crds 21.218199 69.055542
+
+text:0x4
+scle 0.825
+name Bajit Voagájávri
+reft point:0x650c
+refp 20.583616 68.658761
+crds 20.588257 68.661231
+
+text:0x4
+scle 0.825
+name Balsajávri
+opts lang: sme
+reft point:0x650c
+refp 21.590219 68.950437
+crds 21.583500 68.952750
+
+text:0x4
+scle 0.825
+name Bearačielggejávri
+opts lang: sme
+reft point:0x650c
+refp 21.130194 68.930179
+crds 21.131505 68.926358
+
+text:0x4
+scle 0.825
+name Buikkojávri
+reft point:0x650c
+refp 20.668629 68.715028
+crds 20.675193 68.711384
+
+text:0x4
+scle 0.825
+name Buikujávri
+reft point:0x650c
+refp 20.350152 68.922591
+crds 20.331753 68.918770
+
+text:0x4
+scle 0.825
+name Buodjujávri
+reft point:0x650c
+refp 20.565196 68.853413
+crds 20.564252 68.846494
+
+text:0x4
+scle 0.825
+name Buoggi
+opts lang: sme
+reft point:0x650c
+refp 21.863064 69.080745
+crds 21.853887 69.077382
+
+text:0x4
+scle 0.825
+name Báktejávri
+reft point:0x650c
+refp 20.562815 68.869565
+crds 20.565404 68.875695
+
+text:0x4
+scle 0.825
+name Bávvaljávri
+reft point:0x650c
+refp 20.657869 68.982401
+crds 20.654674 68.976556
+
+text:0x4
+scle 0.825
+name Dierpmesgobejávri
+opts lang: sme
+reft point:0x650c
+refp 21.337255 69.011305
+crds 21.338035 69.008323
+
+text:0x4
+scle 0.825
+name Dápmotjávri
+opts lang: sme
+reft point:0x650c
+refp 21.025480 68.932540
+crds 21.033374 68.928399
+
+text:0x4
+scle 0.825
+name Geaidnojávri
+opts lang: sme
+reft point:0x650c
+refp 21.929873 69.024559
+crds 21.937065 69.026000
+
+text:0x4
+scle 0.825
+name Goahtejávri
+opts lang: sme
+reft point:0x650c
+refp 21.922697 69.046751
+crds 21.924395 69.051032
+
+text:0x4
+scle 0.825
+name Golggotjávri
+opts lang: sme
+reft point:0x650c
+refp 20.985329 68.946598
+crds 20.975479 68.948626
+
+text:0x4
+scle 0.825
+name Gordejávri
+opts lang: sme
+reft point:0x650c
+refp 21.693845 69.022782
+crds 21.686343 69.027056
+
+text:0x4
+scle 0.825
+name Guhturgurajávri
+opts lang: sme
+reft point:0x650c
+refp 21.352391 69.039863
+crds 21.355463 69.041638
+
+text:0x4
+scle 0.825
+name Gulpojávrrit
+reft point:0x650c
+refp 20.797623 68.890547
+crds 20.790512 68.891618
+
+text:0x4
+scle 0.825
+name Harrijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.222619 68.855165
+crds 21.210149 68.857194
+
+text:0x4
+scle 0.825
+name Haukijärvet
+opts lang: fin
+reft point:0x650c
+refp 21.029022 68.916529
+crds 21.033208 68.910870
+
+text:0x4
+scle 0.825
+name Heargejávri
+reft point:0x650c
+refp 20.679242 68.732544
+crds 20.675551 68.727020
+
+text:0x4
+scle 0.825
+name Heikkočazajávri
+opts lang: sme
+reft point:0x650c
+refp 21.290367 68.878712
+crds 21.248754 68.877666
+
+text:0x4
+scle 0.825
+name Hirvasvuopio
+opts lang: fin
+reft point:0x650c
+refp 22.192785 68.873750
+crds 22.191297 68.872424
+
+text:0x4
+scle 0.825
+name Jovloluoppal
+opts lang: sme
+reft point:0x650c
+refp 21.452715 68.847356
+crds 21.458749 68.844059
+
+text:0x4
+scle 0.825
+name Juovalompolo
+opts lang: fin
+reft point:0x650c
+refp 21.233629 68.865540
+crds 21.241500 68.864070
+
+text:0x4
+scle 0.825
+name Kaitsajärvi
+opts lang: fin
+reft point:0x650c
+refp 21.427089 69.074889
+crds 21.428299 69.069734
+
+text:0x4
+scle 0.825
+name Kaskasjärvi
+opts lang: fin
+reft point:0x650c
+refp 21.668207 68.873981
+crds 21.663117 68.878244
+
+text:0x4
+scle 0.825
+name Kaunislampi
+opts lang: fin
+reft point:0x650c
+refp 22.061181 68.977003
+crds 22.053791 68.974138
+
+text:0x4
+scle 0.825
+name Kettulampi
+opts lang: fin
+reft point:0x650c
+refp 22.062132 68.991028
+crds 22.065198 68.989073
+
+text:0x4
+scle 0.825
+name Kilpisluspa
+reft point:0x650c
+refp 20.849175 68.939228
+crds 20.845184 68.941162
+
+text:0x4
+scle 0.825
+name Kinnerpuska
+opts lang: fin
+reft point:0x650c
+refp 22.212576 68.747086
+crds 22.217532 68.746469
+
+text:0x4
+scle 0.825
+name Laassajärvi
+opts lang: fin
+reft point:0x650c
+refp 20.975370 68.933813
+crds 20.982000 68.931678
+
+text:0x4
+scle 0.825
+name Lovttogiellasajávri
+opts lang: sme
+reft point:0x650c
+refp 21.873332 69.053232
+crds 21.864457 69.056133
+
+text:0x4
+scle 0.825
+name Marjajärvet
+opts lang: fin
+reft point:0x650c
+refp 21.021374 69.014648
+crds 21.026591 69.011578
+
+text:0x4
+scle 0.825
+name Mukkavuopio
+opts lang: fin
+reft point:0x650c
+refp 20.980988 68.891733
+crds 20.966071 68.890043
+
+text:0x4
+scle 0.825
+name Másetjávri
+opts lang: sme
+reft point:0x650c
+refp 20.973117 69.045334
+crds 20.970252 69.048015
+
+text:0x4
+scle 0.825
+name Nihkejávri
+opts lang: sme
+reft point:0x650c
+refp 21.565491 69.010210
+crds 21.561308 69.007484
+
+text:0x4
+scle 0.825
+name Njamatluoppal
+opts lang: sme
+reft point:0x650c
+refp 21.496820 68.860493
+crds 21.498634 68.857739
+
+text:0x4
+scle 0.825
 name Njárgajávri
+opts lang: sme
 reft point:0x650c
-refp 20.705452 68.696006
-crds 20.696522 68.688383
+refp 21.323664 68.945897
+crds 21.320891 68.941840
 
 text:0x4
-angl -360.002
-name Váhccajávri
+scle 0.825
+name Njárgajávri
+opts lang: sme
 reft point:0x650c
-refp 21.003971 68.760898
-crds 21.004170 68.765962
+refp 21.809814 68.719428
+crds 21.818838 68.719101
 
 text:0x4
-angl -360.002
+scle 0.825
+name Pikku Melajärvi
+opts lang: fin
+reft point:0x650c
+refp 22.080132 68.963220
+crds 22.058736 68.959981
+
+text:0x4
+scle 0.825
+name Ragatjávri
+opts lang: sme
+reft point:0x650c
+refp 21.257848 68.959233
+crds 21.266742 68.959612
+
+text:0x4
+scle 0.825
+name Ristijärvi
+opts lang: fin
+reft point:0x650c
+refp 22.041413 68.814358
+crds 22.035591 68.817094
+
+text:0x4
+scle 0.825
+name Roggejávri
+opts lang: sme
+reft point:0x650c
+refp 21.617254 68.869341
+crds 21.629017 68.869383
+
+text:0x4
+scle 0.825
+name Runkajärvi
+opts lang: fin
+reft point:0x650c
+refp 22.045182 68.965042
+crds 22.051482 68.968612
+
+text:0x4
+scle 0.825
+name Ruovddášvággejávri
+reft point:0x650c
+refp 20.433418 68.989191
+crds 20.419582 68.993079
+
+text:0x4
+scle 0.825
+name Ruŋggá
+opts lang: sme
+reft point:0x650c
+refp 21.830252 69.081490
+crds 21.821470 69.076537
+
+text:0x4
+scle 0.825
+name Rávskkahasvuohppi
+reft point:0x650c
+refp 20.971008 68.886835
+crds 20.950898 68.883962
+
+text:0x4
+scle 0.825
+name Saivo
+reft point:0x650c
+refp 20.885231 68.904022
+crds 20.879171 68.903811
+
+text:0x4
+scle 0.825
+name Silbajávri
+reft point:0x650c
+refp 20.632225 68.644895
+crds 20.642443 68.645567
+
+text:0x4
+scle 0.825
+name Suolojávri
+opts lang: sme
+reft point:0x650c
+refp 21.938015 69.031812
+crds 21.937383 69.035104
+
+text:0x4
+scle 0.825
+name Sáivvajávri
+reft point:0x650c
+refp 20.768034 68.733293
+crds 20.784746 68.732787
+
+text:0x4
+scle 0.825
+name Taatsajärvi
+opts lang: fin
+reft point:0x650c
+refp 20.858113 68.924424
+crds 20.840024 68.923270
+
+text:0x4
+scle 0.825
+name Taatsaluspa
+reft point:0x650c
+refp 20.874570 68.919290
+crds 20.879501 68.920064
+
+text:0x4
+scle 0.825
+name Tammukkajärvi
+opts lang: fin
+reft point:0x650c
+refp 21.739185 68.685386
+crds 21.744168 68.686064
+
+text:0x4
+scle 0.825
+name Unnajávrráš
+opts lang: sme
+reft point:0x650c
+refp 21.801174 68.682907
+crds 21.792013 68.685495
+
+text:0x4
+scle 0.825
+name Virdnijávrrit
+opts lang: sme
+reft point:0x650c
+refp 21.380274 68.965450
+crds 21.367293 68.970162
+
+text:0x4
+scle 0.825
+name Virdniláttu
+opts lang: sme
+reft point:0x650c
+refp 21.381097 68.951014
+crds 21.384290 68.947359
+
+text:0x4
+scle 0.825
+name Vuolit Sieiddijávri
+reft point:0x650c
+refp 20.423400 68.803874
+crds 20.433295 68.805275
+
+text:0x4
+scle 0.825
+name Vuolit Voagájávri
+reft point:0x650c
+refp 20.611384 68.645092
+crds 20.607510 68.649269
+
+text:0x4
+scle 0.825
+name Vuomusjärvi
+opts lang: fin
+reft point:0x650c
+refp 21.783209 69.002790
+crds 21.789836 69.001051
+
+text:0x4
+scle 0.825
+name Vuonjaljávri
+opts lang: sme
+reft point:0x650c
+refp 21.626211 69.008618
+crds 21.615828 69.005953
+
+text:0x4
+scle 0.825
+name Välisuvanto
+opts lang: fin
+reft point:0x650c
+refp 22.106438 68.958300
+crds 22.110501 68.958287
+
+text:0x4
+scle 0.825
+name Áitejávrrit
+opts lang: sme
+reft point:0x650c
+refp 21.747973 69.052399
+crds 21.757022 69.054048
+
+text:0x4
+scle 0.825
+name Čáimmageahčejávri
+opts lang: sme
+reft point:0x650c
+refp 21.879696 68.898123
+crds 21.882436 68.894522
+
+text:0x4
+scle 0.825
+name Čáimmajávri
+opts lang: sme
+reft point:0x650c
+refp 21.851530 68.881277
+crds 21.855308 68.884554
+
+text:0x4
+scle 0.825
+algn SE
+name Bihtojávri
+opts lang: sme
+reft point:0x650c
+refp 21.487091 68.874372
+crds 21.485856 68.874986
+
+text:0x4
+scle 0.825
+algn SE
+name Geatkejávrrit
+reft point:0x650c
+refp 20.781961 68.774385
+crds 20.789862 68.778127
+
+text:0x4
+scle 0.825
+algn SE
+name Hirvassuvanto
+opts lang: fin
+reft point:0x650c
+refp 22.197506 68.831862
+crds 22.194905 68.830301
+
+text:0x4
+scle 0.825
+algn SE
+name Hávgajávrrit
+opts lang: fin
+reft point:0x650c
+refp 22.143738 68.789786
+crds 22.140798 68.793541
+
+text:0x4
+scle 0.825
+algn SE
+name Iitosuanto
+reft point:0x650c
+refp 21.386744 68.762959
+crds 21.386266 68.760979
+
+text:0x4
+scle 0.825
+algn SE
+name Iitto-Hankovuopio
+reft point:0x650c
+refp 21.400941 68.730382
+crds 21.401855 68.730865
+
+text:0x4
+scle 0.825
+algn SE
+name Jáfoduolbbajávri
+opts lang: sme
+reft point:0x650c
+refp 22.190586 68.708767
+crds 22.185426 68.707914
+
+text:0x4
+scle 0.825
+algn SE
+name Kaivosjärvi
+reft point:0x650c
+refp 21.411496 68.703145
+crds 21.409436 68.702840
+
+text:0x4
+scle 0.825
+algn SE
+name Kiljujärvi
+reft point:0x650c
+refp 21.410501 68.715071
+crds 21.408197 68.713620
+
+text:0x4
+scle 0.825
+algn SE
+name Kirkkojärvi
+reft point:0x650c
+refp 21.180331 68.805968
+crds 21.175242 68.801613
+
+text:0x4
+scle 0.825
+algn SE
+name Kuujärvi
+opts lang: fin
+reft point:0x650c
+refp 22.170500 68.819811
+crds 22.166027 68.818681
+
+text:0x4
+scle 0.825
+algn SE
+name Könkämäälven
+reft point:0x650c
+refp 21.399925 68.725895
+crds 21.410263 68.722101
+
+text:0x4
+scle 0.825
+algn SE
+name Leveäsuanto
+reft point:0x650c
+refp 21.223551 68.815277
+crds 21.224602 68.813097
+
+text:0x4
+scle 0.825
+algn SE
+name Marjajärvi
+opts lang: fin
+reft point:0x650c
+refp 21.073557 68.950778
+crds 21.069784 68.955105
+
+text:0x4
+scle 0.825
+algn SE
+name Mukkajärvi
+opts lang: fin
+reft point:0x650c
+refp 20.990336 68.899489
+crds 20.983228 68.902557
+
+text:0x4
+scle 0.825
+algn SE
+name Nakerivuopio
+reft point:0x650c
+refp 21.173109 68.827321
+crds 21.172278 68.828308
+
+text:0x4
+scle 0.825
+algn SE
+name Njárgajávri
+opts lang: sme
+reft point:0x650c
+refp 21.666759 69.056966
+crds 21.663913 69.053656
+
+text:0x4
+scle 0.825
+algn SE
+name Saarijärvi
+opts lang: fin
+reft point:0x650c
+refp 22.170503 68.824581
+crds 22.164265 68.822997
+
+text:0x4
+scle 0.825
+algn SE
+name Saivo
+reft point:0x650c
+refp 21.039094 68.878059
+crds 21.028566 68.875356
+
+text:0x4
+scle 0.825
+algn SE
+name Snjierttetjávrrit
+reft point:0x650c
+refp 20.503674 68.851293
+crds 20.501289 68.853021
+
+text:0x4
+scle 0.825
+algn SE
+name Talonvuopio
+reft point:0x650c
+refp 20.863748 68.911372
+crds 20.865839 68.912144
+
+text:0x4
+scle 0.825
+algn SE
+name Tammukkajärvi
+opts lang: fin
+reft point:0x650c
+refp 21.464776 68.754840
+crds 21.465959 68.756827
+
+text:0x4
+scle 0.825
+algn S
+name Beikkasluokta
+reft point:0x650c
+refp 20.543927 68.732989
+crds 20.543927 68.732989
+
+text:0x4
+scle 0.833333
+algn S
+name Likkájiehkki
+reft point:0x650c
+refp 19.893169 68.927284
+crds 19.894853 68.922546
+
+text:0x4
+scle 0.875
+name Bajimus\\Rávdojávri
+reft point:0x650c
+refp 20.642511 68.819370
+crds 20.664508 68.822619
+
+text:0x4
+scle 0.875
+name Bajimus\\Rávskkahasjávri
+reft point:0x650c
+refp 20.578435 68.865961
+crds 20.597114 68.869186
+
+text:0x4
+scle 0.875
+name Beikkasjávri
+reft point:0x650c
+refp 20.610095 68.710557
+crds 20.610610 68.715322
+
+text:0x4
+scle 0.875
+name Gaskkamus\\Rávdojávri
+reft point:0x650c
+refp 20.678339 68.798198
+crds 20.684249 68.799995
+
+text:0x4
+scle 0.875
+name Gaskkamus\\Rávskkahasjávri
+reft point:0x650c
+refp 20.600502 68.855436
+crds 20.617772 68.853702
+
+text:0x4
+scle 0.875
+name Geahpesjávrrit
+reft point:0x650c
+refp 20.638984 68.988391
+crds 20.642185 68.989454
+
+text:0x4
+scle 0.875
+name Hurvejávrrit
+reft point:0x650c
+refp 20.785863 68.842295
+crds 20.800604 68.840404
+
+text:0x4
+scle 0.875
+name Láireguoika
+reft point:0x650c
+refp 20.565914 68.930716
+crds 20.568770 68.931132
+
+text:0x4
+scle 0.875
+name Láiresavvon
+reft point:0x650c
+refp 20.592329 68.926033
+crds 20.597568 68.924835
+
+text:0x4
+scle 0.875
+name Marastinsuanto
+reft point:0x650c
+refp 21.274889 68.775944
+crds 21.284383 68.777838
+
+text:0x4
+scle 0.875
+name Mordánjávrrit
+reft point:0x650c
+refp 20.456893 68.834469
+crds 20.448419 68.837314
+
+text:0x4
+scle 0.875
+name Roavgojávrrit
+reft point:0x650c
+refp 20.516144 68.904951
+crds 20.516698 68.899694
+
+text:0x4
+scle 0.875
+name Saivot
+reft point:0x650c
+refp 21.194682 68.796998
+crds 21.195273 68.793985
+
+text:0x4
+scle 0.875
+name Vuolimus\\Rávdojávri
+reft point:0x650c
+refp 20.698273 68.769663
+crds 20.706420 68.777472
+
+text:0x4
+scle 0.875
+name Vuolimus\\Rávskkahasjávri
+reft point:0x650c
+refp 20.687032 68.860288
+crds 20.655770 68.867195
+
+text:0x4
+scle 0.875
 name Čoalmmijávri
 reft point:0x650c
-refp 20.534477 68.871501
-crds 20.507254 68.878374
+refp 20.520891 68.871757
+crds 20.511723 68.866756
+
+text:0x4
+scle 0.875
+name Čunujávri
+reft point:0x650c
+refp 20.826873 68.680368
+crds 20.822170 68.677505
+
+text:0x4
+scle 0.875
+algn SE
+name Vittankijärvi
+reft point:0x650c
+refp 21.247474 68.785474
+crds 21.235626 68.784758
+
+text:0x4
+scle 0.875
+algn S
+name Soahcanjohka
+reft point:0x650c
+refp 20.741497 68.657664
+crds 20.759981 68.655769
+
+text:0x4
+scle 0.9
+name Ailakkalahdenlantot
+opts lang: fin
+reft point:0x650c
+refp 20.934291 68.988631
+crds 20.936620 68.990934
+
+text:0x4
+scle 0.9
+name Aittalompolo
+opts lang: fin
+reft point:0x650c
+refp 21.683900 69.010325
+crds 21.664397 69.006359
+
+text:0x4
+scle 0.9
+name Anuntijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.765109 69.013531
+crds 21.784919 69.013265
+
+text:0x4
+scle 0.9
+name Darjjunjárgajávri
+opts lang: sme
+reft point:0x650c
+refp 21.976220 68.697471
+crds 21.986872 68.700833
+
+text:0x4
+scle 0.9
+name Goarvejávri
+opts lang: sme
+reft point:0x650c
+refp 21.650860 68.757213
+crds 21.653497 68.758586
+
+text:0x4
+scle 0.9
+name Harrijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.506467 68.888104
+crds 21.529225 68.888032
+
+text:0x4
+scle 0.9
+name Harrisaivo
+opts lang: fin
+reft point:0x650c
+refp 20.667920 69.053262
+crds 20.676181 69.055394
+
+text:0x4
+scle 0.9
+name Korsajärvi
+opts lang: fin
+reft point:0x650c
+refp 22.099928 68.826694
+crds 22.107632 68.826833
+
+text:0x4
+scle 0.9
+name Kovajärvi
+opts lang: fin
+reft point:0x650c
+refp 22.040148 68.801616
+crds 22.043534 68.805250
+
+text:0x4
+scle 0.9
+name Lottánjávrrit
+opts lang: sme
+reft point:0x650c
+refp 21.587249 68.787210
+crds 21.574523 68.784281
+
+text:0x4
+scle 0.9
+name Látnjajávrrit
+opts lang: sme
+reft point:0x650c
+refp 21.494214 68.712333
+crds 21.499374 68.716336
+
+text:0x4
+scle 0.9
+name Madejärvi
+opts lang: fin
+reft point:0x650c
+refp 21.222495 68.872539
+crds 21.227126 68.873848
+
+text:0x4
+scle 0.9
+name Mallanlahti
+opts lang: fin
+reft point:0x650c
+refp 20.703491 69.049983
+crds 20.692685 69.047087
+
+text:0x4
+scle 0.9
+name Njamatjávri
+opts lang: sme
+reft point:0x650c
+refp 21.525843 68.867335
+crds 21.547020 68.871504
+
+text:0x4
+scle 0.9
+name Njávkanjávri
+opts lang: sme
+reft point:0x650c
+refp 22.132488 68.758955
+crds 22.110133 68.758422
+
+text:0x4
+scle 0.9
+name Paihkasjärvi
+opts lang: fin
+reft point:0x650c
+refp 21.107315 69.015755
+crds 21.114490 69.011640
+
+text:0x4
+scle 0.9
+name Peeraonkka
+opts lang: fin
+reft point:0x650c
+refp 21.063206 68.880920
+crds 21.064792 68.876727
+
+text:0x4
+scle 0.9
+name Pierfanajärvi
+opts lang: fin
+reft point:0x650c
+refp 21.498619 68.699652
+crds 21.512908 68.698368
+
+text:0x4
+scle 0.9
+name Pitsijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.834374 68.829120
+crds 21.846484 68.829607
+
+text:0x4
+scle 0.9
+name Pounujärvi
+opts lang: fin
+reft point:0x650c
+refp 22.157803 68.932495
+crds 22.163110 68.931007
+
+text:0x4
+scle 0.9
+name Pousujärvi
+opts lang: fin
+reft point:0x650c
+refp 21.129535 68.851872
+crds 21.136529 68.854010
+
+text:0x4
+scle 0.9
+name Raittijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.718164 69.017357
+crds 21.727801 69.024384
+
+text:0x4
+scle 0.9
+name Saarijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.102022 69.060958
+crds 21.099529 69.063810
+
+text:0x4
+scle 0.9
+name Salmijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.172137 69.046657
+crds 21.179466 69.049424
+
+text:0x4
+scle 0.9
+name Sierkisjärvi
+opts lang: fin
+reft point:0x650c
+refp 21.185279 68.882489
+crds 21.187727 68.885502
+
+text:0x4
+scle 0.9
+name Siikajärvi
+opts lang: fin
+reft point:0x650c
+refp 22.072500 68.939186
+crds 22.080987 68.936951
+
+text:0x4
+scle 0.9
+name Siikalompolo
+opts lang: fin
+reft point:0x650c
+refp 22.070079 68.929876
+crds 22.072854 68.927776
+
+text:0x4
+scle 0.9
+name Suinavuopio
+opts lang: fin
+reft point:0x650c
+refp 22.169854 68.914409
+crds 22.182951 68.907918
+
+text:0x4
+scle 0.9
+name Suppijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.306310 68.859651
+crds 21.326426 68.862709
+
+text:0x4
+scle 0.9
+name Unkkajärvi
+opts lang: fin
+reft point:0x650c
+refp 21.461413 69.013642
+crds 21.451280 69.018026
+
+text:0x4
+scle 0.9
+name Čuovžajávri
+opts lang: sme
+reft point:0x650c
+refp 21.691160 68.898320
+crds 21.690064 68.902069
+
+text:0x4
+scle 0.9
+algn SE
+name Ahvenjärvi
+opts lang: fin
+reft point:0x650c
+refp 21.555143 68.716833
+crds 21.559094 68.721158
+
+text:0x4
+scle 0.9
+algn SE
+name Ainavarppijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.447230 68.689746
+crds 21.449023 68.683879
+
+text:0x4
+scle 0.9
+algn SE
+name Bizejohgierajávri
+opts lang: sme
+reft point:0x650c
+refp 21.637859 68.822960
+crds 21.652675 68.829075
+
+text:0x4
+scle 0.9
+algn SE
+name Luhtasaivo
+opts lang: fin
+reft point:0x650c
+refp 22.052029 68.926528
+crds 22.047683 68.927051
+
+text:0x4
+scle 0.9
+algn SE
+name Luvttaluobbalat
+opts lang: sme
+reft point:0x650c
+refp 22.049401 68.910531
+crds 22.043936 68.909319
+
+text:0x4
+scle 0.9
+algn SE
+name Patonivat
+opts lang: fin
+reft point:0x650c
+refp 22.232849 68.727105
+crds 22.229096 68.726699
+
+text:0x4
+scle 0.9
+algn SE
+name Peeramukka
+opts lang: fin
+reft point:0x650c
+refp 22.247029 68.709544
+crds 22.241592 68.707300
+
+text:0x4
+scle 0.9
+algn SE
+name Rommajärvi
+opts lang: fin
+reft point:0x650c
+refp 21.524077 69.024740
+crds 21.511141 69.028170
+
+text:0x4
+scle 0.9
+algn SE
+name Saitsijärvet
+opts lang: fin
+reft point:0x650c
+refp 22.054280 68.677967
+crds 22.044828 68.678634
+
+text:0x4
+scle 0.9
+algn SE
+name Suovasjärvi
+opts lang: fin
+reft point:0x650c
+refp 21.368133 68.861555
+crds 21.360345 68.857367
+
+text:0x4
+scle 0.9
+algn SE
+name Talosuvanto
+opts lang: fin
+reft point:0x650c
+refp 21.256740 68.797580
+crds 21.251567 68.794837
+
+text:0x4
+scle 0.9
+algn S
+name Čuolbmajávri
+opts lang: sme
+reft point:0x650c
+refp 22.050540 68.688561
+crds 22.040852 68.692328
+
+text:0x4
+scle 0.916667
+name Golggotjávrrit
+reft point:0x650c
+refp 19.912910 68.744100
+crds 19.916229 68.743283
+
+text:0x4
+scle 0.916667
+name Hárvesjávri
+reft point:0x650c
+refp 20.155477 68.804425
+crds 20.167699 68.807601
+
+text:0x4
+scle 0.916667
+name Hárvvesluobbalat
+reft point:0x650c
+refp 20.243467 68.803237
+crds 20.237491 68.804595
+
+text:0x4
+scle 0.916667
+name Njárgajávri
+reft point:0x650c
+refp 22.053581 69.057212
+crds 22.040596 69.052204
+
+text:0x4
+scle 0.916667
+name Riehppejávri
+reft point:0x650c
+refp 20.214317 68.950539
+crds 20.227072 68.950910
+
+text:0x4
+scle 0.916667
+name Ádjávárdojávrrit
+reft point:0x650c
+refp 20.155285 68.932251
+crds 20.161527 68.932822
+
+text:0x4
+scle 0.916667
+name Čievččasjávri
+reft point:0x650c
+refp 20.042479 68.790689
+crds 20.043641 68.789978
+
+text:0x4
+scle 0.916667
+algn SE
+name Gassavákkejávrrit
+reft point:0x650c
+refp 20.088721 68.871959
+crds 20.085774 68.871495
+
+text:0x4
+scle 0.916667
+algn SE
+name Gárasjávri
+reft point:0x650c
+refp 19.917499 68.773537
+crds 19.911427 68.776711
+
+text:0x4
+scle 0.916667
+algn SE
+name Jierttáluoppal
+reft point:0x650c
+refp 20.007807 68.709378
+crds 20.007807 68.709378
+
+text:0x4
+scle 0.916667
+algn SE
+name Muotkejávri
+reft point:0x650c
+refp 22.205814 68.951134
+crds 22.202050 68.951010
+
+text:0x4
+scle 0.916667
+algn SE
+name Spállogasjávrrit
+reft point:0x650c
+refp 20.177631 68.876415
+crds 20.199022 68.878101
+
+text:0x4
+scle 0.916667
+algn SE
+name Čoahppeluoppal
+reft point:0x650c
+refp 21.016660 69.050998
+crds 21.035701 69.042133
+
+text:0x4
+scle 0.916667
+algn S
+name Beavrretjávri
+reft point:0x650c
+refp 20.199216 68.724538
+crds 20.213015 68.726049
+
+text:0x4
+scle 0.916667
+algn S
+name Riehttejávri
+reft point:0x650c
+refp 20.263417 68.900334
+crds 20.263417 68.900334
+
+text:0x4
+scle 0.916667
+algn S
+name Vanasjávri
+reft point:0x650c
+refp 20.096776 68.766617
+crds 20.108163 68.761880
+
+text:0x4
+scle 0.916667
+algn S
+name Áslatjávri
+reft point:0x650c
+refp 19.980055 68.896597
+crds 19.988510 68.890165
+
+text:0x4
+scle 0.916667
+algn S
+name Čoahppejávri
+reft point:0x650c
+refp 21.055524 69.055176
+crds 21.054128 69.056254
+
+text:0x4
+name Bajit Luspejávri
+reft point:0x650c
+refp 20.562221 68.793629
+crds 20.568645 68.796893
+
+text:0x4
+name Boggejávri
+reft point:0x650c
+refp 20.546039 68.690222
+crds 20.566591 68.688579
+
+text:0x4
+name Garrajávrrit
+opts lang: sme
+reft point:0x650c
+refp 21.916246 69.071047
+crds 21.910047 69.068506
+
+text:0x4
+name Gassoaivvijávri
+reft point:0x650c
+refp 20.342989 68.743047
+crds 20.347659 68.745722
+
+text:0x4
+name Goagdájávri
+reft point:0x650c
+refp 20.335447 68.648702
+crds 20.337629 68.652572
+
+text:0x4
+name Gobmejávri
+reft point:0x650c
+refp 20.371741 68.925510
+crds 20.384262 68.924137
+
+text:0x4
+name Gáhppojávri
+reft point:0x650c
+refp 20.275919 69.041133
+crds 20.280240 69.041911
+
+text:0x4
+name Njearrejávri
+reft point:0x650c
+refp 20.194570 69.037021
+crds 20.204339 69.039487
+
+text:0x4
+name Njárgajávri
+reft point:0x650c
+refp 20.696811 68.695095
+crds 20.696572 68.688722
+
+text:0x4
+name Oaggojávri
+reft point:0x650c
+refp 20.651116 68.952635
+crds 20.637860 68.946125
+
+text:0x4
+name Pitkäjärvi
+reft point:0x650c
+refp 20.968513 68.733888
+crds 20.976931 68.734286
+
+text:0x4
+name Ristinasjärvi
+reft point:0x650c
+refp 20.802675 68.945001
+crds 20.801048 68.940829
+
+text:0x4
+name Saanajärvi
+opts lang: fin
+reft point:0x650c
+refp 20.875640 69.049925
+crds 20.895848 69.047591
+
+text:0x4
+name Sadjinjávri
+reft point:0x650c
+refp 20.996175 68.722121
+crds 21.001522 68.725587
+
+text:0x4
+name Taukijärvi
+reft point:0x650c
+refp 21.074294 68.857898
+crds 21.066253 68.857585
+
+text:0x4
+name Termisjärvi
+opts lang: fin
+reft point:0x650c
+refp 21.275790 69.023401
+crds 21.242234 69.023943
+
+text:0x4
+name Vuolit Luspejávri
+reft point:0x650c
+refp 20.590145 68.773488
+crds 20.600457 68.776322
+
+text:0x4
+name Vuolit Čuolmmajávri
+reft point:0x650c
+refp 20.282515 68.613732
+crds 20.291489 68.622544
+
+text:0x4
+name Vuontisjärvi
+opts lang: fin
+reft point:0x650c
+refp 21.949392 68.792079
+crds 21.933988 68.801926
+
+text:0x4
+name Váhccajávri
+reft point:0x650c
+refp 20.994085 68.762142
+crds 21.008788 68.763971
+
+text:0x4
+name Váhttejávri
+reft point:0x650c
+refp 20.693237 68.655466
+crds 20.700655 68.648556
+
+text:0x4
+name Vávrratjávri
+reft point:0x650c
+refp 20.403694 69.028613
+crds 20.414036 69.028211
+
+text:0x4
+name Ákcájávri
+reft point:0x650c
+refp 20.302882 68.692018
+crds 20.293791 68.697838
+
+text:0x4
+name Árbujávri
+reft point:0x650c
+refp 20.921798 68.848013
+crds 20.934764 68.846627
+
+text:0x4
+name Árjjátjávri
+reft point:0x650c
+refp 21.051840 68.686384
+crds 21.053295 68.681486
+
+text:0x4
+name Čáhkáljávri
+opts lang: sme
+reft point:0x650c
+refp 20.913287 69.025430
+crds 20.894057 69.032034
+
+text:0x4
+algn SE
+name Bárdaljávri
+reft point:0x650c
+refp 20.318696 68.773504
+crds 20.304571 68.772770
+
+text:0x4
+algn SE
+name Riskájávri
+reft point:0x650c
+refp 20.945843 68.727810
+crds 20.961219 68.722071
+
+text:0x4
+algn SE
+name Veivijärvi
+reft point:0x650c
+refp 21.186425 68.807485
+crds 21.184619 68.812441
+
+text:0x4
+algn SE
+name Čalmmasjávri
+reft point:0x650c
+refp 20.598469 68.808424
+crds 20.593436 68.809347
+
+text:0x4
+algn S
+name Ganešjávri
+reft point:0x650c
+refp 20.909053 68.756561
+crds 20.893558 68.757685
+
+text:0x4
+algn S
+name Melajärvi
+opts lang: fin
+reft point:0x650c
+refp 22.077517 68.952083
+crds 22.078148 68.948366
+
+text:0x4
+algn S
+name Omátjávri
+reft point:0x650c
+refp 20.533936 68.716413
+crds 20.533936 68.716413
+
+text:0x4
+algn S
+name Rávskkahasjohka
+reft point:0x650c
+refp 20.798966 68.883810
+crds 20.801331 68.882112
+
+text:0x4
+algn S
+name Virkkaljohka
+reft point:0x650c
+refp 20.399788 68.721681
+crds 20.410299 68.723555
+
+text:0x4
+algn S
+name Ákcájohka
+reft point:0x650c
+refp 20.387186 68.686821
+crds 20.388285 68.687883
+
+text:0x4
+scle 1.125
+algn S
+name Hárrejávrrit
+reft point:0x650c
+refp 21.058851 68.708107
+crds 21.047074 68.699832
 
 text:0x4
 angl -360.001
+scle 0.825
 name Bajit Sieiddijávri
 reft point:0x650c
-refp 20.411053 68.813942
+refp 20.414235 68.810934
 crds 20.416187 68.812902
 
 text:0x4
@@ -8351,80 +11046,418 @@ angl -360
 scle 0.8
 name Kiellisaivot
 reft point:0x650c
-refp 20.920544 68.891416
-crds 20.928545 68.891877
-
-text:0x4
-angl -360
-name Gobmejávri
-reft point:0x650c
-refp 20.381527 68.925639
-crds 20.383779 68.923617
-
-text:0x4
-angl -360
-algn S
-name Geatkejávrrit
-reft point:0x650c
-refp 20.775318 68.771343
-crds 20.771174 68.777801
-
-text:0x4
-angl -359.999
-scle 0.825
-name Geahpesjávrrit
-reft point:0x650c
-refp 20.638106 68.981757
-crds 20.644334 68.990335
-
-text:0x4
-angl -359.999
-name Boggejávri
-reft point:0x650c
-refp 20.563660 68.684091
-crds 20.563747 68.688412
-
-text:0x4
-angl -359.999
-name Ristinasjärvi
-reft point:0x650c
-refp 20.820293 68.943964
-crds 20.797503 68.940904
-
-text:0x4
-angl -359.999
-name Árbujávri
-reft point:0x650c
-refp 20.930157 68.845187
-crds 20.936529 68.846608
+refp 20.934348 68.892732
+crds 20.927388 68.890980
 
 text:0x4
 angl -359.998
 name Golggotjávrrit
 reft point:0x650c
-refp 20.760555 68.812267
+refp 20.755051 68.817171
 crds 20.759256 68.817877
 
 text:0x4
-angl -359.998
-name Njearrejávri
+angl -357.983
+scle 0.9
+algn S
+name Nodjejohka
+opts lang: sme
 reft point:0x650c
-refp 20.205693 69.037522
-crds 20.205919 69.038897
+refp 21.953557 68.901940
+crds 21.958685 68.898786
 
 text:0x4
-angl -359.998
-name Vuolimus Rávdojávri
+angl -356.098
+algn S
+name Dierpmesjohka
+opts lang: sme
 reft point:0x650c
-refp 20.716438 68.770411
-crds 20.686232 68.760383
+refp 21.406967 69.036596
+crds 21.411999 69.038575
 
 text:0x4
-angl -359.998
-name Váhttejávri
+angl -355.778
+algn S
+name Moskánjávri
 reft point:0x650c
-refp 20.705280 68.652306
-crds 20.698807 68.647816
+refp 20.195306 68.920586
+crds 20.199477 68.920306
+
+text:0x4
+angl -355.529
+scle 0.916667
+algn S
+name Gassavákkejohka
+reft point:0x650c
+refp 20.122842 68.865963
+crds 20.143552 68.863700
+
+text:0x4
+angl -355.217
+algn S
+name Poroeno
+opts lang: fin
+reft point:0x650c
+refp 22.041192 69.007896
+crds 21.835855 69.088903
+
+text:0x4
+angl -354.791
+name Kivijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.263883 68.825611
+crds 21.251108 68.825952
+
+text:0x4
+angl -353.364
+scle 0.75
+algn S
+name Njearrečazajohka
+reft point:0x650c
+refp 20.084483 69.029833
+crds 20.077276 69.029640
+
+text:0x4
+angl -350.754
+algn S
+name Rommaeno
+opts lang: fin
+reft point:0x650c
+refp 22.011634 68.981221
+crds 21.887158 69.008225
+
+text:0x4
+angl -350.7
+scle 0.916667
+algn S
+name Ádjámuvrrajávrrit
+reft point:0x650c
+refp 20.277010 68.919290
+crds 20.286220 68.918876
+
+text:0x4
+angl -350.694
+scle 0.75
+name Deartaluokta
+reft point:0x650c
+refp 20.286879 68.806985
+crds 20.287680 68.806375
+
+text:0x4
+angl -350.383
+algn S
+name Rommaeno
+opts lang: fin
+reft point:0x650c
+refp 22.011634 68.981221
+crds 22.007751 68.978212
+
+text:0x4
+angl -350.165
+scle 0.825
+name Aavapuoltsanlahti
+reft point:0x650c
+refp 20.864789 68.945215
+crds 20.859502 68.944404
+
+text:0x4
+angl -348.535
+scle 0.916667
+algn S
+name Rosteatnu
+reft point:0x650c
+refp 19.800611 68.961047
+crds 19.822316 68.963830
+
+text:0x4
+angl -348.234
+scle 0.75
+algn S
+name Gáibbiriehpijohka
+reft point:0x650c
+refp 19.950124 69.010317
+crds 19.961765 69.007523
+
+text:0x4
+angl -345.477
+scle 0.875
+algn S
+name Čurnojohka
+reft point:0x650c
+refp 20.519256 68.934788
+crds 20.523335 68.935464
+
+text:0x4
+angl -345.131
+algn S
+name Kiellijärvi
+opts lang: fin
+reft point:0x650c
+refp 20.889930 68.892434
+crds 20.891803 68.890954
+
+text:0x4
+angl -344.898
+scle 0.825
+algn SE
+name Latinalahti
+reft point:0x650c
+refp 21.137838 68.841334
+crds 21.139700 68.837096
+
+text:0x4
+angl -344.805
+scle 0.875
+algn S
+name Roavášjohka
+reft point:0x650c
+refp 21.234568 68.753929
+crds 21.235691 68.750715
+
+text:0x4
+angl -344.628
+scle 0.75
+algn S
+name Rávdojohka
+reft point:0x650c
+refp 20.106398 68.695672
+crds 20.114769 68.690337
+
+text:0x4
+angl -342.922
+scle 0.916667
+algn S
+name Hávgajohka
+reft point:0x650c
+refp 19.917156 68.618757
+crds 19.932410 68.617917
+
+text:0x4
+angl -340.382
+scle 0.9
+algn S
+name Koltalahti
+opts lang: fin
+reft point:0x650c
+refp 20.626277 69.045977
+crds 20.628536 69.046026
+
+text:0x4
+angl -340.314
+scle 0.875
+algn S
+name Boaldojohka
+reft point:0x650c
+refp 20.691374 68.885204
+crds 20.695562 68.885621
+
+text:0x4
+angl -340.238
+algn S
+name Vutnošjohka
+reft point:0x650c
+refp 20.757849 68.745128
+crds 20.769901 68.745214
+
+text:0x4
+angl -339.959
+algn S
+name Suvijoki
+reft point:0x650c
+refp 21.056095 68.841490
+crds 21.071616 68.834458
+
+text:0x4
+angl -339.827
+scle 0.9
+algn S
+name Oikojärvi
+opts lang: fin
+reft point:0x650c
+refp 21.209108 68.846907
+crds 21.213752 68.845896
+
+text:0x4
+angl -335.581
+scle 0.875
+algn S
+name Goagdájohka
+reft point:0x650c
+refp 20.387877 68.640829
+crds 20.401106 68.640271
+
+text:0x4
+angl -334.489
+name Naimakkajärvi
+opts lang: fin
+reft point:0x650c
+refp 21.593757 68.669257
+crds 21.573810 68.670728
+
+text:0x4
+angl -330.62
+algn S
+name Bealčánjohka
+reft point:0x650c
+refp 20.364023 68.970235
+crds 20.372550 68.964104
+
+text:0x4
+angl -330.553
+scle 0.825
+name Virkkalluokta
+reft point:0x650c
+refp 20.430283 68.742952
+crds 20.434100 68.748297
+
+text:0x4
+angl -330.006
+scle 0.875
+algn S
+name Árbujohka
+reft point:0x650c
+refp 21.011966 68.849651
+crds 21.024377 68.846733
+
+text:0x4
+angl -329.933
+algn S
+name Ailakkajärvi
+opts lang: fin
+reft point:0x650c
+refp 21.101140 68.956708
+crds 21.106804 68.954914
+
+text:0x4
+angl -328.561
+scle 0.916667
+algn S
+name Čoahppejohka
+reft point:0x650c
+refp 20.978800 69.068376
+crds 20.996878 69.064974
+
+text:0x4
+angl -326.472
+algn S
+name Könkämäeno
+opts lang: fin
+reft point:0x650c
+refp 22.136601 68.470856
+crds 21.096892 68.863372
+
+text:0x4
+angl -326.469
+scle 0.75
+algn S
+name Ruksesváhjohka
+reft point:0x650c
+refp 19.778330 69.021887
+crds 19.807577 69.018374
+
+text:0x4
+angl -325.244
+scle 0.875
+algn S
+name Hurvejohka
+reft point:0x650c
+refp 20.762581 68.853983
+crds 20.768031 68.853742
+
+text:0x4
+angl -325.15
+scle 0.875
+algn S
+name Gillarjohka
+reft point:0x650c
+refp 20.870471 68.750284
+crds 20.864471 68.754433
+
+text:0x4
+angl -324.903
+algn S
+name Bovdnajohka
+opts lang: sme
+reft point:0x650c
+refp 21.762646 68.856595
+crds 21.764922 68.859964
+
+text:0x4
+angl -322.83
+algn S
+name Rommaeno
+opts lang: fin
+reft point:0x650c
+refp 22.011634 68.981221
+crds 21.518532 69.038090
+
+text:0x4
+angl -319.01
+scle 0.9
+algn S
+name Kalkkojärvet
+opts lang: fin
+reft point:0x650c
+refp 22.086110 68.732746
+crds 22.089031 68.736446
+
+text:0x4
+angl -318.069
+scle 0.9
+algn S
+name Kovajoki
+opts lang: fin
+reft point:0x650c
+refp 21.951412 68.856092
+crds 21.965678 68.849713
+
+text:0x4
+angl -316.094
+algn S
+name Kaskasjoki
+opts lang: fin
+reft point:0x650c
+refp 21.825503 68.853361
+crds 21.835321 68.853110
+
+text:0x4
+angl -315.553
+scle 0.825
+algn S
+name Sieiddiluokta
+reft point:0x650c
+refp 20.428055 68.796067
+crds 20.436475 68.793317
+
+text:0x4
+angl -315.54
+scle 1.5
+algn S
+name Rostojávri
+reft point:0x650c
+refp 20.460694 68.763533
+crds 20.449453 68.768107
+
+text:0x4
+angl -315.229
+scle 1.5
+algn S
+name Kilpisjärvi
+opts lang: fin
+reft point:0x650c
+refp 20.821296 69.017210
+crds 20.793329 69.028594
+
+text:0x4
+angl -315.117
+scle 0.825
+algn SE
+name Muotkatakanlahti
+opts lang: fin
+reft point:0x650c
+refp 20.898944 68.933947
+crds 20.909107 68.929111
 
 text:0x4
 angl -315
@@ -8432,16 +11465,1031 @@ scle 1.125
 algn S
 name Suvijärvi
 reft point:0x650c
-refp 21.095810 68.846426
+refp 21.087538 68.845418
 crds 21.085644 68.845549
 
 text:0x4
-angl -0
+angl -314.947
 scle 0.875
-name Saivot
+algn S
+name Viellárjohka
 reft point:0x650c
-refp 21.201897 68.803393
-crds 21.196261 68.793726
+refp 21.074948 68.818369
+crds 21.085899 68.815830
+
+text:0x4
+angl -314.863
+scle 0.875
+algn S
+name Veivejohka
+reft point:0x650c
+refp 21.181991 68.819963
+crds 21.176130 68.819281
+
+text:0x4
+angl -313.056
+scle 0.9
+algn S
+name Čuovžajohka
+opts lang: sme
+reft point:0x650c
+refp 21.625030 68.890435
+crds 21.628651 68.892613
+
+text:0x4
+angl -309.952
+scle 0.875
+algn S
+name Árjjátjohka
+reft point:0x650c
+refp 21.071997 68.664619
+crds 21.072697 68.667677
+
+text:0x4
+angl -307.615
+scle 0.916667
+algn S
+name Čievččasjohka
+reft point:0x650c
+refp 19.878012 68.844706
+crds 19.870994 68.843836
+
+text:0x4
+angl -305.697
+scle 1.06667
+algn S
+name Rostojávri
+reft point:0x650c
+refp 20.288832 68.814265
+crds 20.284975 68.819767
+
+text:0x4
+angl -305.125
+scle 1.5
+algn S
+name Ala-Kilpisjärvi
+opts lang: fin
+reft point:0x650c
+refp 20.905566 68.976219
+crds 20.904179 68.976511
+
+text:0x4
+angl -304.589
+scle 0.75
+algn S
+name Beavrretjohka
+reft point:0x650c
+refp 20.124285 68.701349
+crds 20.128259 68.698017
+
+text:0x4
+angl -304.47
+scle 0.9
+name Lágujohka
+opts lang: sme
+reft point:0x650c
+refp 21.131320 68.981233
+crds 21.126793 68.979981
+
+text:0x4
+angl -304.06
+scle 0.9
+algn S
+name Yl.Vuontisjärvi
+opts lang: fin
+reft point:0x650c
+refp 22.039350 68.743198
+crds 22.036129 68.742868
+
+text:0x4
+angl -302.364
+scle 0.9
+algn S
+name Kovajoki
+opts lang: fin
+reft point:0x650c
+refp 21.951412 68.856092
+crds 22.001211 68.817055
+
+text:0x4
+angl -302.208
+scle 0.75
+algn S
+name Sáđgejohka
+reft point:0x650c
+refp 21.020160 69.071094
+crds 21.024279 69.067588
+
+text:0x4
+angl -300.997
+scle 0.916667
+algn S
+name Linkojávrrit
+reft point:0x650c
+refp 19.952509 68.791183
+crds 19.960517 68.788081
+
+text:0x4
+angl -300.065
+scle 0.875
+algn S
+name Čuollojohka
+reft point:0x650c
+refp 20.952021 68.780528
+crds 20.958431 68.791326
+
+text:0x4
+angl -297.696
+algn S
+name Kaitsajoki
+opts lang: fin
+reft point:0x650c
+refp 21.439619 69.059411
+crds 21.444388 69.060075
+
+text:0x4
+angl -297.638
+scle 0.916667
+algn S
+name Trollelva
+reft point:0x650c
+refp 19.997506 68.959681
+crds 19.982551 68.962045
+
+text:0x4
+angl -295.788
+scle 0.916667
+algn S
+name Rávdojávri
+reft point:0x650c
+refp 20.178488 68.683115
+crds 20.176793 68.679108
+
+text:0x4
+angl -295.722
+algn S
+name Bajit Čuolmmajávri
+reft point:0x650c
+refp 20.244230 68.638590
+crds 20.246491 68.640407
+
+text:0x4
+angl -295.414
+scle 1.2
+algn S
+name Könkämäeno
+opts lang: fin
+reft point:0x650c
+refp 22.136601 68.470856
+crds 21.288749 68.789086
+
+text:0x4
+angl -295.29
+scle 0.875
+algn S
+name Oaggovielbmá
+reft point:0x650c
+refp 20.713890 68.938651
+crds 20.722249 68.936441
+
+text:0x4
+angl -294.981
+scle 0.875
+algn S
+name Váhccajohka
+reft point:0x650c
+refp 21.041700 68.807300
+crds 21.047451 68.806397
+
+text:0x4
+angl -294.624
+scle 0.75
+algn S
+name Gobbájohka
+reft point:0x650c
+refp 22.188139 68.993734
+crds 22.184464 68.995367
+
+text:0x4
+angl -291.671
+scle 0.9
+algn S
+name Hárrejohka
+opts lang: sme
+reft point:0x650c
+refp 21.565500 69.038764
+crds 21.569892 69.040667
+
+text:0x4
+angl -290.698
+algn S
+name Njearrejohka
+reft point:0x650c
+refp 20.290041 69.007835
+crds 20.292621 69.008228
+
+text:0x4
+angl -290.241
+scle 0.875
+algn S
+name Nilsijoki
+reft point:0x650c
+refp 20.780719 68.942504
+crds 20.778177 68.945516
+
+text:0x4
+angl -289.952
+scle 0.875
+algn S
+name Viellárjohka
+reft point:0x650c
+refp 21.076157 68.738923
+crds 21.079169 68.741136
+
+text:0x4
+angl -289.911
+scle 0.875
+algn S
+name Gaskkasjohka
+reft point:0x650c
+refp 21.118783 68.669919
+crds 21.120853 68.670923
+
+text:0x4
+angl -288.97
+scle 1.06667
+algn S
+name Sáitejávri
+reft point:0x650c
+refp 22.158720 69.067241
+crds 22.142857 69.074788
+
+text:0x4
+angl -288.951
+scle 1.2
+algn S
+name Lätäseno
+opts lang: fin
+reft point:0x650c
+refp 22.241436 68.535534
+crds 22.213975 68.736411
+
+text:0x4
+angl -287.232
+scle 0.9
+algn S
+name Čáimmajohka
+opts lang: sme
+reft point:0x650c
+refp 21.810250 68.872862
+crds 21.813303 68.874890
+
+text:0x4
+angl -285.227
+scle 0.875
+algn S
+name Leaibevuopmejohka
+reft point:0x650c
+refp 20.774291 68.995357
+crds 20.792801 68.985930
+
+text:0x4
+angl -284.471
+algn S
+name Ropijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.594753 68.683563
+crds 21.591008 68.686410
+
+text:0x4
+angl -283.228
+scle 0.916667
+algn S
+name Gárasjohka
+reft point:0x650c
+refp 19.910508 68.789834
+crds 19.901749 68.800666
+
+text:0x4
+angl -283.177
+scle 1.2
+algn S
+name Poroeno
+opts lang: fin
+reft point:0x650c
+refp 22.041192 69.007896
+crds 22.031633 69.008062
+
+text:0x4
+angl -282.635
+scle 0.75
+algn S
+name Vollelva
+reft point:0x650c
+refp 19.800846 68.989531
+crds 19.803296 68.989704
+
+text:0x4
+angl -280.556
+scle 0.875
+algn S
+name Ruovddášjohka
+reft point:0x650c
+refp 20.444372 68.981491
+crds 20.439250 68.976020
+
+text:0x4
+angl -280.32
+scle 0.875
+algn S
+name Bávvaljohka
+reft point:0x650c
+refp 20.683575 68.968379
+crds 20.691008 68.962213
+
+text:0x4
+angl -280.021
+scle 0.9
+algn S
+name Buvrrášjohka
+opts lang: sme
+reft point:0x650c
+refp 21.324174 68.909338
+crds 21.326938 68.901054
+
+text:0x4
+angl -272.913
+algn S
+name Šaddamašjohka
+opts lang: sme
+reft point:0x650c
+refp 21.189053 68.899366
+crds 21.183928 68.911361
+
+text:0x4
+angl -95.346
+scle 0.875
+algn S
+name Spálčajohka
+reft point:0x650c
+refp 20.667856 68.907267
+crds 20.664152 68.907585
+
+text:0x4
+angl -87.8536
+scle 1.2
+algn S
+name Lätäseno
+opts lang: fin
+reft point:0x650c
+refp 22.241436 68.535534
+crds 22.153653 68.942188
+
+text:0x4
+angl -85.2813
+scle 1.125
+algn S
+name Rostoeatnu
+reft point:0x650c
+refp 20.728688 68.731363
+crds 20.721643 68.725556
+
+text:0x4
+angl -84.6009
+scle 0.75
+algn S
+name Ráiskasjohka
+reft point:0x650c
+refp 20.192514 68.795053
+crds 20.192514 68.795053
+
+text:0x4
+angl -83.5462
+scle 0.9
+algn S
+name Jievvajohka
+opts lang: sme
+reft point:0x650c
+refp 21.925851 69.011661
+crds 21.921702 69.013249
+
+text:0x4
+angl -82.9907
+algn S
+name Ropijoki
+opts lang: fin
+reft point:0x650c
+refp 21.580541 68.729371
+crds 21.573757 68.724159
+
+text:0x4
+angl -80.6309
+scle 0.875
+algn S
+name Bollošjohka
+reft point:0x650c
+refp 20.364704 68.983316
+crds 20.362583 68.981890
+
+text:0x4
+angl -80.178
+algn S
+name Vartsajoki
+opts lang: fin
+reft point:0x650c
+refp 21.558708 68.987318
+crds 21.551927 68.984165
+
+text:0x4
+angl -76.6083
+algn S
+name Toriseno
+opts lang: fin
+reft point:0x650c
+refp 22.046018 68.895319
+crds 22.058306 68.901881
+
+text:0x4
+angl -74.5054
+algn S
+name Saarijärvi
+opts lang: fin
+reft point:0x650c
+refp 21.556930 68.741984
+crds 21.555576 68.736987
+
+text:0x4
+angl -70.3392
+scle 0.875
+algn S
+name Guolbanjohka
+reft point:0x650c
+refp 20.670178 69.023539
+crds 20.672310 69.027104
+
+text:0x4
+angl -68.709
+scle 0.916667
+algn S
+name Dopparelva
+reft point:0x650c
+refp 19.877733 69.023482
+crds 19.878616 69.022236
+
+text:0x4
+angl -67.5626
+scle 0.75
+algn S
+name Spižolánjejohka
+reft point:0x650c
+refp 19.964689 68.626810
+crds 19.971106 68.624915
+
+text:0x4
+angl -65.6093
+scle 0.875
+algn S
+name Čearpmatjohka
+reft point:0x650c
+refp 20.374826 68.997203
+crds 20.386340 68.998432
+
+text:0x4
+angl -65.327
+scle 0.875
+algn S
+name Váhttejohka
+reft point:0x650c
+refp 20.668215 68.630260
+crds 20.673073 68.640335
+
+text:0x4
+angl -65.1534
+scle 0.875
+algn S
+name Biggosjohka
+reft point:0x650c
+refp 20.860291 68.659323
+crds 20.860041 68.662468
+
+text:0x4
+angl -64.0683
+algn S
+name Munnijärvi
+opts lang: fin
+reft point:0x650c
+refp 22.030009 68.959728
+crds 22.033317 68.955808
+
+text:0x4
+angl -61.8163
+scle 0.916667
+algn S
+name Gáibbijohka
+reft point:0x650c
+refp 19.950560 69.023024
+crds 19.955643 69.022442
+
+text:0x4
+angl -60.2728
+scle 0.875
+algn S
+name Rávdojohka
+reft point:0x650c
+refp 20.719868 68.748711
+crds 20.733764 68.750673
+
+text:0x4
+angl -60.225
+algn S
+name Tammukkajoki
+opts lang: fin
+reft point:0x650c
+refp 21.744860 68.698899
+crds 21.753380 68.706546
+
+text:0x4
+angl -60.0525
+scle 0.875
+algn S
+name Ruvsojohka
+reft point:0x650c
+refp 20.951012 68.647478
+crds 20.965529 68.645944
+
+text:0x4
+angl -59.9714
+scle 0.9
+algn S
+name Vuontisjoki
+opts lang: fin
+reft point:0x650c
+refp 21.907136 68.847673
+crds 21.907387 68.850363
+
+text:0x4
+angl -59.8682
+scle 0.875
+algn S
+name Biedjojohka
+reft point:0x650c
+refp 21.161485 68.658663
+crds 21.163744 68.661371
+
+text:0x4
+angl -58.4246
+scle 0.9
+algn S
+name Ádjatoaivvejohka
+opts lang: sme
+reft point:0x650c
+refp 22.117496 68.774091
+crds 22.119698 68.779670
+
+text:0x4
+angl -55.5857
+scle 0.916667
+algn S
+name Gironjohka
+reft point:0x650c
+refp 19.848361 68.873045
+crds 19.862918 68.883035
+
+text:0x4
+angl -55.4587
+scle 0.875
+algn S
+name Láhkonjoaskejohka
+reft point:0x650c
+refp 20.534205 68.912637
+crds 20.539921 68.919181
+
+text:0x4
+angl -54.7672
+scle 0.875
+algn S
+name Kalmusjoki
+reft point:0x650c
+refp 21.253846 68.717646
+crds 21.272129 68.718834
+
+text:0x4
+angl -54.682
+scle 0.75
+algn S
+name Rokkastatjohka
+reft point:0x650c
+refp 20.067124 68.606279
+crds 20.069211 68.610779
+
+text:0x4
+angl -53.5704
+scle 0.75
+algn S
+name Heargejohka
+reft point:0x650c
+refp 20.004205 68.618523
+crds 20.002245 68.622059
+
+text:0x4
+angl -51.7814
+algn S
+name Vuomušjohka
+opts lang: sme
+reft point:0x650c
+refp 21.434242 68.887675
+crds 21.460377 68.893877
+
+text:0x4
+angl -51.682
+scle 0.9
+algn S
+name Aatsajoki
+opts lang: fin
+reft point:0x650c
+refp 21.881593 68.778951
+crds 21.866571 68.773383
+
+text:0x4
+angl -51.3174
+algn S
+name Toriseno
+opts lang: fin
+reft point:0x650c
+refp 22.046018 68.895319
+crds 21.952417 68.866482
+
+text:0x4
+angl -50.355
+scle 0.875
+algn S
+name Pajurutonjoki
+reft point:0x650c
+refp 20.658348 69.029833
+crds 20.659654 69.032375
+
+text:0x4
+angl -50.083
+algn S
+name Pitsijoki
+opts lang: fin
+reft point:0x650c
+refp 21.830786 68.841285
+crds 21.776847 68.827358
+
+text:0x4
+angl -50.0676
+scle 0.875
+algn S
+name Covrojohka
+reft point:0x650c
+refp 20.942476 68.649719
+crds 20.951678 68.653488
+
+text:0x4
+angl -49.5916
+algn S
+name Ainuvarppijoki
+reft point:0x650c
+refp 21.456824 68.667597
+crds 21.462498 68.667470
+
+text:0x4
+angl -49.0477
+algn S
+name Namakkajoki
+opts lang: fin
+reft point:0x650c
+refp 21.349664 68.835461
+crds 21.364446 68.847618
+
+text:0x4
+angl -44.8823
+scle 0.875
+algn S
+name Sabitjohka
+reft point:0x650c
+refp 21.153264 68.788059
+crds 21.153600 68.789719
+
+text:0x4
+angl -44.6859
+scle 0.875
+algn S
+name Koutnahanautsijoki
+reft point:0x650c
+refp 21.362208 68.702530
+crds 21.360830 68.706410
+
+text:0x4
+angl -42.8264
+algn S
+name Korsajoki
+opts lang: fin
+reft point:0x650c
+refp 22.091304 68.850554
+crds 22.100068 68.856272
+
+text:0x4
+angl -41.2251
+scle 0.916667
+algn S
+name Tverrelva
+reft point:0x650c
+refp 19.832386 68.989249
+crds 19.832386 68.989249
+
+text:0x4
+angl -35.5063
+algn S
+name Omátjohka
+reft point:0x650c
+refp 20.486002 68.691013
+crds 20.482779 68.685762
+
+text:0x4
+angl -35.4988
+scle 0.875
+algn S
+name Mordánjohka
+reft point:0x650c
+refp 20.485649 68.834049
+crds 20.497242 68.833212
+
+text:0x4
+angl -35.3203
+algn S
+name Marsujoki
+opts lang: fin
+reft point:0x650c
+refp 21.813105 68.776577
+crds 21.816226 68.773844
+
+text:0x4
+angl -35.199
+scle 0.825
+algn S
+name Vutnošjávri
+reft point:0x650c
+refp 20.799412 68.746815
+crds 20.814710 68.749279
+
+text:0x4
+angl -33.3722
+scle 0.9
+algn S
+name Rakahjoki
+opts lang: fin
+reft point:0x650c
+refp 21.222689 68.980744
+crds 21.234552 68.979771
+
+text:0x4
+angl -31.6075
+scle 0.916667
+algn S
+name Áslatjohka
+reft point:0x650c
+refp 20.089661 68.904657
+crds 20.096840 68.907464
+
+text:0x4
+angl -30.5755
+algn S
+name Gobmejohka
+reft point:0x650c
+refp 20.403395 68.943414
+crds 20.417916 68.941609
+
+text:0x4
+angl -29.8771
+scle 0.875
+algn S
+name Jeageljohka
+reft point:0x650c
+refp 21.155609 68.773743
+crds 21.158575 68.775334
+
+text:0x4
+angl -29.8051
+scle 0.875
+algn S
+name Vittankijoki
+reft point:0x650c
+refp 21.213722 68.721763
+crds 21.233879 68.727312
+
+text:0x4
+angl -29.6981
+scle 0.875
+algn S
+name Louskoautsinjoki
+reft point:0x650c
+refp 21.363927 68.726347
+crds 21.348105 68.717072
+
+text:0x4
+angl -25.5918
+scle 0.875
+algn S
+name Gassoaivvijohka
+reft point:0x650c
+refp 20.389693 68.736581
+crds 20.389387 68.737679
+
+text:0x4
+angl -21.5751
+scle 0.916667
+algn S
+name Aslakelva
+reft point:0x650c
+refp 19.920439 68.859848
+crds 19.923025 68.861789
+
+text:0x4
+angl -20.5279
+scle 0.9
+algn S
+name Gunašjohka
+opts lang: sme
+reft point:0x650c
+refp 21.225253 68.943294
+crds 21.234639 68.946645
+
+text:0x4
+angl -20.4556
+scle 0.9
+algn S
+name Baikaboldnejohka
+opts lang: sme
+reft point:0x650c
+refp 21.600050 68.715685
+crds 21.624084 68.714924
+
+text:0x4
+angl -19.899
+scle 0.875
+algn S
+name Hárrejohka
+reft point:0x650c
+refp 21.117694 68.713020
+crds 21.134808 68.715394
+
+text:0x4
+angl -19.6429
+scle 0.916667
+algn S
+name Iselva
+reft point:0x650c
+refp 20.060901 68.938762
+crds 20.067295 68.940778
+
+text:0x4
+angl -16.8966
+algn S
+name Suppijoki
+opts lang: fin
+reft point:0x650c
+refp 21.326266 68.836924
+crds 21.355809 68.871639
+
+text:0x4
+angl -16.1653
+algn S
+name Iittojoki
+opts lang: fin
+reft point:0x650c
+refp 21.465815 68.809255
+crds 21.461734 68.810525
+
+text:0x4
+angl -15.0423
+scle 0.875
+algn S
+name Suvijoki
+reft point:0x650c
+refp 20.998244 68.818034
+crds 20.983297 68.818204
+
+text:0x4
+angl -11.883
+algn S
+name Áhkájohka
+opts lang: sme
+reft point:0x650c
+refp 22.015917 68.971199
+crds 22.009555 68.967562
+
+text:0x4
+angl -11.5677
+scle 0.75
+algn S
+name Goahtemuorjohka
+reft point:0x650c
+refp 20.143503 68.705327
+crds 20.146591 68.708211
+
+text:0x4
+angl -10.8655
+scle 0.75
+algn S
+name Goddejohka
+reft point:0x650c
+refp 20.167102 68.692662
+crds 20.186252 68.695427
+
+text:0x4
+angl -10.5692
+algn S
+name Puittisjoki
+opts lang: fin
+reft point:0x650c
+refp 21.767011 68.969100
+crds 21.747865 68.970908
+
+text:0x4
+angl -9.33519
+algn S
+name Marsujärvi
+opts lang: fin
+reft point:0x650c
+refp 21.734248 68.739183
+crds 21.735841 68.739275
+
+text:0x4
+angl -7.36036
+scle 0.9
+algn S
+name Laassajoki
+opts lang: fin
+reft point:0x650c
+refp 20.932587 68.949284
+crds 20.950220 68.947480
+
+text:0x4
+angl -5.36276
+algn S
+name Kummaeno
+reft point:0x650c
+refp 20.630268 68.917143
+crds 20.646440 68.918042
+
+text:0x4
+angl -4.94133
+algn S
+name Peerajärvi
+opts lang: fin
+reft point:0x650c
+refp 21.093245 68.888795
+crds 21.096248 68.888091
+
+text:0x4
+angl -3.47263
+scle 0.9
+algn S
+name Ailakkajoki
+opts lang: fin
+reft point:0x650c
+refp 20.970884 68.972244
+crds 20.978917 68.969402
+
+text:0x4
+angl -2.42683
+algn S
+name Áhkájohka
+opts lang: sme
+reft point:0x650c
+refp 22.015917 68.971199
+crds 21.895330 68.960027
+
+text:0x4
+angl -2.42332
+algn S
+name Saitsijoki
+opts lang: fin
+reft point:0x650c
+refp 22.164173 68.690014
+crds 22.172505 68.692300
+
+text:0x4
+angl -2.21679
+scle 0.9
+algn S
+name Pitsijoki
+opts lang: fin
+reft point:0x650c
+refp 21.830786 68.841285
+crds 21.824751 68.838397
+
+text:0x4
+angl -1.99652
+algn S
+name Stuorarođujogaš
+opts lang: sme
+reft point:0x650c
+refp 22.008176 68.734627
+crds 21.943501 68.732297
 
 text:0x5
 scle 0.8
@@ -8567,7 +12615,7 @@ scle 0.8
 algn S
 name Gealbir
 reft point:0x1100
-refp 20.246626 68.741961
+refp 20.246630 68.741960
 crds 20.249969 68.743689
 
 text:0x5
@@ -8700,19 +12748,11 @@ crds 21.738311 69.078411
 
 text:0x5
 scle 0.825
-name Áillahasláhku
-opts lang: sme
-reft point:0x1100
-refp 21.165317 68.985892
-crds 21.158065 68.984126
-
-text:0x5
-scle 0.825
 name Čearrogeažit
 opts lang: sme
 reft point:0x1100
 refp 21.905470 68.885580
-crds 21.888904 68.883133
+crds 21.895921 68.883117
 
 text:0x5
 name 1019 Jollánoaivi
@@ -8810,7 +12850,7 @@ name 560 Iittovaara
 opts lang: fin
 reft point:0x1100
 refp 21.452525 68.762592
-crds 21.444674 68.763231
+crds 21.446047 68.764149
 
 text:0x5
 name 562 Jorpavaara
@@ -8866,7 +12906,7 @@ name 574 Unna Ádjatoaivi
 opts lang: sme
 reft point:0x1100
 refp 22.113372 68.821271
-crds 22.107718 68.818404
+crds 22.104682 68.818284
 
 text:0x5
 name 578 Vallivaara
@@ -9613,19 +13653,19 @@ crds 21.067998 68.983032
 text:0x5
 name Akkavaara
 reft point:0x1100
-refp 21.111192 68.849821
+refp 21.111190 68.849820
 crds 21.094096 68.850804
 
 text:0x5
 name Baikkasvárri
 reft point:0x1100
-refp 20.559821 69.045808
+refp 20.559820 69.045810
 crds 20.551846 69.046602
 
 text:0x5
 name Bajit Guolbanoaivi
 reft point:0x1100
-refp 20.717908 69.003554
+refp 20.717910 69.003550
 crds 20.714168 69.000997
 
 text:0x5
@@ -9637,7 +13677,7 @@ crds 20.550965 68.777266
 text:0x5
 name Bajit Sieiddivárri
 reft point:0x1100
-refp 20.402525 68.832689
+refp 20.402530 68.832690
 crds 20.393565 68.833851
 
 text:0x5
@@ -9649,25 +13689,25 @@ crds 21.145881 68.735226
 text:0x5
 name Bajit Vávrratoaivi
 reft point:0x1100
-refp 20.398893 69.036540
+refp 20.398890 69.036540
 crds 20.374601 69.037941
 
 text:0x5
 name Bearraloaivi
 reft point:0x1100
-refp 20.406410 68.861104
+refp 20.406410 68.861100
 crds 20.399632 68.862732
 
 text:0x5
 name Beikkasvárri
 reft point:0x1100
-refp 20.576692 68.711849
+refp 20.576690 68.711850
 crds 20.570874 68.709583
 
 text:0x5
 name Biedjogielas
 reft point:0x1100
-refp 20.335387 68.734340
+refp 20.335390 68.734340
 crds 20.326337 68.732510
 
 text:0x5
@@ -9679,31 +13719,31 @@ crds 21.151971 68.677794
 text:0x5
 name Bielloaivi
 reft point:0x1100
-refp 19.840724 68.906442
+refp 19.840720 68.906440
 crds 19.828451 68.904384
 
 text:0x5
 name Biggosoaivi
 reft point:0x1100
-refp 20.894665 68.661820
+refp 20.894829 68.661801
 crds 20.887494 68.662930
 
 text:0x5
 name Biggosoaivváš
 reft point:0x1100
-refp 20.911380 68.643687
+refp 20.911380 68.643690
 crds 20.897985 68.644873
 
 text:0x5
 name Boaldovárri
 reft point:0x1100
-refp 20.717014 68.888252
+refp 20.716958 68.888251
 crds 20.719024 68.886761
 
 text:0x5
 name Boggevárdu
 reft point:0x1100
-refp 20.543715 68.665133
+refp 20.543710 68.665130
 crds 20.537234 68.666350
 
 text:0x5
@@ -9722,13 +13762,13 @@ crds 20.573467 68.859544
 text:0x5
 name Buoššir
 reft point:0x1100
-refp 20.050329 68.837934
+refp 20.050330 68.837930
 crds 20.053945 68.835924
 
 text:0x5
 name Bávvaloaivi
 reft point:0x1100
-refp 20.705638 68.988453
+refp 20.705640 68.988450
 crds 20.693248 68.985760
 
 text:0x5
@@ -9740,13 +13780,13 @@ crds 20.461290 68.932618
 text:0x5
 name Covronjunni
 reft point:0x1100
-refp 20.951638 68.683465
+refp 20.951640 68.683460
 crds 20.952895 68.684203
 
 text:0x5
 name Covrooaivi
 reft point:0x1100
-refp 20.966343 68.691438
+refp 20.964890 68.691742
 crds 20.959604 68.692711
 
 text:0x5
@@ -9758,31 +13798,31 @@ crds 20.504471 68.823495
 text:0x5
 name Doaresoaivi
 reft point:0x1100
-refp 20.731223 68.638912
+refp 20.730781 68.638342
 crds 20.723560 68.640014
 
 text:0x5
 name Doaresoaivi
 reft point:0x1100
-refp 20.768731 68.703724
+refp 20.768730 68.703720
 crds 20.764329 68.705331
 
 text:0x5
 name Doaresoaivi
 reft point:0x1100
-refp 21.120897 68.770000
+refp 21.120900 68.770000
 crds 21.115460 68.771079
 
 text:0x5
 name Duolljevárri
 reft point:0x1100
-refp 20.394003 68.885775
+refp 20.394001 68.885854
 crds 20.392150 68.886803
 
 text:0x5
 name Dánta
 reft point:0x1100
-refp 20.608732 69.031538
+refp 20.608730 69.031540
 crds 20.604820 69.029715
 
 text:0x5
@@ -9800,19 +13840,19 @@ crds 20.121364 68.644944
 text:0x5
 name Ganešoaivi
 reft point:0x1100
-refp 20.869911 68.769576
+refp 20.870221 68.770143
 crds 20.872603 68.769678
 
 text:0x5
 name Geahpeshoŋkkat
 reft point:0x1100
-refp 20.611517 68.991054
+refp 20.611520 68.991050
 crds 20.605892 68.992036
 
 text:0x5
 name Geatkevárri
 reft point:0x1100
-refp 20.436225 68.669893
+refp 20.436230 68.669890
 crds 20.438469 68.669861
 
 text:0x5
@@ -9836,19 +13876,19 @@ crds 20.847850 68.887268
 text:0x5
 name Gillaroaivi
 reft point:0x1100
-refp 20.901717 68.722516
+refp 20.900350 68.722974
 crds 20.898583 68.723968
 
 text:0x5
 name Gironoaivi
 reft point:0x1100
-refp 19.860688 68.898036
+refp 19.860690 68.898040
 crds 19.851482 68.895503
 
 text:0x5
 name Goahtemuorgáisi
 reft point:0x1100
-refp 19.975484 68.987972
+refp 19.975480 68.987970
 crds 19.972187 68.984984
 
 text:0x5
@@ -9860,19 +13900,19 @@ crds 20.478273 68.731258
 text:0x5
 name Gobmevárri
 reft point:0x1100
-refp 20.382428 68.948786
+refp 20.382430 68.948790
 crds 20.384224 68.948786
 
 text:0x5
 name Goddečohkat
 reft point:0x1100
-refp 20.898116 68.738567
+refp 20.898120 68.738570
 crds 20.892343 68.740455
 
 text:0x5
 name Golggotoaivvit
 reft point:0x1100
-refp 20.796460 68.825580
+refp 20.796184 68.825579
 crds 20.785700 68.827098
 
 text:0x5
@@ -9910,31 +13950,31 @@ crds 20.707093 68.734432
 text:0x5
 name Guovloaivi
 reft point:0x1100
-refp 20.607593 68.677193
+refp 20.607590 68.677190
 crds 20.610513 68.676145
 
 text:0x5
 name Gussavárit
 reft point:0x1100
-refp 20.831701 68.637939
+refp 20.832337 68.637665
 crds 20.828141 68.639031
 
 text:0x5
 name Gálavárri
 reft point:0x1100
-refp 21.051456 68.848006
+refp 21.051460 68.848010
 crds 21.045336 68.849660
 
 text:0x5
 name Holgavárri
 reft point:0x1100
-refp 20.953221 68.702129
-crds 20.943585 68.700392
+refp 20.957163 68.703326
+crds 20.948900 68.700176
 
 text:0x5
 name Háhttavárri
 reft point:0x1100
-refp 20.606268 68.878291
+refp 20.606270 68.878290
 crds 20.601878 68.879734
 
 text:0x5
@@ -9946,14 +13986,14 @@ crds 20.108982 68.795971
 text:0x5
 name Jeageloaivi
 reft point:0x1100
-refp 21.173077 68.765322
+refp 21.171699 68.765200
 crds 21.168306 68.766721
 
 text:0x5
 name Jiehtanasgielas
 reft point:0x1100
-refp 20.568550 68.640644
-crds 20.567827 68.638571
+refp 20.568605 68.640645
+crds 20.567067 68.638350
 
 text:0x5
 name Julosvárri
@@ -9964,13 +14004,13 @@ crds 19.948494 68.645644
 text:0x5
 name Juoksaváhnjunni
 reft point:0x1100
-refp 20.124152 69.005460
+refp 20.124150 69.005460
 crds 20.125948 69.005460
 
 text:0x5
 name Juoksavátnjunni
 reft point:0x1100
-refp 20.237903 68.956298
+refp 20.237847 68.956318
 crds 20.238294 68.957734
 
 text:0x5
@@ -9983,37 +14023,37 @@ crds 21.315363 68.968761
 text:0x5
 name Kaarinasvaara
 reft point:0x1100
-refp 20.821965 68.913669
+refp 20.821989 68.913662
 crds 20.824177 68.913751
 
 text:0x5
 name Kassåive
 reft point:0x1100
-refp 20.372156 68.743349
+refp 20.372160 68.743350
 crds 20.375829 68.743502
 
 text:0x5
 name Kirkkovaara
 reft point:0x1100
-refp 21.127295 68.811807
+refp 21.127184 68.811727
 crds 21.127828 68.812584
 
 text:0x5
 name Kivivaara
 reft point:0x1100
-refp 21.366674 68.715820
+refp 21.366071 68.715858
 crds 21.367404 68.716954
 
 text:0x5
 name Koutnahavaara
 reft point:0x1100
-refp 21.337313 68.709901
+refp 21.335257 68.710328
 crds 21.330375 68.711627
 
 text:0x5
 name Lammasvaara
 reft point:0x1100
-refp 21.347971 68.741873
+refp 21.347970 68.741870
 crds 21.349313 68.739759
 
 text:0x5
@@ -10025,31 +14065,31 @@ crds 20.621501 68.930646
 text:0x5
 name Leaibevuomivárri
 reft point:0x1100
-refp 20.744418 68.981134
+refp 20.744420 68.981130
 crds 20.748074 68.981599
 
 text:0x5
 name Lulit Gassoaivi
 reft point:0x1100
-refp 20.392491 68.728867
+refp 20.392582 68.728643
 crds 20.392399 68.730181
 
 text:0x5
 name Lulit Jeageloaivi
 reft point:0x1100
-refp 20.573184 68.814372
+refp 20.573180 68.814370
 crds 20.564225 68.816240
 
 text:0x5
 name Lullehavárri
 reft point:0x1100
-refp 20.859852 68.725667
+refp 20.859850 68.725670
 crds 20.850081 68.726773
 
 text:0x5
 name Láhkonjoaskevárri
 reft point:0x1100
-refp 20.523102 68.998021
+refp 20.523100 68.998020
 crds 20.517299 68.999258
 
 text:0x5
@@ -10079,7 +14119,7 @@ crds 20.457019 68.826568
 text:0x5
 name Másealvárri
 reft point:0x1100
-refp 20.216386 68.679939
+refp 20.216390 68.679940
 crds 20.219405 68.678161
 
 text:0x5
@@ -10116,19 +14156,19 @@ crds 20.768685 68.896286
 text:0x5
 name Njuokččačohkka
 reft point:0x1100
-refp 20.367878 68.633174
+refp 20.368455 68.633832
 crds 20.370873 68.633485
 
 text:0x5
 name Njárgaroavvi
 reft point:0x1100
-refp 20.711888 68.713329
+refp 20.711890 68.713330
 crds 20.704856 68.714411
 
 text:0x5
 name Njárgavárri
 reft point:0x1100
-refp 20.654112 68.716737
+refp 20.651873 68.716436
 crds 20.644554 68.717871
 
 text:0x5
@@ -10140,13 +14180,13 @@ crds 20.741731 69.012041
 text:0x5
 name Oaggovárri
 reft point:0x1100
-refp 20.654543 68.929452
+refp 20.654540 68.929450
 crds 20.650753 68.930958
 
 text:0x5
 name Omátvárri
 reft point:0x1100
-refp 20.470923 68.717969
+refp 20.470920 68.717970
 crds 20.465348 68.719484
 
 text:0x5
@@ -10165,13 +14205,13 @@ crds 22.108522 68.898422
 text:0x5
 name Ristinasvaara
 reft point:0x1100
-refp 20.811098 68.938233
+refp 20.811100 68.938230
 crds 20.809570 68.936060
 
 text:0x5
 name Roavgovárri
 reft point:0x1100
-refp 20.457877 68.908528
+refp 20.457880 68.908530
 crds 20.460804 68.908657
 
 text:0x5
@@ -10183,19 +14223,19 @@ crds 20.821315 68.946791
 text:0x5
 name Roaváš
 reft point:0x1100
-refp 21.226775 68.760765
+refp 21.226770 68.760770
 crds 21.227389 68.761761
 
 text:0x5
 name Ruoššačohkka
 reft point:0x1100
-refp 20.642900 68.785446
-crds 20.644696 68.785446
+refp 20.642900 68.785450
+crds 20.636668 68.783341
 
 text:0x5
 name Ráhkkočohkka
 reft point:0x1100
-refp 20.583676 68.903149
+refp 20.583680 68.903150
 crds 20.572921 68.904615
 
 text:0x5
@@ -10207,19 +14247,19 @@ crds 19.907233 68.926957
 text:0x5
 name Rávdovárri
 reft point:0x1100
-refp 20.713725 68.812978
+refp 20.713730 68.812980
 crds 20.710353 68.813928
 
 text:0x5
 name Rávdočohkka
 reft point:0x1100
-refp 20.633596 68.844817
+refp 20.632000 68.845133
 crds 20.625683 68.846352
 
 text:0x5
 name Rávskkahasvárri
 reft point:0x1100
-refp 20.665117 68.876078
+refp 20.665120 68.876080
 crds 20.660903 68.877085
 
 text:0x5
@@ -10231,55 +14271,55 @@ crds 21.090287 68.829293
 text:0x5
 name Sabitoaivi
 reft point:0x1100
-refp 21.128091 68.793082
+refp 21.128531 68.793062
 crds 21.130240 68.793719
 
 text:0x5
 name Sadjinoaivi
 reft point:0x1100
-refp 20.996988 68.710667
+refp 20.996990 68.710670
 crds 20.998302 68.711763
 
 text:0x5
 name Skáidevárri
 reft point:0x1100
-refp 20.816209 68.671104
+refp 20.816210 68.671100
 crds 20.819214 68.671586
 
 text:0x5
 name Snjierttet
 reft point:0x1100
-refp 20.534081 68.851786
+refp 20.534360 68.851647
 crds 20.536281 68.852071
 
 text:0x5
 name Spállogas
 reft point:0x1100
-refp 20.222919 68.872421
+refp 20.222920 68.872420
 crds 20.225301 68.870679
 
 text:0x5
 name Struvvávárri
 reft point:0x1100
-refp 20.798022 68.959666
+refp 20.798020 68.959670
 crds 20.790231 68.957524
 
 text:0x5
 name Suollemasvákkičohkka
 reft point:0x1100
-refp 20.153699 68.619919
+refp 20.153700 68.619920
 crds 20.156781 68.619258
 
 text:0x5
 name Suolučielgevárri
 reft point:0x1100
-refp 20.246417 68.711847
+refp 20.246420 68.711850
 crds 20.250085 68.711943
 
 text:0x5
 name Sáhpánčohkka
 reft point:0x1100
-refp 20.174527 68.630621
+refp 20.174530 68.630620
 crds 20.177229 68.631391
 
 text:0x5
@@ -10297,13 +14337,13 @@ crds 21.041589 68.856532
 text:0x5
 name Uvllávárri
 reft point:0x1100
-refp 20.655058 68.758844
+refp 20.655060 68.758840
 crds 20.653007 68.759975
 
 text:0x5
 name Virkkalčohkat
 reft point:0x1100
-refp 20.370961 68.701779
+refp 20.370008 68.702200
 crds 20.371758 68.702213
 
 text:0x5
@@ -10315,13 +14355,13 @@ crds 21.214947 68.797789
 text:0x5
 name Viđaruovddaš
 reft point:0x1100
-refp 20.850489 68.969072
+refp 20.850490 68.969070
 crds 20.847099 68.970025
 
 text:0x5
 name Vuojahatvárri
 reft point:0x1100
-refp 20.505272 68.775438
+refp 20.504504 68.775868
 crds 20.502111 68.776624
 
 text:0x5
@@ -10333,25 +14373,25 @@ crds 20.849748 68.864584
 text:0x5
 name Vuolit Guolbanoaivi
 reft point:0x1100
-refp 20.721892 69.008421
+refp 20.721890 69.008420
 crds 20.725057 69.008526
 
 text:0x5
 name Vuolit Luspevárri
 reft point:0x1100
-refp 20.599423 68.761481
-crds 20.589675 68.762711
+refp 20.599082 68.762058
+crds 20.588565 68.763306
 
 text:0x5
 name Vuolit Sieiddivárri
 reft point:0x1100
-refp 20.401442 68.800859
+refp 20.402133 68.800753
 crds 20.403901 68.800762
 
 text:0x5
 name Vuolit Vávrratoaivi
 reft point:0x1100
-refp 20.404248 69.018635
+refp 20.404250 69.018640
 crds 20.407226 69.017511
 
 text:0x5
@@ -10371,43 +14411,43 @@ crds 22.010893 68.784382
 text:0x5
 name Váhccaoaivi
 reft point:0x1100
-refp 21.011959 68.787295
+refp 21.011960 68.787300
 crds 21.005082 68.788569
 
 text:0x5
 name Váhttoaivi
 reft point:0x1100
-refp 20.666482 68.656315
+refp 20.666480 68.656320
 crds 20.663405 68.657225
 
 text:0x5
 name Ádjávárdu
 reft point:0x1100
-refp 20.141885 68.923002
+refp 20.141880 68.923000
 crds 20.137617 68.924553
 
 text:0x5
 name Áidnavárppioaivi
 reft point:0x1100
-refp 21.348470 68.651812
+refp 21.348496 68.651803
 crds 21.344121 68.653534
 
 text:0x5
 name Árbuoaivi
 reft point:0x1100
-refp 20.908055 68.829839
+refp 20.908060 68.829840
 crds 20.903107 68.827824
 
 text:0x5
 name Árjjátoaivi
 reft point:0x1100
-refp 21.020178 68.677505
+refp 21.020180 68.677500
 crds 21.016346 68.678859
 
 text:0x5
 name Čalmmasvárri
 reft point:0x1100
-refp 20.615060 68.824677
+refp 20.613780 68.824512
 crds 20.605480 68.821506
 
 text:0x5
@@ -10426,25 +14466,25 @@ crds 21.099521 69.023318
 text:0x5
 name Čoalmmivárri
 reft point:0x1100
-refp 20.329453 68.827484
+refp 20.329450 68.827480
 crds 20.334432 68.826123
 
 text:0x5
 name Čunuvárri
 reft point:0x1100
-refp 20.792540 68.690234
+refp 20.792540 68.690230
 crds 20.782381 68.687830
 
 text:0x5
 name Čurnovárri
 reft point:0x1100
-refp 20.495074 68.922869
+refp 20.495070 68.922870
 crds 20.498456 68.922621
 
 text:0x5
 name Čáhcebealvárri
 reft point:0x1100
-refp 20.836881 68.959198
+refp 20.836880 68.959200
 crds 20.839816 68.959500
 
 text:0x5
@@ -10456,7 +14496,7 @@ crds 21.355408 68.747397
 text:0x5
 name Šuošmir
 reft point:0x1100
-refp 20.395779 68.898946
+refp 20.395887 68.899026
 crds 20.392973 68.900409
 
 text:0x5
@@ -10518,35 +14558,35 @@ text:0x5
 algn SE
 name Bárdal
 reft point:0x1100
-refp 20.314958 68.783090
+refp 20.314960 68.783090
 crds 20.312681 68.783798
 
 text:0x5
 algn SE
 name Høglikka
 reft point:0x1100
-refp 19.862996 68.922290
+refp 19.863000 68.922290
 crds 19.873794 68.924236
 
 text:0x5
 algn SE
 name Isdalsfjella
 reft point:0x1100
-refp 20.042250 69.017311
+refp 20.042250 69.017310
 crds 20.052835 69.019205
 
 text:0x5
 algn SE
 name Låglikka
 reft point:0x1100
-refp 19.967386 68.913495
+refp 19.967390 68.913490
 crds 19.977523 68.910850
 
 text:0x5
 algn SE
 name Mikkelifjellet
 reft point:0x1100
-refp 19.951319 68.968203
+refp 19.951320 68.968200
 crds 19.957532 68.970393
 
 text:0x5
@@ -10568,14 +14608,14 @@ text:0x5
 algn SE
 name Rávdoaivvit
 reft point:0x1100
-refp 20.712568 68.828512
-crds 20.710829 68.830679
+refp 20.712186 68.828212
+crds 20.714359 68.830387
 
 text:0x5
 algn SE
 name Spállogasnibba
 reft point:0x1100
-refp 20.222198 68.886100
+refp 20.222200 68.886100
 crds 20.230773 68.887256
 
 text:0x5
@@ -10589,7 +14629,7 @@ text:0x5
 algn SE
 name Áslatvárri
 reft point:0x1100
-refp 20.069924 68.910999
+refp 20.069920 68.911000
 crds 20.081592 68.908455
 
 text:0x5
@@ -10632,7 +14672,7 @@ text:0x5
 algn S
 name Gáibbinjunni
 reft point:0x1100
-refp 19.902242 69.012496
+refp 19.902240 69.012500
 crds 19.900975 69.014439
 
 text:0x5
@@ -10681,21 +14721,21 @@ text:0x5
 algn S
 name Larsbákti
 reft point:0x1100
-refp 19.863295 69.025378
-crds 19.863295 69.025378
+refp 19.857262 69.026571
+crds 19.861461 69.023951
 
 text:0x5
 algn S
 name Likkafjellet
 reft point:0x1100
-refp 19.832474 68.938190
+refp 19.832470 68.938190
 crds 19.841909 68.939830
 
 text:0x5
 algn S
 name Moskángáisi
 reft point:0x1100
-refp 20.171108 68.961032
+refp 20.171110 68.961030
 crds 20.169102 68.962695
 
 text:0x5
@@ -10709,42 +14749,42 @@ text:0x5
 algn S
 name Nihkolasnibba
 reft point:0x1100
-refp 20.293743 68.880829
+refp 20.293740 68.880830
 crds 20.293595 68.878657
 
 text:0x5
 algn S
 name Nohlli
 reft point:0x1100
-refp 19.856135 68.792271
+refp 19.856130 68.792270
 crds 19.860223 68.794031
 
 text:0x5
 algn S
 name Návdegielas
 reft point:0x1100
-refp 19.863281 68.816478
+refp 19.863280 68.816480
 crds 19.864889 68.818361
 
 text:0x5
 algn S
 name Regoheapmi
 reft point:0x1100
-refp 19.975959 68.841711
+refp 19.975960 68.841710
 crds 19.981196 68.839394
 
 text:0x5
 algn S
 name Rundingen
 reft point:0x1100
-refp 19.826224 68.971406
+refp 19.826220 68.971410
 crds 19.828020 68.968989
 
 text:0x5
 algn S
 name Rákkasnibba
 reft point:0x1100
-refp 20.144508 68.823236
+refp 20.144510 68.823240
 crds 20.142402 68.824937
 
 text:0x5
@@ -10765,7 +14805,7 @@ text:0x5
 algn S
 name Sávkavárri
 reft point:0x1100
-refp 20.266439 68.785389
+refp 20.266440 68.785390
 crds 20.267679 68.782885
 
 text:0x5
@@ -10779,7 +14819,7 @@ text:0x5
 algn S
 name Vanasvárri
 reft point:0x1100
-refp 20.131483 68.776165
+refp 20.131427 68.776185
 crds 20.137449 68.774046
 
 text:0x5
@@ -10800,7 +14840,7 @@ text:0x5
 scle 1.5
 name Moskkugáisi
 reft point:0x1100
-refp 20.127623 69.010159
+refp 20.127566 69.010178
 crds 20.130545 69.012046
 
 text:0x6
@@ -10939,7 +14979,7 @@ text:0x6
 name 675
 reft point:0xd00
 refp 20.647430 69.031307
-crds 20.649226 69.031307
+crds 20.645866 69.032204
 
 text:0x6
 name 683
@@ -11173,7 +15213,7 @@ text:0x6
 name 812
 reft point:0xd00
 refp 20.599194 68.762018
-crds 20.600990 68.762018
+crds 20.601784 68.761507
 
 text:0x6
 name 812
@@ -11422,6 +15462,12 @@ refp 20.698929 68.820703
 crds 20.700725 68.820703
 
 text:0x6
+name 885
+reft point:0xd00
+refp 20.956936 68.703239
+crds 20.958732 68.703239
+
+text:0x6
 name 886
 reft point:0xd00
 refp 20.466328 68.944025
@@ -11615,1236 +15661,166 @@ refp 20.796019 68.825579
 crds 20.793545 68.825118
 
 text:0x8
-name 1011
-reft point:0x1000
-refp 20.221437 68.948991
-crds 20.225473 68.949190
-
-text:0x8
-name 1027
-reft point:0x1000
-refp 20.051776 68.990759
-crds 20.051681 68.991634
-
-text:0x8
-name 1043
-reft point:0x1000
-refp 19.849534 68.904034
-crds 19.845423 68.902352
-
-text:0x8
-name 1161
-reft point:0x1000
-refp 20.122983 68.994818
-crds 20.125115 68.995607
-
-text:0x8
-name 405
-reft point:0x1000
-refp 21.437670 68.691620
-crds 21.439589 68.691811
-
-text:0x8
-name 431
-reft point:0x1000
-refp 22.195990 68.869870
-crds 22.198744 68.869671
-
-text:0x8
-name 432
-reft point:0x1000
-refp 22.161840 68.929980
-crds 22.164104 68.929884
-
-text:0x8
-name 432
-reft point:0x1000
-refp 22.178640 68.912290
-crds 22.179856 68.913300
-
-text:0x8
-name 433
-reft point:0x1000
-refp 22.200760 68.855530
-crds 22.200086 68.856390
-
-text:0x8
-name 437
-reft point:0x1000
-refp 22.174150 68.824560
-crds 22.174786 68.822906
-
-text:0x8
-name 440
-reft point:0x1000
-refp 22.202750 68.799420
-crds 22.205667 68.799360
-
-text:0x8
-name 445
-reft point:0x1000
-refp 21.258240 68.823090
-crds 21.260008 68.823390
-
-text:0x8
 name 446
 reft point:0x1000
-refp 21.556130 68.718720
-crds 21.558009 68.719389
-
-text:0x8
-name 447
-reft point:0x1000
-refp 21.150080 68.851030
-crds 21.151026 68.851869
-
-text:0x8
-name 448
-reft point:0x1000
-refp 21.205520 68.844330
-crds 21.208224 68.844309
-
-text:0x8
-name 448
-reft point:0x1000
-refp 22.052101 68.926544
-crds 22.055383 68.927124
+refp 21.201897 68.803393
+crds 21.203693 68.803393
 
 text:0x8
 name 450
 reft point:0x1000
-refp 22.078270 68.935730
-crds 22.080991 68.934720
-
-text:0x8
-name 452
-reft point:0x1000
-refp 22.078670 68.965300
-crds 22.076876 68.965988
-
-text:0x8
-name 452
-reft point:0x1000
-refp 22.092590 68.951430
-crds 22.095234 68.950991
-
-text:0x8
-name 458
-reft point:0x1000
-refp 20.908408 68.895787
-crds 20.905695 68.896781
-
-text:0x8
-name 458
-reft point:0x1000
-refp 21.101230 68.892530
-crds 21.102177 68.893367
+refp 21.095810 68.846426
+crds 21.097606 68.846426
 
 text:0x8
 name 459
 reft point:0x1000
-refp 20.866580 68.924690
-crds 20.869733 68.924118
+refp 20.920544 68.891416
+crds 20.922340 68.891416
 
 text:0x8
-name 459
+name 484
 reft point:0x1000
-refp 21.230750 68.853290
-crds 21.232574 68.853723
-
-text:0x8
-name 460
-reft point:0x1000
-refp 22.017710 68.936490
-crds 22.020262 68.936636
-
-text:0x8
-name 473
-reft point:0x1000
-refp 21.912340 68.845950
-crds 21.915098 68.845899
-
-text:0x8
-name 474
-reft point:0x1000
-refp 21.290570 68.799100
-crds 21.294258 68.798918
-
-text:0x8
-name 476
-reft point:0x1000
-refp 22.175140 68.682820
-crds 22.174390 68.681028
-
-text:0x8
-name 480
-reft point:0x1000
-refp 21.478640 68.708070
-crds 21.480923 68.706944
-
-text:0x8
-name 488
-reft point:0x1000
-refp 21.498200 68.709950
-crds 21.499702 68.708546
-
-text:0x8
-name 492
-reft point:0x1000
-refp 21.470870 68.752290
-crds 21.473429 68.751349
-
-text:0x8
-name 494
-reft point:0x1000
-refp 20.663150 69.052580
-crds 20.663402 69.050686
-
-text:0x8
-name 497
-reft point:0x1000
-refp 22.047604 68.677083
-crds 22.040356 68.676609
-
-text:0x8
-name 500
-reft point:0x1000
-refp 21.962740 68.787880
-crds 21.965166 68.787988
-
-text:0x8
-name 500
-reft point:0x1000
-refp 22.166590 69.058350
-crds 22.168475 69.059178
-
-text:0x8
-name 501
-reft point:0x1000
-refp 21.236056 68.866268
-crds 21.238211 68.866544
-
-text:0x8
-name 504
-reft point:0x1000
-refp 21.313980 68.852350
-crds 21.314219 68.853367
-
-text:0x8
-name 507
-reft point:0x1000
-refp 22.174580 69.007270
-crds 22.178001 69.006748
-
-text:0x8
-name 508
-reft point:0x1000
-refp 21.219400 68.874890
-crds 21.221396 68.875349
-
-text:0x8
-name 511
-reft point:0x1000
-refp 21.189540 68.884010
-crds 21.191804 68.883905
-
-text:0x8
-name 511
-reft point:0x1000
-refp 21.988370 69.075339
-crds 21.990688 69.074904
-
-text:0x8
-name 513
-reft point:0x1000
-refp 21.743580 68.683140
-crds 21.746034 68.682789
-
-text:0x8
-name 517
-reft point:0x1000
-refp 21.944150 69.033320
-crds 21.944864 69.031677
-
-text:0x8
-name 521
-reft point:0x1000
-refp 21.673830 68.870630
-crds 21.676631 68.870025
+refp 20.930157 68.845187
+crds 20.931953 68.845187
 
 text:0x8
 name 524
 reft point:0x1000
-refp 21.222997 68.755929
+refp 21.223011 68.755923
 crds 21.224793 68.755929
 
 text:0x8
-name 524
+name 556
 reft point:0x1000
-refp 21.564170 68.733770
-crds 21.566659 68.734561
+refp 20.820293 68.943964
+crds 20.822089 68.943964
 
 text:0x8
-name 527
+name 589
 reft point:0x1000
-refp 22.096440 68.829140
-crds 22.096224 68.830313
+refp 20.381093 68.922750
+crds 20.382889 68.922750
 
 text:0x8
-name 528
+name 672
 reft point:0x1000
-refp 20.981480 68.918810
-crds 20.983361 68.917476
-
-text:0x8
-name 531
-reft point:0x1000
-refp 21.799275 68.682405
-crds 21.801590 68.680589
-
-text:0x8
-name 531
-reft point:0x1000
-refp 21.930160 69.048950
-crds 21.932278 69.049078
-
-text:0x8
-name 533
-reft point:0x1000
-refp 21.773470 69.015030
-crds 21.776342 69.014359
-
-text:0x8
-name 538
-reft point:0x1000
-refp 21.365600 68.857990
-crds 21.369061 68.857250
-
-text:0x8
-name 539
-reft point:0x1000
-refp 21.930550 69.073550
-crds 21.932283 69.072409
-
-text:0x8
-name 540
-reft point:0x1000
-refp 21.917470 69.061630
-crds 21.919335 69.062275
-
-text:0x8
-name 541
-reft point:0x1000
-refp 21.448330 68.847330
-crds 21.446418 68.848154
-
-text:0x8
-name 542
-reft point:0x1000
-refp 22.101470 69.078740
-crds 22.102388 69.079388
-
-text:0x8
-name 547
-reft point:0x1000
-refp 21.696170 69.024610
-crds 21.697363 69.025500
-
-text:0x8
-name 550
-reft point:0x1000
-refp 21.628980 68.872030
-crds 21.627236 68.872955
-
-text:0x8
-name 550
-reft point:0x1000
-refp 21.869590 69.079960
-crds 21.870649 69.078418
-
-text:0x8
-name 551
-reft point:0x1000
-refp 21.504680 68.861650
-crds 21.504533 68.860054
-
-text:0x8
-name 554
-reft point:0x1000
-refp 21.535410 68.866220
-crds 21.537985 68.865177
-
-text:0x8
-name 557
-reft point:0x1000
-refp 21.832150 69.082210
-crds 21.833851 69.082856
-
-text:0x8
-name 557
-reft point:0x1000
-refp 22.051960 69.059490
-crds 22.053874 69.059956
-
-text:0x8
-name 559
-reft point:0x1000
-refp 20.915200 69.029500
-crds 20.918484 69.029662
-
-text:0x8
-name 560
-reft point:0x1000
-refp 21.952370 68.678910
-crds 21.954651 68.678598
-
-text:0x8
-name 562
-reft point:0x1000
-refp 21.818866 68.983288
-crds 21.818749 68.981575
-
-text:0x8
-name 565
-reft point:0x1000
-refp 21.851630 68.877820
-crds 21.853873 68.877169
-
-text:0x8
-name 566
-reft point:0x1000
-refp 22.035770 68.804100
-crds 22.033949 68.805168
-
-text:0x8
-name 567
-reft point:0x1000
-refp 21.889040 68.898120
-crds 21.890938 68.897069
-
-text:0x8
-name 571
-reft point:0x1000
-refp 22.038150 68.811620
-crds 22.040764 68.810926
-
-text:0x8
-name 572
-reft point:0x1000
-refp 21.879990 69.053230
-crds 21.883922 69.052571
-
-text:0x8
-name 573
-reft point:0x1000
-refp 20.995650 68.943770
-crds 20.996760 68.944389
-
-text:0x8
-name 575
-reft point:0x1000
-refp 21.494200 68.875360
-crds 21.496436 68.873902
-
-text:0x8
-name 584
-reft point:0x1000
-refp 20.982770 68.935880
-crds 20.985592 68.934945
-
-text:0x8
-name 592
-reft point:0x1000
-refp 20.196545 68.917364
-crds 20.194281 68.915799
-
-text:0x8
-name 593
-reft point:0x1000
-refp 20.164131 68.929968
-crds 20.166215 68.929042
-
-text:0x8
-name 593
-reft point:0x1000
-refp 21.467250 69.016050
-crds 21.471024 69.015806
-
-text:0x8
-name 598
-reft point:0x1000
-refp 21.358230 69.040500
-crds 21.360391 69.040035
-
-text:0x8
-name 598
-reft point:0x1000
-refp 21.812590 68.767370
-crds 21.810217 68.765584
-
-text:0x8
-name 605
-reft point:0x1000
-refp 21.331130 69.032140
-crds 21.334069 69.031378
-
-text:0x8
-name 610
-reft point:0x1000
-refp 20.269751 68.903965
-crds 20.270607 68.904805
-
-text:0x8
-name 612
-reft point:0x1000
-refp 21.256840 69.022010
-crds 21.258284 69.022190
-
-text:0x8
-name 613
-reft point:0x1000
-refp 21.031940 68.932320
-crds 21.031935 68.933099
-
-text:0x8
-name 621
-reft point:0x1000
-refp 20.020200 68.607510
-crds 20.023132 68.606549
-
-text:0x8
-name 627
-reft point:0x1000
-refp 21.689330 68.899540
-crds 21.691495 68.899991
-
-text:0x8
-name 637
-reft point:0x1000
-refp 21.814690 68.717980
-crds 21.817025 68.717476
-
-text:0x8
-name 638
-reft point:0x1000
-refp 21.124610 69.014680
-crds 21.126724 69.014064
-
-text:0x8
-name 646
-reft point:0x1000
-refp 21.015310 69.014640
-crds 21.012143 69.012871
-
-text:0x8
-name 648
-reft point:0x1000
-refp 21.981050 68.696800
-crds 21.983406 68.696709
-
-text:0x8
-name 662
-reft point:0x1000
-refp 19.955333 68.784961
-crds 19.952442 68.783329
-
-text:0x8
-name 662
-reft point:0x1000
-refp 21.107790 68.950230
-crds 21.109616 68.950631
-
-text:0x8
-name 665
-reft point:0x1000
-refp 20.285557 68.884477
-crds 20.283296 68.882755
-
-text:0x8
-name 666
-reft point:0x1000
-refp 19.973729 68.792445
-crds 19.969798 68.792978
-
-text:0x8
-name 666
-reft point:0x1000
-refp 21.671770 69.059560
-crds 21.674698 69.058836
-
-text:0x8
-name 666
-reft point:0x1000
-refp 21.742530 68.732150
-crds 21.744791 68.732542
-
-text:0x8
-name 669
-reft point:0x1000
-refp 21.438730 69.073630
-crds 21.440906 69.073649
-
-text:0x8
-name 674
-reft point:0x1000
-refp 19.974650 68.773090
-crds 19.976623 68.773125
-
-text:0x8
-name 674
-reft point:0x1000
-refp 20.298825 68.872466
-crds 20.301303 68.872656
-
-text:0x8
-name 675
-reft point:0x1000
-refp 20.015240 68.790510
-crds 20.013767 68.788965
+refp 20.706263 68.696448
+crds 20.708622 68.696233
 
 text:0x8
 name 678
 reft point:0x1000
-refp 20.492402 68.759784
+refp 20.492420 68.759779
 crds 20.494198 68.759784
-
-text:0x8
-name 678
-reft point:0x1000
-refp 20.987620 69.045070
-crds 20.990072 69.044755
-
-text:0x8
-name 679
-reft point:0x1000
-refp 20.303607 68.817577
-crds 20.305403 68.817577
-
-text:0x8
-name 680
-reft point:0x1000
-refp 20.883020 69.051160
-crds 20.885862 69.051108
-
-text:0x8
-name 680
-reft point:0x1000
-refp 21.047560 69.061490
-crds 21.048452 69.061991
 
 text:0x8
 name 682
 reft point:0x1000
-refp 21.075320 68.954190
-crds 21.076489 68.954686
+refp 20.534477 68.871501
+crds 20.535658 68.870094
 
 text:0x8
-name 684
+name 682
 reft point:0x1000
-refp 19.988521 68.802301
-crds 19.990762 68.802269
-
-text:0x8
-name 689
-reft point:0x1000
-refp 20.241693 68.797843
-crds 20.239994 68.796103
-
-text:0x8
-name 691
-reft point:0x1000
-refp 21.108730 69.069630
-crds 21.111128 69.069624
-
-text:0x8
-name 700
-reft point:0x1000
-refp 20.160642 68.802248
-crds 20.160644 68.800794
-
-text:0x8
-name 705
-reft point:0x1000
-refp 19.913210 68.747660
-crds 19.915071 68.747797
-
-text:0x8
-name 708
-reft point:0x1000
-refp 21.075020 69.031830
-crds 21.078077 69.030714
-
-text:0x8
-name 713
-reft point:0x1000
-refp 19.899516 69.026519
-crds 19.902365 69.026239
-
-text:0x8
-name 713
-reft point:0x1000
-refp 21.185240 69.047130
-crds 21.188298 69.046926
-
-text:0x8
-name 720
-reft point:0x1000
-refp 20.190157 68.675888
-crds 20.192795 68.675583
+refp 20.563660 68.684091
+crds 20.565456 68.684091
 
 text:0x8
 name 721
 reft point:0x1000
-refp 20.209821 68.660310
-crds 20.211617 68.660310
+refp 20.209866 68.660303
+crds 20.212753 68.659368
 
 text:0x8
-name 725
+name 728
 reft point:0x1000
-refp 20.006870 68.758210
-crds 20.006235 68.758966
+refp 20.716438 68.770411
+crds 20.719657 68.770346
 
 text:0x8
-name 725
+name 729
 reft point:0x1000
-refp 20.837070 68.695508
-crds 20.838866 68.695508
+refp 20.775318 68.771343
+crds 20.773357 68.769559
 
 text:0x8
-name 727
+name 736
 reft point:0x1000
-refp 20.030520 68.744070
-crds 20.031998 68.742888
+refp 20.638106 68.981757
+crds 20.639957 68.981738
 
 text:0x8
-name 733
+name 736
 reft point:0x1000
-refp 21.602050 68.949840
-crds 21.605086 68.949491
-
-text:0x8
-name 741
-reft point:0x1000
-refp 21.309210 69.071940
-crds 21.312152 69.071055
+refp 20.705280 68.652306
+crds 20.707076 68.652306
 
 text:0x8
 name 742
 reft point:0x1000
-refp 20.657532 68.824735
-crds 20.659066 68.825256
+refp 20.658356 68.824916
+crds 20.660056 68.825338
 
 text:0x8
 name 746
 reft point:0x1000
-refp 20.972166 68.753944
+refp 20.205693 69.037522
+crds 20.207542 69.037510
+
+text:0x8
+name 746
+reft point:0x1000
+refp 20.972214 68.753932
 crds 20.973962 68.753944
 
 text:0x8
-name 755
+name 753
 reft point:0x1000
-refp 20.119180 68.668000
-crds 20.121752 68.667909
-
-text:0x8
-name 756
-reft point:0x1000
-refp 19.943018 68.990217
-crds 19.946428 68.989741
-
-text:0x8
-name 756
-reft point:0x1000
-refp 19.944394 68.871606
-crds 19.947068 68.871105
-
-text:0x8
-name 756
-reft point:0x1000
-refp 20.011250 68.728530
-crds 20.013227 68.728417
-
-text:0x8
-name 758
-reft point:0x1000
-refp 20.159470 68.657130
-crds 20.161865 68.657483
-
-text:0x8
-name 759
-reft point:0x1000
-refp 19.999418 68.920384
-crds 20.002726 68.920624
+refp 21.006866 68.762616
+crds 21.007362 68.760684
 
 text:0x8
 name 762
 reft point:0x1000
-refp 21.646570 68.825490
-crds 21.648067 68.823932
-
-text:0x8
-name 766
-reft point:0x1000
-refp 20.114450 68.685343
-crds 20.112977 68.685946
-
-text:0x8
-name 767
-reft point:0x1000
-refp 19.975050 68.657400
-crds 19.977349 68.657297
-
-text:0x8
-name 771
-reft point:0x1000
-refp 20.026504 68.890533
-crds 20.025202 68.888793
-
-text:0x8
-name 773
-reft point:0x1000
-refp 20.296610 68.779228
-crds 20.294977 68.780416
-
-text:0x8
-name 774
-reft point:0x1000
-refp 21.665130 68.838550
-crds 21.667855 68.837545
+refp 20.760555 68.812267
+crds 20.762351 68.812267
 
 text:0x8
 name 778
 reft point:0x1000
-refp 20.206579 68.993512
+refp 20.206604 68.993494
 crds 20.208375 68.993512
-
-text:0x8
-name 786
-reft point:0x1000
-refp 21.390620 68.965610
-crds 21.393269 68.964552
-
-text:0x8
-name 788
-reft point:0x1000
-refp 20.024736 68.622034
-crds 20.026802 68.622225
-
-text:0x8
-name 792
-reft point:0x1000
-refp 19.974570 68.643040
-crds 19.976223 68.642771
 
 text:0x8
 name 795
 reft point:0x1000
-refp 19.992470 68.670850
-crds 19.994851 68.670231
+refp 20.350800 68.743417
+crds 20.352596 68.743417
 
 text:0x8
-name 797
+name 812
 reft point:0x1000
-refp 21.127640 69.033800
-crds 21.129532 69.034339
-
-text:0x8
-name 806
-reft point:0x1000
-refp 21.263180 68.957920
-crds 21.265340 68.958060
-
-text:0x8
-name 820
-reft point:0x1000
-refp 20.004226 68.634242
-crds 20.007410 68.633382
-
-text:0x8
-name 824
-reft point:0x1000
-refp 21.381000 68.953120
-crds 21.383446 68.953556
-
-text:0x8
-name 826
-reft point:0x1000
-refp 21.330540 68.946430
-crds 21.331894 68.944471
-
-text:0x8
-name 832
-reft point:0x1000
-refp 20.134342 68.725414
-crds 20.136858 68.724212
-
-text:0x8
-name 834
-reft point:0x1000
-refp 20.205686 68.880065
-crds 20.205868 68.881102
-
-text:0x8
-name 835
-reft point:0x1000
-refp 21.253190 68.984907
-crds 21.251783 68.982937
-
-text:0x8
-name 840
-reft point:0x1000
-refp 20.147714 68.734008
-crds 20.150177 68.734160
-
-text:0x8
-name 840
-reft point:0x1000
-refp 20.248911 68.814785
-crds 20.252192 68.813864
-
-text:0x8
-name 846
-reft point:0x1000
-refp 20.193637 68.783831
-crds 20.196303 68.783108
-
-text:0x8
-name 850
-reft point:0x1000
-refp 20.174527 68.727392
-crds 20.177021 68.727944
-
-text:0x8
-name 852
-reft point:0x1000
-refp 20.107430 68.767610
-crds 20.109625 68.767723
-
-text:0x8
-name 860
-reft point:0x1000
-refp 20.218038 68.723643
-crds 20.219834 68.723643
-
-text:0x8
-name 864
-reft point:0x1000
-refp 20.199888 68.828554
-crds 20.200798 68.829255
-
-text:0x8
-name 868
-reft point:0x1000
-refp 20.087360 68.743220
-crds 20.086653 68.741806
-
-text:0x8
-name 870
-reft point:0x1000
-refp 20.099247 68.787304
-crds 20.097445 68.788330
-
-text:0x8
-name 874
-reft point:0x1000
-refp 19.880850 68.896123
-crds 19.882510 68.895019
-
-text:0x8
-name 875
-reft point:0x1000
-refp 19.985239 68.899725
-crds 19.987272 68.899996
+refp 20.303593 68.694821
+crds 20.305389 68.694821
 
 text:0x8
 name 878
 reft point:0x1000
-refp 20.349051 68.649013
+refp 20.349083 68.648994
 crds 20.350847 68.649013
 
 text:0x8
-name 883
+algn SE
+name 682
 reft point:0x1000
-refp 20.074470 68.640070
-crds 20.071371 68.640945
-
-text:0x8
-name 898
-reft point:0x1000
-refp 19.965432 68.920732
-crds 19.968670 68.920115
-
-text:0x8
-name 902
-reft point:0x1000
-refp 20.061066 69.011544
-crds 20.061371 69.012203
-
-text:0x8
-name 904
-reft point:0x1000
-refp 20.011891 68.858780
-crds 20.011295 68.859732
-
-text:0x8
-name 927
-reft point:0x1000
-refp 20.127584 68.835773
-crds 20.126005 68.833953
-
-text:0x8
-name 943
-reft point:0x1000
-refp 20.034781 68.967816
-crds 20.035085 68.968455
-
-text:0x8
-name 943
-reft point:0x1000
-refp 20.098197 68.870109
-crds 20.098100 68.868496
-
-text:0x8
-name 953
-reft point:0x1000
-refp 19.967721 68.998120
-crds 19.964833 68.999277
+refp 20.411708 68.813623
+crds 20.410915 68.814397
 
 text:0x8
 algn SE
-name 398
+name 725
 reft point:0x1000
-refp 21.586090 68.682360
-crds 21.583841 68.682290
-
-text:0x8
-algn SE
-name 398
-reft point:0x1000
-refp 21.601990 68.672870
-crds 21.600971 68.671434
-
-text:0x8
-algn SE
-name 450
-reft point:0x1000
-refp 22.192590 68.947230
-crds 22.192300 68.947968
-
-text:0x8
-algn SE
-name 455
-reft point:0x1000
-refp 22.024520 68.961240
-crds 22.020965 68.961021
-
-text:0x8
-algn SE
-name 458
-reft point:0x1000
-refp 20.983620 68.900850
-crds 20.981187 68.900705
-
-text:0x8
-algn SE
-name 458
-reft point:0x1000
-refp 21.059992 68.879656
-crds 21.058281 68.880333
-
-text:0x8
-algn SE
-name 464
-reft point:0x1000
-refp 21.496680 68.697840
-crds 21.494812 68.697603
-
-text:0x8
-algn SE
-name 464
-reft point:0x1000
-refp 22.139940 68.789520
-crds 22.138543 68.788056
-
-text:0x8
-algn SE
-name 473
-reft point:0x1000
-refp 20.933160 68.971090
-crds 20.930887 68.970813
-
-text:0x8
-algn SE
-name 473
-reft point:0x1000
-refp 22.141828 68.776937
-crds 22.138242 68.776541
-
-text:0x8
-algn SE
-name 488
-reft point:0x1000
-refp 21.838630 68.831880
-crds 21.838165 68.832755
-
-text:0x8
-algn SE
-name 506
-reft point:0x1000
-refp 21.305810 68.864480
-crds 21.303655 68.864599
-
-text:0x8
-algn SE
-name 509
-reft point:0x1000
-refp 22.020399 68.747508
-crds 22.019568 68.745815
-
-text:0x8
-algn SE
-name 524
-reft point:0x1000
-refp 22.047750 68.689880
-crds 22.044937 68.689394
-
-text:0x8
-algn SE
-name 539
-reft point:0x1000
-refp 21.715810 69.012360
-crds 21.715201 69.010688
-
-text:0x8
-algn SE
-name 547
-reft point:0x1000
-refp 21.622200 69.009560
-crds 21.621599 69.007767
-
-text:0x8
-algn SE
-name 551
-reft point:0x1000
-refp 21.930400 68.673270
-crds 21.929000 68.673856
-
-text:0x8
-algn SE
-name 552
-reft point:0x1000
-refp 21.561280 69.010810
-crds 21.559460 69.009203
-
-text:0x8
-algn SE
-name 556
-reft point:0x1000
-refp 21.514290 69.024750
-crds 21.511942 69.024084
-
-text:0x8
-algn SE
-name 570
-reft point:0x1000
-refp 21.924972 68.766698
-crds 21.923242 68.766178
-
-text:0x8
-algn SE
-name 582
-reft point:0x1000
-refp 21.495950 68.884760
-crds 21.492960 68.884609
-
-text:0x8
-algn SE
-name 658
-reft point:0x1000
-refp 21.167130 68.934514
-crds 21.164093 68.933686
-
-text:0x8
-algn SE
-name 664
-reft point:0x1000
-refp 21.011704 69.047943
-crds 21.010437 69.045576
-
-text:0x8
-algn SE
-name 665
-reft point:0x1000
-refp 19.916790 68.774990
-crds 19.914727 68.774482
-
-text:0x8
-algn SE
-name 668
-reft point:0x1000
-refp 19.839361 69.018898
-crds 19.839259 69.017245
-
-text:0x8
-algn SE
-name 670
-reft point:0x1000
-refp 20.255006 68.848432
-crds 20.252223 68.847583
-
-text:0x8
-algn SE
-name 684
-reft point:0x1000
-refp 21.102021 69.059315
-crds 21.097673 69.058714
-
-text:0x8
-algn SE
-name 694
-reft point:0x1000
-refp 20.067660 68.698460
-crds 20.067063 68.697064
-
-text:0x8
-algn SE
-name 695
-reft point:0x1000
-refp 21.125820 68.929450
-crds 21.123986 68.928534
-
-text:0x8
-algn SE
-name 758
-reft point:0x1000
-refp 21.333629 69.011200
-crds 21.331585 69.012060
-
-text:0x8
-algn SE
-name 775
-reft point:0x1000
-refp 21.204730 69.056050
-crds 21.204124 69.056951
-
-text:0x8
-algn SE
-name 858
-reft point:0x1000
-refp 20.187202 68.868065
-crds 20.188196 68.866596
-
-text:0x8
-algn SE
-name 877
-reft point:0x1000
-refp 20.218580 68.685870
-crds 20.216307 68.685137
-
-text:0x8
-algn SE
-name 918
-reft point:0x1000
-refp 20.082661 68.986313
-crds 20.081331 68.984991
+refp 20.837116 68.695507
+crds 20.837961 68.693776
 
