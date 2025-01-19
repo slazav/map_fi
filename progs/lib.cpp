@@ -142,10 +142,9 @@ std::list<oconv_t> ret;
     auto vs = read_words(ff, line_num, false);
     if (vs.size()==0) break;
     try{
-      if (vs.size()!=6) throw Err()
-        << "6 words expected: (<file>|*) (<type>|*) (<lat>|*) (<lon>|*) <name_re> (<name_subst>|-) ";
-      oconv_t c = {vs[0], vs[1], vs[2], vs[3], vs[4], vs[5]};
-      ret.emplace_back(c);
+      if (vs.size()<6) throw Err()
+        << "at least 6 words expected: (<map>|*) (<type>|*) (<lat>|*) (<lon>|*) <name> <action> [parameters]";
+      ret.emplace_back(vs);
     }
     catch (Err & e) {
       throw Err() << fname << ":" << line_num[0] << ": " << e.str();

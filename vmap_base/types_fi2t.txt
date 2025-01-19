@@ -57,7 +57,7 @@
 36490      -            - 0 0 0.75  # other water object
 36500      -            - 1 0 0.75  # legend of other land object
 
-38201      -            - 0 0 0.75  # rapids
+38201 text:4 point:0x6508 0 0 0.75  # rapids -- replace FI1
 38501      -            - 0 0 0.75  # water stone
 38901      -            - 0 0 0.75  # storage area
 38902      -            - 0 0 0.75  # storage area - legend

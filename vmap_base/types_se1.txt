@@ -18,24 +18,25 @@ area:2644 area:0x52  # Bare mountain - тундра, надо рисовать �
 area:2651 area:0x51  # Marshland, solid
 area:2652 area:0x4C  # Marshland, wet
 
-# area:1571 -          # Mountain in the open
-# area:1741 area:0x04  # Transformer (area)
-# area:2061 area:0x0E  # Residential
-# area:2062 area:0x04  # Industry
-# area:2063            # Community function
-# area:2064            # Business
-# area:2065            # Utility building
-# area:2066            # Complementary building
-# area:2067            # Other building
+# area:1571 -           # Mountain in the open
+area:1741 point:0x6402  # Transformer (area)
+area:2061 point:0x6402  # Residential building
+area:2062 point:0x6402  # Industrial building
+area:2063 point:0x6402  # Community function building
+area:2064 point:0x6402  # Business
+area:2065 point:0x6402  # Utility building
+area:2066 point:0x6402  # Complementary building
+area:2067 point:0x6402  # Other building
 # area:2636            # Closed development
 # area:2637            # High-rise development
 # area:2638            # Low-rise development
 # area:2639          # Industrial and commercial development
 area:2643 area:0x15  # Fruit growing
 area:2648 -          # Unmapped area -- какой-то непонятный технический знак
+
 area:2831 area:0x04  # Industrial area
-# area:2832            # Community function
-# area:2833            # Recreation
+area:2832 area:0x0E  # Community function + Cemetery
+# area:2833          # Recreation
 area:2834 line:0x36  # Civilian shooting range (в т.ч. космический полигон)
 # area:2853            # Runway
 area:2854 area:0x04  # Airport area
@@ -121,7 +122,7 @@ line:2623 -         # line:0x23  Forest land boundary
 point:1042 point:0x2C0B  # Church
 point:1044 point:0x6402  # Kota
 #point:1045 point:0x6411 # Tower
-#point:1046 Windbreak
+#point:1046 Windbreak ??
 point:1047 point:0x6411  # Windmill
 point:1050 point:0x2B04  # Rest hut
 point:1051 point:0x6411  # Lighthouse

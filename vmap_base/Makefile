@@ -20,24 +20,23 @@ NAMES =\
 
 VMAPSB  = $(patsubst %, %_b.vmap2.gz, ${NAMES})
 VMAPST = $(patsubst %, %_t.vmap2.gz, ${NAMES})
-VMAPSX = $(patsubst %, %_x.vmap2.gz, ${NAMES})
 PNGB = $(patsubst %, %_b.png, ${NAMES})
-PNGX = $(patsubst %, %_x.png, ${NAMES})
+PNGT = $(patsubst %, %_t.png, ${NAMES})
 
 RENDER_CONF = ../render.cfg
 TYPEINFO = ../types.cfg
 
 all: ${VMAPSB} ${VMAPST} ${VMAPSX} ${PNGB} ${PNGX}
 
-%_b.vmap2.gz %_t.vmap2.gz %_x.vmap2.gz:
+%_b.vmap2.gz %_t.vmap2.gz:
 	../progs/make_map "$*" "../vmap1"
 
-%_x.png %_x.map: %_b.vmap2.gz %_t.vmap2.gz %_x.vmap2.gz
+%_t.png %_t.map: %_b.vmap2.gz %_t.vmap2.gz
 	time ~/mapsoft2/programs/ms2render/ms2render $+ --out "$@"\
     --config "${RENDER_CONF}" --types "${TYPEINFO}"\
     --define "{\"nom_name\":\"$*\"}"\
     --mkref nom_fi --name "$*" --dpi "200"\
-    --png_format pal --map "$*_x.map"
+    --png_format pal --map "$*_t.map"
 
 %_b.png %_b.map: %_b.vmap2.gz
 	time ~/mapsoft2/programs/ms2render/ms2render $+ --out "$@"\

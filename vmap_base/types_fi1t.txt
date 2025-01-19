@@ -18,7 +18,7 @@
 2010230  text:4 point:0x650C  1   x1  # canal
 2020105  text:4 point:0x650C  1   x1  # river
 2020110  text:4 point:0x650C  0   x1  # bay
-2020115  text:4 point:0x6508  0 0.75  # rapids
+2020115  -      -             0 0.75  # rapids  (text:4 point:0x6508) - get from FI2
 
 3010105  text:2 point:0x700   0   x1  # towns
 3010110  text:2 point:0x800   0   x1  # villages

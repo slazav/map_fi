@@ -40,8 +40,7 @@ std::map<std::string, tconv_fi2t_t>
 read_tconv_fi2t(const std::string & fname);
 
 // update_map -- object conversion table
-struct oconv_t {
-  std::string src, type, lon, lat, name_re, name_subst;};
+typedef std::vector<std::string> oconv_t;
 std::list<oconv_t>
 read_oconv(const std::string & fname);
 
