@@ -1,0 +1,6 @@
+include ALL.cnv
+
+point:0x2b04 20.55706 69.06030 "Kuohkimajärvi\autiotupa" rename "Kuohkimajärvi\autio- ja varaustupa"
+point:0x2b04 20.55742 69.06078 "Kuohkimajärvi\varaustupa" rename ""
+point:0x2b04 21.34243 69.16200 "Meekonjärvi\varaustupa" rename ""
+point:0x2b04 21.34272 69.16142 "Meekonjärvi\vuokratupa" rename "Meekonjärvi\varaus- ja vuokratupa"

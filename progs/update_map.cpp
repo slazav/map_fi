@@ -85,7 +85,7 @@ void filter_vmap(VMap2 & vmap, const std::string & fname){
          dPoint pt(str_to_type<double>(conv[1]), str_to_type<double>(conv[2]));
          if (geo_dist_2d(obj.get_first_pt(), pt) > find_dist) continue;
       }
-      if (conv[4] != "*" && obj.name != conv[3]) continue; // name
+      if (conv[3] != "*" && obj.name != conv[3]) continue; // name
       std::string action = conv[4];
 
       if (action == "del"){
@@ -111,9 +111,12 @@ void filter_vmap(VMap2 & vmap, const std::string & fname){
 
       if (action == "regex"){
         if (conv.size()!=7) throw Err() << "two argument expected for regex action";
-        obj.name = std::regex_replace(
+        auto n = std::regex_replace(
            obj.name, std::regex(conv[5]), conv[6]);
-        vmap.put(id, obj);
+        if (n!=obj.name){
+          obj.name = n;
+          vmap.put(id, obj);
+        }
         continue;
       }
 

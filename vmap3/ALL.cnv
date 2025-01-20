@@ -1,0 +1,34 @@
+* * * * regex "Ylimmäi(nen|set|sen) ?"   Yl.
+* * * * regex "Keskimmäi(nen|set|sen) ?" Kesk.
+* * * * regex "Alimmai(nen|set|sen) ?"   Al.
+* * * * regex "Alempi "                  Al.
+* * * * regex "Ylempi "                  Yl.
+
+point:0x2b04 * * * regex "(.*), (autiotupa|varaustupa|vuokratupa)" "$1\\$2"
+point:0x2b04 * * "koulu"         del
+point:0x2b04 * * "kappeli"       del
+point:0x2b04 * * "kirkko"        del
+point:0x2b04 * * "terveyskeskus" del
+point:0x2b04 * * "b"             del  # Polttoaineen jakelupiste
+point:0x2b04 * * "p"             del  # Posti
+point:0x2b04 * * "h.as."         del
+point:0x2b04 * * "h.as"          del
+point:0x2b04 * * "k.talo"        del  # kaupungintalo
+point:0x2b04 * * "s.talo"        del  # seurantalo
+point:0x2b04 * * "vanhaink."     del  # д/о
+# point:0x2b04 * * "kpa"           del  # Kauppa
+# point:0x2b04 * * "leir.alue"     del  # camping
+
+point:0x2800 * * "erotusaita"    del
+point:0x2800 * * "Rengärde"      rename "rengärde"
+point:0x2800 * * "Rostu"         rename "rostu"
+
+point:0x6415 * * "struven ketjun piste" rename "Struven ketjun piste"
+point:0x6415 * * "pyyntikuopat"  del
+point:0x6415 * * "pyyntikuoppia" del
+point:0x6415 * * "pyyntikuoppa"  del
+point:0x6415 * * "pyyntikuopia"  del
+point:0x6415 * * "kivik. asuinpaikka"       del
+point:0x6415 * * "muinainen asuinpaikka"    del
+point:0x6415 * * "muinaisasuinpaikka"       del
+point:0x6415 * * "kivikautinen asuinpaikka" del

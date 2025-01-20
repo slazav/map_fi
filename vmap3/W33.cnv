@@ -1,0 +1,1619 @@
+include ALL.cnv
+
+# потерянное!
+# point:0x1100 21.96237 68.97636 "515 Áhkáskáidi" del
+
+# лишние объекты
+point:0x2800 20.89000 69.01924 "retkeilyreitti" del
+point:0x2800 20.87611 69.00717 "val. kuntorata" del
+point:0x2b04 20.87067 69.01622 "hot." del
+point:0x2b04 20.87665 69.01892 "hotelli" del
+point:0x2b04 20.88827 69.01384 "hotelli" del
+point:0x2b04 20.87901 69.01452 "lomak." del
+point:0x6508 21.73521 69.01390 "Garraguoika" del  # очень плотная серия порогов в населенке
+
+# сборка аутиотуп
+point:0x2b04 21.79951 68.67963 "Aatsa" rename "Aatsa\\autiotupa"
+point:0x2b04 21.80023 68.67920 "autiotupa" del
+point:0x2b04 22.18168 68.89113 "Hirvasvuopio, autiotupa" rename "Hirvasvuopio\\autiotupa"
+point:0x2b04 22.19066 68.88972 "Hirvasvuopio, vuokratupa" rename "Hirvasvuopio\\vuokratupa"
+point:0x2b04 21.39613 68.90233 "Suppijoki eli\\autiotupa" rename "Suppijoki/Puuvrasjoki\\autiotupa"
+
+# избы, продублированные знаком урочища
+point:0x2800 22.19066 68.88972 "Hirvasvuopio, vuokratupa" del
+point:0x2800 20.18066 68.92681 "Måskohytta" del
+
+# смена типа урочище -> порог
+point:0x650c 20.78694 68.91567 "Harakkakoski" ch_type point:0x6508
+point:0x650c 20.80137 68.90682 "Harakkaniva" ch_type point:0x6508
+
+# удаление приграничных дублей (вершины, озера)
+point:0x1100 21.05757 69.03564 "841 Muurivaara" del
+point:0x1100 21.08075 69.07433 "Deamádanvárri" del
+point:0x1100 22.16661 68.96622 "523 Gorževárri" del
+point:0x1100 22.21362 68.92528 "Oadjevárri" del
+point:0x650c 21.43053 68.68836 "Ainuvarppijärvi" del
+point:0x650c 20.89806 68.97467 "Alanen Kilpisjärvi" del
+point:0x650c 20.30390 68.77365 "Bárdaljávri" del
+point:0x650c 20.61342 69.04720 "Golddaluokta" del
+point:0x650c 20.87580 68.89464 "Kiellijärvi" del
+point:0x650c 21.31856 68.75816 "Lammaskoski" del
+point:0x650c 20.97416 68.89053 "Mukkavuopio" del
+point:0x650c 21.59435 68.66490 "Naimakkajärvi" del
+point:0x650c 21.12670 68.85270 "Pousujärvi" del
+point:0x650c 21.23587 68.81009 "Saarikoski" del
+point:0x650c 21.40572 68.74474 "Saukkokoski" del
+point:0x650c 20.85044 68.92421 "Taatsajärvi" del
+point:0x650c 20.78954 69.02302 "Ylinen Kilpisjärvi" del
+point:0x650c 21.07673 69.05948 "Čoahpejávri" del
+point:0x650c 21.06138 68.87385 "Könkämäälven" del
+point:0x650c 21.24582 68.79853 "Könkämäälven" del
+
+# перенос в длинных названиях озер
+point:0x650c 20.64251 68.81937 "Bajimus Rávdojávri" rename "Bajimus\\Rávdojávri"
+point:0x650c 20.57843 68.86596 "Bajimus Rávskkahasjávri" rename "Bajimus\\Rávskkahasjávri"
+point:0x650c 20.67834 68.79820 "Gaskkamus Rávdojávri" rename "Gaskkamus\\Rávdojávri"
+point:0x650c 20.60050 68.85544 "Gaskkamus Rávskkahasjávri" rename "Gaskkamus\\Rávskkahasjávri"
+point:0x650c 20.69827 68.76966 "Vuolimus Rávdojávri" rename "Vuolimus\\Rávdojávri"
+point:0x650c 20.68703 68.86029 "Vuolimus Rávskkahasjávri" rename "Vuolimus\\Rávskkahasjávri"
+
+# финские вершины - смена типа и переименование
+point:0x1100 21.53497 69.06518 "644 Gárenamuvra" ch_type point:0x2800
+point:0x2800 21.53497 69.06518 "644 Gárenamuvra" rename "Gárenamuvra"
+point:0x1100 21.68384 68.89166 "646 Siikavaarat" ch_type point:0x2800
+point:0x2800 21.68384 68.89166 "646 Siikavaarat" rename "Siikavaarat"
+point:0x1100 21.28901 68.94046 "883 Virdničielgi" ch_type point:0x2800
+point:0x2800 21.28901 68.94046 "883 Virdničielgi" rename "Virdničielgi"
+point:0x1100 21.51122 68.92358 "743 Ráhpesoaigielas" ch_type point:0x2800
+point:0x2800 21.51122 68.92358 "743 Ráhpesoaigielas" rename "Ráhpesoaigielas"
+point:0x1100 21.16532 68.98589 "720 Áillahasláhku" ch_type point:0x2800
+point:0x2800 21.16529 68.98589 "720 Áillahasláhku" rename "Áillahasláhku"
+point:0x1100 21.77552 68.89800 "601 Čáimmavuomuš" ch_type point:0x2800
+point:0x2800 21.77552 68.89800 "601 Čáimmavuomuš" rename "Čáimmavuomuš"
+point:0x1100 19.88704 68.79453 "Eaddindievát" ch_type point:0x2800
+
+# перенос и переименование финских вершин
+point:0x1100 22.26687 68.72617 "450 Bearamohkkemaras" del
+point:0x1100 22.11458 68.90163 "473 Riebaneanan" move 22.11404 68.89695
+point:0x1100 22.11404 68.89695 "473 Riebaneanan" rename "Riebaneanan"
+point:0x1100 22.18600 68.91930 "482 Okkivaara" move 22.19131 68.92183
+point:0x1100 22.19131 68.92183 "482 Okkivaara" rename "Okkivaara"
+point:0x1100 21.91586 68.78601 "543 Gođđogielas" rename "Gođđogielas"
+point:0x1100 21.35216 68.80662 "561 Dálvasnjaŋgguhat" move 21.35592 68.80415
+point:0x1100 21.35592 68.80415 "561 Dálvasnjaŋgguhat" rename "Dálvasnjaŋgguhat"
+point:0x1100 21.88577 68.88156 "562 Čearrogeažit" move 21.90547 68.88558
+point:0x1100 21.90547 68.88558 "562 Čearrogeažit" rename "Čearrogeažit"
+point:0x1100 21.01371 68.91952 "576 Hávgagiellasat" move 21.00665 68.91977
+point:0x1100 21.00665 68.91977 "576 Hávgagiellasat" rename "Hávgagiellasat"
+point:0x1100 22.01734 68.78667 "598 Vuontiskero" move 22.01265 68.78688
+point:0x1100 22.01265 68.78688 "598 Vuontiskero" rename "Vuontiskero"
+point:0x1100 21.74029 69.08095 "615 Poroharjut" rename "Poroharjut"
+point:0x1100 21.34161 69.02286 "672 Bollošgielas" rename "Bollošgielas"
+point:0x1100 21.55462 68.85559 "693 Njamatluohkká" rename "Njamatluohkká"
+point:0x1100 21.54858 68.76120 "694 Akkispahta" move 21.55329 68.76582
+point:0x1100 21.55329 68.76582 "694 Akkispahta" rename "Akkispahta"
+point:0x1100 21.09771 68.94292 "730 Haŋŋágiellasat" move 21.09485 68.94257
+point:0x1100 21.09485 68.94257 "730 Haŋŋágiellasat" rename "Haŋŋágiellasat"
+point:0x1100 21.13541 69.07444 "768 Guhkesluohkká" rename "Guhkesluohkká"
+point:0x1100 21.68572 68.82788 "776 Bizejohgieravárit" move 21.68570 68.82580
+point:0x1100 21.68570 68.82580 "776 Bizejohgieravárit" rename "Bizejohgieravárit"
+point:0x1100 21.11399 69.02442 "809 Čoahpebákti" move 21.11248 69.02614
+point:0x1100 21.11248 69.02614 "809 Čoahpebákti" rename "Čoahpebákti"
+point:0x1100 21.32810 68.96746 "894 Juovvačorru" move 21.31767 68.96690
+point:0x1100 21.31767 68.96690 "894 Juovvačorru" rename "Juovvačorru"
+
+# шведские пограничные столбы
+point:0x2800 20.20466 68.66572 "Rr 285" del
+point:0x2800 20.24920 68.71170 "Rr 285B" del
+point:0x2800 20.27623 68.74023 "Rr 286" del
+point:0x2800 20.31838 68.78271 "Rr 286A" del
+point:0x2800 20.30336 68.76730 "Rr 286a" del
+point:0x2800 20.33736 68.80249 "Rr 287" del
+point:0x2800 20.33116 68.82777 "Rr 287A" del
+point:0x2800 20.32368 68.85586 "Rr 288" del
+point:0x2800 20.31132 68.91317 "Rr 288A" del
+point:0x2800 20.31577 68.89321 "Rr 288a" del
+point:0x2800 20.30728 68.92683 "Rr 289" del
+point:0x2800 20.26417 68.94507 "Rr 290" del
+point:0x2800 20.23945 68.95633 "Rr 290A" del
+point:0x2800 20.18884 68.98172 "Rr 290Aa" del
+point:0x2800 20.13175 69.01085 "Rr 290B" del
+point:0x2800 20.11047 69.02172 "Rr 291" del
+
+# шведские вершины - смена типа
+point:0x2800 21.10727 68.84898 "Akkavaara"            ch_type point:0x1100
+point:0x2800 20.55366 69.04585 "Baikkasvárri"         ch_type point:0x1100
+point:0x2800 20.71357 69.00383 "Bajit Guolbanoaivi"   ch_type point:0x1100
+point:0x2800 20.55339 68.77624 "Bajit Luspevárri"     ch_type point:0x1100
+point:0x2800 20.40087 68.83172 "Bajit Sieiddivárri"   ch_type point:0x1100
+point:0x2800 21.15239 68.73391 "Bajit Vuoikkit"       ch_type point:0x1100
+point:0x2800 20.40939 69.03716 "Bajit Vávrratoaivi"   ch_type point:0x1100
+point:0x2800 20.39829 68.86342 "Bearraloaivi"         ch_type point:0x1100
+point:0x2800 20.57344 68.71114 "Beikkasvárri"         ch_type point:0x1100
+point:0x2800 20.33256 68.73417 "Biedjogielas"         ch_type point:0x1100
+point:0x2800 21.15223 68.67657 "Biedjogielas"         ch_type point:0x1100
+point:0x2800 20.89290 68.66201 "Biggosoaivi"          ch_type point:0x1100
+point:0x2800 20.90729 68.64455 "Biggosoaivváš"        ch_type point:0x1100
+point:0x2800 20.71576 68.88726 "Boaldovárri"          ch_type point:0x1100
+point:0x2800 20.54085 68.66571 "Boggevárdu"           ch_type point:0x1100
+point:0x2800 20.58175 68.85801 "Buodjučohkka"         ch_type point:0x1100
+point:0x2800 20.70950 68.99093 "Bávvaloaivi"          ch_type point:0x1100
+point:0x2800 20.46651 68.93479 "Bávššatvárri"         ch_type point:0x1100
+point:0x2800 20.95163 68.67960 "Covronjunni"          ch_type point:0x1100
+point:0x2800 20.96489 68.69174 "Covrooaivi"           ch_type point:0x1100
+point:0x2800 20.50885 68.82583 "Davit Jeageloaivi"    ch_type point:0x1100
+point:0x2800 20.73078 68.63834 "Doaresoaivi"          ch_type point:0x1100
+point:0x2800 20.77160 68.70877 "Doaresoaivi"          ch_type point:0x1100
+point:0x2800 21.12156 68.77105 "Doaresoaivi"          ch_type point:0x1100
+point:0x2800 20.39168 68.88579 "Duolljevárri"         ch_type point:0x1100
+point:0x2800 20.60623 69.02983 "Dánta"                ch_type point:0x1100
+point:0x2800 20.87022 68.77014 "Ganešoaivi"           ch_type point:0x1100
+point:0x2800 20.61232 68.98839 "Geahpeshoŋkkat"       ch_type point:0x1100
+point:0x2800 20.43579 68.67097 "Geatkevárri"          ch_type point:0x1100
+point:0x2800 20.39247 68.67424 "Geavri"               ch_type point:0x1100
+point:0x2800 20.55547 68.89253 "Gieddeoaivi"          ch_type point:0x1100
+point:0x2800 20.85059 68.88612 "Giellevárri"          ch_type point:0x1100
+point:0x2800 20.90035 68.72297 "Gillaroaivi"          ch_type point:0x1100
+point:0x2800 20.48046 68.73346 "Goahtevárri"          ch_type point:0x1100
+point:0x2800 20.37570 68.94975 "Gobmevárri"           ch_type point:0x1100
+point:0x2800 20.90140 68.73912 "Goddečohkat"          ch_type point:0x1100
+point:0x2800 20.79479 68.82600 "Golggotoaivvit"       ch_type point:0x1100
+point:0x2800 21.05854 68.80389 "Govrravárri"          ch_type point:0x1100
+point:0x2800 20.70345 68.73479 "Guoikalanvárri"       ch_type point:0x1100
+point:0x2800 20.60915 68.68108 "Guovloaivi"           ch_type point:0x1100
+point:0x2800 20.83234 68.63766 "Gussavárit"           ch_type point:0x1100
+point:0x2800 21.05385 68.84592 "Gálavárri"            ch_type point:0x1100
+point:0x2800 20.95601 68.70009 "Holgavárri"           ch_type point:0x1100
+point:0x2800 20.60784 68.87932 "Háhttavárri"          ch_type point:0x1100
+point:0x2800 21.17170 68.76520 "Jeageloaivi"          ch_type point:0x1100
+point:0x2800 20.57011 68.64085 "Jiehtanasgielas"      ch_type point:0x1100
+point:0x2800 20.23631 68.95832 "Juoksavátnjunni"      ch_type point:0x1100
+point:0x2800 20.82199 68.91366 "Kaarinasvaara"        ch_type point:0x1100
+point:0x2800 20.37293 68.74535 "Kassåive"             ch_type point:0x1100
+point:0x2800 21.12606 68.81257 "Kirkkovaara"          ch_type point:0x1100
+point:0x2800 21.36607 68.71586 "Kivivaara"            ch_type point:0x1100
+point:0x2800 21.33526 68.71033 "Koutnahavaara"        ch_type point:0x1100
+point:0x2800 21.35087 68.73906 "Lammasvaara"          ch_type point:0x1100
+point:0x2800 20.61971 68.93064 "Latnjavárri"          ch_type point:0x1100
+point:0x2800 20.74567 68.98225 "Leaibevuomivárri"     ch_type point:0x1100
+point:0x2800 20.39258 68.72864 "Lulit Gassoaivi"      ch_type point:0x1100
+point:0x2800 20.57203 68.81527 "Lulit Jeageloaivi"    ch_type point:0x1100
+point:0x2800 20.85009 68.72540 "Lullehavárri"         ch_type point:0x1100
+point:0x2800 20.51807 68.99860 "Láhkonjoaskevárri"    ch_type point:0x1100
+point:0x2800 21.41673 68.67593 "Láppisnjunni"         ch_type point:0x1100
+point:0x2800 21.38004 68.69369 "Láppisoaivi"          ch_type point:0x1100
+point:0x2800 20.30591 69.01060 "Lássávárri"           ch_type point:0x1100
+point:0x2800 20.45851 68.82549 "Mordánvárri"          ch_type point:0x1100
+point:0x2800 20.14410 69.00486 "Moskkugáisi"          ch_type point:0x1100
+point:0x2800 20.22086 68.68030 "Másealvárri"          ch_type point:0x1100
+point:0x2800 20.24284 69.03650 "Másealvárri"          ch_type point:0x1100
+point:0x2800 20.55150 69.01526 "Nigavárri"            ch_type point:0x1100
+point:0x2800 20.76058 68.91908 "Nilsivaara"           ch_type point:0x1100
+point:0x2800 20.76695 68.89568 "Njaŋggot"             ch_type point:0x1100
+point:0x2800 20.36846 68.63383 "Njuokččačohkka"       ch_type point:0x1100
+point:0x2800 20.70700 68.71523 "Njárgaroavvi"         ch_type point:0x1100
+point:0x2800 20.65187 68.71644 "Njárgavárri"          ch_type point:0x1100
+point:0x2800 20.74787 69.01503 "Náhppenarra"          ch_type point:0x1100
+point:0x2800 20.65282 68.93087 "Oaggovárri"           ch_type point:0x1100
+point:0x2800 20.46690 68.71723 "Omátvárri"            ch_type point:0x1100
+point:0x2800 20.22697 69.01092 "Pältsan"              ch_type point:0x1100
+point:0x2800 20.81660 68.93751 "Ristinasvaara"        ch_type point:0x1100
+point:0x2800 20.46402 68.90818 "Roavgovárri"          ch_type point:0x1100
+point:0x2800 20.81730 68.94782 "Roavvevárri"          ch_type point:0x1100
+point:0x2800 21.22174 68.76257 "Roaváš"               ch_type point:0x1100
+point:0x2800 20.64138 68.78415 "Ruoššačohkka"         ch_type point:0x1100
+point:0x2800 20.57992 68.90309 "Ráhkkočohkka"         ch_type point:0x1100
+point:0x2800 20.69173 68.83136 "Rávdoaivvit"          ch_type point:0x1100
+point:0x2800 20.71254 68.81183 "Rávdovárri"           ch_type point:0x1100
+point:0x2800 20.63200 68.84513 "Rávdočohkka"          ch_type point:0x1100
+point:0x2800 20.66096 68.87645 "Rávskkahasvárri"      ch_type point:0x1100
+point:0x2800 21.09765 68.82784 "Saahtavaara"          ch_type point:0x1100
+point:0x2800 21.12767 68.79361 "Sabitoaivi"           ch_type point:0x1100
+point:0x2800 21.00629 68.70844 "Sadjinoaivi"          ch_type point:0x1100
+point:0x2800 20.81823 68.67015 "Skáidevárri"          ch_type point:0x1100
+point:0x2800 20.53355 68.85214 "Snjierttet"           ch_type point:0x1100
+point:0x2800 20.79145 68.95667 "Struvvávárri"         ch_type point:0x1100
+point:0x2800 20.15094 68.61952 "Suollemasvákkičohkka" ch_type point:0x1100
+point:0x2800 20.24706 68.70925 "Suolučielgevárri"     ch_type point:0x1100
+point:0x2800 20.17639 68.63290 "Sáhpánčohkka"         ch_type point:0x1100
+point:0x2800 20.51906 68.88375 "Sárjjasvárri"         ch_type point:0x1100
+point:0x2800 21.04833 68.85905 "Taukivaara"           ch_type point:0x1100
+point:0x2800 20.65316 68.75950 "Uvllávárri"           ch_type point:0x1100
+point:0x2800 20.37001 68.70220 "Virkkalčohkat"        ch_type point:0x1100
+point:0x2800 21.22704 68.79968 "Vittankivaara"        ch_type point:0x1100
+point:0x2800 20.84671 68.97181 "Viđaruovddaš"         ch_type point:0x1100
+point:0x2800 20.50450 68.77587 "Vuojahatvárri"        ch_type point:0x1100
+point:0x2800 20.85111 68.86315 "Vuolit Derpmošvárri"  ch_type point:0x1100
+point:0x2800 20.72374 69.00768 "Vuolit Guolbanoaivi"  ch_type point:0x1100
+point:0x2800 20.59374 68.76225 "Vuolit Luspevárri"    ch_type point:0x1100
+point:0x2800 20.40213 68.80075 "Vuolit Sieiddivárri"  ch_type point:0x1100
+point:0x2800 20.40225 69.01941 "Vuolit Vávrratoaivi"  ch_type point:0x1100
+point:0x2800 21.00974 68.78855 "Váhccaoaivi"          ch_type point:0x1100
+point:0x2800 20.66902 68.65589 "Váhttoaivi"           ch_type point:0x1100
+point:0x2800 21.34850 68.65180 "Áidnavárppioaivi"     ch_type point:0x1100
+point:0x2800 20.91492 68.82550 "Árbuoaivi"            ch_type point:0x1100
+point:0x2800 21.01670 68.67779 "Árjjátoaivi"          ch_type point:0x1100
+point:0x2800 20.61378 68.82451 "Čalmmasvárri"         ch_type point:0x1100
+point:0x2800 20.37135 69.01849 "Čearpmatvággi"        ch_type point:0x1100
+point:0x2800 20.33268 68.82611 "Čoalmmivárri"         ch_type point:0x1100
+point:0x2800 20.79401 68.68829 "Čunuvárri"            ch_type point:0x1100
+point:0x2800 20.49135 68.92149 "Čurnovárri"           ch_type point:0x1100
+point:0x2800 20.85263 68.96204 "Čáhcebealvárri"       ch_type point:0x1100
+point:0x2800 21.36077 68.74593 "Čávskkasvárri"        ch_type point:0x1100
+point:0x2800 20.39442 68.89907 "Šuošmir"              ch_type point:0x1100
+
+# шведские вершины - перенос
+point:0x1100 21.10727 68.84898 "Akkavaara" move 21.11119 68.84982
+point:0x1100 20.55366 69.04585 "Baikkasvárri" move 20.55982 69.04581
+point:0x1100 20.71357 69.00383 "Bajit Guolbanoaivi" move 20.71791 69.00355
+point:0x1100 20.40087 68.83172 "Bajit Sieiddivárri" move 20.40253 68.83269
+point:0x1100 20.40939 69.03716 "Bajit Vávrratoaivi" move 20.39889 69.03654
+point:0x1100 20.39829 68.86342 "Bearraloaivi" move 20.40641 68.86110
+point:0x1100 20.57344 68.71114 "Beikkasvárri" move 20.57669 68.71185
+point:0x1100 20.33256 68.73417 "Biedjogielas" move 20.33539 68.73434
+point:0x1100 20.90729 68.64455 "Biggosoaivváš" move 20.91138 68.64369
+point:0x1100 20.71576 68.88726 "Boaldovárri" move 20.71696 68.88825
+point:0x1100 20.54085 68.66571 "Boggevárdu" move 20.54371 68.66513
+point:0x1100 20.70950 68.99093 "Bávvaloaivi" move 20.70564 68.98845
+point:0x1100 20.95163 68.67960 "Covronjunni" move 20.95164 68.68346
+point:0x1100 20.77160 68.70877 "Doaresoaivi" move 20.76873 68.70372
+point:0x1100 21.12156 68.77105 "Doaresoaivi" move 21.12090 68.77000
+point:0x1100 20.60623 69.02983 "Dánta" move 20.60873 69.03154
+point:0x1100 20.61232 68.98839 "Geahpeshoŋkkat" move 20.61152 68.99105
+point:0x1100 20.43579 68.67097 "Geatkevárri" move 20.43623 68.66989
+point:0x1100 20.37570 68.94975 "Gobmevárri" move 20.38243 68.94879
+point:0x1100 20.90140 68.73912 "Goddečohkat" move 20.89812 68.73857
+point:0x1100 20.60915 68.68108 "Guovloaivi" move 20.60759 68.67719
+point:0x1100 21.05385 68.84592 "Gálavárri" move 21.05146 68.84801
+point:0x1100 20.95601 68.70009 "Holgavárri" move 20.95716 68.70333
+point:0x1100 20.60784 68.87932 "Háhttavárri" move 20.60627 68.87829
+point:0x1100 20.23631 68.95832 "Juoksavátnjunni" move 20.23785 68.95632
+point:0x1100 20.37293 68.74535 "Kassåive" move 20.37216 68.74335
+point:0x1100 21.12606 68.81257 "Kirkkovaara" move 21.12718 68.81173
+point:0x1100 21.35087 68.73906 "Lammasvaara" move 21.34797 68.74187
+point:0x1100 20.74567 68.98225 "Leaibevuomivárri" move 20.74442 68.98113
+point:0x1100 20.57203 68.81527 "Lulit Jeageloaivi" move 20.57318 68.81437
+point:0x1100 20.85009 68.72540 "Lullehavárri" move 20.85985 68.72567
+point:0x1100 20.51807 68.99860 "Láhkonjoaskevárri" move 20.52310 68.99802
+point:0x1100 20.14410 69.00486 "Moskkugáisi" move 20.12757 69.01018
+point:0x1100 20.70700 68.71523 "Njárgaroavvi" move 20.71189 68.71333
+point:0x1100 20.65282 68.93087 "Oaggovárri" move 20.65454 68.92945
+point:0x1100 20.46690 68.71723 "Omátvárri" move 20.47092 68.71797
+point:0x1100 20.81660 68.93751 "Ristinasvaara" move 20.81110 68.93823
+point:0x1100 20.46402 68.90818 "Roavgovárri" move 20.45788 68.90853
+point:0x1100 21.22174 68.76257 "Roaváš" move 21.22677 68.76077
+point:0x1100 20.64138 68.78415 "Ruoššačohkka" move 20.64290 68.78545
+point:0x1100 20.57992 68.90309 "Ráhkkočohkka" move 20.58368 68.90315
+point:0x1100 20.69173 68.83136 "Rávdoaivvit" move 20.71219 68.82821
+point:0x1100 20.71254 68.81183 "Rávdovárri" move 20.71373 68.81298
+point:0x1100 20.66096 68.87645 "Rávskkahasvárri" move 20.66512 68.87608
+point:0x1100 21.00629 68.70844 "Sadjinoaivi" move 20.99699 68.71067
+point:0x1100 20.81823 68.67015 "Skáidevárri" move 20.81621 68.67110
+point:0x1100 20.79145 68.95667 "Struvvávárri" move 20.79802 68.95967
+point:0x1100 20.15094 68.61952 "Suollemasvákkičohkka" move 20.15370 68.61992
+point:0x1100 20.24706 68.70925 "Suolučielgevárri" move 20.24642 68.71185
+point:0x1100 20.17639 68.63290 "Sáhpánčohkka" move 20.17453 68.63062
+point:0x1100 20.65316 68.75950 "Uvllávárri" move 20.65506 68.75884
+point:0x1100 20.84671 68.97181 "Viđaruovddaš" move 20.85049 68.96907
+point:0x1100 20.72374 69.00768 "Vuolit Guolbanoaivi" move 20.72189 69.00842
+point:0x1100 20.59374 68.76225 "Vuolit Luspevárri" move 20.59908 68.76206
+point:0x1100 20.40225 69.01941 "Vuolit Vávrratoaivi" move 20.40425 69.01864
+point:0x1100 21.00974 68.78855 "Váhccaoaivi" move 21.01196 68.78730
+point:0x1100 20.66902 68.65589 "Váhttoaivi" move 20.66648 68.65632
+point:0x1100 20.91492 68.82550 "Árbuoaivi" move 20.90806 68.82984
+point:0x1100 21.01670 68.67779 "Árjjátoaivi" move 21.02018 68.67750
+point:0x1100 20.33268 68.82611 "Čoalmmivárri" move 20.32945 68.82748
+point:0x1100 20.79401 68.68829 "Čunuvárri" move 20.79254 68.69023
+point:0x1100 20.49135 68.92149 "Čurnovárri" move 20.49507 68.92287
+point:0x1100 20.85263 68.96204 "Čáhcebealvárri" move 20.83688 68.95920
+
+# двигаем норвежские вершины
+point:0x1100 20.16540 68.66723 "Beassit" move 20.16433 68.66437
+point:0x1100 19.82592 68.90531 "Bielloaivi" move 19.84072 68.90644
+point:0x1100 20.06977 68.73824 "Bumannsberget" move 20.06976 68.74042
+point:0x1100 20.05732 68.83338 "Buoššir" move 20.05033 68.83793
+point:0x1100 20.30449 68.78374 "Bárdal" move 20.31496 68.78309
+point:0x1100 20.07074 68.66686 "Derábákti" move 20.07262 68.66941
+point:0x1100 20.07015 68.73695 "Dáččabákti" move 20.07016 68.73482
+point:0x1100 22.00519 69.06036 "Fálleváráš" move 22.00999 69.05888
+point:0x1100 20.12208 68.64520 "Galbarbákti" move 20.12416 68.64334
+point:0x1100 20.24538 68.74275 "Gealbir" move 20.24663 68.74196
+point:0x1100 19.86237 68.89316 "Gironoaivi" move 19.86069 68.89804
+point:0x1100 19.97109 68.98566 "Goahtemuorgáisi" move 19.97548 68.98797
+point:0x1100 20.15560 68.70131 "Goahtemuorvárri" move 20.15584 68.70009
+point:0x1100 22.16199 68.96704 "Gorževárri" move 22.16505 68.96565
+point:0x1100 19.89952 69.01007 "Gáibbinjunni" move 19.90224 69.01250
+point:0x1100 19.95257 68.77195 "Gárasgielas" move 19.95649 68.77015
+point:0x1100 20.03983 68.61853 "Heargevárit" move 20.05459 68.62334
+point:0x1100 20.20610 68.71359 "Hurvegielas" move 20.21446 68.71048
+point:0x1100 19.86479 68.92411 "Høglikka" move 19.86300 68.92229
+point:0x1100 20.05496 69.01905 "Isdalsfjella" move 20.04225 69.01731
+point:0x1100 20.99404 69.05388 "Jeageloaivi" move 20.98805 69.05276
+point:0x1100 19.96469 68.69996 "Jerta" move 19.96714 68.70212
+point:0x1100 19.93530 68.64177 "Julosvárri" move 19.95305 68.64402
+point:0x1100 20.13744 69.00558 "Juoksaváhnjunni" move 20.12415 69.00546
+point:0x1100 19.86330 69.02538 "Larsbákti" move 19.85726 69.02657
+point:0x1100 19.84292 68.93597 "Likkafjellet" move 19.83247 68.93819
+point:0x1100 19.96982 68.91182 "Låglikka" move 19.96739 68.91349
+point:0x1100 20.10009 68.70572 "Mielggat" move 20.10347 68.70414
+point:0x1100 19.95799 68.96982 "Mikkelifjellet" move 19.95132 68.96820
+point:0x1100 20.17156 68.96471 "Moskángáisi" move 20.17111 68.96103
+point:0x1100 21.04824 69.04190 "Muvravárri" move 21.05778 69.03622
+point:0x1100 20.22703 68.69262 "Másealvárri" move 20.22041 68.68824
+point:0x1100 20.29319 68.87911 "Nihkolasnibba" move 20.29374 68.88083
+point:0x1100 19.85011 68.79422 "Nohlli" move 19.85613 68.79227
+point:0x1100 19.85109 68.81694 "Návdegielas" move 19.86328 68.81648
+point:0x1100 19.98943 68.83943 "Regoheapmi" move 19.97596 68.84171
+point:0x1100 19.82693 68.97230 "Rundingen" move 19.82622 68.97141
+point:0x1100 20.14859 68.81972 "Rákkasnibba" move 20.14451 68.82324
+point:0x1100 20.23562 68.87408 "Spállogas" move 20.22292 68.87242
+point:0x1100 20.21761 68.88642 "Spállogasnibba" move 20.22220 68.88610
+point:0x1100 20.04143 68.65354 "Stohkkeborri" move 20.06115 68.65130
+point:0x1100 19.97146 68.73513 "Stuora Nanná" move 19.97428 68.72963
+point:0x1100 20.26072 68.78261 "Sávkavárri" move 20.26644 68.78539
+point:0x1100 20.13781 68.77159 "Vanasvárri" move 20.13143 68.77618
+point:0x1100 20.12529 68.92456 "Ádjávárdu" move 20.14188 68.92300
+point:0x1100 20.06567 68.90885 "Áslatvárri" move 20.06992 68.91100
+point:0x1100 22.12809 69.03068 "Čearrogeašgielas" move 22.13374 69.02854
+point:0x1100 21.02517 69.06033 "Čoahppevárri" move 21.02429 69.05580
+point:0x6508 20.23294 68.88003 "Spállogasgorži" move 20.23109 68.87849
+
+# удаление лишних отметок высот
+point:0xd00 20.11098 68.65522 "1000" del
+point:0xd00 20.09573 68.83557 "1001" del
+point:0xd00 20.09822 68.98782 "1004" del
+point:0xd00 20.11201 68.75642 "1004" del
+point:0xd00 20.13070 68.87326 "1004" del
+point:0xd00 20.08341 68.99416 "1005" del
+point:0xd00 20.11225 68.87268 "1006" del
+point:0xd00 20.09310 68.87815 "1008" del
+point:0xd00 20.26775 68.77828 "1008" del
+point:0xd00 20.19395 68.84934 "1009" del
+point:0xd00 20.20473 68.84872 "1009" del
+point:0xd00 20.11160 68.87780 "1011" del
+point:0xd00 20.26628 68.78529 "1012" del
+point:0xd00 20.17197 68.82344 "1013" del
+point:0xd00 20.21728 68.77155 "1014" del
+point:0xd00 20.24742 68.83546 "1015" del
+point:0xd00 20.00116 68.85473 "1017" del
+point:0xd00 20.02434 68.82466 "1018" del
+point:0xd00 20.17055 68.83673 "1020" del
+point:0xd00 20.16302 68.83968 "1021" del
+point:0xd00 20.23539 68.77471 "1022" del
+point:0xd00 20.19924 68.85560 "1026" del
+point:0xd00 20.22361 68.77536 "1026" del
+point:0xd00 20.00905 68.96890 "1030" del
+point:0xd00 20.00792 68.65683 "1032" del
+point:0xd00 20.01571 68.85323 "1032" del
+point:0xd00 20.12143 68.80223 "1033" del
+point:0xd00 20.12768 68.85784 "1033" del
+point:0xd00 20.17417 68.84440 "1034" del
+point:0xd00 20.10719 68.77992 "1035" del
+point:0xd00 20.15933 68.94956 "1035" del
+point:0xd00 19.90143 68.90808 "1036" del
+point:0xd00 20.02452 68.82840 "1037" del
+point:0xd00 20.19992 68.75332 "1038" del
+point:0xd00 20.02101 68.96652 "1043" del
+point:0xd00 19.85366 68.91092 "1045" del
+point:0xd00 19.87652 68.90373 "1050" del
+point:0xd00 20.13167 68.77623 "1052" del
+point:0xd00 20.06430 68.97965 "1053" del
+point:0xd00 20.06598 68.84930 "1053" del
+point:0xd00 20.07007 68.73490 "1059" del
+point:0xd00 20.17950 68.85463 "1059" del
+point:0xd00 20.21136 68.75852 "1064" del
+point:0xd00 20.15474 68.79264 "1066" del
+point:0xd00 19.90128 68.70886 "1068" del
+point:0xd00 19.85936 68.90779 "1069" del
+point:0xd00 20.12409 68.64339 "1070" del
+point:0xd00 20.05723 68.99417 "1071" del
+point:0xd00 19.84087 68.90659 "1072" del
+point:0xd00 20.17314 68.84939 "1073" del
+point:0xd00 19.95630 68.90891 "1076" del
+point:0xd00 19.95615 68.85089 "1077" del
+point:0xd00 20.13692 68.85217 "1077" del
+point:0xd00 20.05186 68.87436 "1083" del
+point:0xd00 20.14845 68.84928 "1084" del
+point:0xd00 19.93548 68.88704 "1085" del
+point:0xd00 20.06131 68.65122 "1087" del
+point:0xd00 20.12523 68.79405 "1088" del
+point:0xd00 20.02350 68.84933 "1090" del
+point:0xd00 20.05190 68.86256 "1092" del
+point:0xd00 19.97601 68.84185 "1096" del
+point:0xd00 20.05122 68.86849 "1099" del
+point:0xd00 20.21640 68.74811 "1100" del
+point:0xd00 19.91828 68.89284 "1103" del
+point:0xd00 20.23352 68.75213 "1103" del
+point:0xd00 20.12506 68.75361 "1105" del
+point:0xd00 20.22660 68.76121 "1105" del
+point:0xd00 19.99265 68.99099 "1106" del
+point:0xd00 20.10189 68.84914 "1106" del
+point:0xd00 20.11811 68.74662 "1107" del
+point:0xd00 19.96666 68.85022 "1112" del
+point:0xd00 19.89637 68.91266 "1113" del
+point:0xd00 20.04901 68.97379 "1114" del
+point:0xd00 20.17391 68.76860 "1117" del
+point:0xd00 20.17841 68.75609 "1119" del
+point:0xd00 20.14513 68.74678 "1122" del
+point:0xd00 20.06719 68.86938 "1125" del
+point:0xd00 20.10777 68.85672 "1127" del
+point:0xd00 20.16775 68.76069 "1127" del
+point:0xd00 20.07244 68.84135 "1131" del
+point:0xd00 20.06868 68.85764 "1137" del
+point:0xd00 20.18553 68.76273 "1139" del
+point:0xd00 19.97429 68.72969 "1152" del
+point:0xd00 20.04141 68.95963 "1153" del
+point:0xd00 20.08867 68.85792 "1153" del
+point:0xd00 20.01352 68.84434 "1156" del
+point:0xd00 20.08456 68.85464 "1160" del
+point:0xd00 19.97555 68.98800 "1163" del
+point:0xd00 19.91052 68.92119 "1178" del
+point:0xd00 19.83245 68.93810 "1200" del
+point:0xd00 20.02082 68.83582 "1211" del
+point:0xd00 19.99800 68.98234 "1221" del
+point:0xd00 19.94345 68.91668 "1224" del
+point:0xd00 20.05024 68.83794 "1231" del
+point:0xd00 20.20397 68.97290 "1233" del
+point:0xd00 19.92668 68.91941 "1237" del
+point:0xd00 20.13467 68.98105 "1311" del
+point:0xd00 20.03045 69.00059 "1314" del
+point:0xd00 20.02404 68.98560 "1322" del
+point:0xd00 20.03880 68.98698 "1322" del
+point:0xd00 20.13787 68.96771 "1349" del
+point:0xd00 19.88439 68.92896 "1359" del
+point:0xd00 20.15334 68.99575 "1384" del
+point:0xd00 20.01477 68.98937 "1397" del
+point:0xd00 20.14379 68.98754 "1397" del
+point:0xd00 20.18829 68.98135 "1400" del
+point:0xd00 20.01243 68.99823 "1403" del
+point:0xd00 20.01743 68.99674 "1420" del
+point:0xd00 19.87939 68.92564 "1440" del
+point:0xd00 20.23787 68.95607 "1446" del
+point:0xd00 19.84685 68.92549 "1447" del
+point:0xd00 20.17130 68.96095 "1448" del
+point:0xd00 20.04473 69.00526 "1459" del
+point:0xd00 20.17772 68.97834 "1470" del
+point:0xd00 20.04207 69.01747 "1475" del
+point:0xd00 20.18532 68.97085 "1478" del
+point:0xd00 20.16517 68.97587 "1483" del
+point:0xd00 20.21703 68.96107 "1492" del
+point:0xd00 19.83589 68.95901 "212" del
+point:0xd00 19.85075 68.95938 "245" del
+point:0xd00 19.83842 68.95650 "250" del
+point:0xd00 19.90057 68.95541 "290" del
+point:0xd00 19.92973 68.94795 "331" del
+point:0xd00 19.86490 68.98993 "416" del
+point:0xd00 20.01740 68.94063 "478" del
+point:0xd00 22.21050 68.92369 "478" del
+point:0xd00 22.20014 68.93963 "479" del
+point:0xd00 22.20901 68.91101 "487" del
+point:0xd00 22.13717 68.98277 "490" del
+point:0xd00 22.19159 68.98946 "490" del
+point:0xd00 22.19178 68.97826 "490" del
+point:0xd00 22.19120 68.93294 "493" del
+point:0xd00 22.17732 68.99254 "494" del
+point:0xd00 22.19125 68.92176 "495" del
+point:0xd00 22.19600 68.96565 "495" del
+point:0xd00 22.17665 68.98526 "496" del
+point:0xd00 22.17464 68.95714 "499" del
+point:0xd00 22.18771 68.92968 "499" del
+point:0xd00 22.14426 69.07229 "503" del
+point:0xd00 22.13109 68.99121 "505" del
+point:0xd00 22.17134 68.99883 "506" del
+point:0xd00 22.19457 69.01021 "508" del
+point:0xd00 22.15926 68.97336 "512" del
+point:0xd00 22.14875 69.05987 "513" del
+point:0xd00 22.17519 69.05099 "515" del
+point:0xd00 22.18028 69.00920 "515" del
+point:0xd00 22.16523 68.96574 "527" del
+point:0xd00 20.04284 68.93528 "528" del
+point:0xd00 22.12546 69.08303 "530" del
+point:0xd00 22.12664 68.99844 "535" del
+point:0xd00 20.06084 68.93597 "536" del
+point:0xd00 22.12546 69.00126 "537" del
+point:0xd00 22.04647 69.04028 "542" del
+point:0xd00 19.86830 68.85411 "552" del
+point:0xd00 20.08159 68.94354 "555" del
+point:0xd00 22.12771 69.01080 "556" del
+point:0xd00 22.11512 69.02903 "560" del
+point:0xd00 22.11382 69.10681 "561" del
+point:0xd00 22.11242 69.05842 "563" del
+point:0xd00 20.08244 68.93765 "565" del
+point:0xd00 22.16084 69.08643 "565" del
+point:0xd00 19.83612 68.85286 "567" del
+point:0xd00 20.08762 68.92494 "572" del
+point:0xd00 20.10244 68.92141 "573" del
+point:0xd00 19.91243 68.61675 "574" del
+point:0xd00 19.85854 68.97325 "575" del
+point:0xd00 19.87542 68.99934 "575" del
+point:0xd00 20.11292 68.91364 "575" del
+point:0xd00 22.06276 69.06684 "575" del
+point:0xd00 19.83776 68.97184 "576" del
+point:0xd00 19.86880 68.86046 "577" del
+point:0xd00 20.04769 68.93092 "577" del
+point:0xd00 21.94112 69.10063 "583" del
+point:0xd00 22.03759 69.06862 "583" del
+point:0xd00 22.13399 69.02851 "583" del
+point:0xd00 20.13466 68.90628 "586" del
+point:0xd00 20.06127 68.92526 "590" del
+point:0xd00 22.16357 69.10542 "592" del
+point:0xd00 22.07070 69.08946 "593" del
+point:0xd00 19.84902 68.84898 "594" del
+point:0xd00 20.02548 68.94502 "594" del
+point:0xd00 22.01012 69.05878 "595" del
+point:0xd00 20.10904 68.93454 "598" del
+point:0xd00 20.07903 68.91940 "605" del
+point:0xd00 20.13979 68.93627 "608" del
+point:0xd00 20.17880 68.91059 "609" del
+point:0xd00 20.19994 68.90816 "609" del
+point:0xd00 20.20061 68.90069 "609" del
+point:0xd00 20.18078 68.92620 "610" del
+point:0xd00 22.09623 69.04758 "611" del
+point:0xd00 19.89635 68.84920 "613" del
+point:0xd00 20.15918 68.91683 "614" del
+point:0xd00 19.84718 68.99945 "615" del
+point:0xd00 19.95029 68.93580 "615" del
+point:0xd00 20.09075 68.95136 "615" del
+point:0xd00 20.23692 68.90115 "615" del
+point:0xd00 20.20359 68.89773 "616" del
+point:0xd00 20.24353 68.92490 "616" del
+point:0xd00 20.21093 68.91178 "617" del
+point:0xd00 22.03246 69.08405 "621" del
+point:0xd00 20.24135 68.91788 "624" del
+point:0xd00 19.93930 68.60728 "625" del
+point:0xd00 19.98817 68.60719 "625" del
+point:0xd00 19.86117 68.84402 "626" del
+point:0xd00 20.20139 68.92834 "626" del
+point:0xd00 20.22851 68.89617 "626" del
+point:0xd00 20.26401 68.89598 "626" del
+point:0xd00 20.11604 68.92655 "627" del
+point:0xd00 20.30659 68.92618 "627" del
+point:0xd00 20.22625 68.89253 "628" del
+point:0xd00 19.90325 68.85769 "629" del
+point:0xd00 20.12879 68.92390 "630" del
+point:0xd00 22.08364 69.05281 "630" del
+point:0xd00 20.13326 68.89929 "632" del
+point:0xd00 19.90415 68.84558 "633" del
+point:0xd00 20.30628 68.91695 "633" del
+point:0xd00 19.89914 68.84196 "634" del
+point:0xd00 19.90157 68.82589 "636" del
+point:0xd00 19.98528 68.60320 "636" del
+point:0xd00 20.26105 68.92185 "636" del
+point:0xd00 20.24044 68.91123 "643" del
+point:0xd00 20.01793 68.60244 "644" del
+point:0xd00 19.96861 68.60292 "652" del
+point:0xd00 20.08396 68.96035 "652" del
+point:0xd00 19.83556 68.84221 "656" del
+point:0xd00 19.90671 68.81871 "656" del
+point:0xd00 19.91183 68.83118 "656" del
+point:0xd00 20.17043 68.93578 "656" del
+point:0xd00 20.29535 68.89870 "656" del
+point:0xd00 19.90778 68.80919 "657" del
+point:0xd00 20.04466 68.92271 "657" del
+point:0xd00 20.27050 68.88224 "657" del
+point:0xd00 19.85397 69.00395 "658" del
+point:0xd00 22.04713 69.10432 "662" del
+point:0xd00 19.85189 68.83664 "670" del
+point:0xd00 19.87636 68.83329 "675" del
+point:0xd00 19.89681 68.79887 "676" del
+point:0xd00 20.14253 68.92296 "678" del
+point:0xd00 20.33587 68.80231 "680" del
+point:0xd00 20.31373 68.89313 "681" del
+point:0xd00 20.28212 68.89062 "683" del
+point:0xd00 21.07249 69.05699 "683" del
+point:0xd00 20.29702 68.89017 "686" del
+point:0xd00 20.28991 68.91789 "687" del
+point:0xd00 19.92692 68.93334 "690" del
+point:0xd00 19.99267 68.79650 "690" del
+point:0xd00 20.24389 68.88089 "690" del
+point:0xd00 20.26104 68.86854 "691" del
+point:0xd00 20.27904 68.85852 "691" del
+point:0xd00 19.96949 68.78340 "692" del
+point:0xd00 20.28770 68.80304 "692" del
+point:0xd00 19.84111 68.87910 "693" del
+point:0xd00 19.92827 68.82840 "693" del
+point:0xd00 20.30859 68.82153 "693" del
+point:0xd00 20.02761 68.79653 "695" del
+point:0xd00 20.25800 68.87234 "695" del
+point:0xd00 19.91465 68.77204 "696" del
+point:0xd00 19.93740 68.81749 "696" del
+point:0xd00 19.93757 68.77406 "697" del
+point:0xd00 20.28918 68.87466 "697" del
+point:0xd00 20.01232 68.92929 "703" del
+point:0xd00 19.90975 68.72947 "704" del
+point:0xd00 20.07977 68.70107 "705" del
+point:0xd00 21.02203 69.06251 "705" del
+point:0xd00 19.86944 68.83720 "706" del
+point:0xd00 20.30528 68.88285 "706" del
+point:0xd00 20.05676 68.70727 "707" del
+point:0xd00 19.95662 68.77012 "708" del
+point:0xd00 19.97724 68.81530 "709" del
+point:0xd00 19.99286 68.78569 "710" del
+point:0xd00 20.31128 68.87798 "712" del
+point:0xd00 19.97293 68.76421 "714" del
+point:0xd00 19.95502 68.80900 "715" del
+point:0xd00 20.04826 68.78928 "715" del
+point:0xd00 20.28326 68.79480 "715" del
+point:0xd00 19.85812 68.87964 "716" del
+point:0xd00 19.91395 68.76108 "716" del
+point:0xd00 19.98979 68.77267 "716" del
+point:0xd00 21.02388 69.05586 "717" del
+point:0xd00 19.92814 68.62586 "718" del
+point:0xd00 20.05757 68.60852 "721" del
+point:0xd00 20.20284 68.66592 "722" del
+point:0xd00 19.91161 68.65940 "723" del
+point:0xd00 20.13182 68.69103 "723" del
+point:0xd00 19.84188 68.82872 "728" del
+point:0xd00 19.82294 68.88553 "729" del
+point:0xd00 20.29393 68.88075 "730" del
+point:0xd00 20.28232 68.91525 "731" del
+point:0xd00 19.97423 68.75578 "732" del
+point:0xd00 19.95244 68.82166 "733" del
+point:0xd00 19.97489 68.97042 "734" del
+point:0xd00 20.30748 68.91044 "734" del
+point:0xd00 20.30936 68.91314 "734" del
+point:0xd00 19.94477 68.85875 "735" del
+point:0xd00 20.04319 68.69453 "735" del
+point:0xd00 19.88429 68.87361 "736" del
+point:0xd00 19.91121 68.86875 "736" del
+point:0xd00 19.93938 68.86697 "736" del
+point:0xd00 19.97380 68.92616 "739" del
+point:0xd00 20.02727 68.73368 "739" del
+point:0xd00 20.02958 68.78257 "739" del
+point:0xd00 20.07546 68.80281 "739" del
+point:0xd00 20.27703 68.91254 "740" del
+point:0xd00 20.18162 68.68678 "744" del
+point:0xd00 20.10213 68.97467 "749" del
+point:0xd00 19.93848 68.83388 "752" del
+point:0xd00 19.93852 68.83001 "752" del
+point:0xd00 20.20455 68.81008 "753" del
+point:0xd00 20.30474 68.83925 "754" del
+point:0xd00 19.84272 68.82264 "756" del
+point:0xd00 19.86297 68.81656 "756" del
+point:0xd00 20.01282 68.78345 "758" del
+point:0xd00 19.93680 68.66047 "764" del
+point:0xd00 20.01360 68.91573 "766" del
+point:0xd00 20.05037 68.91150 "767" del
+point:0xd00 20.01308 68.73297 "768" del
+point:0xd00 20.04683 68.77872 "768" del
+point:0xd00 20.10165 68.66928 "768" del
+point:0xd00 20.31243 68.86495 "768" del
+point:0xd00 20.06322 68.68221 "769" del
+point:0xd00 20.29737 68.84453 "769" del
+point:0xd00 20.04844 68.90838 "770" del
+point:0xd00 20.19108 68.93562 "770" del
+point:0xd00 19.96354 68.87021 "771" del
+point:0xd00 20.11080 68.68328 "771" del
+point:0xd00 20.32185 68.85560 "771" del
+point:0xd00 19.92140 68.99188 "774" del
+point:0xd00 20.14825 68.65667 "776" del
+point:0xd00 19.95314 68.66292 "778" del
+point:0xd00 20.04941 68.89509 "779" del
+point:0xd00 20.32925 68.82747 "779" del
+point:0xd00 19.97137 68.66328 "785" del
+point:0xd00 20.22227 68.88608 "785" del
+point:0xd00 20.01559 68.90510 "786" del
+point:0xd00 20.12111 68.68561 "788" del
+point:0xd00 20.23747 68.86210 "793" del
+point:0xd00 20.30785 68.84986 "794" del
+point:0xd00 20.02220 68.89868 "795" del
+point:0xd00 20.06992 68.91091 "798" del
+point:0xd00 20.31403 68.84283 "803" del
+point:0xd00 20.03996 68.89144 "807" del
+point:0xd00 19.91807 68.59608 "810" del
+point:0xd00 20.31922 68.83151 "810" del
+point:0xd00 20.14985 68.68199 "812" del
+point:0xd00 19.98299 68.86192 "813" del
+point:0xd00 19.98663 68.64127 "813" del
+point:0xd00 20.00727 68.80866 "822" del
+point:0xd00 20.05298 68.77252 "824" del
+point:0xd00 20.03105 68.61389 "827" del
+point:0xd00 20.27649 68.76434 "827" del
+point:0xd00 20.04338 68.76623 "829" del
+point:0xd00 19.82183 69.01428 "833" del
+point:0xd00 19.99276 68.92799 "833" del
+point:0xd00 20.00507 68.88051 "835" del
+point:0xd00 20.25892 68.76690 "838" del
+point:0xd00 20.00720 68.92492 "839" del
+point:0xd00 20.04977 68.76134 "839" del
+point:0xd00 20.29246 68.78579 "842" del
+point:0xd00 21.05754 69.03629 "842" del
+point:0xd00 20.02604 68.63704 "843" del
+point:0xd00 19.88589 68.88867 "844" del
+point:0xd00 20.07435 68.78915 "846" del
+point:0xd00 20.08365 68.60674 "846" del
+point:0xd00 20.15572 68.70007 "847" del
+point:0xd00 20.01723 68.77163 "849" del
+point:0xd00 20.10355 68.70415 "851" del
+point:0xd00 19.94247 68.74175 "854" del
+point:0xd00 20.06665 68.66187 "857" del
+point:0xd00 20.10632 68.82866 "857" del
+point:0xd00 20.11842 68.71998 "857" del
+point:0xd00 20.22948 68.87542 "857" del
+point:0xd00 20.23644 68.81407 "857" del
+point:0xd00 19.88260 68.77291 "858" del
+point:0xd00 20.21522 68.88062 "858" del
+point:0xd00 19.87791 68.77719 "859" del
+point:0xd00 20.14893 68.67361 "859" del
+point:0xd00 20.03827 68.63747 "864" del
+point:0xd00 20.12848 68.67225 "865" del
+point:0xd00 19.97785 68.82687 "869" del
+point:0xd00 20.00263 68.82026 "872" del
+point:0xd00 20.05093 68.82022 "877" del
+point:0xd00 19.87026 68.78255 "878" del
+point:0xd00 20.09190 68.74385 "879" del
+point:0xd00 20.20696 68.86974 "884" del
+point:0xd00 19.96962 68.87625 "886" del
+point:0xd00 20.18659 68.70261 "887" del
+point:0xd00 20.20611 68.82537 "888" del
+point:0xd00 19.99622 68.89849 "889" del
+point:0xd00 20.27340 68.81461 "889" del
+point:0xd00 20.22275 68.87243 "890" del
+point:0xd00 20.23549 68.71765 "890" del
+point:0xd00 19.93295 68.99700 "894" del
+point:0xd00 20.20146 68.86643 "894" del
+point:0xd00 19.96629 68.89450 "895" del
+point:0xd00 20.01423 68.68736 "895" del
+point:0xd00 20.20700 68.78521 "896" del
+point:0xd00 20.03749 68.62816 "898" del
+point:0xd00 20.31474 68.78304 "900" del
+point:0xd00 20.05476 68.62337 "908" del
+point:0xd00 19.81901 68.91392 "909" del
+point:0xd00 20.06826 68.88772 "909" del
+point:0xd00 20.10258 68.76223 "909" del
+point:0xd00 20.24412 68.82458 "910" del
+point:0xd00 20.07981 68.63598 "911" del
+point:0xd00 19.86571 68.74733 "912" del
+point:0xd00 19.99447 68.89423 "912" del
+point:0xd00 20.08437 68.78159 "912" del
+point:0xd00 20.15534 68.71940 "912" del
+point:0xd00 19.99741 68.82822 "914" del
+point:0xd00 20.04465 68.95177 "914" del
+point:0xd00 19.93401 68.65181 "915" del
+point:0xd00 20.02459 68.80822 "915" del
+point:0xd00 20.23542 68.77969 "915" del
+point:0xd00 20.13750 68.82752 "916" del
+point:0xd00 20.18008 68.77788 "918" del
+point:0xd00 20.16812 68.72359 "920" del
+point:0xd00 20.26291 68.94476 "921" del
+point:0xd00 20.21289 68.69557 "922" del
+point:0xd00 20.22028 68.68817 "923" del
+point:0xd00 20.00470 68.89135 "924" del
+point:0xd00 20.21630 68.68002 "926" del
+point:0xd00 20.10254 68.79028 "927" del
+point:0xd00 20.24609 68.72321 "927" del
+point:0xd00 20.00977 68.86110 "930" del
+point:0xd00 20.04003 68.81526 "930" del
+point:0xd00 20.08507 68.63053 "930" del
+point:0xd00 19.93958 68.71262 "931" del
+point:0xd00 20.08897 68.75872 "932" del
+point:0xd00 20.18039 68.87966 "933" del
+point:0xd00 19.99263 68.88661 "935" del
+point:0xd00 20.05050 68.75191 "938" del
+point:0xd00 19.97004 68.88338 "939" del
+point:0xd00 20.09966 68.62940 "939" del
+point:0xd00 20.19526 68.81816 "943" del
+point:0xd00 20.10797 68.63350 "944" del
+point:0xd00 19.89610 68.89253 "945" del
+point:0xd00 20.15382 68.81676 "945" del
+point:0xd00 20.09377 68.75506 "948" del
+point:0xd00 20.12219 68.73473 "948" del
+point:0xd00 20.23595 68.78595 "948" del
+point:0xd00 20.21586 68.70592 "949" del
+point:0xd00 20.27330 68.75306 "949" del
+point:0xd00 20.12396 68.88522 "950" del
+point:0xd00 20.16637 68.88135 "952" del
+point:0xd00 19.85608 68.79242 "954" del
+point:0xd00 20.18289 68.81780 "954" del
+point:0xd00 20.24668 68.71186 "955" del
+point:0xd00 19.98723 68.88984 "956" del
+point:0xd00 19.91506 68.63850 "957" del
+point:0xd00 20.11386 68.62962 "957" del
+point:0xd00 20.16141 68.64539 "958" del
+point:0xd00 20.20267 68.71238 "959" del
+point:0xd00 19.91684 68.64404 "962" del
+point:0xd00 20.12898 68.76081 "962" del
+point:0xd00 20.21458 68.71054 "963" del
+point:0xd00 19.93103 68.97466 "964" del
+point:0xd00 19.99729 68.73025 "964" del
+point:0xd00 20.25872 68.82996 "965" del
+point:0xd00 20.14477 68.82322 "968" del
+point:0xd00 20.16431 68.66423 "970" del
+point:0xd00 20.16981 68.82743 "970" del
+point:0xd00 20.02301 68.86387 "972" del
+point:0xd00 20.13073 68.76994 "972" del
+point:0xd00 20.27385 68.74027 "972" del
+point:0xd00 20.12171 68.83350 "975" del
+point:0xd00 20.07240 68.66932 "978" del
+point:0xd00 20.04529 68.88094 "979" del
+point:0xd00 20.10233 68.80082 "981" del
+point:0xd00 20.13637 68.83305 "981" del
+point:0xd00 20.22859 68.83163 "985" del
+point:0xd00 20.14833 68.78306 "986" del
+point:0xd00 20.11109 68.84204 "987" del
+point:0xd00 20.19349 68.84089 "989" del
+point:0xd00 20.02381 68.65474 "992" del
+point:0xd00 20.13585 68.84396 "992" del
+point:0xd00 20.10160 68.65321 "993" del
+point:0xd00 19.95728 68.92144 "994" del
+point:0xd00 20.13807 68.88331 "994" del
+point:0xd00 20.07656 68.65089 "997" del
+point:0xd00 19.91579 68.88019 "998" del
+
+# удаление лишних урезов воды
+point:0x1000 20.15486 68.84037 "1003" del
+point:0x1000 20.22013 68.95090 "1011" del
+point:0x1000 20.16222 68.85533 "1018" del
+point:0x1000 20.03725 68.99515 "1027" del
+point:0x1000 20.21515 68.75320 "1035" del
+point:0x1000 19.85690 68.90346 "1043" del
+point:0x1000 19.89034 68.91642 "1057" del
+point:0x1000 20.05101 68.86416 "1079" del
+point:0x1000 19.98875 68.98721 "1096" del
+point:0x1000 20.04482 68.95687 "1096" del
+point:0x1000 20.02347 68.83959 "1114" del
+point:0x1000 20.12144 68.99679 "1161" del
+point:0x1000 21.59425 68.68261 "398" del
+point:0x1000 21.59452 68.66750 "398" del
+point:0x1000 21.61656 68.66106 "398" del
+point:0x1000 21.44918 68.68877 "405" del
+point:0x1000 21.41430 68.70304 "406" del
+point:0x1000 21.42240 68.72252 "406" del
+point:0x1000 21.44313 68.69393 "406" del
+point:0x1000 21.41356 68.75672 "414" del
+point:0x1000 22.23722 68.70185 "414" del
+point:0x1000 22.23594 68.74314 "426" del
+point:0x1000 22.17570 68.77692 "429" del
+point:0x1000 22.18475 68.79031 "430" del
+point:0x1000 22.18786 68.87048 "431" del
+point:0x1000 22.19718 68.84139 "431" del
+point:0x1000 21.65977 68.66468 "432" del
+point:0x1000 22.15892 68.93081 "432" del
+point:0x1000 22.17419 68.91282 "432" del
+point:0x1000 22.17513 68.81114 "432" del
+point:0x1000 22.18860 68.78618 "432" del
+point:0x1000 22.19080 68.86302 "432" del
+point:0x1000 22.18417 68.76016 "433" del
+point:0x1000 22.19999 68.85393 "433" del
+point:0x1000 22.17599 68.81627 "434" del
+point:0x1000 22.18877 68.78433 "434" del
+point:0x1000 22.17921 68.84277 "436" del
+point:0x1000 22.20034 68.89282 "436" del
+point:0x1000 22.16898 68.82481 "437" del
+point:0x1000 22.16968 68.82023 "437" del
+point:0x1000 22.21534 68.82519 "438" del
+point:0x1000 22.17145 68.82945 "440" del
+point:0x1000 22.19851 68.79748 "440" del
+point:0x1000 22.21182 68.81388 "440" del
+point:0x1000 22.23540 68.79981 "440" del
+point:0x1000 22.23019 68.80971 "441" del
+point:0x1000 22.16757 68.78513 "442" del
+point:0x1000 22.20637 68.77279 "444" del
+point:0x1000 21.26736 68.82458 "445" del
+point:0x1000 22.10845 68.95507 "445" del
+point:0x1000 22.16951 68.83463 "445" del
+point:0x1000 22.22744 68.79516 "445" del
+point:0x1000 21.55740 68.71475 "446" del
+point:0x1000 22.04877 68.91005 "446" del
+point:0x1000 22.09419 68.91803 "446" del
+point:0x1000 22.21327 68.88526 "446" del
+point:0x1000 22.21562 68.88880 "446" del
+point:0x1000 22.21667 68.89729 "446" del
+point:0x1000 22.23273 68.79023 "446" del
+point:0x1000 21.12829 68.85052 "447" del
+point:0x1000 21.15307 68.84952 "447" del
+point:0x1000 22.04588 68.90363 "447" del
+point:0x1000 22.05639 68.91686 "447" del
+point:0x1000 22.06488 68.92297 "447" del
+point:0x1000 22.20201 68.73526 "447" del
+point:0x1000 21.20999 68.84575 "448" del
+point:0x1000 22.05210 68.92654 "448" del
+point:0x1000 22.05319 68.93097 "448" del
+point:0x1000 22.06673 68.92928 "448" del
+point:0x1000 22.02626 68.88677 "449" del
+point:0x1000 22.04298 68.91241 "449" del
+point:0x1000 22.08430 68.97080 "449" del
+point:0x1000 22.09149 68.97005 "449" del
+point:0x1000 22.09770 68.95637 "449" del
+point:0x1000 22.18976 68.70849 "449" del
+point:0x1000 22.21523 68.78717 "449" del
+point:0x1000 22.04072 68.89867 "450" del
+point:0x1000 22.05488 68.98264 "450" del
+point:0x1000 22.06099 68.97728 "450" del
+point:0x1000 22.07162 68.98203 "450" del
+point:0x1000 22.07223 68.93652 "450" del
+point:0x1000 22.07765 68.97301 "450" del
+point:0x1000 22.16093 68.87537 "450" del
+point:0x1000 22.19081 68.94641 "450" del
+point:0x1000 22.06267 68.99089 "451" del
+point:0x1000 22.15257 68.88980 "451" del
+point:0x1000 22.20350 68.94864 "451" del
+point:0x1000 22.07834 68.96142 "452" del
+point:0x1000 22.07877 68.94907 "452" del
+point:0x1000 22.20654 68.95730 "452" del
+point:0x1000 22.05218 68.96134 "454" del
+point:0x1000 22.06381 68.96337 "454" del
+point:0x1000 22.03461 68.95891 "455" del
+point:0x1000 22.04364 68.95400 "455" del
+point:0x1000 22.04533 68.96377 "455" del
+point:0x1000 22.19081 68.71939 "455" del
+point:0x1000 21.57488 68.68613 "456" del
+point:0x1000 21.98966 68.87197 "456" del
+point:0x1000 21.97266 68.86810 "457" del
+point:0x1000 20.89985 68.89179 "458" del
+point:0x1000 20.96600 68.89659 "458" del
+point:0x1000 20.98838 68.89930 "458" del
+point:0x1000 21.04274 68.88371 "458" del
+point:0x1000 21.06451 68.87911 "458" del
+point:0x1000 21.08542 68.88696 "458" del
+point:0x1000 22.02287 68.94199 "458" del
+point:0x1000 22.02863 68.94493 "458" del
+point:0x1000 22.03045 68.89879 "458" del
+point:0x1000 20.86027 68.92302 "459" del
+point:0x1000 21.22423 68.85370 "459" del
+point:0x1000 22.15488 68.79024 "459" del
+point:0x1000 22.15526 68.78483 "459" del
+point:0x1000 22.01894 68.93473 "460" del
+point:0x1000 22.13134 68.96387 "461" del
+point:0x1000 21.97326 68.86317 "463" del
+point:0x1000 20.90227 68.90792 "464" del
+point:0x1000 21.50366 68.69924 "464" del
+point:0x1000 22.14400 68.79100 "464" del
+point:0x1000 22.21061 68.93883 "464" del
+point:0x1000 21.51311 68.69393 "466" del
+point:0x1000 22.14995 68.80332 "466" del
+point:0x1000 21.92076 68.85270 "468" del
+point:0x1000 22.01868 68.89453 "468" del
+point:0x1000 22.14933 68.77266 "469" del
+point:0x1000 20.82814 69.01200 "473" del
+point:0x1000 20.91647 68.97131 "473" del
+point:0x1000 21.91094 68.84376 "473" del
+point:0x1000 22.14183 68.77694 "473" del
+point:0x1000 21.28419 68.79990 "474" del
+point:0x1000 21.92253 68.84577 "474" del
+point:0x1000 22.00889 68.88334 "474" del
+point:0x1000 22.19816 68.95966 "474" del
+point:0x1000 22.15051 68.76874 "475" del
+point:0x1000 21.90001 68.84784 "476" del
+point:0x1000 22.14570 68.76965 "476" del
+point:0x1000 22.17044 68.68313 "476" del
+point:0x1000 21.85357 68.84488 "478" del
+point:0x1000 21.86604 68.83859 "478" del
+point:0x1000 21.86944 68.84192 "478" del
+point:0x1000 21.48054 68.71233 "480" del
+point:0x1000 22.15148 68.75811 "480" del
+point:0x1000 22.20781 68.91236 "480" del
+point:0x1000 21.83540 68.84601 "481" del
+point:0x1000 21.87929 68.84028 "481" del
+point:0x1000 21.82280 68.84892 "482" del
+point:0x1000 21.93279 68.84682 "482" del
+point:0x1000 22.20464 68.91385 "482" del
+point:0x1000 22.20810 68.91735 "482" del
+point:0x1000 21.90102 68.82714 "483" del
+point:0x1000 20.75445 69.05020 "484" del
+point:0x1000 21.80322 68.84820 "484" del
+point:0x1000 21.94221 68.84886 "485" del
+point:0x1000 22.18857 68.98799 "486" del
+point:0x1000 21.49960 68.71303 "488" del
+point:0x1000 21.83302 68.82791 "488" del
+point:0x1000 22.12179 69.09857 "488" del
+point:0x1000 22.13310 69.10382 "488" del
+point:0x1000 22.18198 68.99162 "488" del
+point:0x1000 22.19561 68.92090 "489" del
+point:0x1000 22.19783 68.91994 "490" del
+point:0x1000 21.84713 68.82533 "491" del
+point:0x1000 21.85301 68.82622 "491" del
+point:0x1000 21.89115 68.81246 "491" del
+point:0x1000 21.46862 68.75402 "492" del
+point:0x1000 21.64339 68.69013 "492" del
+point:0x1000 21.87847 68.81351 "492" del
+point:0x1000 21.90156 68.81779 "492" del
+point:0x1000 21.93429 68.87770 "492" del
+point:0x1000 22.10072 68.86107 "492" del
+point:0x1000 21.88267 68.80650 "493" del
+point:0x1000 21.91598 69.00624 "493" del
+point:0x1000 21.98025 68.88217 "493" del
+point:0x1000 20.66743 69.05374 "494" del
+point:0x1000 21.81344 68.86126 "494" del
+point:0x1000 21.81555 68.86412 "494" del
+point:0x1000 21.86209 68.81258 "494" del
+point:0x1000 21.98610 68.89984 "494" del
+point:0x1000 20.65758 69.05354 "495" del
+point:0x1000 22.18050 69.00241 "495" del
+point:0x1000 21.90682 68.82213 "496" del
+point:0x1000 22.15596 68.99597 "496" del
+point:0x1000 22.04765 68.67708 "497" del
+point:0x1000 21.37076 68.81118 "499" del
+point:0x1000 22.13046 68.75773 "499" del
+point:0x1000 21.16935 68.86071 "500" del
+point:0x1000 21.95660 68.78927 "500" del
+point:0x1000 22.15729 69.05857 "500" del
+point:0x1000 21.23469 68.86574 "501" del
+point:0x1000 21.36934 68.81919 "501" del
+point:0x1000 22.19438 69.01123 "502" del
+point:0x1000 22.16647 69.06374 "503" del
+point:0x1000 22.17813 69.05397 "503" del
+point:0x1000 21.31501 68.84985 "504" del
+point:0x1000 21.36038 68.81716 "504" del
+point:0x1000 21.69736 68.67316 "504" del
+point:0x1000 21.91830 68.80996 "504" del
+point:0x1000 21.92436 68.80552 "504" del
+point:0x1000 21.97863 69.09071 "505" del
+point:0x1000 21.30500 68.86080 "506" del
+point:0x1000 21.94242 68.98088 "506" del
+point:0x1000 21.98290 69.08665 "506" del
+point:0x1000 22.18420 69.04966 "506" del
+point:0x1000 22.19032 69.00864 "506" del
+point:0x1000 21.78493 68.86195 "507" del
+point:0x1000 21.94847 68.97728 "507" del
+point:0x1000 22.14840 69.07871 "507" del
+point:0x1000 22.16844 69.00796 "507" del
+point:0x1000 21.22514 68.87214 "508" del
+point:0x1000 22.17698 69.03132 "508" del
+point:0x1000 21.27603 68.86006 "509" del
+point:0x1000 22.02040 68.74751 "509" del
+point:0x1000 22.15555 69.00519 "509" del
+point:0x1000 21.98600 69.07603 "510" del
+point:0x1000 22.09860 68.75023 "510" del
+point:0x1000 20.95269 68.95700 "511" del
+point:0x1000 21.18567 68.88174 "511" del
+point:0x1000 21.98837 69.07534 "511" del
+point:0x1000 22.16371 69.07148 "511" del
+point:0x1000 22.18090 69.05786 "511" del
+point:0x1000 21.96459 68.90813 "512" del
+point:0x1000 21.97956 68.84123 "512" del
+point:0x1000 22.06664 68.73990 "512" del
+point:0x1000 22.06929 68.74244 "512" del
+point:0x1000 22.08108 68.74776 "512" del
+point:0x1000 21.31766 68.79466 "513" del
+point:0x1000 21.73986 68.68427 "513" del
+point:0x1000 21.93218 69.02483 "513" del
+point:0x1000 22.12761 68.99404 "513" del
+point:0x1000 22.17960 69.01787 "513" del
+point:0x1000 21.31403 68.79228 "514" del
+point:0x1000 21.94690 68.83644 "514" del
+point:0x1000 21.97546 69.07536 "514" del
+point:0x1000 21.21084 68.87801 "515" del
+point:0x1000 22.12588 68.72176 "515" del
+point:0x1000 20.95632 68.96197 "516" del
+point:0x1000 21.94385 68.95610 "516" del
+point:0x1000 22.18218 69.02301 "516" del
+point:0x1000 20.62169 69.05623 "517" del
+point:0x1000 21.93403 69.03216 "517" del
+point:0x1000 22.07569 68.73541 "517" del
+point:0x1000 22.14280 69.04989 "517" del
+point:0x1000 21.21122 68.88327 "518" del
+point:0x1000 22.08476 68.73312 "518" del
+point:0x1000 22.09501 68.73086 "518" del
+point:0x1000 22.16689 69.02513 "518" del
+point:0x1000 22.08497 68.73189 "520" del
+point:0x1000 20.64048 69.05478 "521" del
+point:0x1000 21.67105 68.87260 "521" del
+point:0x1000 21.70972 68.85742 "521" del
+point:0x1000 22.04034 69.03434 "521" del
+point:0x1000 22.09237 68.72980 "521" del
+point:0x1000 21.97482 69.07972 "521" del
+point:0x1000 21.23237 68.88476 "523" del
+point:0x1000 21.96968 69.09948 "523" del
+point:0x1000 22.11654 69.08069 "523" del
+point:0x1000 21.24071 68.88440 "524" del
+point:0x1000 21.31831 68.87287 "524" del
+point:0x1000 21.36126 68.80789 "524" del
+point:0x1000 21.41033 68.85233 "524" del
+point:0x1000 21.55282 68.73841 "524" del
+point:0x1000 22.05201 68.68765 "524" del
+point:0x1000 21.23025 68.88635 "525" del
+point:0x1000 22.11002 68.72437 "525" del
+point:0x1000 21.96962 69.08679 "525" del
+point:0x1000 22.11051 69.09677 "525" del
+point:0x1000 22.09979 68.82548 "527" del
+point:0x1000 22.10225 68.83465 "527" del
+point:0x1000 22.09463 69.01816 "527" del
+point:0x1000 20.98400 68.92041 "528" del
+point:0x1000 21.77527 68.87313 "528" del
+point:0x1000 22.10928 69.09986 "529" del
+point:0x1000 21.51406 68.75287 "530" del
+point:0x1000 21.75832 68.86534 "530" del
+point:0x1000 21.79928 68.68241 "531" del
+point:0x1000 21.92381 69.04728 "531" del
+point:0x1000 21.94767 69.08434 "531" del
+point:0x1000 21.93633 69.04618 "532" del
+point:0x1000 22.03922 69.04525 "532" del
+point:0x1000 22.08021 69.03368 "532" del
+point:0x1000 22.09387 69.02246 "532" del
+point:0x1000 21.76673 69.01297 "533" del
+point:0x1000 21.96120 69.07787 "533" del
+point:0x1000 20.95907 68.92049 "534" del
+point:0x1000 21.28925 68.87937 "534" del
+point:0x1000 21.91180 69.08735 "534" del
+point:0x1000 21.91979 69.08389 "534" del
+point:0x1000 22.05867 69.03601 "534" del
+point:0x1000 22.11986 69.05473 "534" del
+point:0x1000 21.21117 68.86440 "535" del
+point:0x1000 21.92031 69.08067 "535" del
+point:0x1000 22.03878 69.04322 "535" del
+point:0x1000 22.08218 69.03624 "535" del
+point:0x1000 21.00235 68.91199 "536" del
+point:0x1000 22.12068 69.05141 "536" del
+point:0x1000 21.53805 68.75388 "537" del
+point:0x1000 22.05609 69.04149 "537" del
+point:0x1000 22.09675 69.09891 "537" del
+point:0x1000 20.94052 68.98194 "538" del
+point:0x1000 21.28957 68.88329 "538" del
+point:0x1000 21.36907 68.86087 "538" del
+point:0x1000 21.40548 68.86093 "538" del
+point:0x1000 21.96629 69.06756 "538" del
+point:0x1000 21.96793 69.05622 "538" del
+point:0x1000 22.04139 68.71508 "538" del
+point:0x1000 21.71734 69.01639 "539" del
+point:0x1000 21.91792 69.07252 "539" del
+point:0x1000 21.92806 69.08025 "539" del
+point:0x1000 21.96723 69.06569 "539" del
+point:0x1000 22.10460 69.08507 "539" del
+point:0x1000 22.10759 69.08799 "539" del
+point:0x1000 21.78238 69.00227 "540" del
+point:0x1000 21.91018 69.06680 "540" del
+point:0x1000 21.91252 69.06078 "540" del
+point:0x1000 22.04471 68.69743 "540" del
+point:0x1000 22.12597 68.71402 "540" del
+point:0x1000 22.09368 69.07242 "540" del
+point:0x1000 21.45120 68.84635 "541" del
+point:0x1000 22.09405 69.09449 "541" del
+point:0x1000 21.74067 69.02243 "542" del
+point:0x1000 22.08805 69.03048 "542" del
+point:0x1000 22.09553 69.07918 "542" del
+point:0x1000 22.11954 69.04399 "542" del
+point:0x1000 22.12979 68.70810 "543" del
+point:0x1000 21.95501 69.09697 "543" del
+point:0x1000 22.09200 69.03715 "543" del
+point:0x1000 22.13847 69.01822 "544" del
+point:0x1000 21.00037 68.90762 "545" del
+point:0x1000 21.96593 69.06004 "545" del
+point:0x1000 22.04433 68.70266 "545" del
+point:0x1000 21.61728 69.02137 "546" del
+point:0x1000 21.91862 69.10064 "546" del
+point:0x1000 21.96683 69.06376 "546" del
+point:0x1000 21.37640 68.87671 "547" del
+point:0x1000 21.62618 69.00864 "547" del
+point:0x1000 21.69402 69.02239 "547" del
+point:0x1000 20.93138 68.99017 "548" del
+point:0x1000 22.05016 69.04797 "548" del
+point:0x1000 21.29790 68.88841 "549" del
+point:0x1000 21.38428 68.87584 "549" del
+point:0x1000 21.58873 69.02561 "549" del
+point:0x1000 21.62447 69.02954 "549" del
+point:0x1000 21.79303 68.68990 "549" del
+point:0x1000 21.87720 69.08884 "549" del
+point:0x1000 22.06354 69.04264 "549" del
+point:0x1000 21.61639 68.86921 "550" del
+point:0x1000 21.86392 69.08143 "550" del
+point:0x1000 22.08938 69.08433 "550" del
+point:0x1000 21.02863 68.91530 "551" del
+point:0x1000 21.49681 68.86049 "551" del
+point:0x1000 21.93222 68.67429 "551" del
+point:0x1000 21.97535 69.03541 "551" del
+point:0x1000 22.05799 68.77216 "551" del
+point:0x1000 21.56531 69.01020 "552" del
+point:0x1000 21.56595 69.01439 "553" del
+point:0x1000 21.53289 68.86777 "554" del
+point:0x1000 21.76632 68.68921 "554" del
+point:0x1000 21.89644 68.94848 "554" del
+point:0x1000 22.03811 69.05296 "554" del
+point:0x1000 21.54081 68.86325 "555" del
+point:0x1000 21.52225 69.02445 "556" del
+point:0x1000 21.53230 69.03386 "556" del
+point:0x1000 21.83029 69.08149 "557" del
+point:0x1000 22.04588 69.05986 "557" del
+point:0x1000 21.55252 69.03466 "558" del
+point:0x1000 22.04712 69.05497 "558" del
+point:0x1000 20.90917 69.02496 "559" del
+point:0x1000 21.80158 68.98580 "559" del
+point:0x1000 22.06575 69.07250 "559" del
+point:0x1000 21.94789 68.67898 "560" del
+point:0x1000 21.40515 68.88218 "561" del
+point:0x1000 22.02743 69.05690 "561" del
+point:0x1000 22.09355 69.06626 "561" del
+point:0x1000 21.43735 68.86963 "562" del
+point:0x1000 21.79625 69.09105 "562" del
+point:0x1000 21.81431 68.98478 "562" del
+point:0x1000 21.81937 68.98841 "562" del
+point:0x1000 21.88357 69.06846 "562" del
+point:0x1000 22.04056 69.06459 "562" del
+point:0x1000 22.08244 69.09731 "562" del
+point:0x1000 21.74668 69.00144 "563" del
+point:0x1000 22.01384 69.07592 "563" del
+point:0x1000 22.02892 69.06000 "563" del
+point:0x1000 22.04669 69.07571 "563" del
+point:0x1000 21.77792 69.08794 "564" del
+point:0x1000 22.02414 69.07525 "564" del
+point:0x1000 22.02914 69.06382 "564" del
+point:0x1000 22.06387 69.07118 "564" del
+point:0x1000 21.85156 68.88177 "565" del
+point:0x1000 21.94518 69.09568 "565" del
+point:0x1000 22.03265 69.07286 "565" del
+point:0x1000 21.84124 68.95615 "566" del
+point:0x1000 22.03814 68.80065 "566" del
+point:0x1000 22.06035 69.06324 "566" del
+point:0x1000 22.17590 69.09668 "566" del
+point:0x1000 21.01737 68.91863 "567" del
+point:0x1000 21.83124 68.95854 "567" del
+point:0x1000 21.87795 68.89787 "567" del
+point:0x1000 22.04663 69.06607 "567" del
+point:0x1000 22.06443 69.06191 "567" del
+point:0x1000 21.01174 68.92117 "569" del
+point:0x1000 21.34308 68.89106 "569" del
+point:0x1000 22.03530 69.07125 "569" del
+point:0x1000 21.71450 69.09442 "570" del
+point:0x1000 21.92497 68.76670 "570" del
+point:0x1000 21.81614 68.96429 "571" del
+point:0x1000 22.04000 68.81363 "571" del
+point:0x1000 21.87379 69.05348 "572" del
+point:0x1000 21.96658 68.74968 "572" del
+point:0x1000 22.01305 69.06952 "572" del
+point:0x1000 20.98769 68.94577 "573" del
+point:0x1000 22.03992 68.82824 "573" del
+point:0x1000 21.84674 68.71202 "574" del
+point:0x1000 21.49029 68.87384 "575" del
+point:0x1000 21.87932 68.90499 "575" del
+point:0x1000 21.05443 68.91551 "576" del
+point:0x1000 21.06252 68.91521 "577" del
+point:0x1000 21.05877 68.91838 "580" del
+point:0x1000 21.48914 68.87992 "581" del
+point:0x1000 22.01190 69.06652 "581" del
+point:0x1000 21.50341 68.88659 "582" del
+point:0x1000 21.50431 68.88145 "582" del
+point:0x1000 22.01811 69.05923 "583" del
+point:0x1000 20.97708 68.93445 "584" del
+point:0x1000 21.43569 69.02786 "584" del
+point:0x1000 21.44213 69.02820 "584" del
+point:0x1000 21.44512 69.03200 "584" del
+point:0x1000 21.44778 69.02878 "584" del
+point:0x1000 21.72533 68.89445 "584" del
+point:0x1000 21.45039 69.02999 "585" del
+point:0x1000 21.84853 69.05961 "585" del
+point:0x1000 21.44830 69.02614 "586" del
+point:0x1000 20.13115 68.91606 "586" del
+point:0x1000 21.42566 69.03756 "587" del
+point:0x1000 21.83634 68.71062 "587" del
+point:0x1000 21.43283 69.04159 "588" del
+point:0x1000 21.99756 69.09698 "588" del
+point:0x1000 21.70741 69.08458 "589" del
+point:0x1000 21.95455 68.94680 "589" del
+point:0x1000 21.44460 69.02081 "590" del
+point:0x1000 21.46418 69.02960 "590" del
+point:0x1000 21.88564 68.91982 "590" del
+point:0x1000 21.56110 68.89455 "591" del
+point:0x1000 21.59833 68.89420 "591" del
+point:0x1000 21.04664 68.91893 "592" del
+point:0x1000 20.19545 68.91925 "592" del
+point:0x1000 21.46035 69.01315 "593" del
+point:0x1000 20.15356 68.92987 "593" del
+point:0x1000 21.74509 68.89654 "594" del
+point:0x1000 21.86152 68.92248 "594" del
+point:0x1000 20.16532 68.89879 "594" del
+point:0x1000 20.18255 68.90753 "594" del
+point:0x1000 20.18732 68.91105 "594" del
+point:0x1000 21.47380 69.03223 "595" del
+point:0x1000 21.75866 68.89808 "595" del
+point:0x1000 21.36134 69.03656 "597" del
+point:0x1000 21.37521 69.03441 "597" del
+point:0x1000 21.61910 68.90269 "597" del
+point:0x1000 19.95002 68.60885 "597" del
+point:0x1000 21.35064 69.03877 "598" del
+point:0x1000 21.80834 68.76802 "598" del
+point:0x1000 19.94012 68.61958 "598" del
+point:0x1000 21.40599 69.04135 "599" del
+point:0x1000 21.33320 69.03943 "600" del
+point:0x1000 21.49251 69.00760 "600" del
+point:0x1000 21.33637 69.03852 "601" del
+point:0x1000 21.38771 69.03114 "601" del
+point:0x1000 21.39365 69.04302 "601" del
+point:0x1000 21.76643 68.97150 "602" del
+point:0x1000 21.90753 68.92390 "602" del
+point:0x1000 21.51624 69.00776 "604" del
+point:0x1000 21.57147 68.90339 "604" del
+point:0x1000 21.32475 69.03418 "605" del
+point:0x1000 21.74614 69.07312 "605" del
+point:0x1000 21.87092 68.73602 "609" del
+point:0x1000 21.87627 68.74058 "609" del
+point:0x1000 20.11628 68.92877 "609" del
+point:0x1000 20.21942 68.90618 "609" del
+point:0x1000 21.83708 68.91944 "610" del
+point:0x1000 21.87620 68.73601 "610" del
+point:0x1000 20.26278 68.89901 "610" del
+point:0x1000 21.86252 68.73394 "611" del
+point:0x1000 20.26439 68.92521 "611" del
+point:0x1000 21.25759 69.02500 "612" del
+point:0x1000 21.85618 68.73825 "612" del
+point:0x1000 21.02606 68.93153 "613" del
+point:0x1000 21.46273 68.89405 "614" del
+point:0x1000 21.78902 68.90186 "614" del
+point:0x1000 21.82873 68.92036 "614" del
+point:0x1000 21.86284 68.74818 "614" del
+point:0x1000 20.24670 68.91825 "615" del
+point:0x1000 20.29710 68.92200 "616" del
+point:0x1000 21.02781 68.90586 "617" del
+point:0x1000 21.82896 68.92231 "617" del
+point:0x1000 20.29887 68.92619 "617" del
+point:0x1000 21.84575 68.74287 "618" del
+point:0x1000 20.00273 68.60637 "619" del
+point:0x1000 19.98558 68.60833 "620" del
+point:0x1000 20.01471 68.60854 "621" del
+point:0x1000 21.77333 68.90939 "622" del
+point:0x1000 21.76371 68.90815 "623" del
+point:0x1000 20.02443 68.60151 "623" del
+point:0x1000 21.83017 68.74393 "624" del
+point:0x1000 21.76076 68.91027 "626" del
+point:0x1000 21.69122 68.89828 "627" del
+point:0x1000 21.82754 68.74783 "627" del
+point:0x1000 21.80684 68.90372 "629" del
+point:0x1000 21.49147 68.90047 "630" del
+point:0x1000 20.96827 69.06259 "631" del
+point:0x1000 20.95035 68.93603 "632" del
+point:0x1000 21.74456 69.05192 "633" del
+point:0x1000 21.74982 69.05444 "633" del
+point:0x1000 21.59741 68.78797 "635" del
+point:0x1000 21.58661 68.78735 "636" del
+point:0x1000 21.58701 69.05640 "637" del
+point:0x1000 21.81354 68.71885 "637" del
+point:0x1000 21.10644 69.01483 "638" del
+point:0x1000 21.72836 68.91757 "638" del
+point:0x1000 20.07572 68.96386 "639" del
+point:0x1000 21.00311 69.01587 "643" del
+point:0x1000 21.63426 68.86153 "644" del
+point:0x1000 21.02037 69.01431 "646" del
+point:0x1000 21.03255 69.01781 "647" del
+point:0x1000 21.71168 69.06126 "647" del
+point:0x1000 21.97689 68.69783 "648" del
+point:0x1000 20.98155 69.06023 "648" del
+point:0x1000 21.04351 69.01521 "650" del
+point:0x1000 19.92098 68.80738 "650" del
+point:0x1000 21.65779 68.75579 "652" del
+point:0x1000 19.91693 68.80155 "652" del
+point:0x1000 21.67800 68.75575 "657" del
+point:0x1000 21.68415 68.73737 "657" del
+point:0x1000 19.92155 68.79879 "657" del
+point:0x1000 21.16713 68.93451 "658" del
+point:0x1000 20.87818 69.03777 "660" del
+point:0x1000 19.94780 68.79112 "660" del
+point:0x1000 19.94803 68.78785 "660" del
+point:0x1000 21.10121 68.95465 "662" del
+point:0x1000 19.95772 68.78508 "662" del
+point:0x1000 21.01488 69.04639 "663" del
+point:0x1000 21.01170 69.04794 "664" del
+point:0x1000 21.16264 68.94819 "665" del
+point:0x1000 19.91990 68.77823 "665" del
+point:0x1000 20.28666 68.88466 "665" del
+point:0x1000 21.66621 69.05672 "666" del
+point:0x1000 21.72801 68.73744 "666" del
+point:0x1000 19.97524 68.79086 "666" del
+point:0x1000 20.26639 68.86327 "666" del
+point:0x1000 21.00754 69.05530 "666" del
+point:0x1000 21.42111 69.06534 "667" del
+point:0x1000 21.70913 68.73883 "667" del
+point:0x1000 21.43417 69.06786 "668" del
+point:0x1000 21.65551 69.05974 "668" del
+point:0x1000 19.83936 69.01890 "668" del
+point:0x1000 20.26534 68.85444 "668" del
+point:0x1000 21.41276 69.07707 "669" del
+point:0x1000 21.43383 69.07448 "669" del
+point:0x1000 21.44268 69.07278 "669" del
+point:0x1000 19.92776 68.76347 "669" del
+point:0x1000 19.92897 68.81253 "669" del
+point:0x1000 20.28870 68.86578 "669" del
+point:0x1000 20.25809 68.85012 "670" del
+point:0x1000 21.13143 68.95692 "671" del
+point:0x1000 21.24863 68.90665 "673" del
+point:0x1000 21.43893 69.08120 "673" del
+point:0x1000 19.92756 68.78378 "673" del
+point:0x1000 20.99934 69.05782 "673" del
+point:0x1000 21.01041 69.06712 "673" del
+point:0x1000 19.95996 68.80195 "674" del
+point:0x1000 19.96961 68.77295 "674" del
+point:0x1000 20.29706 68.87382 "674" del
+point:0x1000 20.96538 69.05288 "675" del
+point:0x1000 20.01711 68.79368 "675" del
+point:0x1000 20.28288 68.85890 "675" del
+point:0x1000 21.49078 68.91159 "676" del
+point:0x1000 20.27777 68.83541 "677" del
+point:0x1000 20.97546 69.04469 "678" del
+point:0x1000 21.00018 69.04895 "678" del
+point:0x1000 21.75769 68.92636 "678" del
+point:0x1000 21.50332 69.08387 "679" del
+point:0x1000 20.29184 68.81743 "679" del
+point:0x1000 20.87371 69.04886 "680" del
+point:0x1000 21.05311 69.05335 "680" del
+point:0x1000 21.07850 69.06027 "681" del
+point:0x1000 21.77326 68.92763 "681" del
+point:0x1000 21.07345 68.95265 "682" del
+point:0x1000 19.97996 68.77876 "682" del
+point:0x1000 20.29204 68.83049 "682" del
+point:0x1000 20.29751 68.82326 "682" del
+point:0x1000 20.88802 69.04296 "683" del
+point:0x1000 19.94624 68.76377 "683" del
+point:0x1000 20.32212 68.81799 "683" del
+point:0x1000 21.10202 69.05931 "684" del
+point:0x1000 21.49904 69.08565 "684" del
+point:0x1000 21.92364 68.73425 "684" del
+point:0x1000 19.95756 68.81435 "684" del
+point:0x1000 19.97693 68.80824 "684" del
+point:0x1000 19.98852 68.80230 "684" del
+point:0x1000 20.27230 68.80217 "684" del
+point:0x1000 21.62903 69.07103 "686" del
+point:0x1000 20.27994 68.79854 "688" del
+point:0x1000 21.11577 69.05556 "689" del
+point:0x1000 21.12821 69.06527 "689" del
+point:0x1000 20.22926 68.80002 "689" del
+point:0x1000 21.05872 68.93678 "690" del
+point:0x1000 21.04274 69.06745 "690" del
+point:0x1000 21.10319 69.06855 "691" del
+point:0x1000 21.91082 68.72225 "692" del
+point:0x1000 20.04826 68.70971 "694" del
+point:0x1000 20.06966 68.69909 "694" del
+point:0x1000 21.13095 68.93034 "695" del
+point:0x1000 19.90776 68.73915 "695" del
+point:0x1000 20.20501 68.80509 "695" del
+point:0x1000 20.21148 68.79964 "695" del
+point:0x1000 21.15538 68.90361 "696" del
+point:0x1000 19.96230 68.75704 "696" del
+point:0x1000 20.07245 68.80504 "696" del
+point:0x1000 20.08075 68.81030 "696" del
+point:0x1000 19.90539 68.73021 "697" del
+point:0x1000 20.18848 68.80538 "697" del
+point:0x1000 21.91944 68.71718 "698" del
+point:0x1000 19.90713 68.74279 "698" del
+point:0x1000 20.10076 68.81230 "698" del
+point:0x1000 20.16252 68.80347 "700" del
+point:0x1000 20.28496 68.83865 "700" del
+point:0x1000 20.12011 68.81142 "701" del
+point:0x1000 20.13828 68.81181 "704" del
+point:0x1000 20.85699 69.05885 "705" del
+point:0x1000 19.90952 68.74601 "705" del
+point:0x1000 20.27513 68.80789 "705" del
+point:0x1000 21.90192 68.71742 "707" del
+point:0x1000 21.07289 69.03404 "708" del
+point:0x1000 21.66589 68.80498 "710" del
+point:0x1000 21.17452 69.04608 "713" del
+point:0x1000 21.64342 68.95426 "713" del
+point:0x1000 19.89954 69.02761 "713" del
+point:0x1000 21.15945 69.04482 "716" del
+point:0x1000 20.05488 68.72621 "717" del
+point:0x1000 20.04573 68.73434 "720" del
+point:0x1000 20.17328 68.68124 "720" del
+point:0x1000 21.10194 68.94018 "721" del
+point:0x1000 21.19839 68.96445 "721" del
+point:0x1000 20.03005 68.72784 "721" del
+point:0x1000 20.19701 68.66707 "722" del
+point:0x1000 20.19382 68.67734 "724" del
+point:0x1000 20.00677 68.75551 "725" del
+point:0x1000 20.02396 68.74578 "727" del
+point:0x1000 20.21429 68.81265 "727" del
+point:0x1000 20.30120 68.85443 "727" del
+point:0x1000 21.14529 69.04793 "728" del
+point:0x1000 20.03440 68.90965 "728" del
+point:0x1000 20.31002 68.85291 "731" del
+point:0x1000 21.58949 68.95058 "733" del
+point:0x1000 20.03295 68.90500 "734" del
+point:0x1000 21.53275 69.08127 "737" del
+point:0x1000 19.94587 68.82520 "740" del
+point:0x1000 21.30823 69.07364 "741" del
+point:0x1000 20.02908 68.91547 "748" del
+point:0x1000 20.93192 69.04766 "749" del
+point:0x1000 19.95093 68.98474 "752" del
+point:0x1000 20.11493 68.66758 "755" del
+point:0x1000 19.93737 68.98995 "756" del
+point:0x1000 19.93903 68.87208 "756" del
+point:0x1000 20.00703 68.72785 "756" del
+point:0x1000 21.33593 69.01134 "758" del
+point:0x1000 20.14567 68.65899 "758" del
+point:0x1000 20.15542 68.65693 "758" del
+point:0x1000 19.99935 68.91887 "759" del
+point:0x1000 20.00840 68.91422 "759" del
+point:0x1000 20.31569 68.84654 "760" del
+point:0x1000 19.96451 68.87165 "761" del
+point:0x1000 21.10289 68.99312 "762" del
+point:0x1000 21.63710 68.82295 "762" del
+point:0x1000 19.97561 68.86934 "765" del
+point:0x1000 20.10197 68.70948 "766" del
+point:0x1000 20.11445 68.68534 "766" del
+point:0x1000 19.96899 68.65764 "767" del
+point:0x1000 21.19141 69.05460 "768" del
+point:0x1000 20.02184 68.89151 "771" del
+point:0x1000 20.30464 68.77715 "773" del
+point:0x1000 21.66493 68.84203 "774" del
+point:0x1000 21.21270 69.05841 "775" del
+point:0x1000 20.01150 68.90367 "776" del
+point:0x1000 21.22598 69.04587 "777" del
+point:0x1000 21.28300 69.07380 "777" del
+point:0x1000 20.06698 68.97074 "779" del
+point:0x1000 21.49790 68.94154 "780" del
+point:0x1000 21.10299 69.03095 "785" del
+point:0x1000 21.38959 68.96723 "786" del
+point:0x1000 21.37625 68.96516 "787" del
+point:0x1000 19.95825 68.87611 "788" del
+point:0x1000 20.02063 68.62212 "788" del
+point:0x1000 21.35605 68.92660 "792" del
+point:0x1000 19.97557 68.64083 "792" del
+point:0x1000 21.02398 68.98211 "794" del
+point:0x1000 19.98732 68.67167 "795" del
+point:0x1000 21.12168 69.03360 "797" del
+point:0x1000 20.01008 68.81272 "800" del
+point:0x1000 20.06858 68.77303 "801" del
+point:0x1000 20.00756 68.67491 "802" del
+point:0x1000 21.34669 68.93303 "805" del
+point:0x1000 21.25935 68.95853 "806" del
+point:0x1000 21.30559 69.01423 "811" del
+point:0x1000 20.01497 68.88518 "811" del
+point:0x1000 20.05572 68.76806 "815" del
+point:0x1000 20.00423 68.63424 "820" del
+point:0x1000 20.27970 68.75983 "823" del
+point:0x1000 21.38048 68.95061 "824" del
+point:0x1000 21.31905 68.94600 "826" del
+point:0x1000 21.31102 68.92603 "828" del
+point:0x1000 20.10510 68.73150 "828" del
+point:0x1000 21.32309 68.93950 "830" del
+point:0x1000 20.12132 68.72221 "831" del
+point:0x1000 20.13762 68.72756 "832" del
+point:0x1000 20.20838 68.87736 "834" del
+point:0x1000 21.25507 68.98512 "835" del
+point:0x1000 20.09079 68.78539 "837" del
+point:0x1000 20.10450 68.83085 "839" del
+point:0x1000 20.14924 68.73169 "840" del
+point:0x1000 20.25426 68.81717 "840" del
+point:0x1000 20.06619 68.76532 "844" del
+point:0x1000 20.18960 68.78214 "846" del
+point:0x1000 20.14939 68.67183 "847" del
+point:0x1000 20.17453 68.72739 "850" del
+point:0x1000 20.07748 68.76668 "852" del
+point:0x1000 20.09719 68.76565 "852" del
+point:0x1000 20.08790 69.02373 "853" del
+point:0x1000 20.18763 68.87041 "858" del
+point:0x1000 20.21020 68.82724 "858" del
+point:0x1000 20.04968 68.63222 "860" del
+point:0x1000 20.20546 68.72110 "860" del
+point:0x1000 19.95901 68.95882 "861" del
+point:0x1000 20.19666 68.82784 "864" del
+point:0x1000 20.07566 69.02052 "865" del
+point:0x1000 20.25625 68.72476 "865" del
+point:0x1000 20.08448 68.74365 "868" del
+point:0x1000 20.21886 68.70030 "869" del
+point:0x1000 20.23025 68.72081 "869" del
+point:0x1000 20.10896 68.78706 "870" del
+point:0x1000 21.27941 68.97585 "872" del
+point:0x1000 19.88740 68.89724 "874" del
+point:0x1000 19.97989 68.89532 "875" del
+point:0x1000 20.08619 69.01591 "875" del
+point:0x1000 20.19135 68.70531 "876" del
+point:0x1000 20.21786 68.68448 "877" del
+point:0x1000 20.08134 68.64354 "883" del
+point:0x1000 20.20442 68.70468 "885" del
+point:0x1000 20.16129 68.71976 "893" del
+point:0x1000 20.07502 68.63278 "897" del
+point:0x1000 20.17045 68.72138 "897" del
+point:0x1000 19.96152 68.91827 "898" del
+point:0x1000 20.13450 68.82997 "899" del
+point:0x1000 20.03380 68.81834 "901" del
+point:0x1000 20.06487 69.00631 "902" del
+point:0x1000 20.08919 69.00719 "903" del
+point:0x1000 20.01637 68.85761 "904" del
+point:0x1000 20.19268 68.81895 "905" del
+point:0x1000 19.96823 68.88750 "907" del
+point:0x1000 20.05107 69.03332 "913" del
+point:0x1000 20.07642 68.98994 "918" del
+point:0x1000 20.10852 68.63502 "926" del
+point:0x1000 20.12641 68.83781 "927" del
+point:0x1000 20.07777 68.99834 "933" del
+point:0x1000 20.02080 68.97035 "943" del
+point:0x1000 20.09700 68.87130 "943" del
+point:0x1000 20.08009 68.88013 "945" del
+point:0x1000 20.08521 68.87501 "945" del
+point:0x1000 19.97434 68.99795 "953" del
+point:0x1000 20.13181 68.87927 "958" del
+point:0x1000 20.19774 68.84367 "960" del
+point:0x1000 20.10243 68.99356 "963" del
+point:0x1000 20.13849 68.78847 "964" del
+point:0x1000 20.08852 68.84535 "973" del
+point:0x1000 20.20788 68.84251 "975" del
+point:0x1000 20.11550 68.87463 "979" del
+point:0x1000 20.20189 68.85191 "988" del
+
