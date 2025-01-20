@@ -39,12 +39,6 @@ struct tconv_fi2t_t {
 std::map<std::string, tconv_fi2t_t>
 read_tconv_fi2t(const std::string & fname);
 
-// update_map -- object conversion table
-typedef std::vector<std::string> oconv_t;
-std::list<oconv_t>
-read_oconv(const std::string & fname);
-
-
 /*********************************************************************/
 // finctions for import_fi{1,2}
 

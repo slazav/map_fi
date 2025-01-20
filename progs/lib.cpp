@@ -132,28 +132,6 @@ std::map<std::string, tconv_fi2t_t> ret;
   return ret;
 }
 
-std::list<oconv_t>
-read_oconv(const std::string & fname){
-std::list<oconv_t> ret;
-  std::ifstream ff(fname);
-  if (!ff) throw Err() << "can't open file: " << fname;
-  int line_num[2] = {0,0}; // line counter for read_words
-  while (1){
-    auto vs = read_words(ff, line_num, false);
-    if (vs.size()==0) break;
-    try{
-      if (vs.size()<6) throw Err()
-        << "at least 6 words expected: (<map>|*) (<type>|*) (<lat>|*) (<lon>|*) <name> <action> [parameters]";
-      ret.emplace_back(vs);
-    }
-    catch (Err & e) {
-      throw Err() << fname << ":" << line_num[0] << ": " << e.str();
-    }
-  }
-  return ret;
-}
-
-
 /********************************************************************/
 
 // extend objects beyond map bounaries

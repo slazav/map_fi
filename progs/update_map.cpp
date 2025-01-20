@@ -29,11 +29,42 @@ void usage(bool pod=false){
 
 /**********************************************************/
 
+typedef std::vector<std::string> oconv_t;
+
+void
+read_oconv(std::list<oconv_t> & oconvs,  const std::string & fname){
+  std::ifstream ff(fname);
+  if (!ff) throw Err() << "can't open file: " << fname;
+  std::cerr << "Reading conversion file: " << fname << "\n";
+  int line_num[2] = {0,0}; // line counter for read_words
+  while (1){
+    auto vs = read_words(ff, line_num, false);
+    if (vs.size()==0) break;
+    try{
+
+      if (vs[0] == "include"){
+        if (vs.size()!=2) throw Err() << "include: filename expected";
+        read_oconv(oconvs, vs[1]);
+        continue;
+      }
+
+      if (vs.size()<5) throw Err()
+        << "at least 5 words expected: (<type>|*) (<lat>|*) (<lon>|*) <name> <action> [parameters]";
+      oconvs.emplace_back(vs);
+    }
+    catch (Err & e) {
+      throw Err() << fname << ":" << line_num[0] << ": " << e.str();
+    }
+  }
+}
+
+
 // custom filter for vmaps
-void filter_vmap(VMap2 & vmap, const std::string & fname, const std::string & map){
+void filter_vmap(VMap2 & vmap, const std::string & fname){
 
   // read object conversion table
-  auto oconvs = read_oconv(fname);
+  std::list<oconv_t> oconvs;
+  read_oconv(oconvs, fname);
 
   double find_dist = 100; //m
 
@@ -49,47 +80,46 @@ void filter_vmap(VMap2 & vmap, const std::string & fname, const std::string & ma
     for (const auto & conv: oconvs){
       if (conv.size()<5) throw Err() << "too short conv list";
       if (conv[0] == "add") continue; // process later
-      if (conv[0] != "*" && conv[0]!=map) continue; // map
-      if (conv[1] != "*" && !obj.is_type(conv[1])) continue; // type
-      if (conv[2] != "*" && conv[3] != "*"){ // lon-lat
-         dPoint pt(str_to_type<double>(conv[2]), str_to_type<double>(conv[3]));
+      if (conv[0] != "*" && !obj.is_type(conv[0])) continue; // type
+      if (conv[1] != "*" && conv[2] != "*"){ // lon-lat
+         dPoint pt(str_to_type<double>(conv[1]), str_to_type<double>(conv[2]));
          if (geo_dist_2d(obj.get_first_pt(), pt) > find_dist) continue;
       }
-      if (conv[4] != "*" && obj.name != conv[4]) continue; // name
-      std::string action = conv[5];
+      if (conv[4] != "*" && obj.name != conv[3]) continue; // name
+      std::string action = conv[4];
 
       if (action == "del"){
-        if (conv.size()!=6) throw Err() << "no arguments expected for del action";
+        if (conv.size()!=5) throw Err() << "no arguments expected for del action";
         vmap.del(id);
         break;
       }
 
       if (action == "move"){
-        if (conv.size()!=8) throw Err() << "two arguments expected for move action";
+        if (conv.size()!=7) throw Err() << "two arguments expected for move action";
         obj.clear();
-        obj.add_point(dPoint(str_to_type<double>(conv[6]), str_to_type<double>(conv[7])));
+        obj.add_point(dPoint(str_to_type<double>(conv[5]), str_to_type<double>(conv[6])));
         vmap.put(id, obj);
         continue;
       }
 
       if (action == "rename"){
-        if (conv.size()!=7) throw Err() << "one argument expected for rename action";
-        obj.name = conv[6];
+        if (conv.size()!=6) throw Err() << "one argument expected for rename action";
+        obj.name = conv[5];
         vmap.put(id, obj);
         continue;
       }
 
       if (action == "regex"){
-        if (conv.size()!=8) throw Err() << "two argument expected for regex action";
+        if (conv.size()!=7) throw Err() << "two argument expected for regex action";
         obj.name = std::regex_replace(
-           obj.name, std::regex(conv[6]), conv[7]);
+           obj.name, std::regex(conv[5]), conv[6]);
         vmap.put(id, obj);
         continue;
       }
 
       if (action == "ch_type"){
-        if (conv.size()!=7) throw Err() << "one argument expected for ch_type action";
-        obj.set_type(conv[6]);
+        if (conv.size()!=6) throw Err() << "one argument expected for ch_type action";
+        obj.set_type(conv[5]);
         vmap.put(id, obj);
         continue;
       }
@@ -106,6 +136,7 @@ void filter_vmap(VMap2 & vmap, const std::string & fname, const std::string & ma
 
     VMap2obj obj;
     obj.set_type(conv[1]);
+    obj.opts.put("Source", "ADD");
     obj.add_point(dPoint(str_to_type<double>(conv[2]), str_to_type<double>(conv[3])));
     obj.name = conv[4];
     vmap.add(obj);
@@ -122,7 +153,6 @@ main(int argc, char *argv[]){
     ms2opt_add_std(options, {"HELP","POD"});
     ms2opt_add_vmap2t(options);
     options.add("apply", 0, 'a', "A", "Instead of printing diff, update output file");
-    options.add("map",   1, 'm', "A", "Map name");
     options.add("patch_file",   1, 'p', "A", "File with patch to apply to the input file");
 
     vector<string> files;
@@ -136,7 +166,6 @@ main(int argc, char *argv[]){
 
     bool apply = O.exists("apply");
     std::string pfile = O.get("patch_file", "oconvs.txt");
-    std::string mapname = O.get("map", file_get_basename(out_file));
 
 
     // read file with type information if it's available
@@ -154,7 +183,7 @@ main(int argc, char *argv[]){
     }
 
     // filter objects
-    filter_vmap(vmap1, pfile, mapname);
+    filter_vmap(vmap1, pfile);
     std::cerr << "Filtering src file: " << vmap1.size() << " objects\n";
 
     // attach labels in the source file - for setting default label positions
@@ -166,7 +195,46 @@ main(int argc, char *argv[]){
     std::set<uint32_t> processed1, processed2;
     std::cout << std::fixed << std::setprecision(5);
 
-    // Pass1: go through vmap1, find objects in vmap2 with same name
+    // Pass1: go through vmap1, find objects in vmap2 with same name at close distance
+    vmap1.iter_start();
+    while (!vmap1.iter_end()){
+      auto it1 = vmap1.iter_get_next();
+      auto i1 = it1.first;
+      auto o1 = it1.second;
+      auto pt1 = o1.get_first_pt();
+      // work only with point objects
+      if (!o1.is_class(VMAP2_POINT)) continue;
+
+      // find nearest object with same type, same number of points
+      dRect rng = o1.bbox();
+      // here we can use approximate degree range
+      rng.expand(match_dist * 180/M_PI/6380000);
+      uint32_t minid = -1;
+      double mindist = +INFINITY;
+      for (const auto & i2: vmap2.find(o1.type, rng)){
+        auto o2 = vmap2.get(i2);
+        if (o2.opts.get("Source")=="")
+          continue; // temporary, select objects with any non-empty Source setting
+        if (processed2.count(i2)) continue;
+
+        double d = geo_maxdist_2d(o1,o2);
+        // (d is +inf for different npts, nsegments)
+        if (d<mindist && o1.name==o2.name){ mindist = d; minid = i2;}
+      }
+
+      // closiest object with same name within match_dist
+      if (mindist < match_dist){
+        auto o2 = vmap2.get(minid);
+        auto pt2 = o2.get_first_pt();
+        vmap2.put(minid, o1); // update object
+        processed1.insert(i1);
+        processed2.insert(minid);
+        continue;
+      }
+    }
+
+
+    // Pass2: go through vmap1, find objects in vmap2 with same name, moved
     vmap1.iter_start();
     while (!vmap1.iter_end()){
       auto it1 = vmap1.iter_get_next();
@@ -200,7 +268,7 @@ main(int argc, char *argv[]){
         //move
         if (mindist > match_dist) {
           if (!apply)
-            std::cout << mapname << " "  << o1.print_type() << " "
+            std::cout << o1.print_type() << " "
                << pt1.x << " " << pt1.y << " \"" << o1.name
                <<  "\" move " << pt2.x << " " << pt2.y << "\n";
         }
@@ -211,7 +279,7 @@ main(int argc, char *argv[]){
       }
     }
 
-    // Pass2: go through vmap1, find objects in vmap2 with changed name
+    // Pass3: go through vmap1, find objects in vmap2 with changed name
     //        transter unattached objects
     vmap1.iter_start();
     while (!vmap1.iter_end()){
@@ -250,7 +318,7 @@ main(int argc, char *argv[]){
         //move
         if (mindist > match_dist) {
           if (!apply)
-            std::cout << mapname << " " << o1.print_type() << " "
+            std::cout << o1.print_type() << " "
                << pt1.x << " " << pt1.y << " \"" << o1.name
                << "\" move " << pt2.x << " " << pt2.y << "\n";
           pt1 = pt2; // to print correct rename diff
@@ -258,7 +326,7 @@ main(int argc, char *argv[]){
         // change name
         if (o1.name != o2.name) {
           if (!apply)
-            std::cout << mapname << " "  << o1.print_type() << " "
+            std::cout << o1.print_type() << " "
                << pt1.x << " " << pt1.y << " \"" << o1.name
                << "\" rename \"" << o2.name << "\"\n";
         }
@@ -271,7 +339,7 @@ main(int argc, char *argv[]){
 
       // no object found -- add new
       if (!apply)
-        std::cout << mapname << " " << o1.print_type() << " "
+        std::cout << o1.print_type() << " "
                   << pt1.x << " " << pt1.y << " \"" << o1.name
                   << "\" del\n";
 
@@ -279,8 +347,9 @@ main(int argc, char *argv[]){
       processed2.insert(vmap2.add(o1));
 
       // transfer labels
-      for (auto i = refs1.find(i1); i!=refs1.end() && i->first == i1; ++i)
+      for (auto i = refs1.find(i1); i!=refs1.end() && i->first == i1; ++i){
         vmap2.add(vmap1.get(i->second));
+      }
     }
 
     // Pass3: go through vmap2, delete unprocessed objects
@@ -297,7 +366,7 @@ main(int argc, char *argv[]){
 
       auto pt2 = o2.get_first_pt();
       if (!apply)
-        std::cout << mapname << " "  << o2.print_type() << " "
+        std::cout << o2.print_type() << " "
                   << pt2.x << " " << pt2.y << " \"" << o2.name
                   << "\" add\n";
 
