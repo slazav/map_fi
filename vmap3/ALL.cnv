@@ -6,6 +6,9 @@
 
 point:0x2b04 * * * regex "(.*), (autiotupa|varaustupa|vuokratupa)" "$1\\$2"
 point:0x2b04 * * "koulu"         del
+point:0x2b04 * * "tervahauta"    del
+point:0x2b04 * * "tervahautoja"  del
+point:0x2b04 * * "tervah."       del
 point:0x2b04 * * "kappeli"       del
 point:0x2b04 * * "kirkko"        del
 point:0x2b04 * * "terveyskeskus" del
