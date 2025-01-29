@@ -54,7 +54,7 @@ import_fi1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
       if (txt_convs.count(t)!=0)
         tinfo = txt_convs[t];
       else {
-        std::cerr << "Unknown text type: " << t << " "
+        std::cerr << "FI1: unknown text type: " << t << " "
                   << oi.get_first_pt() << " " << oi.opts.get("spelling") << "\n";
         continue;
       }
@@ -88,7 +88,7 @@ import_fi1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
       // convert type
       auto t = oi.opts.get("type1");
       if (typ_convs.count(t)==0){
-        std::cerr << "unknown type: " << t << " " << oi.get_first_pt() << "\n";
+        std::cerr << "FI1: unknown type: " << t << " " << oi.get_first_pt() << "\n";
         continue;
       }
       if (typ_convs[t]=="-") continue;
@@ -223,7 +223,7 @@ import_fi2(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
       if (txt_convs.count(t)!=0)
         tinfo = txt_convs[t];
       else {
-        std::cerr << "Unknown text type: " << t << " "
+        std::cerr << "FI2: unknown text type: " << t << " "
                   << oi.get_first_pt() << " " << oi.opts.get("TEKSTI") << "\n";
         continue;
       }
@@ -294,13 +294,13 @@ import_fi2(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
       // check type
       std::string ti = oi.opts.get("type1");
       if (typ_convs.count(ti)==0){
-        std::cerr << "unknown type: " << ti << " " << oi.get_first_pt() << "\n";
+        std::cerr << "FI2: unknown type: " << ti << " " << oi.get_first_pt() << "\n";
         continue;
       }
       auto act = typ_convs[ti].action;
       if (act=="-" || act=="D") continue;
       if (act!="A" && act!="R")
-        throw Err() << "Unknown action in type conversion file: " << act;
+        throw Err() << "FI2: unknown action in type conversion file: " << act;
 
       auto t = typ_convs[ti].type;
 
@@ -408,7 +408,7 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
       if (txt_convs.count(t)!=0)
         tinfo = txt_convs[t];
       else {
-        std::cerr << "Unknown text type: "
+        std::cerr << "NO1: unknown text type: "
                   << oi.opts.get("text_fulltype", t)
                   << "\n  " << oi.get_first_pt() << "\n";
         // use default
@@ -477,7 +477,7 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
         continue;
       }
       else {
-        std::cerr << "unknown presentation_text type: " << t << "\n";
+        std::cerr << "NO1: unknown presentation_text type: " << t << "\n";
         continue;
       }
     }
@@ -487,7 +487,7 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
       std::string t = oi.opts.get("table");
       // check type
       if (typ_convs.count(t)==0){
-        std::cerr << "unknown type: " << t << " " << oi.get_first_pt() << "\n";
+        std::cerr << "NO1: unknown type: " << t << " " << oi.get_first_pt() << "\n";
         continue;
       }
       if (typ_convs[t] == "-") continue;
@@ -515,7 +515,7 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
           case 2: t="line:0x15"; break;
           case 3: t="line:0x18"; break;
           case 4: t="line:0x1F"; break;
-          default: {std::cerr << "unknown water_width: " << ww << "\n"; continue; }
+          default: {std::cerr << "NO1: unknown water_width: " << ww << "\n"; continue; }
         }
       }
 
@@ -529,13 +529,13 @@ import_no1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
           else if (cat == "F") t = "line:0x02";
           else if (cat == "K") t = "line:0x02"; // local
           else if (cat == "P") t = "line:0x06"; // driveways to houses
-          else { std::cout << "unknown road_category: " << cat << "\n"; continue;}
+          else { std::cout << "NO1: unknown road_category: " << cat << "\n"; continue;}
         }
         else if (rt == "traktorveg")      t = "line:0x0A"; // mud road
         else if (rt == "sti")             t = "line:0x2A";    // path
         else if (rt == "barmarksloype")   t = "line:0x2A";    // foot trail
         else if (rt == "gangOgSykkelveg") t = "line:0x2A";    // walking-or-cycling
-        else { std::cout << "unknown type_road: " << rt << "\n"; continue;}
+        else { std::cout << "NO1: unknown type_road: " << rt << "\n"; continue;}
       }
 
       // special type: swamps
@@ -692,7 +692,7 @@ import_se1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
       if (txt_convs.count(t)!=0)
         tinfo = txt_convs[t];
       else {
-        std::cerr << "Unknown text type: "
+        std::cerr << "SE1: unknown text type: "
                   << oi.opts.get("text_fulltype", t)
                   << "\n  " << oi.get_first_pt() << "\n";
         // use default
@@ -735,7 +735,7 @@ import_se1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
       // check type
       std::string t = oi.print_type_dec();
       if (typ_convs.count(t)==0){
-        std::cerr << "unknown type: " << t << " " << oi.get_first_pt() << "\n";
+        std::cerr << "SE1: unknown type: " << t << " " << oi.get_first_pt() << "\n";
         continue;
       }
       if (typ_convs[t] == "-") continue;
@@ -767,7 +767,7 @@ import_se1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
           case 5: t="line:0x1F"; break;
           case 6: t="line:0x1F"; break;
           case 7: t="line:0x1F"; break;
-          default: {std::cerr << "unknown river size: " << ww << "\n"; continue; }
+          default: {std::cerr << "SE1: unknown river size: " << ww << "\n"; continue; }
         }
       }
 
