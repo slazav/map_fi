@@ -65,12 +65,21 @@ import_fi1(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
       obj.set_ref_type(tinfo.rtype);
       obj.ref_pt = oi.ref_pt;
       // Always use "spelling" field: we can have double labels,
-      // but without "or" in different languages and without carry-overs
+      // but without "eli" or "-" carry-overs
       obj.name = oi.opts.get("spelling");
 
-      // for summits attach altitude
-      if (tinfo.rtype == "point:0x1100" && oi.opts.exists("placeeleva"))
-        obj.name = oi.opts.get("placeeleva") + " " + obj.name;
+      // for summits add additional point with altitude
+      if (obj.is_ref_type("point:0x1100") && oi.opts.exists("placeeleva")){
+        VMap2obj obj1 = obj;
+        obj1.name = oi.opts.get("placeeleva");
+        obj1.set_type("text:8");
+        obj1.set_ref_type("point:0x0D00");
+        // it could be carry-overs in original objects
+        if (vmapt.find_nearest(obj1.ref_type, obj1.name, obj1.ref_pt, 100)==-1){
+          vmapt.add(obj1);
+          vmapt.add(make_ref_obj(obj1, "FI1"));
+        }
+      }
 
       if (tinfo.angle) obj.angle = oi.angle;
       if (tinfo.scale.size() && tinfo.scale[0]=='x'){
