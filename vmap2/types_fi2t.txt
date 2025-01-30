@@ -50,7 +50,7 @@
 
 36101      -            - 0 0 0.75  # bay
 36201      -            - 0 0 0.75  # lake
-36291 text:4 point:0x1000 0 0 0.75  # water altitude mark (!) -> extra map
+36291 text:8 point:0x1000 0 0 1.00  # water altitude mark
 36301      -            - 0 0 0.75  # river
 36410      -            - 0 0 0.75  # part of lake
 36420      -            - 0 0 0.75  # part of river

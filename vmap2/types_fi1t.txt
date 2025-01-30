@@ -4,6 +4,7 @@
 
 1010210  text:5 point:0x1100  0  1.0  # summit (vaara)
 1010205  text:5 point:0x1100  0 0.825 # group of summits (vaarat)
+1010410  text:4 point:0x650C  0 0.75  # какой-то водный объект
 
 1020405  text:3 point:0x2800   0 0.75  # луг?
 1020410  text:5 point:0x1100  0 0.825 # вершина?
