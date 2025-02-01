@@ -257,11 +257,8 @@ import_fi2(VMap2 & vmap, VMap2 & vmapt, const std::string & name, const std::str
       }
       else obj.scale = str_to_type<double>(tinfo.scale);
 
-      // water altitude mark -> label map
+      // water altitude mark
       if (t == "36291"){
-        obj.set_type("text:8");
-        obj.set_ref_type("point:0x1000");
-        obj.name = oi.opts.get("TEKSTI");
         // name could be 123.40 or (243.50-245.00)
         // remove fractional part
         obj.name = std::regex_replace(obj.name, std::regex("\\.[0-9]+"), "");
