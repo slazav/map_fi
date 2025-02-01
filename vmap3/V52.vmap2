@@ -16,7 +16,7 @@ crds 27.522154 68.615132
 point:0x800
 name Akujärvi
 opts Source: FI1
-crds 27.700893 68.679626
+crds 27.700839 68.679641
 
 point:0x800
 name Alajoki
@@ -161,7 +161,7 @@ crds 27.767820 68.722890
 point:0x1000
 name (130-132)
 opts Source: FI2
-crds 27.241720 68.725540
+crds 27.241670 68.725541
 
 point:0x1000
 name 119
@@ -266,7 +266,7 @@ crds 28.131180 68.481200
 point:0x1000
 name 136
 opts Source: FI2
-crds 27.429330 68.583840
+crds 27.429276 68.583842
 
 point:0x1000
 name 136
@@ -476,7 +476,7 @@ crds 27.896950 68.530890
 point:0x1000
 name 158
 opts Source: FI2
-crds 27.927210 68.578080
+crds 27.927157 68.578084
 
 point:0x1000
 name 159
@@ -506,7 +506,7 @@ crds 28.098180 68.678040
 point:0x1000
 name 160
 opts Source: FI2
-crds 28.115620 68.544650
+crds 28.115568 68.544650
 
 point:0x1000
 name 161
@@ -561,7 +561,7 @@ crds 28.394260 68.500520
 point:0x1000
 name 165
 opts Source: FI2
-crds 27.959900 68.697270
+crds 27.959846 68.697286
 
 point:0x1000
 name 166
@@ -731,7 +731,7 @@ crds 27.132440 68.725960
 point:0x1000
 name 187
 opts Source: FI2
-crds 27.758370 68.490310
+crds 27.758318 68.490313
 
 point:0x1000
 name 188
@@ -916,7 +916,7 @@ crds 28.307310 68.657230
 point:0x1000
 name 217
 opts Source: FI2
-crds 27.201760 68.505990
+crds 27.201707 68.506008
 
 point:0x1000
 name 219
@@ -1016,7 +1016,7 @@ crds 27.034210 68.393410
 point:0x1000
 name 265
 opts Source: FI2
-crds 28.302050 68.570020
+crds 28.302000 68.570020
 
 point:0x1000
 name 270
@@ -1106,7 +1106,7 @@ crds 27.446288 68.697453
 point:0x1100
 name 198 Luusuavaara
 opts Source: FI1
-crds 28.118220 68.674492
+crds 28.118173 68.674509
 
 point:0x1100
 name 199 Perävaara
@@ -1776,7 +1776,7 @@ crds 27.287214 68.517321
 point:0x1100
 name 285 Liljarova
 opts Source: FI1
-crds 27.042710 68.339073
+crds 27.042657 68.339089
 
 point:0x1100
 name 285 Syväjärvenselkä
@@ -2801,7 +2801,7 @@ crds 28.420408 68.327425
 point:0x1100
 name 537 Ruopimapäät
 opts Source: FI1
-crds 28.162679 68.313568
+crds 28.162627 68.313572
 
 point:0x1100
 name 538 Rautupää
@@ -3331,7 +3331,7 @@ crds 28.284460 68.721891
 point:0x2800
 name Urho Kekkosen kansallispuisto
 opts Source: FI1
-crds 28.345158 68.338783
+crds 28.345106 68.338786
 
 point:0x2800
 name Uudenhaaranniemi
@@ -4155,7 +4155,7 @@ crds 27.890545 68.529004
 point:0x650c
 name Harrijoki
 opts Source: FI1
-crds 26.973288 68.397467
+crds 26.973338 68.397480
 
 point:0x650c
 name Harrijoki
@@ -5080,7 +5080,7 @@ crds 27.416356 68.489608
 point:0x650c
 name Palsinperä
 opts Source: FI1
-crds 27.321377 68.609592
+crds 27.321325 68.609601
 
 point:0x650c
 name Paltsajärvet
@@ -5735,7 +5735,7 @@ crds 27.376645 68.736002
 point:0x650c
 name Yl.Mustajärvi
 opts Source: FI1
-crds 27.545710 68.732206
+crds 27.545664 68.732223
 
 point:0x650c
 name Yl.Nilijärvi
@@ -6042,7 +6042,7 @@ text:0x2
 scle 1.1
 name Akujärvi
 reft point:0x800
-refp 27.700893 68.679626
+refp 27.700839 68.679641
 crds 27.703463 68.683465
 
 text:0x2
@@ -7133,14 +7133,14 @@ text:0x3
 scle 0.9
 name Urho Kekkosen kansallispuisto
 reft point:0x2800
-refp 28.345158 68.338783
+refp 28.345106 68.338786
 crds 27.613073 68.387442
 
 text:0x3
 scle 0.9
 name Urho Kekkosen kansallispuisto
 reft point:0x2800
-refp 28.345158 68.338783
+refp 28.345106 68.338786
 crds 28.325006 68.335527
 
 text:0x3
@@ -7749,7 +7749,7 @@ scle 0.75
 name Asentojärvi
 reft point:0x650c
 refp 28.174622 68.579935
-crds 28.170223 68.584127
+crds 28.170169 68.584127
 
 text:0x4
 scle 0.75
@@ -8079,7 +8079,7 @@ text:0x4
 scle 0.75
 name Palsinperä
 reft point:0x650c
-refp 27.321377 68.609592
+refp 27.321325 68.609601
 crds 27.305071 68.611500
 
 text:0x4
@@ -9853,7 +9853,7 @@ text:0x4
 scle 0.9
 name Yl.Mustajärvi
 reft point:0x650c
-refp 27.545710 68.732206
+refp 27.545664 68.732223
 crds 27.561654 68.734523
 
 text:0x4
@@ -10609,7 +10609,7 @@ angl -43.8371
 algn S
 name Harrijoki
 reft point:0x650c
-refp 26.973288 68.397467
+refp 26.973338 68.397480
 crds 27.054923 68.415248
 
 text:0x4
@@ -11004,7 +11004,7 @@ text:0x5
 scle 0.8
 name 537 Ruopimapäät
 reft point:0x1100
-refp 28.162679 68.313568
+refp 28.162627 68.313572
 crds 28.140418 68.314540
 
 text:0x5
@@ -11084,7 +11084,7 @@ crds 27.432947 68.695557
 text:0x5
 name 198 Luusuavaara
 reft point:0x1100
-refp 28.118220 68.674492
+refp 28.118173 68.674509
 crds 28.107741 68.675578
 
 text:0x5
@@ -11822,7 +11822,7 @@ crds 27.278256 68.518678
 text:0x5
 name 285 Liljarova
 reft point:0x1100
-refp 27.042710 68.339073
+refp 27.042657 68.339089
 crds 27.034412 68.340330
 
 text:0x5
@@ -12960,7 +12960,7 @@ crds 27.769854 68.722910
 text:0x8
 name (130-132)
 reft point:0x1000
-refp 27.241720 68.725540
+refp 27.241670 68.725541
 crds 27.243915 68.726181
 
 text:0x8
@@ -13068,7 +13068,7 @@ crds 28.132343 68.481849
 text:0x8
 name 136
 reft point:0x1000
-refp 27.429330 68.583840
+refp 27.429276 68.583842
 crds 27.431021 68.584141
 
 text:0x8
@@ -13284,7 +13284,7 @@ crds 27.208286 68.704731
 text:0x8
 name 158
 reft point:0x1000
-refp 27.927210 68.578080
+refp 27.927157 68.578084
 crds 27.928880 68.577082
 
 text:0x8
@@ -13374,7 +13374,7 @@ crds 28.396303 68.500112
 text:0x8
 name 165
 reft point:0x1000
-refp 27.959900 68.697270
+refp 27.959846 68.697286
 crds 27.957889 68.695677
 
 text:0x8
@@ -13542,7 +13542,7 @@ crds 27.133065 68.724350
 text:0x8
 name 187
 reft point:0x1000
-refp 27.758370 68.490310
+refp 27.758318 68.490313
 crds 27.758382 68.491031
 
 text:0x8
@@ -13728,7 +13728,7 @@ crds 28.306421 68.655556
 text:0x8
 name 217
 reft point:0x1000
-refp 27.201760 68.505990
+refp 27.201707 68.506008
 crds 27.202897 68.506627
 
 text:0x8
@@ -13836,7 +13836,7 @@ crds 27.036496 68.392597
 text:0x8
 name 265
 reft point:0x1000
-refp 28.302050 68.570020
+refp 28.302000 68.570020
 crds 28.302936 68.568859
 
 text:0x8
@@ -13923,7 +13923,7 @@ text:0x8
 algn SE
 name 160
 reft point:0x1000
-refp 28.115620 68.544650
+refp 28.115568 68.544650
 crds 28.116659 68.542932
 
 text:0x8

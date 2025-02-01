@@ -6,6 +6,8 @@ files=${@}
 
 for f in $files; do
   base=${f%%.*}
+  base1=${base%s}
+
   ../progs/update_map --types ../types.cfg --patch_file ${base}.cnv\
-     "../vmap2/${base}_t.vmap2.gz" "${base}.vmap2"
+     "../vmap2/${base1}_t.vmap2.gz" "${base}.vmap2"
 done

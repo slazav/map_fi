@@ -9,13 +9,21 @@
 # V34 V41 V42 V43 V44 V51 V52 V53\
 # U41 U42 U43 U44 U51 U52 U53 U54\
 # T41 T42 T43 T44 T51 T52 T53 T54
+# S51 S52
+# R51 R52
 
 # what I have in FI2
 NAMES =\
  W33 W34 W41\
  V34 V41 V42 V43 V44 V51 V52\
  U42\
- T52
+ T52\
+ S51\
+ R52 R51\
+ N43\
+ M43 M44\
+ L41 L42
+
 
 
 VMAPSB  = $(patsubst %, %_b.vmap2.gz, ${NAMES})

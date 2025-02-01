@@ -2124,7 +2124,7 @@ crds 20.759710 69.410740
 point:0x1000
 name 1018
 opts Source: NO1
-crds 20.866241 69.400850
+crds 20.865608 69.402956
 
 point:0x1000
 name 1019
@@ -3764,11 +3764,6 @@ point:0x1000
 name 878
 opts Source: NO1
 crds 20.571820 69.322970
-
-point:0x1000
-name 878
-opts Source: NO1
-crds 20.881895 69.425355
 
 point:0x1000
 name 878
@@ -18588,7 +18583,7 @@ algn SE
 name Moskkujávri
 reft point:0x650c
 refp 20.895005 69.413478
-crds 20.894074 69.412787
+crds 20.898070 69.410483
 
 text:0x4
 scle 0.75
@@ -21625,10 +21620,11 @@ crds 22.022721 69.228165
 text:0x4
 angl -50.0784
 scle 0.75
+algn S
 name Moskkuráššajohka
 reft point:0x650c
 refp 20.863494 69.394014
-crds 20.863494 69.394014
+crds 20.880202 69.400975
 
 text:0x4
 angl -49.7886
@@ -26806,8 +26802,8 @@ crds 20.760395 69.411293
 text:0x8
 name 1018
 reft point:0x1000
-refp 20.866241 69.400850
-crds 20.866241 69.400850
+refp 20.865608 69.402956
+crds 20.867600 69.403221
 
 text:0x8
 name 1019
@@ -28638,12 +28634,6 @@ name 878
 reft point:0x1000
 refp 20.571820 69.322970
 crds 20.573134 69.321441
-
-text:0x8
-name 878
-reft point:0x1000
-refp 20.881895 69.425355
-crds 20.879499 69.424171
 
 text:0x8
 name 878

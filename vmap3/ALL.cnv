@@ -1,8 +1,10 @@
-* * * * regex "Ylimmäi(nen|set|sen) ?"   Yl.
-* * * * regex "Keskimmäi(nen|set|sen) ?" Kesk.
-* * * * regex "Alimmai(nen|set|sen) ?"   Al.
-* * * * regex "Alempi "                  Al.
-* * * * regex "Ylempi "                  Yl.
+* * * * regex "Yläi(nen|set|sen) "      Yl.
+* * * * regex "Alai(nen|set|sen) "      Al.
+* * * * regex "Ylimmäi(nen|set|sen) "   Yl.
+* * * * regex "Keskimmäi(nen|set|sen) " Kesk.
+* * * * regex "Alimmai(nen|set|sen) "   Al.
+* * * * regex "Alempi "                 Al.
+* * * * regex "Ylempi "                 Yl.
 
 point:0x2b04 * * * regex "(.*), (autiotupa|varaustupa|vuokratupa)" "$1\\$2"
 point:0x2b04 * * "koulu"         del
