@@ -1,0 +1,16 @@
+point:0x2B04
+name laavu
+comm https://ekvas.fi/en/spots/#ipd=62629030\
+     laavu at Taipalsaari (Saimaa)
+reft point:0x2B04
+crds 28.05700 61.15742
+
+point:0x2B04
+name voukrasauna
+comm https://ekvas.fi/en/spots/#ipd=37818167\
+     сауна (платная) на о.Taka-Ruuho (Saimaa)
+crds 28.10934 61.35220
+
+point:0x2B03
+comm место для костра на о.Taka-Ruuho (Saimaa)
+crds 28.10520 61.35123

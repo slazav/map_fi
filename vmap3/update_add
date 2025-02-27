@@ -1,0 +1,15 @@
+#!/bin/sh -eu
+
+# Update text and point objects from ../vmap_base/*_t.vmap2
+
+files=${@}
+
+for f in $files; do
+  base=${f%%.*}
+  base1=${base%s}
+
+  ms2vmap ../points_add.vmap2 -o "$base.vmap2"\
+    --crop_nom_fi "$base1"\
+    --replace_source ADD --update_labels 1
+
+done
