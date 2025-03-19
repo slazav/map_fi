@@ -8,8 +8,13 @@ for f in $files; do
   base=${f%%.*}
   base1=${base%s}
 
-  ms2vmap ../points_add.vmap2 -o "$base.vmap2"\
-    --crop_nom_fi "$base1"\
+  ms2vmap ../points_add.vmap2 --crop_nom_fi "$base1" -o tmp.vmap2
+
+  ms2vmap tmp.vmap2 -o "$base.vmap2" --types ../types.cfg\
     --replace_source ADD --update_labels 1
+
+  rm -f tmp.vmap2
+
+
 
 done
