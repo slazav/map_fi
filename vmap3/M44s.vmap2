@@ -11209,6 +11209,11 @@ opts Source: FI2
 crds 25.598259 61.806262
 
 point:0x2b04
+name Ruokohiekan\\taukopaikka
+opts Source: ADD
+crds 26.785570 61.424180
+
+point:0x2b04
 name Säkkisalo
 opts Source: FI2
 crds 26.744432 61.785343
@@ -16284,14 +16289,6 @@ crds 26.845797 61.528440
 
 text:0x2
 scle 0.75
-name Katajamäki
-opts lang: fin
-reft point:0x900
-refp 26.870835 61.475164
-crds 26.851270 61.474363
-
-text:0x2
-scle 0.75
 name Kausta
 opts lang: fin
 reft point:0x900
@@ -16636,14 +16633,6 @@ crds 25.767579 61.528131
 
 text:0x2
 scle 0.75
-name Käkelä
-opts lang: fin
-reft point:0x900
-refp 26.846920 61.473685
-crds 26.838018 61.471719
-
-text:0x2
-scle 0.75
 name Kämppilä
 opts lang: fin
 reft point:0x900
@@ -16657,14 +16646,6 @@ opts lang: fin
 reft point:0x900
 refp 26.481423 61.580649
 crds 26.481928 61.581272
-
-text:0x2
-scle 0.75
-name Laakkola
-opts lang: fin
-reft point:0x900
-refp 26.840908 61.468061
-crds 26.825359 61.467692
 
 text:0x2
 scle 0.75
@@ -16993,14 +16974,6 @@ opts lang: fin
 reft point:0x900
 refp 26.382465 61.522203
 crds 26.370693 61.522625
-
-text:0x2
-scle 0.75
-name Mattila
-opts lang: fin
-reft point:0x900
-refp 26.802229 61.464959
-crds 26.791403 61.465409
 
 text:0x2
 scle 0.75
@@ -19197,6 +19170,15 @@ crds 25.924346 61.629196
 text:0x2
 scle 0.75
 algn SE
+name Katajamäki
+opts lang: fin
+reft point:0x900
+refp 26.870835 61.475164
+crds 26.869462 61.474267
+
+text:0x2
+scle 0.75
+algn SE
 name Kauppi
 opts lang: fin
 reft point:0x900
@@ -19314,6 +19296,24 @@ crds 26.111822 61.471943
 text:0x2
 scle 0.75
 algn SE
+name Käkelä
+opts lang: fin
+reft point:0x900
+refp 26.846920 61.473685
+crds 26.846691 61.474474
+
+text:0x2
+scle 0.75
+algn SE
+name Laakkola
+opts lang: fin
+reft point:0x900
+refp 26.840908 61.468061
+crds 26.839740 61.468713
+
+text:0x2
+scle 0.75
+algn SE
 name Lahtela
 opts lang: fin
 reft point:0x900
@@ -19391,6 +19391,15 @@ opts lang: fin
 reft point:0x900
 refp 25.982679 61.822532
 crds 25.983934 61.820774
+
+text:0x2
+scle 0.75
+algn SE
+name Mattila
+opts lang: fin
+reft point:0x900
+refp 26.802229 61.464959
+crds 26.803974 61.465779
 
 text:0x2
 scle 0.75
@@ -21476,14 +21485,6 @@ crds 26.846541 61.501135
 
 text:0x2
 scle 1.1
-name Töpönkylä
-opts lang: fin
-reft point:0x800
-refp 26.790453 61.459177
-crds 26.771459 61.461052
-
-text:0x2
-scle 1.1
 name Unaja
 opts lang: fin
 reft point:0x800
@@ -21943,6 +21944,15 @@ opts lang: fin
 reft point:0x800
 refp 25.375428 61.781104
 crds 25.375611 61.782334
+
+text:0x2
+scle 1.1
+algn SE
+name Töpönkylä
+opts lang: fin
+reft point:0x800
+refp 26.790453 61.459177
+crds 26.788030 61.458932
 
 text:0x2
 scle 1.1
@@ -23692,6 +23702,13 @@ opts lang: fin
 reft point:0x2800
 refp 25.991289 61.688515
 crds 25.984683 61.691058
+
+text:0x3
+scle 0.75
+name Ruokohiekan\\taukopaikka
+reft point:0x2b04
+refp 26.785570 61.424180
+crds 26.787617 61.425390
 
 text:0x3
 scle 0.75
@@ -28154,6 +28171,14 @@ crds 25.643480 61.812960
 
 text:0x4
 scle 0.825
+name Rokkalampi
+opts lang: fin
+reft point:0x650c
+refp 26.836273 61.454011
+crds 26.838718 61.451521
+
+text:0x4
+scle 0.825
 name Ruokonen
 opts lang: fin
 reft point:0x650c
@@ -28398,15 +28423,6 @@ opts lang: fin
 reft point:0x650c
 refp 26.303407 61.455980
 crds 26.304131 61.453440
-
-text:0x4
-scle 0.825
-algn SE
-name Rokkalampi
-opts lang: fin
-reft point:0x650c
-refp 26.836273 61.454011
-crds 26.833968 61.453955
 
 text:0x4
 scle 0.825
@@ -28680,7 +28696,7 @@ name Hurus
 opts lang: fin
 reft point:0x650c
 refp 26.872345 61.527894
-crds 26.875862 61.527606
+crds 26.876472 61.527523
 
 text:0x4
 scle 0.9
@@ -30686,13 +30702,6 @@ refp 26.699652 61.499760
 crds 26.696714 61.498757
 
 text:0x4
-name Huuhtjärvi
-opts lang: fin
-reft point:0x650c
-refp 26.823860 61.480612
-crds 26.809543 61.480485
-
-text:0x4
 name Ihanajärvi
 opts lang: fin
 reft point:0x650c
@@ -30817,13 +30826,6 @@ opts lang: fin
 reft point:0x650c
 refp 26.960010 61.579331
 crds 26.954191 61.580415
-
-text:0x4
-name Lietjärvi
-opts lang: fin
-reft point:0x650c
-refp 26.844351 61.443486
-crds 26.839723 61.445929
 
 text:0x4
 name Luotijärvi
@@ -32007,6 +32009,15 @@ refp 26.661264 61.526295
 crds 26.661730 61.525992
 
 text:0x4
+angl -334.361
+algn S
+name Huuhtjärvi
+opts lang: fin
+reft point:0x650c
+refp 26.823860 61.480612
+crds 26.824108 61.480277
+
+text:0x4
 angl -330.349
 scle 0.9
 algn S
@@ -32624,6 +32635,15 @@ opts lang: fin
 reft point:0x650c
 refp 26.706212 61.709683
 crds 26.705191 61.710742
+
+text:0x4
+angl -279.337
+algn S
+name Lietjärvi
+opts lang: fin
+reft point:0x650c
+refp 26.844351 61.443486
+crds 26.846786 61.443869
 
 text:0x4
 angl -279.256
@@ -37111,12 +37131,6 @@ crds 26.621686 61.533136
 text:0x8
 name 84
 reft point:0x1000
-refp 26.837133 61.452660
-crds 26.838562 61.451988
-
-text:0x8
-name 84
-reft point:0x1000
 refp 26.841876 61.441834
 crds 26.842930 61.441775
 
@@ -37598,7 +37612,7 @@ text:0x8
 name 93
 reft point:0x1000
 refp 26.809479 61.465830
-crds 26.810038 61.465960
+crds 26.810321 61.466158
 
 text:0x8
 name 94
@@ -38700,6 +38714,13 @@ name 84
 reft point:0x1000
 refp 25.659160 61.426950
 crds 25.658256 61.426154
+
+text:0x8
+algn SE
+name 84
+reft point:0x1000
+refp 26.837133 61.452660
+crds 26.836251 61.451774
 
 text:0x8
 algn SE

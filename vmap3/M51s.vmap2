@@ -4289,11 +4289,6 @@ opts Source: FI1
 crds 28.666335 61.378801
 
 point:0xd00
-name 132
-opts Source: FI1
-crds 27.234740 61.365930
-
-point:0xd00
 name 133
 opts Source: FI1
 crds 27.085289 61.412518
@@ -4397,11 +4392,6 @@ point:0x1000
 name 100
 opts Source: FI2
 crds 27.228700 61.101122
-
-point:0x1000
-name 100
-opts Source: FI2
-crds 27.232866 61.321660
 
 point:0x1000
 name 100
@@ -7109,6 +7099,12 @@ opts Source: FI1
 crds 27.560485 61.109278
 
 point:0x1100
+name Laanavuori
+comm Keisarinla:hdeen kierros
+opts Source: ADD
+crds 27.043061 61.413151
+
+point:0x1100
 name Lakiakallio
 opts Source: FI1
 crds 28.230993 61.023586
@@ -7222,6 +7218,12 @@ point:0x1100
 name Puominm√§ki
 opts Source: FI1
 crds 27.234740 61.365930
+
+point:0x1100
+name Puukonvuori
+comm Keisarinla:hdeen kierros
+opts Source: ADD
+crds 27.115266 61.395014
 
 point:0x1100
 name Rajakorvenm√§ki
@@ -10719,6 +10721,23 @@ opts Source: FI2
 crds 28.594047 61.375928
 
 point:0x2b04
+name Korpisaaren\\kota
+opts Source: ADD
+crds 27.172190 61.269840
+
+point:0x2b04
+name M√§ntysaaren\\laavu
+comm Keisarinla:hdeen kierros
+opts Source: ADD
+crds 27.037847 61.342617
+
+point:0x2b04
+name Puukonvuoren\\laavu
+comm Keisarinla:hdeen kierros
+opts Source: ADD
+crds 27.114547 61.395805
+
+point:0x2b04
 name P√∂ys√§n k√§mpp√§
 opts Source: FI2
 crds 27.177959 61.336087
@@ -11169,6 +11188,12 @@ name voukrasauna
 comm https://ekvas.fi/en/spots/#ipd=37818167\n     ”¡’Œ¡ (–Ã¡‘Œ¡—) Œ¡ œ.Taka-Ruuho (Saimaa)
 opts Source: ADD
 crds 28.109340 61.352200
+
+point:0x6414
+name Keisarinl√§hde
+comm Keisarinla:hdeen kierros
+opts Source: ADD
+crds 27.003129 61.412853
 
 point:0x6415
 name hist. rajamerkki
@@ -14865,6 +14890,11 @@ name n√§k√∂torni
 opts Source: FI2
 crds 27.420749 61.359838
 
+line:0x2a
+comm œ¬œ“’ƒœ◊¡ŒŒ¡— ‘“œ–¡ ◊œÃœÀ¡
+opts Source: ADD
+crds 27.107123 61.328362 27.107016 61.328640 27.106608 61.328840 27.105653 61.328959 27.105138 61.329170 27.104194 61.329376 27.103411 61.329468
+
 text:0x1
 scle 0.75
 name muinaisj√§√§nn√∂s
@@ -14872,15 +14902,6 @@ opts legend: 1
 reft point:0x6415
 refp 27.109269 61.254990
 crds 27.106458 61.252938
-
-text:0x1
-scle 0.75
-algn SE
-name kalliomaalaus
-opts legend: 1
-reft point:0x6415
-refp 27.118610 61.395348
-crds 27.126109 61.396237
 
 text:0x1
 name hist. rajamerkki
@@ -14916,6 +14937,13 @@ opts legend: 1
 reft point:0x6415
 refp 27.740205 61.000270
 crds 27.736135 61.001464
+
+text:0x1
+name kalliomaalaus
+opts legend: 1
+reft point:0x6415
+refp 27.118610 61.395348
+crds 27.117815 61.393969
 
 text:0x1
 name kalliomaalaus
@@ -22999,11 +23027,18 @@ crds 28.215539 61.289601
 
 text:0x3
 scle 0.75
+name Korpisaaren\\kota
+reft point:0x2b04
+refp 27.172190 61.269840
+crds 27.174275 61.269888
+
+text:0x3
+scle 0.75
 name Korpisaari
 opts lang: fin
 reft point:0x2800
 refp 27.171598 61.273154
-crds 27.174019 61.270246
+crds 27.175620 61.271491
 
 text:0x3
 scle 0.75
@@ -23470,11 +23505,18 @@ crds 28.558825 61.045836
 
 text:0x3
 scle 0.75
+name M√§ntysaaren\\laavu
+reft point:0x2b04
+refp 27.037847 61.342617
+crds 27.040131 61.342641
+
+text:0x3
+scle 0.75
 name M√§ntysaari
 opts lang: fin
 reft point:0x2800
 refp 27.036617 61.342275
-crds 27.034505 61.341656
+crds 27.036618 61.344508
 
 text:0x3
 scle 0.75
@@ -25358,7 +25400,7 @@ name √Ñij√§niemi
 opts lang: fin
 reft point:0x2800
 refp 27.029445 61.345085
-crds 27.033044 61.345576
+crds 27.033116 61.346002
 
 text:0x3
 scle 0.75
@@ -25763,6 +25805,14 @@ opts lang: fin
 reft point:0x2800
 refp 28.304279 61.378128
 crds 28.300941 61.379928
+
+text:0x3
+scle 0.75
+algn SE
+name Puukonvuoren\\laavu
+reft point:0x2b04
+refp 27.114547 61.395805
+crds 27.117822 61.398172
 
 text:0x3
 scle 0.75
@@ -28983,6 +29033,13 @@ name Huuhilonkoski
 reft point:0x6508
 refp 27.324308 61.196533
 crds 27.324772 61.197434
+
+text:0x4
+scle 0.75
+name Keisarinl√§hde
+reft point:0x6414
+refp 27.003129 61.412853
+crds 27.002972 61.413804
 
 text:0x4
 scle 0.75
@@ -32886,7 +32943,7 @@ name Kallavesi
 opts lang: fin
 reft point:0x650c
 refp 27.105770 61.400156
-crds 27.108584 61.399289
+crds 27.110451 61.400058
 
 text:0x4
 scle 1.35
@@ -34770,7 +34827,7 @@ name Puominm√§ki
 opts lang: fin
 reft point:0x1100
 refp 27.234740 61.365930
-crds 27.227720 61.364784
+crds 27.231216 61.364560
 
 text:0x5
 name Rajakorvenm√§ki
@@ -34947,6 +35004,13 @@ crds 28.666945 61.079605
 
 text:0x5
 algn SE
+name Puukonvuori
+reft point:0x1100
+refp 27.115266 61.395014
+crds 27.116257 61.393042
+
+text:0x5
+algn SE
 name Repovuori
 opts lang: fin
 reft point:0x1100
@@ -34984,6 +35048,13 @@ opts lang: fin
 reft point:0x1100
 refp 27.026813 61.126005
 crds 27.026703 61.126686
+
+text:0x5
+algn S
+name Laanavuori
+reft point:0x1100
+refp 27.043061 61.413151
+crds 27.043947 61.411472
 
 text:0x5
 algn S
@@ -35126,12 +35197,6 @@ refp 28.666335 61.378801
 crds 28.667448 61.378426
 
 text:0x6
-name 132
-reft point:0xd00
-refp 27.234740 61.365930
-crds 27.227720 61.364784
-
-text:0x6
 name 133
 reft point:0xd00
 refp 27.085289 61.412518
@@ -35259,12 +35324,6 @@ name 100
 reft point:0x1000
 refp 27.228700 61.101122
 crds 27.229692 61.100967
-
-text:0x8
-name 100
-reft point:0x1000
-refp 27.232866 61.321660
-crds 27.233517 61.320971
 
 text:0x8
 name 100

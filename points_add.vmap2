@@ -14,3 +14,49 @@ crds 28.10934 61.35220
 point:0x2B03
 comm место для костра на о.Taka-Ruuho (Saimaa)
 crds 28.10520 61.35123
+
+
+
+point:0x1100
+name Puukonvuori
+comm Keisarinla:hdeen kierros
+crds 27.115266 61.395014
+
+point:0x1100
+name Laanavuori
+comm Keisarinla:hdeen kierros
+crds 27.043061 61.413151
+
+point:0x6414
+name Keisarinlц╓hde
+comm Keisarinla:hdeen kierros
+crds 27.003129 61.412853
+
+
+point:0x2B04
+name Puukonvuoren\\laavu
+comm Keisarinla:hdeen kierros
+crds 27.114547 61.395805
+
+point:0x2B04
+name Mц╓ntysaaren\\laavu
+comm Keisarinla:hdeen kierros
+crds 27.037847 61.342617
+
+point:0x2B04
+name Korpisaaren\\kota
+crds 27.17219 61.26984
+
+point:0x2B04
+name Pappilanniemen\\laavu
+crds 26.82366 61.42049
+
+point:0x2B04
+name Ruokohiekan\\taukopaikka
+crds 26.78557 61.42418
+
+
+
+line:0x2A
+comm оборудованная тропа волока
+crds  27.107123 61.328362 27.107016 61.328640 27.106608 61.328840 27.105653 61.328959 27.105138 61.329170 27.104194 61.329376 27.103411 61.329468

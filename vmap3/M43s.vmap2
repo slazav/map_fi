@@ -11074,6 +11074,11 @@ opts Source: FI2
 crds 26.857871 61.157189
 
 point:0x2b04
+name Pappilanniemen\\laavu
+opts Source: ADD
+crds 26.823660 61.420490
+
+point:0x2b04
 name b\\kpa
 opts Source: FI2
 crds 25.680978 61.297377
@@ -18213,14 +18218,6 @@ crds 26.803920 61.049548
 
 text:0x2
 scle 0.75
-name Rauniopelto
-opts lang: fin
-reft point:0x900
-refp 26.755880 61.400488
-crds 26.735868 61.400792
-
-text:0x2
-scle 0.75
 name Rauvala
 opts lang: fin
 reft point:0x900
@@ -18593,7 +18590,7 @@ name Sutela
 opts lang: fin
 reft point:0x900
 refp 26.798348 61.392221
-crds 26.794249 61.390410
+crds 26.797083 61.390649
 
 text:0x2
 scle 0.75
@@ -19009,7 +19006,7 @@ name Vehkola
 opts lang: fin
 reft point:0x900
 refp 26.787191 61.401115
-crds 26.782224 61.399303
+crds 26.783044 61.399404
 
 text:0x2
 scle 0.75
@@ -20169,6 +20166,15 @@ opts lang: fin
 reft point:0x900
 refp 26.432606 61.107935
 crds 26.434902 61.108398
+
+text:0x2
+scle 0.75
+algn SE
+name Rauniopelto
+opts lang: fin
+reft point:0x900
+refp 26.755880 61.400488
+crds 26.755025 61.400764
 
 text:0x2
 scle 0.75
@@ -24119,14 +24125,6 @@ crds 26.706643 61.354420
 
 text:0x3
 scle 0.75
-name Lahnalahdensuo
-opts lang: fin
-reft point:0x2800
-refp 26.932609 61.134399
-crds 26.917434 61.135692
-
-text:0x3
-scle 0.75
 name Lammassaari
 opts lang: fin
 reft point:0x2800
@@ -24387,14 +24385,6 @@ crds 25.485619 61.111167
 
 text:0x3
 scle 0.75
-name Pitkänsillansuo
-opts lang: fin
-reft point:0x2800
-refp 26.874610 61.021992
-crds 26.863673 61.020560
-
-text:0x3
-scle 0.75
 name Pukkisaari
 opts lang: fin
 reft point:0x2800
@@ -24583,14 +24573,6 @@ opts lang: fin
 reft point:0x2800
 refp 26.268613 61.264226
 crds 26.268864 61.263874
-
-text:0x3
-scle 0.75
-name Silta-ahonsuo
-opts lang: fin
-reft point:0x2800
-refp 26.829580 61.059123
-crds 26.817454 61.055861
 
 text:0x3
 scle 0.75
@@ -26124,6 +26106,14 @@ crds 26.679781 61.237916
 text:0x3
 scle 0.75
 algn SE
+name Pappilanniemen\\laavu
+reft point:0x2b04
+refp 26.823660 61.420490
+crds 26.823793 61.422300
+
+text:0x3
+scle 0.75
+algn SE
 name Paunusaari
 opts lang: fin
 reft point:0x2800
@@ -26609,6 +26599,15 @@ crds 25.928749 61.078305
 text:0x3
 scle 0.75
 algn S
+name Lahnalahdensuo
+opts lang: fin
+reft point:0x2800
+refp 26.932609 61.134399
+crds 26.931708 61.134475
+
+text:0x3
+scle 0.75
+algn S
 name Laviassuo
 opts lang: fin
 reft point:0x2800
@@ -27051,14 +27050,6 @@ crds 25.441058 61.068236
 
 text:0x3
 scle 0.8
-name Tuonsaarensuo
-opts lang: fin
-reft point:0x2800
-refp 26.913175 61.033923
-crds 26.906072 61.033404
-
-text:0x3
-scle 0.8
 name Turniemi
 opts lang: fin
 reft point:0x2800
@@ -27320,6 +27311,15 @@ crds 26.968874 61.053741
 text:0x3
 scle 0.8
 algn S
+name Tuonsaarensuo
+opts lang: fin
+reft point:0x2800
+refp 26.913175 61.033923
+crds 26.915614 61.033360
+
+text:0x3
+scle 0.8
+algn S
 name Valkealan Kuisaari
 opts lang: fin
 reft point:0x2800
@@ -27551,6 +27551,16 @@ opts lang: fin
 reft point:0x2800
 refp 26.688895 61.126986
 crds 26.681950 61.125642
+
+text:0x3
+angl -349.332
+scle 0.75
+algn S
+name Pitkänsillansuo
+opts lang: fin
+reft point:0x2800
+refp 26.874610 61.021992
+crds 26.872644 61.019751
 
 text:0x3
 angl -349.271
@@ -27835,6 +27845,16 @@ opts lang: fin
 reft point:0x2800
 refp 26.549964 61.371892
 crds 26.547087 61.370511
+
+text:0x3
+angl -34.3707
+scle 0.75
+algn S
+name Silta-ahonsuo
+opts lang: fin
+reft point:0x2800
+refp 26.829580 61.059123
+crds 26.827213 61.057845
 
 text:0x3
 angl -34.2635
@@ -29894,14 +29914,6 @@ crds 26.388687 61.147047
 
 text:0x4
 scle 0.9
-name Mämmijärvi
-opts lang: fin
-reft point:0x650c
-refp 26.913905 61.376855
-crds 26.913908 61.375581
-
-text:0x4
-scle 0.9
 name Naaranjärvi
 opts lang: fin
 reft point:0x650c
@@ -30845,7 +30857,7 @@ name Mustajärvi
 opts lang: fin
 reft point:0x650c
 refp 26.886570 61.379312
-crds 26.882849 61.382154
+crds 26.882025 61.383581
 
 text:0x4
 scle 0.9
@@ -33349,6 +33361,16 @@ opts lang: fin
 reft point:0x650c
 refp 26.281230 61.365298
 crds 26.281640 61.361692
+
+text:0x4
+angl -69.2888
+scle 0.9
+algn S
+name Mämmijärvi
+opts lang: fin
+reft point:0x650c
+refp 26.913905 61.376855
+crds 26.916720 61.377394
 
 text:0x4
 angl -68.8824
@@ -37605,7 +37627,7 @@ text:0x8
 name 82
 reft point:0x1000
 refp 26.607237 61.393632
-crds 26.607933 61.393776
+crds 26.607938 61.394095
 
 text:0x8
 name 82
